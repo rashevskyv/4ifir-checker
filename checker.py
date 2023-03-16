@@ -162,7 +162,7 @@ def create_md_report(results, output_file, execution_date, last_modified):
 # Variables
 url = 'https://sintez.io/4IFIR.zip'
 filename = '4IFIR.zip'
-output_dir = 'F:\\git\\4efir_checker'
+output_dir = ''
 downld_dir = os.path.join(output_dir, 'download')
 downld_file = os.path.join(downld_dir, filename)
 status_file = os.path.join(output_dir, 'status.json')
