@@ -1,11 +1,31 @@
 {
-    "added": [],
-    "removed": [
+    "added": [
         {
             "type": "file",
             "name": "boot.dat",
             "checksum": "20cf385a492fb0058f39f183ed1ed104"
+        },
+        {
+            "type": "file",
+            "name": "boot.ini",
+            "checksum": "a84fe7dfbab34ffc093102d16ea0921f"
+        },
+        {
+            "type": "file",
+            "name": "exosphere.ini",
+            "checksum": "8e5a87981c6d6f3251d11dba476c3b0b"
+        },
+        {
+            "type": "file",
+            "name": "hbmenu.nro",
+            "checksum": "222ab3e7e1712623ee01e2753eeb909c"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "17d8c89ea551459b87fec73a3f5b46da"
         }
     ],
+    "removed": [],
     "modified": []
 }
