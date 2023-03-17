@@ -122,7 +122,7 @@ def create_html_report(results, execution_date, last_modified):
     report_content = ''
     report_content += '<b>Archive Comparison Report</b>\n\n'
 
-    report_content += f'<b>Last script execution date:</b> {execution_date}\n\n'
+    report_content += f'<b>Last script execution date:</b> {execution_date}\n'
     report_content += f'<b>Last archive modification date:</b> {last_modified}\n\n'
 
     def process_item(item, level=1):
