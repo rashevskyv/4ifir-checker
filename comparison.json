@@ -1,0 +1,17 @@
+{
+    "added": [
+        {
+            "type": "file",
+            "name": "hbl.nsp",
+            "checksum": "8b24dac661543696b7e8d7db202492b1"
+        }
+    ],
+    "removed": [
+        {
+            "type": "file",
+            "name": ".gitignore",
+            "checksum": "a40ed55f505ae6b7137f0b19fe464bcd"
+        }
+    ],
+    "modified": []
+}
