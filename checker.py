@@ -11,7 +11,7 @@ def get_last_modified(url):
     try:
         head_response = requests.head(url)
         if head_response.status_code == 200:
-            last_modified = (datetime.strptime(head_response.headers.get('Last-Modified'), '%a, %d %b %Y %H:%M:%S %Z') + timedelta(hours=2)).isoformat()
+            last_modified = (datetime.strptime(head_response.headers.get('Last-Modified'), '%a, %d %b %Y %H:%M:%S %Z')).isoformat()
             return last_modified
         else:
             print('Error getting Last-Modified:', head_response.status_code)
