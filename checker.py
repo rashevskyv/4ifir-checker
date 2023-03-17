@@ -186,7 +186,7 @@ status_file = os.path.join(output_dir, 'status.json')
 old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
 new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
-YOUR_CHAT_ID = '252419732'
+YOUR_CHAT_ID = '-1001277664260'
 
 # Load the status file
 try:
