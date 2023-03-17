@@ -6,14 +6,7 @@ from datetime import datetime, timedelta
 import zipfile
 import sys
 
-def create_directories():
-    if not os.path.isdir(output_dir):
-        os.makedirs(output_dir)
-
-    if not os.path.isdir(downld_dir):
-        os.makedirs(downld_dir)
-
-
+# Get last modified date of the file from URL
 def get_last_modified(url):
     try:
         head_response = requests.head(url)
@@ -27,6 +20,7 @@ def get_last_modified(url):
         print('Error:', e)
         sys.exit(1)
 
+# Download file from URL
 def download_file(url, output_path):
     response = requests.get(url)
     if response.status_code == 200:
@@ -36,11 +30,13 @@ def download_file(url, output_path):
     else:
         print('Error downloading archive:', response.status_code)
 
+# Save the status of the script to a JSON file
 def save_status(status_file, status):
     with open(status_file, 'w') as f:
         json.dump(status, f, indent=4)
         print('Script status saved to', status_file)
 
+# Build tree structure and add the item to the tree
 def build_tree(path, contents):
     parts = path.split('/', 1)
     current = parts[0]
@@ -60,20 +56,21 @@ def build_tree(path, contents):
             build_tree(parts[1], new_dir["children"])
             contents.append(new_dir)
 
+# Build tree structure, calculate checksums and save them
 def build_tree_and_save_checksums(downld_file):
     with zipfile.ZipFile(downld_file, 'r') as zip_ref:
         file_names = zip_ref.namelist()
         archive_contents = []
 
         for file_name in file_names:
-            if not file_name.endswith('/'):  # Пропустить папки
+            if not file_name.endswith('/'):  # Skip directories
                 with zip_ref.open(file_name, 'r') as file:
                     file_content = file.read()
                     checksum = hashlib.md5(file_content).hexdigest()
 
                     build_tree(file_name, archive_contents)
 
-                    # Ищем файл в древовидной структуре и добавляем чексумму
+                    # Search for the file in the tree structure and add the checksum
                     current = archive_contents
                     for part in file_name.split('/'):
                         for item in current:
@@ -85,6 +82,7 @@ def build_tree_and_save_checksums(downld_file):
                                 break
     return archive_contents
 
+# Compare checksums between old and new files
 def compare_checksums(old_checksums, new_checksums):
     result = {"added": [], "removed": [], "modified": []}
 
@@ -110,31 +108,18 @@ def compare_checksums(old_checksums, new_checksums):
     compare_directories(old_checksums, new_checksums)
     return result
 
+# Save comparison results to a JSON file
 def save_comparison_results(results, output_file):
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=4)
 
-
-def delete_folder(folder_to_delete):
-    # Удаляем все файлы и подпапки
-    if os.path.exists(folder_to_delete):
-        for root, dirs, files in os.walk(folder_to_delete, topdown=False):
-            for name in files:
-                os.remove(os.path.join(root, name))
-            for name in dirs:
-                os.rmdir(os.path.join(root, name))
-        os.rmdir(folder_to_delete)
-        print(f"Папка '{folder_to_delete}' и ее содержимое были успешно удалены.")
-    else:
-        print(f"Папка '{folder_to_delete}' не найдена.")
-    # Удаляем саму папку
-
+# Create Markdown report with the comparison results
 def create_md_report(results, output_file, execution_date, last_modified):
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('# Отчет о сравнении архивов\n\n')
+        f.write('# Archive Comparison Report\n\n')
 
-        f.write(f'**Дата последнего запуска программы:** {execution_date}\n\n')
-        f.write(f'**Дата изменения архива:** {last_modified}\n\n')
+        f.write(f'**Last script execution date:** {execution_date}\n\n')
+        f.write(f'**Last archive modification date:** {last_modified}\n\n')
 
         def process_item(item, level=1):
             prefix = '  ' * level
@@ -145,85 +130,76 @@ def create_md_report(results, output_file, execution_date, last_modified):
 
         for change_type, items in results.items():
             if change_type == "added":
-                f.write('## Добавленные файлы/папки\n\n')
+                f.write('## Added files/folders\n\n')
             elif change_type == "removed":
-                f.write('## Удаленные файлы/папки\n\n')
+                f.write('## Removed files/folders\n\n')
             elif change_type == "modified":
-                f.write('## Измененные файлы\n\n')
+                f.write('## Modified files\n\n')
 
             if items:
                 for item in items:
                     f.write(process_item(item))
             else:
-                f.write('Нет изменений\n')
+                f.write('No changes\n')
             f.write('\n')
 
-
 # Variables
+# url = 'http://127.0.0.1/4IFIR.zip'
 url = 'https://sintez.io/4IFIR.zip'
 filename = '4IFIR.zip'
 output_dir = ''
-downld_dir = os.path.join(output_dir, 'download')
-downld_file = os.path.join(downld_dir, filename)
+downld_file = os.path.join(output_dir, filename)
 status_file = os.path.join(output_dir, 'status.json')
-folder_new = os.path.join(output_dir, 'new')
-folder_old = os.path.join(output_dir, 'old')
+old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
+new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
 
 # Load the status file
 try:
     with open(status_file, 'r') as f:
         status = json.load(f)
 except (json.JSONDecodeError, FileNotFoundError) as e:
-    print('Error loading status file:', e)
-    status = {}
+    print('No status file found, creating a new one.')
+    status = {
+        "last_execution": None,
+        "last_archive_modification": None,
+    }
 
-# Get last modified date
+# Check if the archive has been modified
 last_modified = get_last_modified(url)
-print('Last-Modified :', last_modified)
-print('execution_date:', status['execution_date'])
-
-# Create directories if not exists
-create_directories()
-
-# Download the file if not up to date
-if os.path.isfile(downld_file) and last_modified < status['execution_date']:
-    print('Archive already downloaded and is up to date.')
-else:
+if status.get("last_archive_modification") != last_modified:
+    # Download the archive
     download_file(url, downld_file)
 
+    # Build the tree structure and calculate checksums
+    new_checksums = build_tree_and_save_checksums(downld_file)
 
-    if os.path.exists(folder_new):
-        if os.path.exists(folder_old):
-            delete_folder(folder_old)
-        os.rename(folder_new, folder_old)
-    if not os.path.isdir(folder_new):
-        os.makedirs(folder_new)
+    # Compare with the previous checksums if they exist
+    if os.path.exists(old_checksum_file):
+        with open(old_checksum_file, 'r') as f:
+            old_checksums = json.load(f)
 
+        comparison_results = compare_checksums(old_checksums, new_checksums)
 
-    # Build tree and save checksums
-    checksum_file = os.path.join(folder_new, 'checksums.json')
+        # Save the comparison results to a file
+        result_file = os.path.join(output_dir, 'comparison_results.json')
+        save_comparison_results(comparison_results, result_file)
 
-    archive_contents = build_tree_and_save_checksums(downld_file)
-    with open(checksum_file, 'w') as json_file:
-        json.dump(archive_contents, json_file, indent=4)
+        # Create Markdown report
+        report_file = os.path.join(output_dir, 'README.md')
+        create_md_report(comparison_results, report_file, status.get("last_execution"), last_modified)
 
-old_checksum_file = os.path.join(folder_old, 'checksums.json')
-new_checksum_file = os.path.join(folder_new, 'checksums.json')
+    # Save the new checksums
+    with open(new_checksum_file, 'w') as f:
+        json.dump(new_checksums, f, indent=4)
 
-if os.path.exists(old_checksum_file) and os.path.exists(new_checksum_file):
-    with open(old_checksum_file, 'r') as f:
-        old_checksums = json.load(f)
+    # Move the new checksums to the old checksums file
+    os.replace(new_checksum_file, old_checksum_file)
+else:
+    print("No changes detected in the archive since the last execution.")
 
-    with open(new_checksum_file, 'r') as f:
-        new_checksums = json.load(f)
-
-    comparison_results = compare_checksums(old_checksums, new_checksums)
-    comparison_file = os.path.join(output_dir, 'comparison.json')
-    save_comparison_results(comparison_results, comparison_file)
-
-    md_report_file = os.path.join(output_dir, 'README.md')
-    create_md_report(comparison_results, md_report_file, status['execution_date'], status['last_modified'])
-
-# Save the status of the script to a JSON file
-status = {'last_modified': last_modified, 'execution_date': datetime.now().isoformat()}
+# Update the status file
+status["last_execution"] = datetime.now().isoformat()
+status["last_archive_modification"] = last_modified
 save_status(status_file, status)
+
+print("Script finished.")
