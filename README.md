@@ -1,18 +1,18 @@
-# Отчет о сравнении архивов
+# Archive Comparison Report
 
-**Дата последнего запуска программы:** 2023-03-17T01:25:43.955876
+**Last script execution date:** 2023-03-17T13:03:12.470230
 
-**Дата изменения архива:** 2023-03-17T01:24:41
+**Last archive modification date:** 2023-03-17T13:03:09
 
-## Добавленные файлы/папки
+## Added files/folders
 
-  - hbl.nsp (8b24dac661543696b7e8d7db202492b1)
+No changes
 
-## Удаленные файлы/папки
+## Removed files/folders
 
-  - .gitignore (a40ed55f505ae6b7137f0b19fe464bcd)
+  - boot.dat (20cf385a492fb0058f39f183ed1ed104)
 
-## Измененные файлы
+## Modified files
 
-Нет изменений
+No changes
 

@@ -166,6 +166,13 @@ except (json.JSONDecodeError, FileNotFoundError) as e:
 
 # Check if the archive has been modified
 last_modified = get_last_modified(url)
+
+if os.path.exists(os.path.join(output_dir, 'comparison_results.json')):
+        with open(os.path.join(output_dir, 'comparison_results.json'), 'r') as f:
+            comparison_results = json.load(f)
+else: 
+    comparison_results = {"added": [], "removed": [], "modified": []}
+
 if status.get("last_archive_modification") != last_modified:
     # Download the archive
     download_file(url, downld_file)
@@ -184,10 +191,6 @@ if status.get("last_archive_modification") != last_modified:
         result_file = os.path.join(output_dir, 'comparison_results.json')
         save_comparison_results(comparison_results, result_file)
 
-        # Create Markdown report
-        report_file = os.path.join(output_dir, 'README.md')
-        create_md_report(comparison_results, report_file, status.get("last_execution"), last_modified)
-
     # Save the new checksums
     with open(new_checksum_file, 'w') as f:
         json.dump(new_checksums, f, indent=4)
@@ -197,9 +200,12 @@ if status.get("last_archive_modification") != last_modified:
 else:
     print("No changes detected in the archive since the last execution.")
 
-# Update the status file
 status["last_execution"] = datetime.now().isoformat()
 status["last_archive_modification"] = last_modified
 save_status(status_file, status)
+
+# Create Markdown report
+report_file = os.path.join(output_dir, 'README.md')
+create_md_report(comparison_results, report_file, status.get("last_execution"), last_modified)
 
 print("Script finished.")
