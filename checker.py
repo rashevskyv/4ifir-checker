@@ -5,6 +5,10 @@ import json
 from datetime import datetime, timedelta
 import zipfile
 import sys
+from telegram import Bot
+from aiogram import Bot, types
+import asyncio
+import markdown
 
 # Get last modified date of the file from URL
 def get_last_modified(url):
@@ -113,35 +117,64 @@ def save_comparison_results(results, output_file):
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=4)
 
-# Create Markdown report with the comparison results
-def create_md_report(results, output_file, execution_date, last_modified):
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('# Archive Comparison Report\n\n')
+# Create HTML report with the comparison results
+def create_html_report(results, execution_date, last_modified):
+    report_content = ''
+    report_content += '<b>Archive Comparison Report</b>\n\n'
 
-        f.write(f'**Last script execution date:** {execution_date}\n\n')
-        f.write(f'**Last archive modification date:** {last_modified}\n\n')
+    report_content += f'<b>Last script execution date:</b> {execution_date}\n\n'
+    report_content += f'<b>Last archive modification date:</b> {last_modified}\n\n'
 
-        def process_item(item, level=1):
-            prefix = '  ' * level
-            if item["type"] == "directory":
-                return f"{prefix}- **{item['name']}/:**\n" + ''.join(process_item(child, level + 1) for child in item["children"])
-            else:
-                return f"{prefix}- {item['name']} ({item['checksum']})\n"
+    def process_item(item, level=1):
+        prefix = '  ' * level
+        if item["type"] == "directory":
+            return f"{prefix}- <b>{item['name']}/:</b>\n" + ''.join(process_item(child, level + 1) for child in item["children"])
+        else:
+            return f"{prefix}- {item['name']} ({item['checksum']})\n"
 
-        for change_type, items in results.items():
+    for change_type, items in results.items():
+        if change_type == "added":
+            report_content += '<b>Added files/folders</b>\n\n'
+        elif change_type == "removed":
+            report_content += '<b>Removed files/folders</b>\n\n'
+        elif change_type == "modified":
+            report_content += '<b>Modified files</b>\n\n'
+
+        if items:
+            for item in items:
+                report_content += process_item(item)
+        else:
+            report_content += 'No changes\n'
+        report_content += '\n'
+
+    return report_content
+
+
+async def send_telegram_message(bot_token, chat_id, report_content, comparison_results, last_modified):
+    # Generate the list of changes
+    changes_text = ""
+    for change_type, items in comparison_results.items():
+        if items:
             if change_type == "added":
-                f.write('## Added files/folders\n\n')
+                changes_text += "<b>Добавленные файлы/папки:</b>\n"
             elif change_type == "removed":
-                f.write('## Removed files/folders\n\n')
+                changes_text += "<b>Удаленные файлы/папки:</b>\n"
             elif change_type == "modified":
-                f.write('## Modified files\n\n')
+                changes_text += "<b>Измененные файлы:</b>\n"
 
-            if items:
-                for item in items:
-                    f.write(process_item(item))
-            else:
-                f.write('No changes\n')
-            f.write('\n')
+            for item in items:
+                if item["type"] == "directory":
+                    changes_text += f"- {item['name']}/\n"
+                else:
+                    changes_text += f"- {item['name']} ({item['checksum']})\n"
+            changes_text += "\n"
+
+    full_message = report_content
+
+    bot = Bot(token=bot_token)
+    await bot.send_message(chat_id=chat_id, text=full_message, parse_mode=types.ParseMode.HTML)
+    await bot.close()
+
 
 # Variables
 # url = 'http://127.0.0.1/4IFIR.zip'
@@ -152,6 +185,8 @@ downld_file = os.path.join(output_dir, filename)
 status_file = os.path.join(output_dir, 'status.json')
 old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
 new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
+TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
+YOUR_CHAT_ID = '252419732'
 
 # Load the status file
 try:
@@ -206,6 +241,13 @@ save_status(status_file, status)
 
 # Create Markdown report
 report_file = os.path.join(output_dir, 'README.md')
-create_md_report(comparison_results, report_file, status.get("last_execution"), last_modified)
+html_report_content = create_html_report(comparison_results, status.get("last_execution"), last_modified)
+
+# Записываем содержимое отчета в файл README.md
+with open(report_file, 'w', encoding='utf-8') as f:
+    f.write(html_report_content)
+
+# Отправляем содержимое отчета в Telegram
+asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, html_report_content, comparison_results, last_modified))
 
 print("Script finished.")
