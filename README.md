@@ -1,8 +1,4 @@
-<b>Archive Comparison Report</b>
-
-<b>Last script execution date:</b> 2023-03-18T12:33:23.926318
-<b>Last archive modification date:</b> 2023-03-16T12:23:46
-
+<h2>Archive Comparison Report</h2><b>Last script execution date:</b> 18.03.2023 12:53<br><b>Last archive modification date:</b> 16.03.2023 12:23<hr>
 <b>Added files/folders</b>
 
 No changes

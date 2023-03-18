@@ -120,10 +120,13 @@ def save_comparison_results(results, output_file):
 # Create HTML report with the comparison results
 def create_html_report(results, execution_date, last_modified):
     report_content = ''
-    report_content += '<b>Archive Comparison Report</b>\n\n'
+    report_content += '<h2>Archive Comparison Report</h2>'
 
-    report_content += f'<b>Last script execution date:</b> {execution_date}\n'
-    report_content += f'<b>Last archive modification date:</b> {last_modified}\n\n'
+    formatted_execution_date = datetime.fromisoformat(execution_date).strftime('%d.%m.%Y %H:%M')
+    formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
+    report_content += f'<b>Last script execution date:</b> {formatted_execution_date}<br>'
+    report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>'
+
 
     def process_item(item, level=1):
         prefix = '  ' * level
@@ -134,7 +137,7 @@ def create_html_report(results, execution_date, last_modified):
 
     for change_type, items in results.items():
         if change_type == "added":
-            report_content += '<b>Added files/folders</b>\n\n'
+            report_content += '\n<b>Added files/folders</b>\n\n'
         elif change_type == "removed":
             report_content += '<b>Removed files/folders</b>\n\n'
         elif change_type == "modified":
@@ -156,11 +159,11 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
     for change_type, items in comparison_results.items():
         if items:
             if change_type == "added":
-                changes_text += "<b>Добавленные файлы/папки:</b>\n"
+                changes_text += "<b>Added files/folders:</b>\n"
             elif change_type == "removed":
-                changes_text += "<b>Удаленные файлы/папки:</b>\n"
+                changes_text += "<b>Removed files/folders:</b>\n"
             elif change_type == "modified":
-                changes_text += "<b>Измененные файлы:</b>\n"
+                changes_text += "<b>Modified files<:</b>\n"
 
             for item in items:
                 if item["type"] == "directory":
