@@ -150,7 +150,7 @@ def create_html_report(results, execution_date, last_modified):
     return report_content
 
 
-async def send_telegram_message(bot_token, chat_id, report_content, comparison_results, last_modified):
+async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, comparison_results, last_modified):
     # Generate the list of changes
     changes_text = ""
     for change_type, items in comparison_results.items():
@@ -172,7 +172,7 @@ async def send_telegram_message(bot_token, chat_id, report_content, comparison_r
     full_message = report_content
 
     bot = Bot(token=bot_token)
-    await bot.send_message(chat_id=chat_id, text=full_message, parse_mode=types.ParseMode.HTML)
+    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=full_message, parse_mode=types.ParseMode.HTML)
     await bot.close()
 
 
@@ -187,6 +187,7 @@ old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
 new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 YOUR_CHAT_ID = '-1001277664260'
+TOPIC_ID='48074'
 
 # Load the status file
 try:
@@ -247,7 +248,11 @@ html_report_content = create_html_report(comparison_results, status.get("last_ex
 with open(report_file, 'w', encoding='utf-8') as f:
     f.write(html_report_content)
 
-# Отправляем содержимое отчета в Telegram
-asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, html_report_content, comparison_results, last_modified))
+# Если есть изменения, отправляем содержимое отчета в Telegram
+if any(comparison_results.values()):
+    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, html_report_content, comparison_results, last_modified))
+    print("Report sent to Telegram.")
+else:
+    print("No changes to report.")
 
 print("Script finished.")
