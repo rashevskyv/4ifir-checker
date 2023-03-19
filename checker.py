@@ -155,24 +155,7 @@ def create_html_report(results, execution_date, last_modified):
 
 async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, comparison_results, last_modified):
     # Generate the list of changes
-    changes_text = ""
-    for change_type, items in comparison_results.items():
-        if items:
-            if change_type == "added":
-                changes_text += "<b>Added files/folders:</b>\n"
-            elif change_type == "removed":
-                changes_text += "<b>Removed files/folders:</b>\n"
-            elif change_type == "modified":
-                changes_text += "<b>Modified files<:</b>\n"
-
-            for item in items:
-                if item["type"] == "directory":
-                    changes_text += f"- {item['name']}/\n"
-                else:
-                    changes_text += f"- {item['name']} ({item['checksum']})\n"
-            changes_text += "\n"
-
-    full_message = report_content
+    full_message = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>").replace("<br>", "\n").replace("<hr>", "-------------------------------")
 
     bot = Bot(token=bot_token)
     await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=full_message, parse_mode=types.ParseMode.HTML)
