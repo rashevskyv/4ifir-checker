@@ -155,12 +155,15 @@ def create_html_report(results, execution_date, last_modified):
 
 async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, comparison_results, last_modified):
     # Generate the list of changes
-    full_message = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>").replace("<br>", "\n").replace("<hr>", "-------------------------------")
+    report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>").replace("<br>", "\n").replace("<hr>", "-------------------------------")
+
+    # Split the report_content into smaller chunks (each with a maximum length of 4096 characters)
+    messages = [report_content[i:i+2000] for i in range(0, len(report_content), 2000)]
 
     bot = Bot(token=bot_token)
-    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=full_message, parse_mode=types.ParseMode.HTML)
+    for message in messages:
+        await bot.send_message(chat_id=chat_id, text=message, parse_mode=types.ParseMode.HTML)  # Убрал параметр message_thread_id
     await bot.close()
-
 
 # Variables
 # url = 'http://127.0.0.1/4IFIR.zip'
