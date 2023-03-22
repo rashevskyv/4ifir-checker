@@ -140,7 +140,7 @@ def process_items(items, indent_level=1):
 
     return folder_tree
 
-def create_html_report(results, execution_date, last_modified):
+def create_html_report(results, last_modified):
     report_content = ''
     report_content += '<h2>Archive Comparison Report</h2>'
 
@@ -176,27 +176,46 @@ def create_html_report(results, execution_date, last_modified):
     for change_type, items in results.items():
         if items:  # Add this condition
             if change_type == "added":
-                report_content += '<b>Added files/folders</b>\n'
+                report_content += '<h3>Added files/folders</h3>\n<code>'
             elif change_type == "removed":
-                report_content += '<b>Removed files/folders</b>\n'
+                report_content += '<h3>Removed files/folders</h3>\n<code>'
             elif change_type == "modified":
-                report_content += '<b>Modified files</b>\n'
+                report_content += '<h3>Modified files</h3>\n<code>'
 
             folder_tree = process_items(items)
             report_content += render_tree(folder_tree)
-            report_content += '\n'  # Закрытие блока кода с помощью ```
+            report_content += '</code>\n'  # Закрытие блока кода с помощью ```
     return report_content
 
-async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, comparison_results, last_modified):
-    # Generate the list of changes
-    report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
+def split_html_content(content, max_length=4096, tag='<code>'):
+    content_length = len(content)
+    if content_length <= max_length:
+        return [content]
 
-    # Split the report_content into smaller chunks (each with a maximum length of 4096 characters)
-    messages = [report_content[i:i+4096] for i in range(0, len(report_content), 4096)]
+    blocks = []
+    start_index = 0
+
+    while start_index < content_length:
+        end_index = start_index + max_length
+        if end_index < content_length:
+            end_index = content.rfind(tag, start_index, end_index)
+            if end_index == -1:
+                end_index = start_index + max_length
+
+        blocks.append(content[start_index:end_index])
+        start_index = end_index
+
+    return blocks
+
+async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content):
+    # Generate the list of changes
+    report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
+
+    blocks = split_html_content(report_content)
 
     bot = Bot(token=bot_token)
-    for message in messages:
-        await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=message, parse_mode=types.ParseMode.HTML)
+    for part in blocks:
+        await bot.send_message(chat_id=chat_id, text=part, parse_mode=types.ParseMode.HTML)
     await bot.close()
 
 # Variables
@@ -269,7 +288,7 @@ save_status(status_file, status)
 
 # Create Markdown report
 report_file = os.path.join(output_dir, 'README.md')
-html_report_content = create_html_report(comparison_results, status.get("last_execution"), last_modified)
+html_report_content = create_html_report(comparison_results, last_modified)
 
 # Записываем содержимое отчета в файл README.md
 with open(report_file, 'w', encoding='utf-8') as f:
@@ -277,7 +296,7 @@ with open(report_file, 'w', encoding='utf-8') as f:
 
 # Если есть изменения, отправляем содержимое отчета в Telegram
 if (modified):
-    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, html_report_content, comparison_results, last_modified))
+    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, html_report_content))
     print("Report sent to Telegram.")
 else:
     print("No changes to report.")
