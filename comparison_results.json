@@ -1,5 +1,493 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": []
+    "added": [
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/loader_patches/11733BF70FA36F44C3B83E94668EAF3C748E5EF0F4B986B59945F40BF4F3EE2C.ips",
+            "checksum": "4b842888b046ecd7829deaeed2473c44"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/loader_patches/9303CDB8094EFC3FA1DE7D0EEFE1DD9BE7FE0265A8FCA67C1758E42F24D318CF.ips",
+            "checksum": "0ccd23e62b34b170df4c21c7438c7f76"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "7159a83b8c1caf7fa44071c2993e29a7"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/res/4tock.bmp",
+            "checksum": "53b9c7e2a4add82700bb7c0af6849548"
+        },
+        {
+            "type": "directory",
+            "name": "SaltySD/plugins/FPSLocker",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "0100040016EE2000.dat",
+                    "checksum": "441077cc9e57554dd476bdfb8b8b8102"
+                },
+                {
+                    "type": "file",
+                    "name": "01004D300C5AE000.dat",
+                    "checksum": "4c4154c90f9c70d2c865fbba17469831"
+                },
+                {
+                    "type": "file",
+                    "name": "0100626011656000.dat",
+                    "checksum": "b6fbf8dfb3834c87e988f10f20cf13d6"
+                },
+                {
+                    "type": "file",
+                    "name": "01006C5015E84000.dat",
+                    "checksum": "4c4154c90f9c70d2c865fbba17469831"
+                },
+                {
+                    "type": "file",
+                    "name": "0100801011C3E000.dat",
+                    "checksum": "441077cc9e57554dd476bdfb8b8b8102"
+                },
+                {
+                    "type": "file",
+                    "name": "01009040091E0000.dat",
+                    "checksum": "b6fbf8dfb3834c87e988f10f20cf13d6"
+                },
+                {
+                    "type": "file",
+                    "name": "0100A6301214E000.dat",
+                    "checksum": "b6fbf8dfb3834c87e988f10f20cf13d6"
+                },
+                {
+                    "type": "file",
+                    "name": "0100B1A00D8CE000.dat",
+                    "checksum": "4c4154c90f9c70d2c865fbba17469831"
+                },
+                {
+                    "type": "file",
+                    "name": "0100D1B006744000.dat",
+                    "checksum": "b6fbf8dfb3834c87e988f10f20cf13d6"
+                },
+                {
+                    "type": "directory",
+                    "name": "patches",
+                    "children": [
+                        {
+                            "type": "directory",
+                            "name": "01000BB00E9D2000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "010019C00E9CC000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "010039400E8D6000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "01003D100E9C6000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "010070A00E9CE000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "010074F013262000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "B76CD24AF02ACEA2.yaml",
+                                    "checksum": "a2c3945eaf24fdf68c4f15d33f71ccfe"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "010076F00E9C8000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "010085500E9D0000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "0100A0800E9C4000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "0100B04011742000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "11C9CE3F0676EEFD.yaml",
+                                    "checksum": "316d31811c7b3be99ae4814c3fd571eb"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "0100BFE00E9CA000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "4FFB62F1CD9E17F8.yaml",
+                                    "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "0100CC80140F8000",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "2AA7F33234696651.yaml",
+                                    "checksum": "c7e27835ac666408871e29ff5bbbf645"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "removed": [
+        {
+            "type": "file",
+            "name": "bootloader/bootlogo_4ifir.bmp",
+            "checksum": "c30fc24fe570c4db62a77b2185983943"
+        },
+        {
+            "type": "file",
+            "name": "config/sys-clk/ReverseNX_sync.flag",
+            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        {
+            "type": "directory",
+            "name": "config/Fizeau",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "d8033003548e8b91fb1beafd0bef1a24"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/flags/log.flag",
+            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/sys-ftpd-ovl.ovl",
+            "checksum": "55978ca19a876846936da1e77057a581"
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
+            "checksum": "2d3828c88bb50d25d55071e883cc84ba"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0000000000534C56/flags/boot2.flag",
+            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000A53BB665/exefs.nsp",
+            "checksum": "203581c0b2ebac67640c1446ac2a0cdb"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/exefs_patches/es_patches/1114E9102F1EBCD1B0EAF19C927362CFCB8B5D2C.ips",
+            "checksum": "5df02182e2bd2d3a9731b8c6e3462ebf"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/exefs_patches/es_patches/F48ABC3EF41A0555800127D172C9B8D2C653243A.ips",
+            "checksum": "8113b959c21382b36b7c5110c5e4b10f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "2d094901d2f90aad88cdc7a0f97f960f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "c77e8494236cfdd7fabba95bfb281f4e"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/02D5ABAAFD20C8B0633AA0DBAEE0377EF526CE6AD2AC6F2CAD7180CE69E74311.ips",
+            "checksum": "16caf47982f1fd3b522ab5f30a645476"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/06E90719595A010C6246FF70946F10FB367A00BBD8B7D8D1F25CCE0B458D7E89.ips",
+            "checksum": "16caf47982f1fd3b522ab5f30a645476"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/073099D7C6AD7D8983BC7ADD932BE3D1243193792E0920955DBC17F5794FDE28.ips",
+            "checksum": "2caf8bad86c4b5480cdf0ee3e9f44a0a"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/0D7005627B07767C0B963F9AFFDDE56628A27116CFC4D8B2AF42BDEEBF97205B.ips",
+            "checksum": "aa1cb61d7b346b3a7c77c8e6649ea0a8"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/549B0F8D6F72C4E9F3FD1F19EACE4A5A1DA2D5C393F74224F8BC09DE4AAA4217.ips",
+            "checksum": "16caf47982f1fd3b522ab5f30a645476"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/57397C063F10B6313F4D837653CCC371BE2158BF6DD889326648D5C83D50CECF.ips",
+            "checksum": "2caf8bad86c4b5480cdf0ee3e9f44a0a"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/8096AF7C6A35AA8271F3916995413B0B64CE03BD9BBFEB26F2B3E01C5427C69E.ips",
+            "checksum": "16caf47982f1fd3b522ab5f30a645476"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/981C57E7F02F70F7BCDE753181D901A62A2452B04F5C5FB86500A2172CC44641.ips",
+            "checksum": "c3a44cfc8a9bac21508acbc4dc417478"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/A6F27AD9AC7C73AD419B63B23E785A0CD7AA9DC1A63C57D10049423DE7B77E2C.ips",
+            "checksum": "1342af9a39281159dc1142ccd6b21907"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/A86DA5E87EF1097B23DAB5B4DBBAEFE780310AE643D319D6A7A149B9688651A5.ips",
+            "checksum": "c3a44cfc8a9bac21508acbc4dc417478"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/C86762BE19A51FA0C737AE921A816846605A64739523B4894F847BBED59E31EA.ips",
+            "checksum": "29fec9fdb394dd1d269a3a25d78a2a46"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/CD7BBE18D6130B28F62F19FA7945535B6829EFE64EF4AAF0DF8DA19885FE4A9A.ips",
+            "checksum": "8ec000c9ecda79e194c4c8f22b887794"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/CE3ECBA2F2F062F575F8F360842B32B432340DD2C7590CDEFC03E51B844AE805.ips",
+            "checksum": "1342af9a39281159dc1142ccd6b21907"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/DBD85FCACC193DA83051C664E6452D32FD4F7922E5E29A281695B578347F8161.ips",
+            "checksum": "aa1cb61d7b346b3a7c77c8e6649ea0a8"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/DE9FDDA4085DD5FE68DCB20B41095BB4010856AF280201552F38273B44CECD6F.ips",
+            "checksum": "4b612e858623ea93fea7f9518ff573c8"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/E1E8D3D6A2FE0B102CC79F8310EEEF66E5D14BCA2ED73454455FD87C615EEDC0.ips",
+            "checksum": "29fec9fdb394dd1d269a3a25d78a2a46"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kip_patches/fs_patches/E76692DFAA0420E9FDD68E436316181814CBD72E915E153174332C6BEAA41FC3.ips",
+            "checksum": "8ec000c9ecda79e194c4c8f22b887794"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "92efbf45ebf32f5a77439eb9b800a0eb"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "f4d145daa929abe45ebca9914c78088d"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "8a8f49b79bd6e24ab81ddf85fff0b6a1"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/4IFIR.ini",
+            "checksum": "f3540a9c92cad4645c8b70743fdccc19"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "023b2f474657fa8861c1cb23fc543ec7"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/patches.ini",
+            "checksum": "76c42ddcb61d19dba191e36704756e2a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "dc891d0a02a105e67b63941c80f16e47"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "adea55dbe42ddd97debc3ce4af5cac50"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "8df4f2ccd625c3d9ba9ff62888c31810"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "f4d145daa929abe45ebca9914c78088d"
+        },
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "0f67567da1ab603e11d08d481150bb0c"
+        },
+        {
+            "type": "file",
+            "name": "config/sys-clk/config.ini",
+            "checksum": "e98b87dca190e89483f580f059affffc"
+        },
+        {
+            "type": "file",
+            "name": "config/sys-ftpd/config.ini",
+            "checksum": "aeff38ff371abd9d67468b5801b4b64c"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "f4d145daa929abe45ebca9914c78088d"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/NX-FPS.elf",
+            "checksum": "3b221026ea7f9fec700de07a712287bf"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/saltysd_core.elf",
+            "checksum": "68fa00c633979d7ae32f0ddb72e24957"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "b212fdf1cdbfa3285524dd56c811d9ab"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlEdiZon.ovl",
+            "checksum": "445c5342759ef3426a454a7eac0c5a70"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "9d616898fa6c2ed08d0e61cde38eead6"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
+            "checksum": "3a4ce4754ebc27ee6fe0a8404b6b6808"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "6812709967af0e647d9493b98e625bdf"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/sysdvr-overlay.ovl",
+            "checksum": "318d3d0b1aa946239a9fca0b7bc819db"
+        },
+        {
+            "type": "file",
+            "name": "switch/daybreak/daybreak.nro",
+            "checksum": "7ad1feb9a1b81c5d42fd56ed7f17c3bc"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "543c3c17f5b4aa4271da1a7b1dbe86f7"
+        },
+        {
+            "type": "file",
+            "name": "switch/SysDVR-conf.nro",
+            "checksum": "aa26fb50128f1bb8ca9356d7d881d08c"
+        }
+    ]
 }

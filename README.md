@@ -1,13 +1,103 @@
-<h2>Archive Comparison Report</h2><b>Last script execution date:</b> 19.03.2023 12:13<br><b>Last archive modification date:</b> 16.03.2023 12:23<hr>
-<b>Added files/folders</b>
+<h2>Archive Comparison Report</h2><b>Last archive modification date:</b> 21.03.2023 20:25<hr>
 
-No changes
-
-<b>Removed files/folders</b>
-
-No changes
-
-<b>Modified files</b>
-
-No changes
-
+<h3>Added files/folders</h3>
+<code>atmosphere
+├─kip_patches
+│ └─loader_patches
+│ │ └─11733BF70FA36F44C3B83E94668EAF3C748E5EF0F4B986B59945F40BF4F3EE2C.ips (4b842888b046ecd7829deaeed2473c44)
+│ │ └─9303CDB8094EFC3FA1DE7D0EEFE1DD9BE7FE0265A8FCA67C1758E42F24D318CF.ips (0ccd23e62b34b170df4c21c7438c7f76)
+bootloader
+├─res
+│ └─4mosphere.bmp (7159a83b8c1caf7fa44071c2993e29a7)
+│ └─4tock.bmp (53b9c7e2a4add82700bb7c0af6849548)
+SaltySD
+└─plugins
+│ └─FPSLocker
+</code>
+<h3>Removed files/folders</h3>
+<code>bootloader
+├─bootlogo_4ifir.bmp (c30fc24fe570c4db62a77b2185983943)
+config
+├─sys-clk
+│ ├─ReverseNX_sync.flag (d41d8cd98f00b204e9800998ecf8427e)
+├─Fizeau
+SaltySD
+├─flags
+│ └─log.flag (d41d8cd98f00b204e9800998ecf8427e)
+switch
+└─.overlays
+│ └─sys-ftpd-ovl.ovl (55978ca19a876846936da1e77057a581)
+</code>
+<h3>Modified files</h3>
+<code>atmosphere
+├─contents
+│ ├─0000000000534C56
+│ │ ├─exefs.nsp (2d3828c88bb50d25d55071e883cc84ba)
+│ │ ├─flags
+│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
+│ ├─00FF0000A53BB665
+│ │ └─exefs.nsp (203581c0b2ebac67640c1446ac2a0cdb)
+├─exefs_patches
+│ ├─es_patches
+│ │ └─1114E9102F1EBCD1B0EAF19C927362CFCB8B5D2C.ips (5df02182e2bd2d3a9731b8c6e3462ebf)
+│ │ └─F48ABC3EF41A0555800127D172C9B8D2C653243A.ips (8113b959c21382b36b7c5110c5e4b10f)
+├─hbl.nsp (2d094901d2f90aad88cdc7a0f97f960f)
+├─kips
+│ ├─loader.kip (c77e8494236cfdd7fabba95bfb281f4e)
+├─kip_patches
+│ ├─fs_patches
+│ │ └─02D5ABAAFD20C8B0633AA0DBAEE0377EF526CE6AD2AC6F2CAD7180CE69E74311.ips (16caf47982f1fd3b522ab5f30a645476)
+│ │ └─06E90719595A010C6246FF70946F10FB367A00BBD8B7D8D1F25CCE0B458D7E89.ips (16caf47982f1fd3b522ab5f30a645476)
+│ │ └─073099D7C6AD7D8983BC7ADD932BE3D1243193792E0920955DBC17F5794FDE28.ips (2caf8bad86c4b5480cdf0ee3e9f44a0a)
+│ │ └─0D7005627B07767C0B963F9AFFDDE56628A27116CFC4D8B2AF42BDEEBF97205B.ips (aa1cb61d7b346b3a7c77c8e6649ea0a8)
+│ │ └─549B0F8D6F72C4E9F3FD1F19EACE4A5A1DA2D5C393F74224F8BC09DE4AAA4217.ips (16caf47982f1fd3b522ab5f30a645476)
+│ │ └─57397C063F10B6313F4D837653CCC371BE2158BF6DD889326648D5C83D50CECF.ips (2caf8bad86c4b5480cdf0ee3e9f44a0a)
+│ │ └─8096AF7C6A35AA8271F3916995413B0B64CE03BD9BBFEB26F2B3E01C5427C69E.ips (16caf47982f1fd3b522ab5f30a645476)
+│ │ └─981C57E7F02F70F7BCDE753181D901A62A2452B04F5C5FB86500A2172CC44641.ips (c3a44cfc8a9bac21508acbc4dc417478)
+│ │ └─A6F27AD9AC7C73AD419B63B23E785A0CD7AA9DC1A63C57D10049423DE7B77E2C.ips (1342af9a39281159dc1142ccd6b21907)
+│ │ └─A86DA5E87EF1097B23DAB5B4DBBAEFE780310AE643D319D6A7A149B9688651A5.ips (c3a44cfc8a9bac21508acbc4dc417478)
+│ │ └─C86762BE19A51FA0C737AE921A816846605A64739523B4894F847BBED59E31EA.ips (29fec9fdb394dd1d269a3a25d78a2a46)
+│ │ └─CD7BBE18D6130B28F62F19FA7945535B6829EFE64EF4AAF0DF8DA19885FE4A9A.ips (8ec000c9ecda79e194c4c8f22b887794)
+│ │ └─CE3ECBA2F2F062F575F8F360842B32B432340DD2C7590CDEFC03E51B844AE805.ips (1342af9a39281159dc1142ccd6b21907)
+│ │ └─DBD85FCACC193DA83051C664E6452D32FD4F7922E5E29A281695B578347F8161.ips (aa1cb61d7b346b3a7c77c8e6649ea0a8)
+│ │ └─DE9FDDA4085DD5FE68DCB20B41095BB4010856AF280201552F38273B44CECD6F.ips (4b612e858623ea93fea7f9518ff573c8)
+│ │ └─E1E8D3D6A2FE0B102CC79F8310EEEF66E5D14BCA2ED73454455FD87C615EEDC0.ips (29fec9fdb394dd1d269a3a25d78a2a46)
+│ │ └─E76692DFAA0420E9FDD68E436316181814CBD72E915E153174332C6BEAA41FC3.ips (8ec000c9ecda79e194c4c8f22b887794)
+├─package3 (92efbf45ebf32f5a77439eb9b800a0eb)
+├─reboot_payload.bin (f4d145daa929abe45ebca9914c78088d)
+├─stratosphere.romfs (8a8f49b79bd6e24ab81ddf85fff0b6a1)
+bootloader
+├─4IFIR.ini (f3540a9c92cad4645c8b70743fdccc19)
+├─hekate_ipl.ini (023b2f474657fa8861c1cb23fc543ec7)
+├─patches.ini (76c42ddcb61d19dba191e36704756e2a)
+├─sys
+│ ├─libsys_lp0.bso (dc891d0a02a105e67b63941c80f16e47)
+│ ├─libsys_minerva.bso (adea55dbe42ddd97debc3ce4af5cac50)
+│ ├─nyx.bin (8df4f2ccd625c3d9ba9ff62888c31810)
+├─update.bin (f4d145daa929abe45ebca9914c78088d)
+config
+├─aio-switch-updater
+│ ├─custom_packs.json (0f67567da1ab603e11d08d481150bb0c)
+├─sys-clk
+│ ├─config.ini (e98b87dca190e89483f580f059affffc)
+├─sys-ftpd
+│ └─config.ini (aeff38ff371abd9d67468b5801b4b64c)
+payload.bin (f4d145daa929abe45ebca9914c78088d)
+SaltySD
+├─plugins
+│ ├─NX-FPS.elf (3b221026ea7f9fec700de07a712287bf)
+├─saltysd_core.elf (68fa00c633979d7ae32f0ddb72e24957)
+switch
+└─.overlays
+│ ├─FPSLocker.ovl (b212fdf1cdbfa3285524dd56c811d9ab)
+│ ├─ovlEdiZon.ovl (445c5342759ef3426a454a7eac0c5a70)
+│ ├─ovlmenu.ovl (9d616898fa6c2ed08d0e61cde38eead6)
+│ ├─ReverseNX-RT-ovl.ovl (3a4ce4754ebc27ee6fe0a8404b6b6808)
+│ ├─Status-Monitor-Overlay.ovl (6812709967af0e647d9493b98e625bdf)
+│ ├─sysdvr-overlay.ovl (318d3d0b1aa946239a9fca0b7bc819db)
+└─daybreak
+│ ├─daybreak.nro (7ad1feb9a1b81c5d42fd56ed7f17c3bc)
+└─DBI
+│ ├─DBI.nro (543c3c17f5b4aa4271da1a7b1dbe86f7)
+└─SysDVR-conf.nro (aa26fb50128f1bb8ca9356d7d881d08c)
+</code>
