@@ -8,7 +8,6 @@ import sys
 from telegram import Bot
 from aiogram import Bot, types
 import asyncio
-import markdown
 
 # Get last modified date of the file from URL
 def get_last_modified(url):
@@ -90,24 +89,31 @@ def build_tree_and_save_checksums(downld_file):
 def compare_checksums(old_checksums, new_checksums):
     result = {"added": [], "removed": [], "modified": []}
 
-    def compare_directories(old_dir, new_dir):
+    def compare_directories(old_dir, new_dir, path=""):
         old_files = {item["name"]: item for item in old_dir}
         new_files = {item["name"]: item for item in new_dir}
 
         for name, new_item in new_files.items():
             if name not in old_files:
-                result["added"].append(new_item)
+                new_item_copy = new_item.copy()
+                new_item_copy["name"] = f"{path}/{name}" if path else name
+                result["added"].append(new_item_copy)
             else:
                 old_item = old_files[name]
                 if new_item["type"] == "file" and old_item["type"] == "file":
                     if new_item["checksum"] != old_item["checksum"]:
-                        result["modified"].append(new_item)
+                        new_item_copy = new_item.copy()
+                        new_item_copy["name"] = f"{path}/{name}" if path else name
+                        result["modified"].append(new_item_copy)
                 elif new_item["type"] == "directory" and old_item["type"] == "directory":
-                    compare_directories(old_item["children"], new_item["children"])
+                    child_path = f"{path}/{name}" if path else name
+                    compare_directories(old_item["children"], new_item["children"], child_path)
 
         for name, old_item in old_files.items():
             if name not in new_files:
-                result["removed"].append(old_item)
+                old_item_copy = old_item.copy()
+                old_item_copy["name"] = f"{path}/{name}" if path else name
+                result["removed"].append(old_item_copy)
 
     compare_directories(old_checksums, new_checksums)
     return result
@@ -117,52 +123,80 @@ def save_comparison_results(results, output_file):
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=4)
 
-# Create HTML report with the comparison results
+def process_items(items, indent_level=1):
+    folder_tree = {}
+    prefix = '  ' * indent_level
+
+    for item in items:
+        path_parts = item["name"].split('/')
+        folder = folder_tree
+
+        for part in path_parts[:-1]:
+            if part not in folder:
+                folder[part] = {}
+            folder = folder[part]
+
+        folder[path_parts[-1]] = item
+
+    return folder_tree
+
 def create_html_report(results, execution_date, last_modified):
     report_content = ''
     report_content += '<h2>Archive Comparison Report</h2>'
 
-    formatted_execution_date = datetime.fromisoformat(execution_date).strftime('%d.%m.%Y %H:%M')
+    # formatted_execution_date = datetime.fromisoformat(execution_date).strftime('%d.%m.%Y %H:%M')
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
-    report_content += f'<b>Last script execution date:</b> {formatted_execution_date}<br>'
-    report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>'
+    # report_content += f'<b>Last script execution date:</b> {formatted_execution_date}<br>'
+    report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>\n\n'
 
+    def render_tree(tree, level=1, last_child=False):
+        tree_str = ""
+        prefix = '  ' * (level - 1)
 
-    def process_item(item, level=1):
-        prefix = '  ' * level
-        if item["type"] == "directory":
-            return f"{prefix}- <b>{item['name']}/:</b>\n" + ''.join(process_item(child, level + 1) for child in item["children"])
-        else:
-            return f"{prefix}- {item['name']} ({item['checksum']})\n"
+        if level > 1:
+            prefix = '│ ' * (level - 2)
+            if last_child:
+                prefix += '└─'
+            else:
+                prefix += '├─'
+
+        for index, (key, value) in enumerate(tree.items()):
+            is_last_child = index == len(tree) - 1
+
+            if isinstance(value, dict):
+                if "name" in value and "checksum" in value:
+                    file_name, file_extension = os.path.splitext(os.path.basename(value['name']))
+                    tree_str += f"{prefix}{file_name}{file_extension} ({value['checksum']})\n"
+                else:
+                    tree_str += f"{prefix}{key}\n"
+                    tree_str += render_tree(value, level + 1, is_last_child)
+
+        return tree_str
 
     for change_type, items in results.items():
-        if change_type == "added":
-            report_content += '\n<b>Added files/folders</b>\n\n'
-        elif change_type == "removed":
-            report_content += '<b>Removed files/folders</b>\n\n'
-        elif change_type == "modified":
-            report_content += '<b>Modified files</b>\n\n'
+        if items:  # Add this condition
+            if change_type == "added":
+                report_content += '<b>Added files/folders</b>\n'
+            elif change_type == "removed":
+                report_content += '<b>Removed files/folders</b>\n'
+            elif change_type == "modified":
+                report_content += '<b>Modified files</b>\n'
 
-        if items:
-            for item in items:
-                report_content += process_item(item)
-        else:
-            report_content += 'No changes\n'
-        report_content += '\n'
-
+            folder_tree = process_items(items)
+            report_content += render_tree(folder_tree)
+            report_content += '\n'  # Закрытие блока кода с помощью ```
     return report_content
-
 
 async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, comparison_results, last_modified):
     # Generate the list of changes
-    report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>").replace("<br>", "\n").replace("<hr>", "-------------------------------")
+    report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
 
     # Split the report_content into smaller chunks (each with a maximum length of 4096 characters)
-    messages = [report_content[i:i+2000] for i in range(0, len(report_content), 2000)]
+    messages = [report_content[i:i+4096] for i in range(0, len(report_content), 4096)]
 
     bot = Bot(token=bot_token)
     for message in messages:
-        await bot.send_message(chat_id=chat_id, text=message, parse_mode=types.ParseMode.HTML)  # Убрал параметр message_thread_id
+        await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=message, parse_mode=types.ParseMode.HTML)
     await bot.close()
 
 # Variables
@@ -176,7 +210,9 @@ old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
 new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 YOUR_CHAT_ID = '-1001277664260'
-TOPIC_ID='48074'
+TOPIC_ID='98339'
+# TOPIC_ID=''
+modified=0
 
 # Load the status file
 try:
@@ -222,10 +258,12 @@ if status.get("last_archive_modification") != last_modified:
 
     # Move the new checksums to the old checksums file
     os.replace(new_checksum_file, old_checksum_file)
+
+    modified=1
 else:
     print("No changes detected in the archive since the last execution.")
 
-status["last_execution"] = datetime.now().isoformat()
+# status["last_execution"] = datetime.now().isoformat()
 status["last_archive_modification"] = last_modified
 save_status(status_file, status)
 
@@ -238,7 +276,7 @@ with open(report_file, 'w', encoding='utf-8') as f:
     f.write(html_report_content)
 
 # Если есть изменения, отправляем содержимое отчета в Telegram
-if any(comparison_results.values()):
+if (modified):
     asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, html_report_content, comparison_results, last_modified))
     print("Report sent to Telegram.")
 else:
