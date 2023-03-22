@@ -1,4 +1,3 @@
 requests
 aiogram
 python-telegram-bot
-markdown
