@@ -15,7 +15,7 @@
                     {
                         "type": "file",
                         "name": "system_settings.ini",
-                        "checksum": "33166be255dbd38ca0a66a7e1c309952"
+                        "checksum": "aeac732769de3d5462e96a53d068ec05"
                     }
                 ]
             },
@@ -2056,7 +2056,7 @@
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "9d616898fa6c2ed08d0e61cde38eead6"
+                        "checksum": "ea837e78a9687ac861b64928e778aa7a"
                     },
                     {
                         "type": "file",
@@ -2081,7 +2081,7 @@
                     {
                         "type": "file",
                         "name": "sys-clk-overlay.ovl",
-                        "checksum": "6aa0599693d1ea8afc3f84c3f23b2cb0"
+                        "checksum": "54c56b92393bf21013d8855edc5916b9"
                     },
                     {
                         "type": "file",
