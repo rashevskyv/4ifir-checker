@@ -4,18 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/config/system_settings.ini",
-            "checksum": "aeac732769de3d5462e96a53d068ec05"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "ea837e78a9687ac861b64928e778aa7a"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/sys-clk-overlay.ovl",
-            "checksum": "54c56b92393bf21013d8855edc5916b9"
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "ddc9a0573ffc29c9a5230787c94bed68"
         }
     ]
 }
