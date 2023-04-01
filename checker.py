@@ -215,7 +215,7 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
 
     bot = Bot(token=bot_token)
     for part in blocks:
-        await bot.send_message(chat_id=chat_id, text=part, parse_mode=types.ParseMode.HTML)
+        await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
     await bot.close()
 
 # Variables
