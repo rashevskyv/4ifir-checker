@@ -280,7 +280,6 @@ def process_archive(archive):
         # Move the new checksums to the old checksums file
         os.replace(new_checksum_file, old_checksum_file)
     else:
-        save_status(status_file, status, filename)
         return False
         
     status["last_archive_modification"] = last_modified
