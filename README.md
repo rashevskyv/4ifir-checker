@@ -1,4 +1,4 @@
-<h2>Archive Comparison Report</h2><b>Last archive modification date:</b> 03.04.2023 04:25<hr>
+<h2>Archive Comparison Report for <b>4IFIR.zip</b></h2><b>Last archive modification date:</b> 03.04.2023 04:25<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
@@ -17,22 +17,21 @@ switch
 │ └─Status-Monitor-Overlay.ovl (118b91bb71f3bc90572e4c1f7f869155)
 │ └─sysdvr-overlay.ovl (7f53c919de4cb55ba4a9968a323ffd3b)
 </code>
+<hr>
+
+<h2>Archive Comparison Report for <b>ST6.zip</b></h2><b>Last archive modification date:</b> 31.03.2023 19:30<hr>
 
 <hr>
 
-<h2>Archive Comparison Report for <b>ST6.zip</b></h2><b>Last archive modification date:</b> 04.04.2023 18:36<hr>
+<h2>Archive Comparison Report for <b>ST6+.zip</b></h2><b>Last archive modification date:</b> 01.04.2023 14:18<hr>
 
 <hr>
 
-<h2>Archive Comparison Report for <b>ST6+.zip</b></h2><b>Last archive modification date:</b> 04.04.2023 18:36<hr>
+<h2>Archive Comparison Report for <b>aio.zip</b></h2><b>Last archive modification date:</b> 19.03.2023 16:17<hr>
 
 <hr>
 
-<h2>Archive Comparison Report for <b>aio.zip</b></h2><b>Last archive modification date:</b> 04.04.2023 18:36<hr>
-
-<hr>
-
-<h2>Archive Comparison Report for <b>4MODS.zip</b></h2><b>Last archive modification date:</b> 04.04.2023 18:36<hr>
+<h2>Archive Comparison Report for <b>4MODS.zip</b></h2><b>Last archive modification date:</b> 11.03.2023 16:04<hr>
 
 <hr>
 
