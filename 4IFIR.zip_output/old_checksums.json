@@ -56,7 +56,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "2d3828c88bb50d25d55071e883cc84ba"
+                                "checksum": "227c829597a0059045735678609e3c93"
                             },
                             {
                                 "type": "directory",
@@ -757,7 +757,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "2d094901d2f90aad88cdc7a0f97f960f"
+                "checksum": "0813747b804e6d5ec1707abdfa5f74dc"
             },
             {
                 "type": "directory",
@@ -1732,6 +1732,11 @@
                 "name": "flags",
                 "children": [
                     {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
                         "type": "directory",
                         "name": "ReverseNX",
                         "children": [
@@ -1878,6 +1883,17 @@
                                     },
                                     {
                                         "type": "directory",
+                                        "name": "010010F01418E000",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "49CF6B0B0A62F9E2.yaml",
+                                                "checksum": "5575ec2ef0b0ed729061b5d71aa53cf5"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "directory",
                                         "name": "010019C00E9CC000",
                                         "children": [
                                             {
@@ -1894,7 +1910,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "4FFB62F1CD9E17F8.yaml",
-                                                "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                                "checksum": "ac0c3eca3b21fde98ac0260708a4fe54"
                                             }
                                         ]
                                     },
@@ -1927,7 +1943,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "B76CD24AF02ACEA2.yaml",
-                                                "checksum": "a2c3945eaf24fdf68c4f15d33f71ccfe"
+                                                "checksum": "83917f4ffcc3d775d6eef9058152c147"
                                             }
                                         ]
                                     },
@@ -1944,6 +1960,17 @@
                                     },
                                     {
                                         "type": "directory",
+                                        "name": "0100830004FB6000",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "40F973CE3B5EC8D7.yaml",
+                                                "checksum": "dccb76b50969b55047e107c675f2c9f3"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "directory",
                                         "name": "010085500E9D0000",
                                         "children": [
                                             {
@@ -1955,12 +1982,34 @@
                                     },
                                     {
                                         "type": "directory",
+                                        "name": "0100906014C3C000",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "EAB1DC1D53E319F9.yaml",
+                                                "checksum": "b14f5ad8a6543d765b853fd89879bec0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "directory",
                                         "name": "0100A0800E9C4000",
                                         "children": [
                                             {
                                                 "type": "file",
                                                 "name": "4FFB62F1CD9E17F8.yaml",
                                                 "checksum": "816e37f6b7bcf26cb1229ee1728797d2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "directory",
+                                        "name": "0100AD0014AB4000",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "AC8C8EC9DB1A8EF4.yaml",
+                                                "checksum": "7697ded5860976d78db7b6bcaaa71b06"
                                             }
                                         ]
                                     },
@@ -1993,7 +2042,12 @@
                                             {
                                                 "type": "file",
                                                 "name": "2AA7F33234696651.yaml",
-                                                "checksum": "c7e27835ac666408871e29ff5bbbf645"
+                                                "checksum": "50f9258bc513c4b069f3a7dc9e207690"
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "F7C20294EFF7E6FA.yaml",
+                                                "checksum": "c025f02615c9d29fbfddb9c129da16af"
                                             }
                                         ]
                                     }
@@ -2004,7 +2058,7 @@
                     {
                         "type": "file",
                         "name": "NX-FPS.elf",
-                        "checksum": "3b221026ea7f9fec700de07a712287bf"
+                        "checksum": "e498b52ac1df38f10047dbde1618f80b"
                     },
                     {
                         "type": "file",
@@ -2017,6 +2071,11 @@
                 "type": "file",
                 "name": "ReverseNX-RT.hex",
                 "checksum": "59aff1d106c582bbfb49228d8a968977"
+            },
+            {
+                "type": "file",
+                "name": "saltysd.log",
+                "checksum": "454fcb7ee8d903c0d1bc8ba65c6ca27c"
             },
             {
                 "type": "file",
@@ -2036,57 +2095,141 @@
                     {
                         "type": "file",
                         "name": "Fizeau.ovl",
-                        "checksum": "4dc4696417afeaef584bc57fc469a19c"
+                        "checksum": "ed8d9414536b9944a2f6be7c9ac47e51"
                     },
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "b212fdf1cdbfa3285524dd56c811d9ab"
+                        "checksum": "4878d240aecb6c905ebf7c3ec95edbb2"
                     },
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "59b1bb7d3a08883c13632621280f0e42"
+                        "checksum": "d74eda57629f9db6c646a0bdfa4e57df"
+                    },
+                    {
+                        "type": "directory",
+                        "name": "lang",
+                        "children": [
+                            {
+                                "type": "directory",
+                                "name": "Fizeau",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "en.json",
+                                        "checksum": "9308030fa6b7a5e135628ce5d9c6d3bf"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "ru.json",
+                                        "checksum": "0a0c4c6933b47197e6b04fbf12fcabcd"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hans.json",
+                                        "checksum": "fcef97a0fd81d9c80f720085cfe4f483"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hant.json",
+                                        "checksum": "a3f23ce8f47d45968e31556495972836"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "directory",
+                                "name": "StatusMonitor",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "en.json",
+                                        "checksum": "664793253b005dad428e58f4c01fb848"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "ru.json",
+                                        "checksum": "a03a9f0d5f26ee272554a96bdae91a81"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hans.json",
+                                        "checksum": "d174c6fb8fad86848fb986829165f777"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hant.json",
+                                        "checksum": "b5f5544e52319526c66c95530389bbc7"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "directory",
+                                "name": "Tesla-Menu",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "en.json",
+                                        "checksum": "10befe364d49d850c788dcf10ffda966"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "ru.json",
+                                        "checksum": "1eea3892d90f252a552a4902b7122e15"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hans.json",
+                                        "checksum": "f7b3a27da63c768cf887cae37361fa4e"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hant.json",
+                                        "checksum": "480b8d6f2d1da140b733052b52d44643"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "type": "file",
                         "name": "ovlEdiZon.ovl",
-                        "checksum": "445c5342759ef3426a454a7eac0c5a70"
+                        "checksum": "c60965cbe1b5002fcdee8b7daee6c12d"
                     },
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "ea837e78a9687ac861b64928e778aa7a"
+                        "checksum": "cb5707f46f70235cd47a8488d933e6cf"
                     },
                     {
                         "type": "file",
                         "name": "ovlSysmodules.ovl",
-                        "checksum": "148d490914d41ee67d6c2ad0823d5f4c"
+                        "checksum": "449f5e8e263d355df9494ce83281ce4b"
                     },
                     {
                         "type": "file",
                         "name": "QuickNTP.ovl",
-                        "checksum": "34469653ba9074e71828a184198049ef"
+                        "checksum": "3769c3aa661d146d2df67cf5b6cc75ec"
                     },
                     {
                         "type": "file",
                         "name": "ReverseNX-RT-ovl.ovl",
-                        "checksum": "3a4ce4754ebc27ee6fe0a8404b6b6808"
+                        "checksum": "c0be8b41d42570113483420ab641732d"
                     },
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "6812709967af0e647d9493b98e625bdf"
+                        "checksum": "118b91bb71f3bc90572e4c1f7f869155"
                     },
                     {
                         "type": "file",
                         "name": "sys-clk-overlay.ovl",
-                        "checksum": "54c56b92393bf21013d8855edc5916b9"
+                        "checksum": "f573f8ddd98c450b375d4ce88249089b"
                     },
                     {
                         "type": "file",
                         "name": "sysdvr-overlay.ovl",
-                        "checksum": "318d3d0b1aa946239a9fca0b7bc819db"
+                        "checksum": "7f53c919de4cb55ba4a9968a323ffd3b"
                     }
                 ]
             },

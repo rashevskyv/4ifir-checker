@@ -9,7 +9,16 @@ from telegram import Bot
 from aiogram import Bot, types
 import asyncio
 
-# Get last modified date of the file from URL
+# Load configuration from a file
+def load_config(file):
+    try:
+        with open(file, 'r') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError) as e:
+        print(f'Error loading config file {file}:', e)
+        sys.exit(1)
+
+# Get the last modified date of the file from the URL
 def get_last_modified(url):
     try:
         head_response = requests.head(url)
@@ -23,7 +32,7 @@ def get_last_modified(url):
         print('Error:', e)
         sys.exit(1)
 
-# Download file from URL
+# Download a file from a URL
 def download_file(url, output_path):
     response = requests.get(url)
     if response.status_code == 200:
@@ -34,10 +43,10 @@ def download_file(url, output_path):
         print('Error downloading archive:', response.status_code)
 
 # Save the status of the script to a JSON file
-def save_status(status_file, status):
+def save_status(status_file, status, archive_filename):
     with open(status_file, 'w') as f:
         json.dump(status, f, indent=4)
-        print('Script status saved to', status_file)
+        print(f'Script status for {archive_filename} saved to', status_file)
 
 # Build tree structure and add the item to the tree
 def build_tree(path, contents):
@@ -90,8 +99,8 @@ def compare_checksums(old_checksums, new_checksums):
     result = {"added": [], "removed": [], "modified": []}
 
     def compare_directories(old_dir, new_dir, path=""):
-        old_files = {item["name"]: item for item in old_dir}
-        new_files = {item["name"]: item for item in new_dir}
+        old_files = {item["name"]: item for item in old_dir if "name" in item}
+        new_files = {item["name"]: item for item in new_dir if "name" in item}
 
         for name, new_item in new_files.items():
             if name not in old_files:
@@ -140,9 +149,9 @@ def process_items(items, indent_level=1):
 
     return folder_tree
 
-def create_html_report(results, last_modified):
+def create_html_report(results, last_modified, archive_filename):
     report_content = ''
-    report_content += '<h2>Archive Comparison Report</h2>'
+    report_content += f'<h2>Archive Comparison Report for <b>{archive_filename}</b></h2>'
 
     # formatted_execution_date = datetime.fromisoformat(execution_date).strftime('%d.%m.%Y %H:%M')
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
@@ -218,87 +227,110 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
         await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
     await bot.close()
 
-# Variables
-# url = 'http://127.0.0.1/4IFIR.zip'
-url = 'https://sintez.io/4IFIR.zip'
-filename = '4IFIR.zip'
-output_dir = ''
-downld_file = os.path.join(output_dir, filename)
-status_file = os.path.join(output_dir, 'status.json')
-old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
-new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
-TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
-YOUR_CHAT_ID = '-1001277664260'
-TOPIC_ID='98339'
-# TOPIC_ID=''
-modified=0
+def process_archive(archive):
+    url = archive["url"]
+    filename = archive["filename"]
+    output_dir = filename+'_output'
+    if not os.path.isdir(output_dir):
+        os.makedirs(output_dir)
+    downld_file = os.path.join(output_dir, filename)
+    status_file = os.path.join(output_dir, 'status.json')
+    old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
+    new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
+    comparison_results_file = os.path.join(output_dir, 'comparison_results.json')
 
-# Load the status file
-try:
-    with open(status_file, 'r') as f:
-        status = json.load(f)
-except (json.JSONDecodeError, FileNotFoundError) as e:
-    print('No status file found, creating a new one.')
-    status = {
-        "last_execution": None,
-        "last_archive_modification": None,
-    }
+    # Load the status file
+    try:
+        with open(status_file, 'r') as f:
+            status = json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError) as e:
+        print('No status file found, creating a new one.')
+        status = {}
 
-# Check if the archive has been modified
-last_modified = get_last_modified(url)
+    # Check if the archive has been modified
+    last_modified = get_last_modified(url)
+    status["last_execution"] = datetime.now().isoformat()
 
-if os.path.exists(os.path.join(output_dir, 'comparison_results.json')):
-        with open(os.path.join(output_dir, 'comparison_results.json'), 'r') as f:
+    if os.path.exists(comparison_results_file):
+            with open(comparison_results_file, 'r') as f:
+                comparison_results = json.load(f)
+    else: 
+        comparison_results = {"added": [], "removed": [], "modified": []}
+
+    if status.get("last_archive_modification") != last_modified:
+        download_file(url, downld_file)
+
+        # Build the tree structure and calculate checksums
+        new_checksums = build_tree_and_save_checksums(downld_file)
+
+        # Compare with the previous checksums if they exist
+        if os.path.exists(old_checksum_file):
+            with open(old_checksum_file, 'r') as f:
+                old_checksums = json.load(f)
+
+            comparison_results = compare_checksums(old_checksums, new_checksums)
+
+            # Save the comparison results to a file
+            save_comparison_results(comparison_results, comparison_results_file)
+
+        # Save the new checksums
+        with open(new_checksum_file, 'w') as f:
+            json.dump(new_checksums, f, indent=4)
+
+        # Move the new checksums to the old checksums file
+        os.replace(new_checksum_file, old_checksum_file)
+    else:
+        save_status(status_file, status, filename)
+        return False
+        
+    status["last_archive_modification"] = last_modified
+    save_status(status_file, status, filename)
+    return True
+
+# Load the configuration from external file
+archives = load_config('archives.json')
+settings = load_config('settings.json')
+# archives = load_config('test_archives.json')
+# settings = load_config('test_settings.json')
+
+TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN'] if settings['TELEGRAM_BOT_TOKEN'] == "os.environ['TELEGRAM_BOT_TOKEN']" else settings['TELEGRAM_BOT_TOKEN']
+YOUR_CHAT_ID = settings['YOUR_CHAT_ID']
+TOPIC_ID = settings['TOPIC_ID']
+report_file = 'README.md'
+html_report_content = ''
+
+for archive in archives:
+    if (process_archive(archive)):
+        print(f"Archive {archive['filename']} processed.")
+        telegram=1
+    else: 
+        print("No changes detected in the archive since the last execution.")
+        telegram=0
+
+    archive_output_dir = os.path.join(archive["filename"]+'_output')
+    comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
+    status_file = os.path.join(archive_output_dir, 'status.json')
+
+    if os.path.exists(status_file): 
+        with open(status_file, 'r') as f:
+            status = json.load(f)
+
+    if os.path.exists(comparison_results_file):
+        with open(comparison_results_file, 'r') as f:
             comparison_results = json.load(f)
-else: 
-    comparison_results = {"added": [], "removed": [], "modified": []}
 
-if status.get("last_archive_modification") != last_modified:
-    # Download the archive
-    download_file(url, downld_file)
+        last_modified = status["last_archive_modification"]
+        result = create_html_report(comparison_results, last_modified, archive["filename"])
 
-    # Build the tree structure and calculate checksums
-    new_checksums = build_tree_and_save_checksums(downld_file)
+        if (telegram):
+            asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result))
+            print("Report sent to Telegram.")
 
-    # Compare with the previous checksums if they exist
-    if os.path.exists(old_checksum_file):
-        with open(old_checksum_file, 'r') as f:
-            old_checksums = json.load(f)
+        html_report_content += result
+        html_report_content += '<hr>\n\n'
 
-        comparison_results = compare_checksums(old_checksums, new_checksums)
-
-        # Save the comparison results to a file
-        result_file = os.path.join(output_dir, 'comparison_results.json')
-        save_comparison_results(comparison_results, result_file)
-
-    # Save the new checksums
-    with open(new_checksum_file, 'w') as f:
-        json.dump(new_checksums, f, indent=4)
-
-    # Move the new checksums to the old checksums file
-    os.replace(new_checksum_file, old_checksum_file)
-
-    modified=1
-else:
-    print("No changes detected in the archive since the last execution.")
-
-# status["last_execution"] = datetime.now().isoformat()
-status["last_archive_modification"] = last_modified
-save_status(status_file, status)
-
-# Create Markdown report
-report_file = os.path.join(output_dir, 'README.md')
-html_report_content = create_html_report(comparison_results, last_modified)
-
-# Записываем содержимое отчета в файл README.md
+# Write the report to a README.md file
 with open(report_file, 'w', encoding='utf-8') as f:
     f.write(html_report_content)
 
-# Если есть изменения, отправляем содержимое отчета в Telegram
-if (modified):
-    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, html_report_content))
-    print("Report sent to Telegram.")
-else:
-    print("No changes to report.")
-
-print("Script finished.")
+print("All archives processed.")

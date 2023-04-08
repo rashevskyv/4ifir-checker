@@ -1,0 +1,19 @@
+[
+    {
+        "type": "directory",
+        "name": "atmosphere",
+        "children": [
+            {
+                "type": "directory",
+                "name": "kips",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "loader.kip",
+                        "checksum": "8fa316cb859772ad4f4b259050d2a20d"
+                    }
+                ]
+            }
+        ]
+    }
+]

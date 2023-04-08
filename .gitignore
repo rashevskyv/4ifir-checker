@@ -5,6 +5,6 @@ download
 tmp
 /checksums.json
 /report.md
-/4IFIR.zip
+*.zip
 /test_settings.json
 /test_archives.json

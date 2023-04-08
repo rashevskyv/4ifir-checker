@@ -1,0 +1,60 @@
+[
+    {
+        "type": "directory",
+        "name": "atmosphere",
+        "children": [
+            {
+                "type": "directory",
+                "name": "contents",
+                "children": [
+                    {
+                        "type": "directory",
+                        "name": "0100416004C00000",
+                        "children": [
+                            {
+                                "type": "directory",
+                                "name": "romfs",
+                                "children": [
+                                    {
+                                        "type": "directory",
+                                        "name": "base",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "default.cfg",
+                                                "checksum": "e4dd57e07e4846896f8077e12f82d750"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "directory",
+                        "name": "0100B1A00D8CE000",
+                        "children": [
+                            {
+                                "type": "directory",
+                                "name": "romfs",
+                                "children": [
+                                    {
+                                        "type": "directory",
+                                        "name": "base",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "default.cfg",
+                                                "checksum": "0cc5bf0b8c7ef17c35a3956e7dbc09e1"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
