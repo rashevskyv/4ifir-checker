@@ -254,7 +254,7 @@ def process_archive(archive):
     output_dir = filename+'_output'
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
-    downld_file = os.path.join(output_dir, filename)
+    downld_file = os.path.join(output_dir, filename + '.zip')
     status_file = os.path.join(output_dir, 'status.json')
     old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
     new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
@@ -311,7 +311,6 @@ aio_zip_url = "https://sintez.io/aio.zip"
 aio_zip_path = "aio.zip"
 custom_packs_path = "custom_packs.json"
 file_to_extract = "config/aio-switch-updater/custom_packs.json"
-output_folder = "output"
 
 download_file(aio_zip_url, aio_zip_path)
 extract_file_from_zip(aio_zip_path, file_to_extract, custom_packs_path)
@@ -345,7 +344,7 @@ for archive in archives:
         print("No changes detected in the archive since the last execution.")
         telegram=0
 
-    archive_output_dir = os.path.join(output_folder + os.path.join(archive["filename"]+'_output'))
+    archive_output_dir = os.path.join(archive["filename"]+'_output')
     comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
     status_file = os.path.join(archive_output_dir, 'status.json')
 
