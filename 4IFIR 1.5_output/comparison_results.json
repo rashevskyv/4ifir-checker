@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
-            "checksum": "80bc66743a41ac763e4ad2a5c6203266"
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "0b1c9be35002c83745039acd24c585cb"
         }
     ]
 }
