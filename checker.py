@@ -8,6 +8,7 @@ import sys
 from telegram import Bot
 from aiogram import Bot, types
 import asyncio
+import shutil
 
 # Load configuration from a file
 def load_config(file):
@@ -17,6 +18,16 @@ def load_config(file):
     except (json.JSONDecodeError, FileNotFoundError) as e:
         print(f'Error loading config file {file}:', e)
         sys.exit(1)
+
+# Remove directories that are not present in custom_packs
+def remove_unlisted_directories(custom_packs, output_parent_dir):
+    pack_directories = [pack_name + '_output' for pack_name in custom_packs]
+
+    for entry in os.listdir(output_parent_dir):
+        entry_path = os.path.join(output_parent_dir, entry)
+        if os.path.isdir(entry_path) and entry.endswith('_output') and entry not in pack_directories:
+            shutil.rmtree(entry_path)
+            print(f"Removed directory: {entry}")
 
 # Get the last modified date of the file from the URL
 def get_last_modified(url):
@@ -31,6 +42,16 @@ def get_last_modified(url):
     except requests.exceptions.RequestException as e:
         print('Error:', e)
         sys.exit(1)
+
+def extract_file_from_zip(zip_path, file_to_extract, output_path):
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        try:
+            with zip_ref.open(file_to_extract, 'r') as file:
+                with open(output_path, 'wb') as output_file:
+                    output_file.write(file.read())
+        except KeyError:
+            print(f"Error: {file_to_extract} not found in {zip_path}")
+            sys.exit(1)
 
 # Download a file from a URL
 def download_file(url, output_path):
@@ -286,8 +307,26 @@ def process_archive(archive):
     save_status(status_file, status, filename)
     return True
 
+aio_zip_url = "https://sintez.io/aio.zip"
+aio_zip_path = "aio.zip"
+custom_packs_path = "custom_packs.json"
+file_to_extract = "config/aio-switch-updater/custom_packs.json"
+output_folder = "output"
+
+download_file(aio_zip_url, aio_zip_path)
+extract_file_from_zip(aio_zip_path, file_to_extract, custom_packs_path)
+
+with open(custom_packs_path, 'r') as f:
+    custom_packs_dict = json.load(f)
+
+archives = []
+for category, packs in custom_packs_dict.items():
+    for pack_name, pack_url in packs.items():
+        archives.append({"filename": pack_name, "url": pack_url})
+
 # Load the configuration from external file
-archives = load_config('archives.json')
+
+archives = archives
 settings = load_config('settings.json')
 # archives = load_config('test_archives.json')
 # settings = load_config('test_settings.json')
@@ -306,7 +345,7 @@ for archive in archives:
         print("No changes detected in the archive since the last execution.")
         telegram=0
 
-    archive_output_dir = os.path.join(archive["filename"]+'_output')
+    archive_output_dir = os.path.join(output_folder + os.path.join(archive["filename"]+'_output'))
     comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
     status_file = os.path.join(archive_output_dir, 'status.json')
 
@@ -333,3 +372,10 @@ with open(report_file, 'w', encoding='utf-8') as f:
     f.write(html_report_content)
 
 print("All archives processed.")
+
+custom_pack_names = []
+for category, packs in custom_packs_dict.items():
+    for pack_name, _ in packs.items():
+        custom_pack_names.append(pack_name)
+
+remove_unlisted_directories(custom_pack_names, ".")
