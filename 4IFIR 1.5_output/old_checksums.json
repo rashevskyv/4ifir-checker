@@ -2731,17 +2731,6 @@
                 ]
             },
             {
-                "type": "directory",
-                "name": "daybreak",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "daybreak.nro",
-                        "checksum": "7ad1feb9a1b81c5d42fd56ed7f17c3bc"
-                    }
-                ]
-            },
-            {
                 "type": "file",
                 "name": "daybreak.nro",
                 "checksum": "09e8cb7fbd64a43e5465a5ab66ea12b2"
