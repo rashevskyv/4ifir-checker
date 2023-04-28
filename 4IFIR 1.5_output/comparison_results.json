@@ -4,8 +4,63 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "94d1e546895832769d0b310677da1679"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "953e460fe20db91d58cdeb18fd3ceb7f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "ebfb5dc0ca53f3578928162b5c0dc621"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/emummc.kipm",
+            "checksum": "57d6cd3d47548b7a615c24a710d0a34a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/l4t/mtc_tbl_b01.bin",
+            "checksum": "56a64b26e1152868f8b0054b47c8b61d"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "e156fbf1193dbc2d97b6e9b0b0fb1088"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "694eb0686854b95e2adb9a748486b219"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "285860487513857b53b2f656daa77943"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "f9c0a86485e11e1e7896a3739be2d017"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "10a5880878a8438ace9260f5b466bef0"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "10a5880878a8438ace9260f5b466bef0"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "6c3221f2066dc928c6bb85b0800bd5a7"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "8af0301a86c7a271755d13563d07e8db"
         }
     ]
 }

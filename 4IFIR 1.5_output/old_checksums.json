@@ -562,7 +562,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "45713ef0c204d30b34470c18aec7423a"
+                        "checksum": "953e460fe20db91d58cdeb18fd3ceb7f"
                     }
                 ]
             },
@@ -1228,7 +1228,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "71f0b81487dc9c035f722ebe2d91a4cc"
+                "checksum": "ebfb5dc0ca53f3578928162b5c0dc621"
             },
             {
                 "type": "file",
@@ -1335,7 +1335,7 @@
                     {
                         "type": "file",
                         "name": "emummc.kipm",
-                        "checksum": "f096191a88cdb573d1f8b9bf12175f73"
+                        "checksum": "57d6cd3d47548b7a615c24a710d0a34a"
                     },
                     {
                         "type": "directory",
@@ -1349,7 +1349,7 @@
                             {
                                 "type": "file",
                                 "name": "mtc_tbl_b01.bin",
-                                "checksum": "f7a32a40d2633dec6e7574a07441034f"
+                                "checksum": "56a64b26e1152868f8b0054b47c8b61d"
                             },
                             {
                                 "type": "file",
@@ -1371,22 +1371,22 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "dc891d0a02a105e67b63941c80f16e47"
+                        "checksum": "e156fbf1193dbc2d97b6e9b0b0fb1088"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "5d5f0df35eea207bef1dd2a195178179"
+                        "checksum": "694eb0686854b95e2adb9a748486b219"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "7950b44043594e4933ce48158b56d27e"
+                        "checksum": "285860487513857b53b2f656daa77943"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "8f429ea421ff1d33876320a5a3ec1bd1"
+                        "checksum": "f9c0a86485e11e1e7896a3739be2d017"
                     },
                     {
                         "type": "file",
@@ -1403,7 +1403,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "c10eb80828d85e715ee0e0d96be0a0d5"
+                "checksum": "10a5880878a8438ace9260f5b466bef0"
             }
         ]
     },
@@ -1484,7 +1484,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "c10eb80828d85e715ee0e0d96be0a0d5"
+        "checksum": "10a5880878a8438ace9260f5b466bef0"
     },
     {
         "type": "directory",
@@ -2612,7 +2612,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "7ee4606fb4ce0f5bba9b1fe9d04d6047"
+                        "checksum": "6c3221f2066dc928c6bb85b0800bd5a7"
                     },
                     {
                         "type": "file",
@@ -2622,7 +2622,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "541975c4ae2e6437b7876bb873d43436"
+                        "checksum": "8af0301a86c7a271755d13563d07e8db"
                     },
                     {
                         "type": "file",
