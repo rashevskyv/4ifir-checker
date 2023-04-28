@@ -4,29 +4,13 @@
         "name": "atmosphere",
         "children": [
             {
-                "type": "file",
-                "name": "package3",
-                "checksum": "c60f88c29784a563e3143b6f42fba4a4"
-            },
-            {
-                "type": "file",
-                "name": "stratosphere.romfs",
-                "checksum": "a31fefc3491e6555eaf3b25f245efaaf"
-            }
-        ]
-    },
-    {
-        "type": "directory",
-        "name": "bootloader",
-        "children": [
-            {
                 "type": "directory",
-                "name": "sys",
+                "name": "kips",
                 "children": [
                     {
                         "type": "file",
-                        "name": "libsys_minerva.bso",
-                        "checksum": "c06840142375714969771a9dac2d5a98"
+                        "name": "loader.kip",
+                        "checksum": "e9917d2f12f53aa401e2a9fa631a8e21"
                     }
                 ]
             }
