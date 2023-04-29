@@ -1,0 +1,11 @@
+{
+    "added": [],
+    "removed": [],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "25eea995a1a1560e4a203902500b5e55"
+        }
+    ]
+}
