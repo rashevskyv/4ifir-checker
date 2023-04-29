@@ -9,6 +9,8 @@ from telegram import Bot
 from aiogram import Bot, types
 import asyncio
 import shutil
+from aiogram import Bot, types
+from aiogram.types import InputFile
 
 # Load configuration from a file
 def load_config(file):
@@ -217,10 +219,20 @@ def create_html_report(results, last_modified, archive_filename):
             report_content += '</code>\n'  # Закрытие блока кода с помощью ```
     return report_content
 
-def split_html_content(content, max_length=4096, tag='<code>'):
+def split_html_content(content, max_length=4096, tag='<code>', delimiter='-------------------------------'):
     content_length = len(content)
     if content_length <= max_length:
-        return [content]
+        return content, []
+
+    # Извлекаем заголовок
+    header_end_index = content.find(delimiter)
+    print("header_end_index: ", header_end_index) 
+    if header_end_index != -1:
+        header = content[:header_end_index + len(delimiter)]
+        content = content[header_end_index + len(delimiter):]
+        content_length = len(content)
+    else:
+        header = ''
 
     blocks = []
     start_index = 0
@@ -235,18 +247,32 @@ def split_html_content(content, max_length=4096, tag='<code>'):
         blocks.append(content[start_index:end_index])
         start_index = end_index
 
-    return blocks
+    return header, blocks
 
-async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content):
+async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, file):
     # Generate the list of changes
     report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
 
-    blocks = split_html_content(report_content)
+    header, blocks = split_html_content(report_content)
+    print("header:", header)
 
     bot = Bot(token=bot_token)
+    
+    # Отправляем файл с описанием (header)
+    await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file, caption=header, parse_mode=types.ParseMode.HTML)
+
+    # Отправляем блоки содержимого
     for part in blocks:
         await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+    
     await bot.close()
+
+def process_archives():
+    archives = []
+    for category, packs in custom_packs_dict.items():
+        for pack_name, pack_url in packs.items():
+            archives.append({"filename": pack_name, "url": pack_url})
+    return archives
 
 def process_archive(archive):
     url = archive["url"]
@@ -308,6 +334,7 @@ def process_archive(archive):
     return True
 
 aio_zip_url = "https://sintez.io/aio.zip"
+# aio_zip_url = "http://127.0.0.1/aio.zip"
 aio_zip_path = "aio.zip"
 custom_packs_path = "custom_packs.json"
 file_to_extract = "config/aio-switch-updater/custom_packs.json"
@@ -318,14 +345,8 @@ extract_file_from_zip(aio_zip_path, file_to_extract, custom_packs_path)
 with open(custom_packs_path, 'r') as f:
     custom_packs_dict = json.load(f)
 
-archives = []
-for category, packs in custom_packs_dict.items():
-    for pack_name, pack_url in packs.items():
-        archives.append({"filename": pack_name, "url": pack_url})
-
 # Load the configuration from external file
-
-archives = archives
+archives = process_archives()
 settings = load_config('settings.json')
 # archives = load_config('test_archives.json')
 # settings = load_config('test_settings.json')
@@ -347,6 +368,7 @@ for archive in archives:
     archive_output_dir = os.path.join(archive["filename"]+'_output')
     comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
     status_file = os.path.join(archive_output_dir, 'status.json')
+    archive_file = os.path.join(archive_output_dir, archive["filename"] + '.zip')
 
     if os.path.exists(status_file): 
         with open(status_file, 'r') as f:
@@ -360,8 +382,10 @@ for archive in archives:
         result = create_html_report(comparison_results, last_modified, archive["filename"])
 
         if (telegram):
-            asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result))
-            print("Report sent to Telegram.")
+            with open(archive_file, 'rb') as file:
+                input_file = InputFile(file)
+                asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, input_file))
+                print("Report sent to Telegram.")
 
         html_report_content += result
         html_report_content += '<hr>\n\n'
