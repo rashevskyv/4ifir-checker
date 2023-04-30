@@ -29,13 +29,21 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 30.04.2023 00:39<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 30.04.2023 23:01<hr>
 
 <h3>Added files/folders</h3>
-<code>atmosphere
-├─contents
-│ └─01009EE0111CC000
-SaltySD
+<code>SaltySD
+└─plugins
+│ └─FPSLocker
+│ │ └─patches
+│ │ │ └─0100154019A7C000
+│ │ │ └─01002C0015644000
+│ │ │ └─010042D00D900000
+│ │ │ └─0100500012AB4000
+│ │ │ └─010060700AC50000
+│ │ │ └─0100DC301186A000
+│ │ │ └─0100F4F014108000
+│ │ │ └─0100FD101186C000
 </code>
 <hr>
 
