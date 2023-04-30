@@ -29,6 +29,16 @@ switch
 </code>
 <hr>
 
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 30.04.2023 00:39<hr>
+
+<h3>Added files/folders</h3>
+<code>atmosphere
+├─contents
+│ └─01009EE0111CC000
+SaltySD
+</code>
+<hr>
+
 <h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 29.04.2023 22:09<hr>
 
 <h3>Modified files</h3>
