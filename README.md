@@ -1,13 +1,14 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 29.04.2023 01:45<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 01.05.2023 00:43<hr>
 
+<h3>Removed files/folders</h3>
+<code>switch
+└─haze.nro (bd256c9a9d61af5ec94aa3844005b5f5)
+└─reboot_to_payload.nro (b12a74bdbdfc2b28128e040a6198f97c)
+</code>
 <h3>Modified files</h3>
-<code>atmosphere
-├─kips
-│ ├─loader.kip (e8838977e75aa0977216b5ad55d5153b)
-├─package3 (ab533819e064c21e83f36e4c15b34413)
-switch
+<code>switch
 └─.overlays
-│ └─4IFIR.ovl (ddcfa42fd28cfea9059e33257140ac1d)
+│ └─ovlEdiZon.ovl (250ac4865e2c24b4702566f0d84939f8)
 </code>
 <hr>
 

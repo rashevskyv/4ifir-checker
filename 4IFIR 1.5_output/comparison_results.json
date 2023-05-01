@@ -1,21 +1,22 @@
 {
     "added": [],
-    "removed": [],
+    "removed": [
+        {
+            "type": "file",
+            "name": "switch/haze.nro",
+            "checksum": "bd256c9a9d61af5ec94aa3844005b5f5"
+        },
+        {
+            "type": "file",
+            "name": "switch/reboot_to_payload.nro",
+            "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
+        }
+    ],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "e8838977e75aa0977216b5ad55d5153b"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "ab533819e064c21e83f36e4c15b34413"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "ddcfa42fd28cfea9059e33257140ac1d"
+            "name": "switch/.overlays/ovlEdiZon.ovl",
+            "checksum": "250ac4865e2c24b4702566f0d84939f8"
         }
     ]
 }

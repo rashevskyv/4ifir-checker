@@ -2664,7 +2664,7 @@
                     {
                         "type": "file",
                         "name": "ovlEdiZon.ovl",
-                        "checksum": "c60965cbe1b5002fcdee8b7daee6c12d"
+                        "checksum": "250ac4865e2c24b4702566f0d84939f8"
                     },
                     {
                         "type": "file",
@@ -2761,16 +2761,6 @@
                         "checksum": "8b90c7bdacf6ef08e0267d94243d759f"
                     }
                 ]
-            },
-            {
-                "type": "file",
-                "name": "haze.nro",
-                "checksum": "bd256c9a9d61af5ec94aa3844005b5f5"
-            },
-            {
-                "type": "file",
-                "name": "reboot_to_payload.nro",
-                "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
             },
             {
                 "type": "file",
