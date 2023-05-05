@@ -2,89 +2,18 @@
     "added": [
         {
             "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/0100154019A7C000",
+            "name": "atmosphere/exefs_patches",
             "children": [
                 {
-                    "type": "file",
-                    "name": "BE2D1A84420113EC.yaml",
-                    "checksum": "82e8728d7f91000a087ea558d715b4be"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/01002C0015644000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "3A3C781930CB8201.yaml",
-                    "checksum": "ba8a21a7c679fd411ba77cebd488c560"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/010042D00D900000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "C6901CE5426C704A.yaml",
-                    "checksum": "d91691c985b0b5213501f14fd63cbd23"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/0100500012AB4000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "118AA7B71E824B3B.yaml",
-                    "checksum": "3a844f39286820f4e308089fb8e067d4"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/010060700AC50000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "E853C44FDF18B88F.yaml",
-                    "checksum": "cfbe6c73f1d36a5932a1dd4e94d5d04e"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/0100DC301186A000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "EE295EAAEA7D31E4.yaml",
-                    "checksum": "31091cb1cdbf2b5a4c8cd5a3b685e448"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/0100F4F014108000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "2284DFB25F387719.yaml",
-                    "checksum": "2ad1dfbf78354b72b5ea883fe0786fac"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/plugins/FPSLocker/patches/0100FD101186C000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "BF0088C59D7E97C0.yaml",
-                    "checksum": "7169d2737f4aace806d320c5040b752a"
+                    "type": "directory",
+                    "name": "60fpsV2",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "082CE09B06E33A123CB1E2770F5F9147709033DB.ips",
+                            "checksum": "b17738eefb15dcbf0d35d78f2db0b4a7"
+                        }
+                    ]
                 }
             ]
         }

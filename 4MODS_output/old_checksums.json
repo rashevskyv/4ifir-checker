@@ -89,6 +89,23 @@
                         ]
                     }
                 ]
+            },
+            {
+                "type": "directory",
+                "name": "exefs_patches",
+                "children": [
+                    {
+                        "type": "directory",
+                        "name": "60fpsV2",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "082CE09B06E33A123CB1E2770F5F9147709033DB.ips",
+                                "checksum": "b17738eefb15dcbf0d35d78f2db0b4a7"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
