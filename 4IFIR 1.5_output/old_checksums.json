@@ -191,7 +191,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "1739425394b391a0e23036d9cd4f51c7"
+                                "checksum": "102d695c2531638c7b3b033d6974db66"
                             },
                             {
                                 "type": "directory",
@@ -2612,7 +2612,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "ddcfa42fd28cfea9059e33257140ac1d"
+                        "checksum": "c0440770391744bfda065c6ffd9b3960"
                     },
                     {
                         "type": "file",
@@ -2622,17 +2622,33 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "8af0301a86c7a271755d13563d07e8db"
+                        "checksum": "9f0371721f191972f1f914a11c0ec861"
                     },
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "d74eda57629f9db6c646a0bdfa4e57df"
+                        "checksum": "5bd609b32322876a132aee5db176d43c"
                     },
                     {
                         "type": "directory",
                         "name": "lang",
                         "children": [
+                            {
+                                "type": "directory",
+                                "name": "EdiZon",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hans.json",
+                                        "checksum": "cec27b0c216ffaf80aaad98c5ebf326a"
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "zh-Hant.json",
+                                        "checksum": "db8a864d8e0b3e3dd2cdbeae67c4275d"
+                                    }
+                                ]
+                            },
                             {
                                 "type": "directory",
                                 "name": "Fizeau",
@@ -2664,12 +2680,12 @@
                     {
                         "type": "file",
                         "name": "ovlEdiZon.ovl",
-                        "checksum": "250ac4865e2c24b4702566f0d84939f8"
+                        "checksum": "5cf1587d568d8fb47d200c198396ab06"
                     },
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "cb5707f46f70235cd47a8488d933e6cf"
+                        "checksum": "edb88862cab566af649f1da98f9aeb93"
                     },
                     {
                         "type": "file",
@@ -2684,12 +2700,12 @@
                     {
                         "type": "file",
                         "name": "ReverseNX-RT-ovl.ovl",
-                        "checksum": "80bc66743a41ac763e4ad2a5c6203266"
+                        "checksum": "0be211a926391efde9052b26c52f35ce"
                     },
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "94d1e546895832769d0b310677da1679"
+                        "checksum": "338d7e14810f1fbf640317536bbe32ae"
                     },
                     {
                         "type": "file",

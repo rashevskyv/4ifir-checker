@@ -1,22 +1,63 @@
 {
-    "added": [],
-    "removed": [
+    "added": [
         {
-            "type": "file",
-            "name": "switch/haze.nro",
-            "checksum": "bd256c9a9d61af5ec94aa3844005b5f5"
-        },
-        {
-            "type": "file",
-            "name": "switch/reboot_to_payload.nro",
-            "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
+            "type": "directory",
+            "name": "switch/.overlays/lang/EdiZon",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "zh-Hans.json",
+                    "checksum": "cec27b0c216ffaf80aaad98c5ebf326a"
+                },
+                {
+                    "type": "file",
+                    "name": "zh-Hant.json",
+                    "checksum": "db8a864d8e0b3e3dd2cdbeae67c4275d"
+                }
+            ]
         }
     ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "102d695c2531638c7b3b033d6974db66"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "c0440770391744bfda065c6ffd9b3960"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "9f0371721f191972f1f914a11c0ec861"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "5bd609b32322876a132aee5db176d43c"
+        },
+        {
+            "type": "file",
             "name": "switch/.overlays/ovlEdiZon.ovl",
-            "checksum": "250ac4865e2c24b4702566f0d84939f8"
+            "checksum": "5cf1587d568d8fb47d200c198396ab06"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "edb88862cab566af649f1da98f9aeb93"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
+            "checksum": "0be211a926391efde9052b26c52f35ce"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "338d7e14810f1fbf640317536bbe32ae"
         }
     ]
 }

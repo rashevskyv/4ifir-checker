@@ -1,14 +1,25 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 01.05.2023 00:43<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 06.05.2023 14:26<hr>
 
-<h3>Removed files/folders</h3>
-<code>switch
-└─haze.nro (bd256c9a9d61af5ec94aa3844005b5f5)
-└─reboot_to_payload.nro (b12a74bdbdfc2b28128e040a6198f97c)
-</code>
-<h3>Modified files</h3>
+<h3>Added files/folders</h3>
 <code>switch
 └─.overlays
-│ └─ovlEdiZon.ovl (250ac4865e2c24b4702566f0d84939f8)
+│ └─lang
+│ │ └─EdiZon
+</code>
+<h3>Modified files</h3>
+<code>atmosphere
+├─contents
+│ └─420000000007E51A
+│ │ └─exefs.nsp (102d695c2531638c7b3b033d6974db66)
+switch
+└─.overlays
+│ └─4IFIR.ovl (c0440770391744bfda065c6ffd9b3960)
+│ └─FPSLocker.ovl (9f0371721f191972f1f914a11c0ec861)
+│ └─InfoNX-ovl.ovl (5bd609b32322876a132aee5db176d43c)
+│ └─ovlEdiZon.ovl (5cf1587d568d8fb47d200c198396ab06)
+│ └─ovlmenu.ovl (edb88862cab566af649f1da98f9aeb93)
+│ └─ReverseNX-RT-ovl.ovl (0be211a926391efde9052b26c52f35ce)
+│ └─Status-Monitor-Overlay.ovl (338d7e14810f1fbf640317536bbe32ae)
 </code>
 <hr>
 
@@ -30,11 +41,12 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 05.05.2023 17:10<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 05.05.2023 19:33<hr>
 
 <h3>Added files/folders</h3>
 <code>atmosphere
 └─exefs_patches
+│ └─60FPSv2-1.1.0
 </code>
 <hr>
 
