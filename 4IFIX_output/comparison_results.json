@@ -1,5 +1,6 @@
 {
-    "added": [
+    "added": [],
+    "removed": [
         {
             "type": "directory",
             "name": "atmosphere/exefs_patches",
@@ -29,6 +30,5 @@
             ]
         }
     ],
-    "removed": [],
     "modified": []
 }

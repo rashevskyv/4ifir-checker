@@ -38,9 +38,9 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 05.05.2023 19:34<hr>
+<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 06.05.2023 13:10<hr>
 
-<h3>Added files/folders</h3>
+<h3>Removed files/folders</h3>
 <code>atmosphere
 └─exefs_patches
 </code>
