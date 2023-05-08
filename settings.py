@@ -19,8 +19,8 @@ file_to_extract = "config/aio-switch-updater/custom_packs.json"
 
 # Load the configuration from external file
 
-# settings = load_config('settings.json')
-settings = load_config('test_settings.json')
+settings = load_config('settings.json')
+# settings = load_config('test_settings.json')
 
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN'] if settings['TELEGRAM_BOT_TOKEN'] == "os.environ['TELEGRAM_BOT_TOKEN']" else settings['TELEGRAM_BOT_TOKEN']
 YOUR_CHAT_ID = settings['YOUR_CHAT_ID']
