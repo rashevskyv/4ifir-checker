@@ -41,11 +41,52 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 05.05.2023 19:33<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 08.05.2023 16:31<hr>
 
 <h3>Added files/folders</h3>
 <code>atmosphere
+├─contents
+│ ├─010092A0172E4000
+│ ├─0100BF500207C000
+├─exefs_patches
+│ └─60fps-v3
+SaltySD
+└─plugins
+│ └─FPSLocker
+│ │ └─patches
+│ │ │ └─010015F018C3C000
+│ │ │ └─01001890167FE000
+│ │ │ └─01001A9018560000
+│ │ │ └─01001CF0190C2000
+│ │ │ └─01002A501869E000
+│ │ │ └─01002B00111A2000
+│ │ │ └─01002C400E526000
+│ │ │ └─0100309016E7A000
+│ │ │ └─01003980174BC000
+│ │ │ └─010044500CF8E000
+│ │ │ └─010046000EE40000
+│ │ │ └─010049B017774000
+│ │ │ └─010051C0134F8000
+│ │ │ └─0100521017B2A000
+│ │ │ └─01006C300E9F0000
+│ │ │ └─010073401175E000
+│ │ │ └─010092A0172E4000
+│ │ │ └─0100956016464000
+│ │ │ └─01009E701356A000
+│ │ │ └─01009F8017F48000
+│ │ │ └─0100A55019C38000
+│ │ │ └─0100A8B00F0B4000
+│ │ │ └─0100A93016BF4000
+│ │ │ └─0100AA60136D2000
+│ │ │ └─0100B2B00E7AA000
+│ │ │ └─0100BF500207C000
+│ │ │ └─0100CA800F9B2000
+│ │ │ └─0100F8F014190000
+</code>
+<h3>Removed files/folders</h3>
+<code>atmosphere
 └─exefs_patches
+│ └─60fpsV2
 │ └─60FPSv2-1.1.0
 </code>
 <hr>
