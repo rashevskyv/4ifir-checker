@@ -8,3 +8,4 @@ tmp
 *.zip
 /test_settings.json
 /test_archives.json
+/__pycache__
