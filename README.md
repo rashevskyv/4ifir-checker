@@ -91,11 +91,12 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 06.05.2023 13:10<hr>
+<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 09.05.2023 02:25<hr>
 
-<h3>Removed files/folders</h3>
+<h3>Modified files</h3>
 <code>atmosphere
-└─exefs_patches
+└─kips
+│ └─loader.kip (34f7eae5dd2441aafed47cb98d86c6cb)
 </code>
 <hr>
 

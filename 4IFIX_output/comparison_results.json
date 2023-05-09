@@ -1,34 +1,11 @@
 {
     "added": [],
-    "removed": [
+    "removed": [],
+    "modified": [
         {
-            "type": "directory",
-            "name": "atmosphere/exefs_patches",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "60fpsV2",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "082CE09B06E33A123CB1E2770F5F9147709033DB.ips",
-                            "checksum": "b17738eefb15dcbf0d35d78f2db0b4a7"
-                        }
-                    ]
-                },
-                {
-                    "type": "directory",
-                    "name": "60FPSv2-1.1.0",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3.ips",
-                            "checksum": "353ad9487bec0997435a4a85f2cf512a"
-                        }
-                    ]
-                }
-            ]
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "34f7eae5dd2441aafed47cb98d86c6cb"
         }
-    ],
-    "modified": []
+    ]
 }
