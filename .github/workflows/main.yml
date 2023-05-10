@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Запускати скрипт кожні 10 хвилин
+    - cron: '*/30 * * * *' # Запускати скрипт кожні 10 хвилин
   workflow_dispatch: # Дозволити ручний запуск
 
 jobs:
