@@ -2757,11 +2757,6 @@
                 "children": [
                     {
                         "type": "file",
-                        "name": "dbi.config",
-                        "checksum": "94b5d7be5e452a6aee340603d9f431e1"
-                    },
-                    {
-                        "type": "file",
                         "name": "DBI.nro",
                         "checksum": "f443da8ffdade4e8d5f2f01a26665e75"
                     }
