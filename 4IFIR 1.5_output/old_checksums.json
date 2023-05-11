@@ -1228,17 +1228,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "ab533819e064c21e83f36e4c15b34413"
+                "checksum": "d7afb20b23d656fcd717e14f03140ec1"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "c10eb80828d85e715ee0e0d96be0a0d5"
+                "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "e81b9bc43216ea82541dba3d2cc9f328"
+                "checksum": "8fdcb8054465ec67faf8849c36404137"
             }
         ]
     },
@@ -1259,17 +1259,17 @@
             {
                 "type": "file",
                 "name": "4IFIR.ini",
-                "checksum": "d648f55a0167721458eed8a2ee2d13e7"
+                "checksum": "2fcdf13969a63432849ab2e94e7743a1"
             },
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "023b2f474657fa8861c1cb23fc543ec7"
+                "checksum": "c1d758fec8a9454a5aa61b8deb1133d9"
             },
             {
                 "type": "file",
                 "name": "nyx.ini",
-                "checksum": "da382ab94379e232c942b20f9bc69274"
+                "checksum": "2f6b4e3dcf904667948e5e5c3dff88eb"
             },
             {
                 "type": "file",
@@ -1283,7 +1283,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "a4b2e11494cc277a0da7129f9f3bf0d4"
+                        "checksum": "8dfe42eb0498c264c4b3e96a4181ff40"
                     },
                     {
                         "type": "file",
@@ -1293,7 +1293,7 @@
                     {
                         "type": "file",
                         "name": "TegraExplorer.bin",
-                        "checksum": "d8fe25dd04e61a8ffb1ed7a4efcc476f"
+                        "checksum": "b25fcf8954cfbee4064b27b4950de455"
                     }
                 ]
             },
@@ -1376,17 +1376,17 @@
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "694eb0686854b95e2adb9a748486b219"
+                        "checksum": "c097c13ec6e06f34acffc4fc321be788"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "285860487513857b53b2f656daa77943"
+                        "checksum": "4528ec429e93b34a4f128092f7234fcc"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "f9c0a86485e11e1e7896a3739be2d017"
+                        "checksum": "96d2e69948cf3fbe3de95a104b5b7691"
                     },
                     {
                         "type": "file",
@@ -1403,7 +1403,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "10a5880878a8438ace9260f5b466bef0"
+                "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
             }
         ]
     },
@@ -1474,7 +1474,7 @@
     {
         "type": "file",
         "name": "exosphere.ini",
-        "checksum": "8e5a87981c6d6f3251d11dba476c3b0b"
+        "checksum": "d1ab3057e88f106d2a8823201d7c19c4"
     },
     {
         "type": "file",
@@ -1484,7 +1484,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "10a5880878a8438ace9260f5b466bef0"
+        "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
     },
     {
         "type": "directory",
@@ -2772,6 +2772,16 @@
                         "checksum": "8b90c7bdacf6ef08e0267d94243d759f"
                     }
                 ]
+            },
+            {
+                "type": "file",
+                "name": "haze.nro",
+                "checksum": "bd256c9a9d61af5ec94aa3844005b5f5"
+            },
+            {
+                "type": "file",
+                "name": "reboot_to_payload.nro",
+                "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
             },
             {
                 "type": "file",
