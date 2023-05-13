@@ -520,7 +520,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "0813747b804e6d5ec1707abdfa5f74dc"
+                "checksum": "0bc0a3a35903842c077af91eace0c567"
             },
             {
                 "type": "directory",
@@ -2715,7 +2715,7 @@
                     {
                         "type": "file",
                         "name": "sysdvr-overlay.ovl",
-                        "checksum": "cd62caeb49903137b9d0d04539b26bd8"
+                        "checksum": "df76ddd56fcd59ed9d54486e020169ba"
                     }
                 ]
             },
@@ -2772,16 +2772,6 @@
                         "checksum": "8b90c7bdacf6ef08e0267d94243d759f"
                     }
                 ]
-            },
-            {
-                "type": "file",
-                "name": "haze.nro",
-                "checksum": "bd256c9a9d61af5ec94aa3844005b5f5"
-            },
-            {
-                "type": "file",
-                "name": "reboot_to_payload.nro",
-                "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
             },
             {
                 "type": "file",

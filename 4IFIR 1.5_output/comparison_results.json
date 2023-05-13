@@ -1,5 +1,6 @@
 {
-    "added": [
+    "added": [],
+    "removed": [
         {
             "type": "file",
             "name": "switch/haze.nro",
@@ -11,77 +12,16 @@
             "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
         }
     ],
-    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "d7afb20b23d656fcd717e14f03140ec1"
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "0bc0a3a35903842c077af91eace0c567"
         },
         {
             "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "8fdcb8054465ec67faf8849c36404137"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/4IFIR.ini",
-            "checksum": "2fcdf13969a63432849ab2e94e7743a1"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "c1d758fec8a9454a5aa61b8deb1133d9"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/nyx.ini",
-            "checksum": "2f6b4e3dcf904667948e5e5c3dff88eb"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "8dfe42eb0498c264c4b3e96a4181ff40"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/TegraExplorer.bin",
-            "checksum": "b25fcf8954cfbee4064b27b4950de455"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "c097c13ec6e06f34acffc4fc321be788"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "4528ec429e93b34a4f128092f7234fcc"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "96d2e69948cf3fbe3de95a104b5b7691"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
-        },
-        {
-            "type": "file",
-            "name": "exosphere.ini",
-            "checksum": "d1ab3057e88f106d2a8823201d7c19c4"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
+            "name": "switch/.overlays/sysdvr-overlay.ovl",
+            "checksum": "df76ddd56fcd59ed9d54486e020169ba"
         }
     ]
 }
