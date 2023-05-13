@@ -1233,7 +1233,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
+                "checksum": "f806f22ed3af9dd8fd47d6a9a876ad30"
             },
             {
                 "type": "file",
@@ -1264,12 +1264,12 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "d8b4ff2e8c4b4ee0f53d05dba64a5f4b"
+                "checksum": "023b2f474657fa8861c1cb23fc543ec7"
             },
             {
                 "type": "file",
                 "name": "nyx.ini",
-                "checksum": "2f6b4e3dcf904667948e5e5c3dff88eb"
+                "checksum": "da382ab94379e232c942b20f9bc69274"
             },
             {
                 "type": "file",
@@ -1371,17 +1371,17 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "e156fbf1193dbc2d97b6e9b0b0fb1088"
+                        "checksum": "789f27ebf59e6cb74d56339138f9eb8e"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "c097c13ec6e06f34acffc4fc321be788"
+                        "checksum": "a309493a58e7da19f0c0b3cae046e2a5"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "4528ec429e93b34a4f128092f7234fcc"
+                        "checksum": "c3847f44a46db577be2e208641b7a2d3"
                     },
                     {
                         "type": "file",
@@ -1403,7 +1403,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
+                "checksum": "f806f22ed3af9dd8fd47d6a9a876ad30"
             }
         ]
     },
@@ -1485,7 +1485,7 @@
     {
         "type": "file",
         "name": "exosphere.ini",
-        "checksum": "d1ab3057e88f106d2a8823201d7c19c4"
+        "checksum": "8e5a87981c6d6f3251d11dba476c3b0b"
     },
     {
         "type": "file",
@@ -1495,7 +1495,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "91c350408b43bf1ec56b0b8643a13eb0"
+        "checksum": "f806f22ed3af9dd8fd47d6a9a876ad30"
     },
     {
         "type": "directory",

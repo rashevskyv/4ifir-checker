@@ -1,15 +1,18 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 13.05.2023 16:26<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 13.05.2023 16:57<hr>
 
-<h3>Added files/folders</h3>
-<code>config
-└─tesla
-</code>
 <h3>Modified files</h3>
-<code>bootloader
-├─hekate_ipl.ini (d8b4ff2e8c4b4ee0f53d05dba64a5f4b)
-switch
-└─.overlays
-│ └─Status-Monitor-Overlay.ovl (c305de1c78cf3fcbc5bc8d5451a2b40f)
+<code>atmosphere
+├─reboot_payload.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
+bootloader
+├─hekate_ipl.ini (023b2f474657fa8861c1cb23fc543ec7)
+├─nyx.ini (da382ab94379e232c942b20f9bc69274)
+├─sys
+│ ├─libsys_lp0.bso (789f27ebf59e6cb74d56339138f9eb8e)
+│ ├─libsys_minerva.bso (a309493a58e7da19f0c0b3cae046e2a5)
+│ ├─module_sample.bso (c3847f44a46db577be2e208641b7a2d3)
+├─update.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
+exosphere.ini (8e5a87981c6d6f3251d11dba476c3b0b)
+payload.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
 </code>
 <hr>
 
