@@ -157,6 +157,23 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "type": "directory",
+                        "name": "0100F2C0115B6000",
+                        "children": [
+                            {
+                                "type": "directory",
+                                "name": "cheats",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "D5AD6AC71EF53E3E.txt",
+                                        "checksum": "1762151f4520f87ee42732e072c739e7"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },

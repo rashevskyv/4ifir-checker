@@ -45,19 +45,12 @@ payload.bin (91c350408b43bf1ec56b0b8643a13eb0)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 10.05.2023 23:05<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 13.05.2023 10:04<hr>
 
 <h3>Added files/folders</h3>
 <code>atmosphere
-└─exefs_patches
-│ └─60fpsV2
-│ └─60FPSv2-1.1.0
-</code>
-<h3>Modified files</h3>
-<code>atmosphere
-└─exefs_patches
-│ └─60fps-v3
-│ │ └─082CE09B06E33A123CB1E2770F5F9147709033DB.ips (d41d8cd98f00b204e9800998ecf8427e)
+└─contents
+│ └─0100F2C0115B6000
 </code>
 <hr>
 
