@@ -1,51 +1,76 @@
 {
     "added": [],
-    "removed": [],
-    "modified": [
+    "removed": [
         {
             "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "f806f22ed3af9dd8fd47d6a9a876ad30"
+            "name": "SaltySD/plugins/FPSLocker/0100040016EE2000.dat",
+            "checksum": "441077cc9e57554dd476bdfb8b8b8102"
         },
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "023b2f474657fa8861c1cb23fc543ec7"
+            "name": "SaltySD/plugins/FPSLocker/010007B010FCC000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "bootloader/nyx.ini",
-            "checksum": "da382ab94379e232c942b20f9bc69274"
+            "name": "SaltySD/plugins/FPSLocker/01003D100E9C6000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "789f27ebf59e6cb74d56339138f9eb8e"
+            "name": "SaltySD/plugins/FPSLocker/01004D300C5AE000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "a309493a58e7da19f0c0b3cae046e2a5"
+            "name": "SaltySD/plugins/FPSLocker/0100626011656000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "c3847f44a46db577be2e208641b7a2d3"
+            "name": "SaltySD/plugins/FPSLocker/01006C5015E84000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "f806f22ed3af9dd8fd47d6a9a876ad30"
+            "name": "SaltySD/plugins/FPSLocker/0100801011C3E000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "exosphere.ini",
-            "checksum": "8e5a87981c6d6f3251d11dba476c3b0b"
+            "name": "SaltySD/plugins/FPSLocker/0100853015E86000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         },
         {
             "type": "file",
-            "name": "payload.bin",
-            "checksum": "f806f22ed3af9dd8fd47d6a9a876ad30"
+            "name": "SaltySD/plugins/FPSLocker/01009040091E0000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/0100A6301214E000.dat",
+            "checksum": "b6fbf8dfb3834c87e988f10f20cf13d6"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/0100B1A00D8CE000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/0100D1B006744000.dat",
+            "checksum": "b6fbf8dfb3834c87e988f10f20cf13d6"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/0100DC0012E48000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/0100F9F00C696000.dat",
+            "checksum": "4c4154c90f9c70d2c865fbba17469831"
         }
-    ]
+    ],
+    "modified": []
 }

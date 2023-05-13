@@ -1,56 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "00FF0000636C6BFF",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "exefs.nsp",
-                            "checksum": "244edd844b10c80497c42e3ee97f823f"
-                        },
-                        {
-                            "type": "directory",
-                            "name": "flags",
-                            "children": [
-                                {
-                                    "type": "file",
-                                    "name": "boot2.flag",
-                                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": ".overlays",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "4IFIR.ovl",
-                            "checksum": "3b98be06a16a00fe75e51b8c5bc113cd"
-                        },
-                        {
-                            "type": "file",
-                            "name": "sys-clk-overlay.ovl",
-                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "39a9d54c2c8464a30ce4108f565de56d"
+        }
+    ]
 }

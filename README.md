@@ -1,18 +1,23 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 13.05.2023 16:57<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 13.05.2023 17:39<hr>
 
-<h3>Modified files</h3>
-<code>atmosphere
-├─reboot_payload.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
-bootloader
-├─hekate_ipl.ini (023b2f474657fa8861c1cb23fc543ec7)
-├─nyx.ini (da382ab94379e232c942b20f9bc69274)
-├─sys
-│ ├─libsys_lp0.bso (789f27ebf59e6cb74d56339138f9eb8e)
-│ ├─libsys_minerva.bso (a309493a58e7da19f0c0b3cae046e2a5)
-│ ├─module_sample.bso (c3847f44a46db577be2e208641b7a2d3)
-├─update.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
-exosphere.ini (8e5a87981c6d6f3251d11dba476c3b0b)
-payload.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
+<h3>Removed files/folders</h3>
+<code>SaltySD
+└─plugins
+│ └─FPSLocker
+│ │ └─0100040016EE2000.dat (441077cc9e57554dd476bdfb8b8b8102)
+│ │ └─010007B010FCC000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─01003D100E9C6000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─01004D300C5AE000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─0100626011656000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─01006C5015E84000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─0100801011C3E000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─0100853015E86000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─01009040091E0000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─0100A6301214E000.dat (b6fbf8dfb3834c87e988f10f20cf13d6)
+│ │ └─0100B1A00D8CE000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─0100D1B006744000.dat (b6fbf8dfb3834c87e988f10f20cf13d6)
+│ │ └─0100DC0012E48000.dat (4c4154c90f9c70d2c865fbba17469831)
+│ │ └─0100F9F00C696000.dat (4c4154c90f9c70d2c865fbba17469831)
 </code>
 <hr>
 
@@ -43,12 +48,12 @@ payload.bin (f806f22ed3af9dd8fd47d6a9a876ad30)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 09.05.2023 08:03<hr>
+<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 13.05.2023 17:36<hr>
 
-<h3>Added files/folders</h3>
+<h3>Modified files</h3>
 <code>atmosphere
-├─contents
-switch
+└─kips
+│ └─loader.kip (39a9d54c2c8464a30ce4108f565de56d)
 </code>
 <hr>
 
