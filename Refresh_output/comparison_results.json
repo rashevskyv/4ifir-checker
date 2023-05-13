@@ -1,0 +1,11 @@
+{
+    "added": [],
+    "removed": [],
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/aio-switch-updater/aio-switch-updater.nro",
+            "checksum": "c937947e7f8b596aadfd31ed24f83f2f"
+        }
+    ]
+}
