@@ -1,16 +1,15 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 13.05.2023 15:09<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 13.05.2023 16:26<hr>
 
-<h3>Removed files/folders</h3>
-<code>switch
-└─haze.nro (bd256c9a9d61af5ec94aa3844005b5f5)
-└─reboot_to_payload.nro (b12a74bdbdfc2b28128e040a6198f97c)
+<h3>Added files/folders</h3>
+<code>config
+└─tesla
 </code>
 <h3>Modified files</h3>
-<code>atmosphere
-├─hbl.nsp (0bc0a3a35903842c077af91eace0c567)
+<code>bootloader
+├─hekate_ipl.ini (d8b4ff2e8c4b4ee0f53d05dba64a5f4b)
 switch
 └─.overlays
-│ └─sysdvr-overlay.ovl (df76ddd56fcd59ed9d54486e020169ba)
+│ └─Status-Monitor-Overlay.ovl (c305de1c78cf3fcbc5bc8d5451a2b40f)
 </code>
 <hr>
 

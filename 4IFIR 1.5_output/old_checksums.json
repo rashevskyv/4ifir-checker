@@ -1264,7 +1264,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "c1d758fec8a9454a5aa61b8deb1133d9"
+                "checksum": "d8b4ff2e8c4b4ee0f53d05dba64a5f4b"
             },
             {
                 "type": "file",
@@ -1466,6 +1466,17 @@
                         "type": "file",
                         "name": "config.ini",
                         "checksum": "aeff38ff371abd9d67468b5801b4b64c"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "tesla",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "871b28809d4051020e1721ee811e27b9"
                     }
                 ]
             }
@@ -2705,7 +2716,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "338d7e14810f1fbf640317536bbe32ae"
+                        "checksum": "c305de1c78cf3fcbc5bc8d5451a2b40f"
                     },
                     {
                         "type": "file",

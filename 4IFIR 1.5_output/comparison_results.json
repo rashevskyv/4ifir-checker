@@ -1,27 +1,28 @@
 {
-    "added": [],
-    "removed": [
+    "added": [
         {
-            "type": "file",
-            "name": "switch/haze.nro",
-            "checksum": "bd256c9a9d61af5ec94aa3844005b5f5"
-        },
-        {
-            "type": "file",
-            "name": "switch/reboot_to_payload.nro",
-            "checksum": "b12a74bdbdfc2b28128e040a6198f97c"
+            "type": "directory",
+            "name": "config/tesla",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "871b28809d4051020e1721ee811e27b9"
+                }
+            ]
         }
     ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/hbl.nsp",
-            "checksum": "0bc0a3a35903842c077af91eace0c567"
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "d8b4ff2e8c4b4ee0f53d05dba64a5f4b"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/sysdvr-overlay.ovl",
-            "checksum": "df76ddd56fcd59ed9d54486e020169ba"
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "c305de1c78cf3fcbc5bc8d5451a2b40f"
         }
     ]
 }
