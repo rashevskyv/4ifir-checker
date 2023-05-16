@@ -56,7 +56,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "227c829597a0059045735678609e3c93"
+                                "checksum": "1ceea64f837285992bb1b01d369b8b32"
                             },
                             {
                                 "type": "directory",
@@ -1353,7 +1353,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "d7afb20b23d656fcd717e14f03140ec1"
+                "checksum": "7226dcb68fe5a81da3b867f8941888c3"
             },
             {
                 "type": "file",
@@ -1363,7 +1363,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "8fdcb8054465ec67faf8849c36404137"
+                "checksum": "fc1e4a4d2b9d2d7035a9cf8a1cf960d3"
             }
         ]
     },
@@ -1603,12 +1603,17 @@
             {
                 "type": "file",
                 "name": "exceptions.txt",
-                "checksum": "8bb896621d8c04ad9a9d0f6e70d4c574"
+                "checksum": "d6af718b479cf46fe8ba620a0e2e845c"
             },
             {
                 "type": "directory",
                 "name": "flags",
                 "children": [
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
                     {
                         "type": "directory",
                         "name": "ReverseNX",
@@ -3290,7 +3295,7 @@
                     {
                         "type": "file",
                         "name": "NX-FPS.elf",
-                        "checksum": "efe62d8ea375dff5e8ae22e541b74a07"
+                        "checksum": "f4d32869632d6c883c3affa38121dd31"
                     },
                     {
                         "type": "file",
@@ -3307,7 +3312,7 @@
             {
                 "type": "file",
                 "name": "saltysd_core.elf",
-                "checksum": "68fa00c633979d7ae32f0ddb72e24957"
+                "checksum": "3e18e561ce8c89eae1e0d2d94070404c"
             }
         ]
     },
@@ -3332,7 +3337,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "09b75b43c9bfc98916ef130aa5ef8e58"
+                        "checksum": "8d624bb2040dcc25f27c5c7a774b73ca"
                     },
                     {
                         "type": "file",
@@ -3454,7 +3459,7 @@
             {
                 "type": "file",
                 "name": "daybreak.nro",
-                "checksum": "09e8cb7fbd64a43e5465a5ab66ea12b2"
+                "checksum": "de96cdffd16fe5d9d03011ae3c8ee35d"
             },
             {
                 "type": "directory",
