@@ -25,12 +25,11 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 13.05.2023 10:04<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 16.05.2023 14:25<hr>
 
-<h3>Added files/folders</h3>
+<h3>Removed files/folders</h3>
 <code>atmosphere
-└─contents
-│ └─0100F2C0115B6000
+└─exefs_patches
 </code>
 <hr>
 

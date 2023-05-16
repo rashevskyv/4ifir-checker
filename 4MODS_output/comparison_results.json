@@ -1,23 +1,50 @@
 {
-    "added": [
+    "added": [],
+    "removed": [
         {
             "type": "directory",
-            "name": "atmosphere/contents/0100F2C0115B6000",
+            "name": "atmosphere/exefs_patches",
             "children": [
                 {
                     "type": "directory",
-                    "name": "cheats",
+                    "name": "60fps-v3",
                     "children": [
                         {
                             "type": "file",
-                            "name": "D5AD6AC71EF53E3E.txt",
-                            "checksum": "1762151f4520f87ee42732e072c739e7"
+                            "name": "082CE09B06E33A123CB1E2770F5F9147709033DB.ips",
+                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                        },
+                        {
+                            "type": "file",
+                            "name": "D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3.ips",
+                            "checksum": "d8a342f166ff708f98fa644729523467"
+                        }
+                    ]
+                },
+                {
+                    "type": "directory",
+                    "name": "60fpsV2",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "082CE09B06E33A123CB1E2770F5F9147709033DB.ips",
+                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                        }
+                    ]
+                },
+                {
+                    "type": "directory",
+                    "name": "60FPSv2-1.1.0",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3.ips",
+                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
                         }
                     ]
                 }
             ]
         }
     ],
-    "removed": [],
     "modified": []
 }
