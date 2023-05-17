@@ -1,11 +1,11 @@
 {
     "added": [],
-    "removed": [
+    "removed": [],
+    "modified": [
         {
             "type": "file",
-            "name": "SaltySD/flags/log.flag",
-            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+            "name": "atmosphere/package3",
+            "checksum": "116eb327279fa5d95fe813365733085f"
         }
-    ],
-    "modified": []
+    ]
 }
