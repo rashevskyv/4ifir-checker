@@ -1,26 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 16.05.2023 18:58<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 17.05.2023 01:41<hr>
 
-<h3>Added files/folders</h3>
-<code>SaltySD
-└─flags
-│ └─log.flag (d41d8cd98f00b204e9800998ecf8427e)
-</code>
 <h3>Modified files</h3>
-<code>atmosphere
-├─contents
-│ ├─0000000000534C56
-│ │ └─exefs.nsp (1ceea64f837285992bb1b01d369b8b32)
-├─package3 (7226dcb68fe5a81da3b867f8941888c3)
-├─stratosphere.romfs (fc1e4a4d2b9d2d7035a9cf8a1cf960d3)
-SaltySD
-├─exceptions.txt (d6af718b479cf46fe8ba620a0e2e845c)
-├─plugins
-│ ├─NX-FPS.elf (f4d32869632d6c883c3affa38121dd31)
-├─saltysd_core.elf (3e18e561ce8c89eae1e0d2d94070404c)
-switch
+<code>switch
 └─.overlays
-│ ├─FPSLocker.ovl (8d624bb2040dcc25f27c5c7a774b73ca)
-└─daybreak.nro (de96cdffd16fe5d9d03011ae3c8ee35d)
+│ └─FPSLocker.ovl (a1acbadb98e6fa283a469a0f9694c078)
 </code>
 <hr>
 

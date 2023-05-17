@@ -1,52 +1,11 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "SaltySD/flags/log.flag",
-            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
-            "checksum": "1ceea64f837285992bb1b01d369b8b32"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "7226dcb68fe5a81da3b867f8941888c3"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "fc1e4a4d2b9d2d7035a9cf8a1cf960d3"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/exceptions.txt",
-            "checksum": "d6af718b479cf46fe8ba620a0e2e845c"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/plugins/NX-FPS.elf",
-            "checksum": "f4d32869632d6c883c3affa38121dd31"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_core.elf",
-            "checksum": "3e18e561ce8c89eae1e0d2d94070404c"
-        },
-        {
-            "type": "file",
             "name": "switch/.overlays/FPSLocker.ovl",
-            "checksum": "8d624bb2040dcc25f27c5c7a774b73ca"
-        },
-        {
-            "type": "file",
-            "name": "switch/daybreak.nro",
-            "checksum": "de96cdffd16fe5d9d03011ae3c8ee35d"
+            "checksum": "a1acbadb98e6fa283a469a0f9694c078"
         }
     ]
 }
