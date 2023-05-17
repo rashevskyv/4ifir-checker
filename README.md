@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 17.05.2023 01:41<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 17.05.2023 07:00<hr>
 
-<h3>Modified files</h3>
-<code>switch
-└─.overlays
-│ └─FPSLocker.ovl (a1acbadb98e6fa283a469a0f9694c078)
+<h3>Removed files/folders</h3>
+<code>SaltySD
+└─flags
+│ └─log.flag (d41d8cd98f00b204e9800998ecf8427e)
 </code>
 <hr>
 
