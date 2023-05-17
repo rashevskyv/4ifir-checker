@@ -25,11 +25,14 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 16.05.2023 14:25<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 17.05.2023 04:47<hr>
 
-<h3>Removed files/folders</h3>
+<h3>Modified files</h3>
 <code>atmosphere
-└─exefs_patches
+└─contents
+│ └─0100F2C0115B6000
+│ │ └─cheats
+│ │ │ └─D5AD6AC71EF53E3E.txt (03312b1bca1d0b13059edcb9bd5dfd9a)
 </code>
 <hr>
 
