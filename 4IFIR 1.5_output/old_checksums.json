@@ -2528,7 +2528,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "8E18600222CE90C2.yaml",
-                                                "checksum": "7719815f68a3a28479cb8f131ffe46f1"
+                                                "checksum": "8218a9760276a6d59c533985a140f584"
                                             },
                                             {
                                                 "type": "file",
@@ -3290,7 +3290,7 @@
                     {
                         "type": "file",
                         "name": "NX-FPS.elf",
-                        "checksum": "f4d32869632d6c883c3affa38121dd31"
+                        "checksum": "1138ce5900fb81b9e4c8841e849cec49"
                     },
                     {
                         "type": "file",
@@ -3332,7 +3332,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "a1acbadb98e6fa283a469a0f9694c078"
+                        "checksum": "db8e5941b8653b86f0d42f9e888a0949"
                     },
                     {
                         "type": "file",
@@ -3421,6 +3421,11 @@
                         "type": "file",
                         "name": "sys-clk-overlay.ovl",
                         "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sysdvr-overlay.ovl",
+                        "checksum": "df76ddd56fcd59ed9d54486e020169ba"
                     }
                 ]
             },
@@ -3454,7 +3459,7 @@
             {
                 "type": "file",
                 "name": "daybreak.nro",
-                "checksum": "de96cdffd16fe5d9d03011ae3c8ee35d"
+                "checksum": "09e8cb7fbd64a43e5465a5ab66ea12b2"
             },
             {
                 "type": "directory",
@@ -3463,7 +3468,7 @@
                     {
                         "type": "file",
                         "name": "DBI.nro",
-                        "checksum": "597f0a968c68e3e4b998bc0cd624f927"
+                        "checksum": "032d8ce5b86c77c4db4d01ff055e6ffc"
                     }
                 ]
             },

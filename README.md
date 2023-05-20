@@ -1,8 +1,24 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 17.05.2023 12:18<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 20.05.2023 21:08<hr>
 
+<h3>Added files/folders</h3>
+<code>switch
+└─.overlays
+│ └─sysdvr-overlay.ovl (df76ddd56fcd59ed9d54486e020169ba)
+</code>
 <h3>Modified files</h3>
-<code>atmosphere
-└─package3 (116eb327279fa5d95fe813365733085f)
+<code>SaltySD
+├─plugins
+│ └─FPSLocker
+│ │ ├─patches
+│ │ │ └─010074F013262000
+│ │ │ │ └─8E18600222CE90C2.yaml (8218a9760276a6d59c533985a140f584)
+│ └─NX-FPS.elf (1138ce5900fb81b9e4c8841e849cec49)
+switch
+└─.overlays
+│ ├─FPSLocker.ovl (db8e5941b8653b86f0d42f9e888a0949)
+└─daybreak.nro (09e8cb7fbd64a43e5465a5ab66ea12b2)
+└─DBI
+│ └─DBI.nro (032d8ce5b86c77c4db4d01ff055e6ffc)
 </code>
 <hr>
 

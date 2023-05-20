@@ -1,11 +1,37 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "switch/.overlays/sysdvr-overlay.ovl",
+            "checksum": "df76ddd56fcd59ed9d54486e020169ba"
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "116eb327279fa5d95fe813365733085f"
+            "name": "SaltySD/plugins/FPSLocker/patches/010074F013262000/8E18600222CE90C2.yaml",
+            "checksum": "8218a9760276a6d59c533985a140f584"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/NX-FPS.elf",
+            "checksum": "1138ce5900fb81b9e4c8841e849cec49"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "db8e5941b8653b86f0d42f9e888a0949"
+        },
+        {
+            "type": "file",
+            "name": "switch/daybreak.nro",
+            "checksum": "09e8cb7fbd64a43e5465a5ab66ea12b2"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "032d8ce5b86c77c4db4d01ff055e6ffc"
         }
     ]
 }
