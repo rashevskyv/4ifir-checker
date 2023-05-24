@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "SaltySD/plugins/NX-FPS.elf",
-            "checksum": "5b16ba9f13e154113ef0e76bd846566e"
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "d7ec7f845d955dc2474cfabe7ba066bc"
         }
     ]
 }

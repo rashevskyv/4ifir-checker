@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 20.05.2023 21:43<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 24.05.2023 15:38<hr>
 
 <h3>Modified files</h3>
-<code>SaltySD
-└─plugins
-│ └─NX-FPS.elf (5b16ba9f13e154113ef0e76bd846566e)
+<code>config
+└─aio-switch-updater
+│ └─custom_packs.json (d7ec7f845d955dc2474cfabe7ba066bc)
 </code>
 <hr>
 
