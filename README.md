@@ -1,9 +1,14 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 24.05.2023 15:38<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.5</b></h2><b>Last archive modification date:</b> 25.05.2023 20:54<hr>
 
+<h3>Added files/folders</h3>
+<code>switch
+└─DBI
+│ └─dbi.config (2e307db3320a8733efaed156b423489b)
+</code>
 <h3>Modified files</h3>
-<code>config
-└─aio-switch-updater
-│ └─custom_packs.json (d7ec7f845d955dc2474cfabe7ba066bc)
+<code>switch
+└─DBI
+│ └─DBI.nro (6d65feba3e6a430c3916631a8af0d70f)
 </code>
 <hr>
 
