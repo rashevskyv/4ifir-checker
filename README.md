@@ -41,21 +41,12 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIX</b></h2><b>Last archive modification date:</b> 22.05.2023 01:16<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 26.05.2023 19:46<hr>
 
 <h3>Modified files</h3>
-<code>atmosphere
-└─kips
-│ └─loader.kip (c42e3aa11c8cfb47133321bdcb8d4365)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 13.05.2023 21:42<hr>
-
-<h3>Modified files</h3>
-<code>switch
+<code>config
 └─aio-switch-updater
-│ └─aio-switch-updater.nro (c937947e7f8b596aadfd31ed24f83f2f)
+│ └─custom_packs.json (f14b81a546981abd8af6e91058f1fc4d)
 </code>
 <hr>
 
