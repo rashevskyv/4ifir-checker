@@ -12,21 +12,19 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 7</b></h2><b>Last archive modification date:</b> 29.04.2023 01:54<hr>
+<h2>Archive Comparison Report for <b>Stage 7</b></h2><b>Last archive modification date:</b> 27.05.2023 00:42<hr>
 
-<h3>Modified files</h3>
+<h3>Added files/folders</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (25eea995a1a1560e4a203902500b5e55)
+└─contents
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 7+</b></h2><b>Last archive modification date:</b> 29.04.2023 01:58<hr>
+<h2>Archive Comparison Report for <b>Stage 7+</b></h2><b>Last archive modification date:</b> 27.05.2023 00:42<hr>
 
-<h3>Modified files</h3>
+<h3>Added files/folders</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (9ae36ef89c8feb0c574247a80f6c1669)
+└─contents
 </code>
 <hr>
 

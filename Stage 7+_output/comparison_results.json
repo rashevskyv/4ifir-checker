@@ -1,11 +1,39 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "9ae36ef89c8feb0c574247a80f6c1669"
+            "type": "directory",
+            "name": "atmosphere/contents",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "00FF0000636C6BFF",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "exefs.nsp",
+                            "checksum": "9ec16f6539318d359812304afe76579a"
+                        },
+                        {
+                            "type": "directory",
+                            "name": "flags",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "boot2.flag",
+                                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "file",
+                            "name": "toolbox.json",
+                            "checksum": "1dc1aed0868790b9fbdde2cdd0307397"
+                        }
+                    ]
+                }
+            ]
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }
