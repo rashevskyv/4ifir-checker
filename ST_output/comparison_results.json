@@ -1,40 +1,16 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "switch",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": ".overlays",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "4IFIR.ovl",
-                            "checksum": "66867211dd52c33bb43b063d8c0d668a"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "removed": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/toolbox.json",
-            "checksum": "1dc1aed0868790b9fbdde2cdd0307397"
-        }
-    ],
+    "added": [],
+    "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "9af261f3ad951b9ecb712ee212eb15e0"
+            "checksum": "d169c1eafdacace4bc028a5b60b7f076"
         },
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "1c8246283e496541a6eaf10d277cb28d"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "8fa90b164d685d78c527144cb2dee741"
         }
     ]
 }
