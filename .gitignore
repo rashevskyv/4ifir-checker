@@ -9,3 +9,4 @@ tmp
 /test_settings.json
 /test_archives.json
 /__pycache__
+/local_settings.json

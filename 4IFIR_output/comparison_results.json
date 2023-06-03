@@ -1,0 +1,249 @@
+{
+    "added": [
+        {
+            "type": "directory",
+            "name": "switch/daybreak",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "daybreak.nro",
+                    "checksum": "21ed0d24e65a7b01df55253b53a8b14f"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "switch/MicroMemBench.nro",
+            "checksum": "0b38963c7f2b3543bbdf32c33319539c"
+        }
+    ],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/010092A0172E4000",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "romfs",
+                    "children": [
+                        {
+                            "type": "directory",
+                            "name": "Nuts",
+                            "children": [
+                                {
+                                    "type": "directory",
+                                    "name": "Content",
+                                    "children": [
+                                        {
+                                            "type": "directory",
+                                            "name": "Paks",
+                                            "children": [
+                                                {
+                                                    "type": "file",
+                                                    "name": "Nuts-Switch_p.pak",
+                                                    "checksum": "0b59e6008fa7a27d824ed40047703c5d"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/01009EE0111CC000",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "romfs",
+                    "children": [
+                        {
+                            "type": "directory",
+                            "name": "Anc",
+                            "children": [
+                                {
+                                    "type": "directory",
+                                    "name": "Content",
+                                    "children": [
+                                        {
+                                            "type": "directory",
+                                            "name": "Paks",
+                                            "children": [
+                                                {
+                                                    "type": "file",
+                                                    "name": "Anc-Switch_1_P.pak",
+                                                    "checksum": "3cd93fa3ff3a314e9d5197d1c51601ad"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/0100BF500207C000",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "romfs",
+                    "children": [
+                        {
+                            "type": "directory",
+                            "name": "BloodstainedRotN",
+                            "children": [
+                                {
+                                    "type": "directory",
+                                    "name": "Content",
+                                    "children": [
+                                        {
+                                            "type": "directory",
+                                            "name": "Paks",
+                                            "children": [
+                                                {
+                                                    "type": "file",
+                                                    "name": "pakchunk0-Switch_1_P.pak",
+                                                    "checksum": "a1bb847f78d109a1adf3307ea6acc4a7"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "8dfe42eb0498c264c4b3e96a4181ff40"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/TegraExplorer.bin",
+            "checksum": "8fce7781eb01c66e5562c9524065a23d"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/res/icon_payload.bmp",
+            "checksum": "8c25ed51d133e0e11c998acc5e79c7e3"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/res/icon_switch.bmp",
+            "checksum": "a336749f763701ada9806eb889817c5b"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/dbi.config",
+            "checksum": "2e307db3320a8733efaed156b423489b"
+        },
+        {
+            "type": "file",
+            "name": "switch/daybreak.nro",
+            "checksum": "09e8cb7fbd64a43e5465a5ab66ea12b2"
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "9af261f3ad951b9ecb712ee212eb15e0"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000A53BB665/flags/boot2.flag",
+            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "ae751265651ac81dd2a6d1b19da2f945"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "c29e15ba5fb6d62f2f1a2ea5f6e68d92"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "83a4d7dd9ec38ab520f053ee3bbdafb2"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "602b87aadce201cbd99851a6d773c97b"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "d12113d33e85a42a04b648685bfb263d"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "789f27ebf59e6cb74d56339138f9eb8e"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "a309493a58e7da19f0c0b3cae046e2a5"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "c3847f44a46db577be2e208641b7a2d3"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "328d74060f65c4887ce596e06a0d6e09"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "83a4d7dd9ec38ab520f053ee3bbdafb2"
+        },
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "3762d362c1390bbc080e8982c8acc028"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "83a4d7dd9ec38ab520f053ee3bbdafb2"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/NX-FPS.elf",
+            "checksum": "cd7b671ec388a805a14a2d27b8e1e5a2"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "66867211dd52c33bb43b063d8c0d668a"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "535a23aad182a765eb3ec8e44cc677a2"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "e3f22da8125ad7ecf6a7193c4075f0a7"
+        }
+    ]
+}
