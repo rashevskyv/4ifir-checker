@@ -1,12 +1,12 @@
 {
     "ams": {
-        "4IFIR 1.5": "https://sintez.io/4IFIR.zip"
+        "4IFIR 1.6": "https://sintez.io/4IFIR.zip"
     },
     "misc": {
-        "Stage 7": "https://sintez.io/ST.zip",
-		"Stage 7+": "https://sintez.io/ST+.zip",
+        "Stage 8": "https://sintez.io/ST.zip",
+		"Stage 8+": "https://sintez.io/ST+.zip",
 		"4MODS": "https://sintez.io/4MODS.zip",
         "4BRICK": "https://sintez.io/4BRICK.zip",
-        "Refresh": "https://sintez.io/aio.zip"
+        "Refresh": "https://sintez.io/AIO.zip"
     }
 }

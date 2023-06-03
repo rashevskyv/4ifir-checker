@@ -18,10 +18,12 @@ def main():
             print("No changes detected in the archive since the last execution.")
             telegram = 0
 
-        archive_output_dir = os.path.join(archive["filename"] + '_output')
+        filename = os.path.splitext(os.path.basename(archive["url"]))[0]
+        archive_output_dir = (filename + '_output')
         comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
+        archivename = os.path.join(archive_output_dir, archive["filename"])
         status_file = os.path.join(archive_output_dir, 'status.json')
-        archive_file = os.path.join(archive_output_dir, archive["filename"] + '.zip')
+        archive_file = os.path.join(archive_output_dir, filename + '.zip')
 
         if os.path.exists(status_file):
             with open(status_file, 'r') as f:
@@ -35,10 +37,10 @@ def main():
             result = create_html_report(comparison_results, last_modified, archive["filename"])
 
             if (telegram):
-                with open(archive_file, 'rb') as file:
-                    input_file = InputFile(file)
-                    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, input_file))
-                    print("Report sent to Telegram.")
+                # with open(archive_file, 'rb') as file:
+                #     input_file = InputFile(file)
+                asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, archive_file, archivename))
+                print("Report sent to Telegram.")
 
             html_report_content += result
             html_report_content += '<hr>\n\n'
@@ -49,12 +51,7 @@ def main():
 
     print("All archives processed.")
 
-    custom_pack_names = []
-    for category, packs in custom_packs_dict.items():
-        for pack_name, _ in packs.items():
-            custom_pack_names.append(pack_name)
-
-    remove_unlisted_directories(custom_pack_names, ".")
+    remove_unlisted_directories(custom_packs_dict, ".")
 
 if __name__ == "__main__":
     main()

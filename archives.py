@@ -34,7 +34,7 @@ archives = process_archives()
 
 def process_archive(archive):
     url = archive["url"]
-    filename = archive["filename"]
+    filename = os.path.splitext(os.path.basename(url))[0]
     output_dir = filename+'_output'
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)

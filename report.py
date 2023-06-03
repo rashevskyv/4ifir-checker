@@ -2,6 +2,7 @@ from aiogram import Bot, types
 import os
 from status_result import process_items
 from datetime import datetime
+import shutil
 
 def create_html_report(results, last_modified, archive_filename):
     report_content = ''
@@ -78,7 +79,7 @@ def split_html_content(content, max_length=4096, tag='<code>', delimiter='------
 
     return header, blocks
 
-async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, file):
+async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, file, archivename):
     # Generate the list of changes
     report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
 
@@ -93,6 +94,10 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
 
     bot = Bot(token=bot_token)
 
+    desired_filename = archivename + '.zip'
+    shutil.copy2(file, desired_filename)
+    file_obj = open(desired_filename, 'rb')
+
     # Если размер хедера больше 900 символов
     if len(header) > 900:
         split_index = header.rfind("</code>") + len("</code>")
@@ -101,7 +106,7 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
 
         if len(first_part) < 1024:
             # Отправляем файл с описанием (first_part)
-            await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file, caption=first_part, parse_mode=types.ParseMode.HTML)
+            await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=first_part, parse_mode=types.ParseMode.HTML)
             # Check if the second_part is larger than 4000 characters
             if len(second_part) > 4000:
                 # Split the second_part into smaller parts
@@ -122,14 +127,15 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
                 await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
         else:
             # Отправляем обе части одним сообщением
-            await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file, caption=small_caption, parse_mode=types.ParseMode.HTML)
+            await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=small_caption, parse_mode=types.ParseMode.HTML)
             await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
     else:
         # Отправляем файл с описанием (header)
-        await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file, caption=header, parse_mode=types.ParseMode.HTML)
+        await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=header, parse_mode=types.ParseMode.HTML)
 
     # Отправляем блоки содержимого
     for part in blocks:
         await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-    
+
+    file_obj.close()    
     await bot.close()

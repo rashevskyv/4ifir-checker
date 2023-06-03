@@ -3,6 +3,7 @@ import os
 import shutil
 import sys
 from datetime import datetime
+from urllib.parse import urlparse
 
 # Download a file from a URL
 def download_file(url, output_path):
@@ -15,8 +16,14 @@ def download_file(url, output_path):
         print('Error downloading archive:', response.status_code)
 
 # Remove directories that are not present in custom_packs
-def remove_unlisted_directories(custom_packs, output_parent_dir):
-    pack_directories = [pack_name + '_output' for pack_name in custom_packs]
+def remove_unlisted_directories(custom_packs_dict, output_parent_dir):
+
+    archives = []
+    for category, packs in custom_packs_dict.items():
+        for pack_name, pack_url in packs.items():
+            archives.append({"url": pack_url})
+
+    pack_directories = [os.path.splitext(os.path.basename(archive["url"]))[0] + '_output' for archive in archives]
 
     for entry in os.listdir(output_parent_dir):
         entry_path = os.path.join(output_parent_dir, entry)
