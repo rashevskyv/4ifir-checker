@@ -1,47 +1,29 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 04.06.2023 20:23<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-└─kips
-│ └─loader.kip (05b11f4c376f78f82ce5b3df947823eb)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 03.06.2023 23:47<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-├─kips
-│ └─loader.kip (00cb0b26276fc527e86d23a5e11ae23c)
-switch
-└─.overlays
-│ └─4IFIR.ovl (5a2ebeccb55e13d8c80a8639c325ea08)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 03.06.2023 23:47<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-├─kips
-│ └─loader.kip (bbc90ecd6cfe1a3599c48cba9f8103d5)
-switch
-└─.overlays
-│ └─4IFIR.ovl (5a2ebeccb55e13d8c80a8639c325ea08)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 04.06.2023 00:12<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 04.06.2023 21:40<hr>
 
 <h3>Added files/folders</h3>
-<code>atmosphere
-├─contents
-switch
+<code>config
+└─sys-clk
 </code>
-<h3>Modified files</h3>
-<code>atmosphere
-└─kips
-│ └─loader.kip (914f24f6046a1cbd0b591aca06aa22a0)
+<hr>
+
+<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 04.06.2023 21:41<hr>
+
+<h3>Added files/folders</h3>
+<code>config
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 04.06.2023 21:41<hr>
+
+<h3>Added files/folders</h3>
+<code>config
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 04.06.2023 21:40<hr>
+
+<h3>Added files/folders</h3>
+<code>config
 </code>
 <hr>
 

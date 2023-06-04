@@ -1,16 +1,23 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "00cb0b26276fc527e86d23a5e11ae23c"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "5a2ebeccb55e13d8c80a8639c325ea08"
+            "type": "directory",
+            "name": "config",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "sys-clk",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "config.ini",
+                            "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
+                        }
+                    ]
+                }
+            ]
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }

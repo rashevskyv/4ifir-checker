@@ -1,11 +1,17 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "05b11f4c376f78f82ce5b3df947823eb"
+            "type": "directory",
+            "name": "config/sys-clk",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
+                }
+            ]
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }

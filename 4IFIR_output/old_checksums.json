@@ -1434,6 +1434,17 @@
             },
             {
                 "type": "directory",
+                "name": "sys-clk",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "sys-ftpd",
                 "children": [
                     {
