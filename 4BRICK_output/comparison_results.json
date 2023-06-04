@@ -1,0 +1,57 @@
+{
+    "added": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "00FF0000636C6BFF",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "exefs.nsp",
+                            "checksum": "d169c1eafdacace4bc028a5b60b7f076"
+                        },
+                        {
+                            "type": "directory",
+                            "name": "flags",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "boot2.flag",
+                                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "switch",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": ".overlays",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "4IFIR.ovl",
+                            "checksum": "5a2ebeccb55e13d8c80a8639c325ea08"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "removed": [],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "914f24f6046a1cbd0b591aca06aa22a0"
+        }
+    ]
+}
