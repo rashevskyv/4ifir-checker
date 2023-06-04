@@ -1,12 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 03.06.2023 23:37<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 04.06.2023 20:23<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─kips
-│ └─loader.kip (0d3cc382607a16ccb6bebe45b45e8814)
-switch
-└─.overlays
-│ └─4IFIR.ovl (5a2ebeccb55e13d8c80a8639c325ea08)
+└─kips
+│ └─loader.kip (05b11f4c376f78f82ce5b3df947823eb)
 </code>
 <hr>
 

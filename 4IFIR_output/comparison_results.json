@@ -5,12 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "0d3cc382607a16ccb6bebe45b45e8814"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "5a2ebeccb55e13d8c80a8639c325ea08"
+            "checksum": "05b11f4c376f78f82ce5b3df947823eb"
         }
     ]
 }
