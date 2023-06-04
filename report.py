@@ -95,7 +95,10 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
     bot = Bot(token=bot_token)
 
     desired_filename = archivename + '.zip'
-    shutil.copy2(file, desired_filename)
+    if file != desired_filename:
+        shutil.copy2(file, desired_filename)
+    else:
+        print("File names are the same, not renaming.")
     file_obj = open(desired_filename, 'rb')
 
     # Если размер хедера больше 900 символов
