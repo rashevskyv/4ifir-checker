@@ -20,15 +20,12 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 05.06.2023 11:27<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 05.06.2023 11:51<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─kips
-│ └─loader.kip (51b3b2dc89ad7264efa05220fddc463b)
-config
-└─sys-clk
-│ └─config.ini (16a176229c37cf4d6fbba6b7356c9081)
+└─kips
+│ └─loader.kip (03563690a51d43facdccd3255db522d1)
 </code>
 <hr>
 
