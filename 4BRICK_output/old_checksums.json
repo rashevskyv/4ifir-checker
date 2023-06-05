@@ -38,7 +38,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "914f24f6046a1cbd0b591aca06aa22a0"
+                        "checksum": "51b3b2dc89ad7264efa05220fddc463b"
                     }
                 ]
             }
@@ -55,7 +55,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
+                        "checksum": "16a176229c37cf4d6fbba6b7356c9081"
                     }
                 ]
             }
