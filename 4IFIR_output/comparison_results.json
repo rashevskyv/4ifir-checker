@@ -4,28 +4,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "e891da266da036426bf157c38648b40f"
-        },
-        {
-            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "0cd274ec465668fabd2c9f0571aef5f5"
+            "checksum": "36e3d48dac6f30b23de0aec8690e7933"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "218cf2670180448a069cecd7fc3269d4"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "ea4d940a70f9de1bbc92c2187a33a0dc"
-        },
-        {
-            "type": "file",
-            "name": "switch/MicroMemBench.nro",
-            "checksum": "5003bd111279f16d45f4dcde0992f00f"
+            "checksum": "db1cf8cf88743420b322d4b8d60a5c85"
         }
     ]
 }

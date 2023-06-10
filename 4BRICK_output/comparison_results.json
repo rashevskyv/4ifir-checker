@@ -4,23 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "e891da266da036426bf157c38648b40f"
-        },
-        {
-            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "deb1bab09c7e93358b16f58f89f2b113"
-        },
-        {
-            "type": "file",
-            "name": "config/sys-clk/config.ini",
-            "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "ea4d940a70f9de1bbc92c2187a33a0dc"
+            "checksum": "1c56d95fc278878f4d4c71c0b7f2323b"
         }
     ]
 }

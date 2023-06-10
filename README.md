@@ -1,47 +1,28 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 10.06.2023 09:02<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 10.06.2023 09:11<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
-├─kips
-│ ├─loader.kip (0cd274ec465668fabd2c9f0571aef5f5)
-├─package3 (218cf2670180448a069cecd7fc3269d4)
-switch
-└─.overlays
-│ ├─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
-└─MicroMemBench.nro (5003bd111279f16d45f4dcde0992f00f)
+└─kips
+│ ├─loader.kip (36e3d48dac6f30b23de0aec8690e7933)
+└─package3 (db1cf8cf88743420b322d4b8d60a5c85)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 10.06.2023 08:44<hr>
+<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 10.06.2023 09:14<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
-├─kips
-│ └─loader.kip (999844235d3148a51c96b75314757681)
-switch
-└─.overlays
-│ └─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
+└─kips
+│ └─loader.kip (cb85d5e0e43eb13138b2063177f8838f)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 10.06.2023 08:47<hr>
+<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 10.06.2023 09:17<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
-├─kips
-│ └─loader.kip (f75979b2fbd376912e6ff40632147d1a)
-switch
-└─.overlays
-│ └─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
+└─kips
+│ └─loader.kip (67e000126cdae536a5c8b2f3f25f2392)
 </code>
 <hr>
 
@@ -102,21 +83,12 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 10.06.2023 09:00<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 10.06.2023 09:19<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
-├─kips
-│ └─loader.kip (deb1bab09c7e93358b16f58f89f2b113)
-config
-├─sys-clk
-│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
-switch
-└─.overlays
-│ └─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
+└─kips
+│ └─loader.kip (1c56d95fc278878f4d4c71c0b7f2323b)
 </code>
 <hr>
 
