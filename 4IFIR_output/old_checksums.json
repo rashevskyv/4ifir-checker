@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "d169c1eafdacace4bc028a5b60b7f076"
+                                "checksum": "e891da266da036426bf157c38648b40f"
                             },
                             {
                                 "type": "directory",
@@ -562,7 +562,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "05b11f4c376f78f82ce5b3df947823eb"
+                        "checksum": "0cd274ec465668fabd2c9f0571aef5f5"
                     }
                 ]
             },
@@ -1248,7 +1248,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "c29e15ba5fb6d62f2f1a2ea5f6e68d92"
+                "checksum": "218cf2670180448a069cecd7fc3269d4"
             },
             {
                 "type": "file",
@@ -3208,7 +3208,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "5a2ebeccb55e13d8c80a8639c325ea08"
+                        "checksum": "ea4d940a70f9de1bbc92c2187a33a0dc"
                     },
                     {
                         "type": "file",
@@ -3378,7 +3378,7 @@
             {
                 "type": "file",
                 "name": "MicroMemBench.nro",
-                "checksum": "0b38963c7f2b3543bbdf32c33319539c"
+                "checksum": "5003bd111279f16d45f4dcde0992f00f"
             },
             {
                 "type": "file",

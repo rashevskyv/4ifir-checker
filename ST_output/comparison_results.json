@@ -1,23 +1,21 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "config",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "sys-clk",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "config.ini",
-                            "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "e891da266da036426bf157c38648b40f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "999844235d3148a51c96b75314757681"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "ea4d940a70f9de1bbc92c2187a33a0dc"
+        }
+    ]
 }

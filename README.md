@@ -1,22 +1,47 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 04.06.2023 21:40<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 10.06.2023 09:02<hr>
 
-<h3>Added files/folders</h3>
-<code>config
-└─sys-clk
+<h3>Modified files</h3>
+<code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
+├─kips
+│ ├─loader.kip (0cd274ec465668fabd2c9f0571aef5f5)
+├─package3 (218cf2670180448a069cecd7fc3269d4)
+switch
+└─.overlays
+│ ├─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
+└─MicroMemBench.nro (5003bd111279f16d45f4dcde0992f00f)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 04.06.2023 21:41<hr>
+<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 10.06.2023 08:44<hr>
 
-<h3>Added files/folders</h3>
-<code>config
+<h3>Modified files</h3>
+<code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
+├─kips
+│ └─loader.kip (999844235d3148a51c96b75314757681)
+switch
+└─.overlays
+│ └─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 04.06.2023 21:41<hr>
+<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 10.06.2023 08:47<hr>
 
-<h3>Added files/folders</h3>
-<code>config
+<h3>Modified files</h3>
+<code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
+├─kips
+│ └─loader.kip (f75979b2fbd376912e6ff40632147d1a)
+switch
+└─.overlays
+│ └─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
 </code>
 <hr>
 
@@ -77,12 +102,21 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 07.06.2023 22:47<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 10.06.2023 09:00<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (04cf1bc799995833e20505576d285af2)
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (e891da266da036426bf157c38648b40f)
+├─kips
+│ └─loader.kip (deb1bab09c7e93358b16f58f89f2b113)
+config
+├─sys-clk
+│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
+switch
+└─.overlays
+│ └─4IFIR.ovl (ea4d940a70f9de1bbc92c2187a33a0dc)
 </code>
 <hr>
 
