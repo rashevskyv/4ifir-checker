@@ -83,11 +83,17 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 11.06.2023 06:58<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 11.06.2023 07:32<hr>
 
 <h3>Added files/folders</h3>
+<code>switch
+└─MemTesterNX.nro (0bfcf1aaaf0ea8bd888c258d7c5343c6)
+└─MicroMemBench.nro (5003bd111279f16d45f4dcde0992f00f)
+</code>
+<h3>Modified files</h3>
 <code>atmosphere
 └─kips
+│ └─loader.kip (0fc465edd70611b1501cfa56d715958f)
 </code>
 <hr>
 

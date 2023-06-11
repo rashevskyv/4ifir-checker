@@ -38,7 +38,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "5810f56bac85e23a032f0f3294b424f7"
+                        "checksum": "0fc465edd70611b1501cfa56d715958f"
                     }
                 ]
             }
@@ -75,6 +75,16 @@
                         "checksum": "ea4d940a70f9de1bbc92c2187a33a0dc"
                     }
                 ]
+            },
+            {
+                "type": "file",
+                "name": "MemTesterNX.nro",
+                "checksum": "0bfcf1aaaf0ea8bd888c258d7c5343c6"
+            },
+            {
+                "type": "file",
+                "name": "MicroMemBench.nro",
+                "checksum": "5003bd111279f16d45f4dcde0992f00f"
             }
         ]
     }

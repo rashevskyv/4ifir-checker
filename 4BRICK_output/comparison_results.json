@@ -1,17 +1,22 @@
 {
     "added": [
         {
-            "type": "directory",
-            "name": "atmosphere/kips",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "loader.kip",
-                    "checksum": "5810f56bac85e23a032f0f3294b424f7"
-                }
-            ]
+            "type": "file",
+            "name": "switch/MemTesterNX.nro",
+            "checksum": "0bfcf1aaaf0ea8bd888c258d7c5343c6"
+        },
+        {
+            "type": "file",
+            "name": "switch/MicroMemBench.nro",
+            "checksum": "5003bd111279f16d45f4dcde0992f00f"
         }
     ],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "0fc465edd70611b1501cfa56d715958f"
+        }
+    ]
 }
