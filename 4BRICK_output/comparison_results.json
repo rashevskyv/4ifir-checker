@@ -1,22 +1,11 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "switch/MemTesterNX.nro",
-            "checksum": "0bfcf1aaaf0ea8bd888c258d7c5343c6"
-        },
-        {
-            "type": "file",
-            "name": "switch/MicroMemBench.nro",
-            "checksum": "5003bd111279f16d45f4dcde0992f00f"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "0fc465edd70611b1501cfa56d715958f"
+            "checksum": "e0712afc938b091502ad081f2bfe5f6a"
         }
     ]
 }
