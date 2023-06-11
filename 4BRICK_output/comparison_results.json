@@ -1,6 +1,5 @@
 {
-    "added": [],
-    "removed": [
+    "added": [
         {
             "type": "directory",
             "name": "atmosphere/kips",
@@ -8,10 +7,11 @@
                 {
                     "type": "file",
                     "name": "loader.kip",
-                    "checksum": "c82701d09c2711b87a631a8f17d73e5a"
+                    "checksum": "5810f56bac85e23a032f0f3294b424f7"
                 }
             ]
         }
     ],
+    "removed": [],
     "modified": []
 }

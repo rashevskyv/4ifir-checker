@@ -30,6 +30,17 @@
                         ]
                     }
                 ]
+            },
+            {
+                "type": "directory",
+                "name": "kips",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "loader.kip",
+                        "checksum": "5810f56bac85e23a032f0f3294b424f7"
+                    }
+                ]
             }
         ]
     },

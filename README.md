@@ -83,9 +83,9 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 11.06.2023 03:04<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 11.06.2023 06:58<hr>
 
-<h3>Removed files/folders</h3>
+<h3>Added files/folders</h3>
 <code>atmosphere
 └─kips
 </code>
