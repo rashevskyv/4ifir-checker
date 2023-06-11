@@ -1,11 +1,17 @@
 {
     "added": [],
-    "removed": [],
-    "modified": [
+    "removed": [
         {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "c82701d09c2711b87a631a8f17d73e5a"
+            "type": "directory",
+            "name": "atmosphere/kips",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "loader.kip",
+                    "checksum": "c82701d09c2711b87a631a8f17d73e5a"
+                }
+            ]
         }
-    ]
+    ],
+    "modified": []
 }
