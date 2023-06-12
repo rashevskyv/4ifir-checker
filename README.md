@@ -83,12 +83,12 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 12.06.2023 20:01<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 12.06.2023 20:29<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
 └─kips
-│ └─loader.kip (b2d3381e7666cb4015a0160c28d5392b)
+│ └─loader.kip (a6c34d46a38ab42fcda8b21f864f8ade)
 </code>
 <hr>
 
