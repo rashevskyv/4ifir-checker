@@ -83,18 +83,12 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 12.06.2023 18:59<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 12.06.2023 19:22<hr>
 
-<h3>Added files/folders</h3>
-<code>atmosphere
-├─reboot_payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
-bootloader
-payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
-</code>
 <h3>Modified files</h3>
 <code>atmosphere
 └─kips
-│ └─loader.kip (f7d61a389186474590bb5111cc75b9fc)
+│ └─loader.kip (a51e6c72cfe9fad3582d944c79116d43)
 </code>
 <hr>
 
