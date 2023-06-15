@@ -1,28 +1,44 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 10.06.2023 09:11<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 15.06.2023 03:03<hr>
 
+<h3>Added files/folders</h3>
+<code>switch
+└─MicroMemTest.nro (c315abf22cd9c332aecb7f13c8a9d8f4)
+</code>
 <h3>Modified files</h3>
 <code>atmosphere
-└─kips
-│ ├─loader.kip (36e3d48dac6f30b23de0aec8690e7933)
-└─package3 (db1cf8cf88743420b322d4b8d60a5c85)
+├─kips
+│ ├─loader.kip (605c348e79d3abf38e9b428ae941455a)
+├─package3 (971e8b8df72e33bb8c6942f5b9ecf7df)
+bootloader
+├─4IFIR.ini (1feb3bab2a7f7024aff12982d3019992)
+switch
+└─.overlays
+│ ├─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
+└─MicroMemBench.nro (5ffa757440c118f706d5ed3272327e11)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 10.06.2023 09:14<hr>
+<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 15.06.2023 02:52<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (cb85d5e0e43eb13138b2063177f8838f)
+├─kips
+│ └─loader.kip (d474e9b253b961a30e416db84a3df674)
+switch
+└─.overlays
+│ └─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 10.06.2023 09:17<hr>
+<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 15.06.2023 02:52<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (67e000126cdae536a5c8b2f3f25f2392)
+├─kips
+│ └─loader.kip (f828645204f5fb7788285cff04d2cba4)
+switch
+└─.overlays
+│ └─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
 </code>
 <hr>
 
@@ -83,12 +99,24 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 12.06.2023 22:19<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 15.06.2023 02:56<hr>
 
+<h3>Removed files/folders</h3>
+<code>atmosphere
+├─reboot_payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
+switch
+├─MemTesterNX.nro (0bfcf1aaaf0ea8bd888c258d7c5343c6)
+├─MicroMemBench.nro (5003bd111279f16d45f4dcde0992f00f)
+bootloader
+payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
+</code>
 <h3>Modified files</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (ef6c306a77cde9f2a78e2a932553dbd7)
+├─kips
+│ └─loader.kip (1d8b877a5d9e826a57a072c6d8d81217)
+switch
+└─.overlays
+│ └─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
 </code>
 <hr>
 

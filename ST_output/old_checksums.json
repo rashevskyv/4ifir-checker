@@ -38,7 +38,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "cb85d5e0e43eb13138b2063177f8838f"
+                        "checksum": "d474e9b253b961a30e416db84a3df674"
                     }
                 ]
             }
@@ -72,7 +72,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "ea4d940a70f9de1bbc92c2187a33a0dc"
+                        "checksum": "715f16c37a40cc71885f0ec4484bb036"
                     }
                 ]
             }
