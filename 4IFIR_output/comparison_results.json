@@ -1,37 +1,11 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "switch/MicroMemTest.nro",
-            "checksum": "c315abf22cd9c332aecb7f13c8a9d8f4"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "605c348e79d3abf38e9b428ae941455a"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "971e8b8df72e33bb8c6942f5b9ecf7df"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/4IFIR.ini",
-            "checksum": "1feb3bab2a7f7024aff12982d3019992"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "715f16c37a40cc71885f0ec4484bb036"
-        },
-        {
-            "type": "file",
-            "name": "switch/MicroMemBench.nro",
-            "checksum": "5ffa757440c118f706d5ed3272327e11"
+            "checksum": "3cd88cd19d0515b4ad093147f5bbf4a9"
         }
     ]
 }

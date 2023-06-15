@@ -1,20 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 15.06.2023 03:03<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 15.06.2023 11:35<hr>
 
-<h3>Added files/folders</h3>
-<code>switch
-└─MicroMemTest.nro (c315abf22cd9c332aecb7f13c8a9d8f4)
-</code>
 <h3>Modified files</h3>
 <code>atmosphere
-├─kips
-│ ├─loader.kip (605c348e79d3abf38e9b428ae941455a)
-├─package3 (971e8b8df72e33bb8c6942f5b9ecf7df)
-bootloader
-├─4IFIR.ini (1feb3bab2a7f7024aff12982d3019992)
-switch
-└─.overlays
-│ ├─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
-└─MicroMemBench.nro (5ffa757440c118f706d5ed3272327e11)
+└─kips
+│ └─loader.kip (3cd88cd19d0515b4ad093147f5bbf4a9)
 </code>
 <hr>
 
