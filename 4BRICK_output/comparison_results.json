@@ -1,130 +1,16 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "83a4d7dd9ec38ab520f053ee3bbdafb2"
-        },
-        {
-            "type": "file",
-            "name": "switch/MemTesterNX.nro",
-            "checksum": "0bfcf1aaaf0ea8bd888c258d7c5343c6"
-        },
-        {
-            "type": "file",
-            "name": "switch/MicroMemBench.nro",
-            "checksum": "5003bd111279f16d45f4dcde0992f00f"
-        },
-        {
-            "type": "directory",
-            "name": "bootloader",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "4IFIR.ini",
-                    "checksum": "2fcdf13969a63432849ab2e94e7743a1"
-                },
-                {
-                    "type": "file",
-                    "name": "hekate_ipl.ini",
-                    "checksum": "023b2f474657fa8861c1cb23fc543ec7"
-                },
-                {
-                    "type": "directory",
-                    "name": "sys",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "emummc.kipm",
-                            "checksum": "b6abb8e88f0a95ebf6491a6ab038ad62"
-                        },
-                        {
-                            "type": "directory",
-                            "name": "l4t",
-                            "children": [
-                                {
-                                    "type": "file",
-                                    "name": "bpmpfw_b01.bin",
-                                    "checksum": "4382c675dc004c57f3f851599b07d5f5"
-                                },
-                                {
-                                    "type": "file",
-                                    "name": "mtc_tbl_b01.bin",
-                                    "checksum": "56a64b26e1152868f8b0054b47c8b61d"
-                                },
-                                {
-                                    "type": "file",
-                                    "name": "sc7entry.bin",
-                                    "checksum": "7c68161a45e8590e9cd86e6b51d27336"
-                                },
-                                {
-                                    "type": "file",
-                                    "name": "sc7exit.bin",
-                                    "checksum": "507071759bfa902512cbe3d9b6a19792"
-                                },
-                                {
-                                    "type": "file",
-                                    "name": "sc7exit_b01.bin",
-                                    "checksum": "e31111479a097bbf1dbb0bb814620952"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "file",
-                            "name": "libsys_lp0.bso",
-                            "checksum": "789f27ebf59e6cb74d56339138f9eb8e"
-                        },
-                        {
-                            "type": "file",
-                            "name": "libsys_minerva.bso",
-                            "checksum": "a309493a58e7da19f0c0b3cae046e2a5"
-                        },
-                        {
-                            "type": "file",
-                            "name": "module_sample.bso",
-                            "checksum": "c3847f44a46db577be2e208641b7a2d3"
-                        },
-                        {
-                            "type": "file",
-                            "name": "nyx.bin",
-                            "checksum": "328d74060f65c4887ce596e06a0d6e09"
-                        },
-                        {
-                            "type": "file",
-                            "name": "res.pak",
-                            "checksum": "51f8b1ce7b749b49c0944255dd25af23"
-                        },
-                        {
-                            "type": "file",
-                            "name": "thk.bin",
-                            "checksum": "ca100bbaa4abcd77aeaf4dbce1eabd63"
-                        }
-                    ]
-                },
-                {
-                    "type": "file",
-                    "name": "update.bin",
-                    "checksum": "83a4d7dd9ec38ab520f053ee3bbdafb2"
-                }
-            ]
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "83a4d7dd9ec38ab520f053ee3bbdafb2"
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "1d8b877a5d9e826a57a072c6d8d81217"
+            "checksum": "5a4409061f6faec9a094bb2fd0b02493"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "715f16c37a40cc71885f0ec4484bb036"
+            "checksum": "2ea811f873d286a491d1e88861e90858"
         }
     ]
 }

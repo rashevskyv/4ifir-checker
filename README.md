@@ -88,24 +88,15 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 15.06.2023 02:56<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 16.06.2023 22:56<hr>
 
-<h3>Removed files/folders</h3>
-<code>atmosphere
-├─reboot_payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
-switch
-├─MemTesterNX.nro (0bfcf1aaaf0ea8bd888c258d7c5343c6)
-├─MicroMemBench.nro (5003bd111279f16d45f4dcde0992f00f)
-bootloader
-payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
-</code>
 <h3>Modified files</h3>
 <code>atmosphere
 ├─kips
-│ └─loader.kip (1d8b877a5d9e826a57a072c6d8d81217)
+│ └─loader.kip (5a4409061f6faec9a094bb2fd0b02493)
 switch
 └─.overlays
-│ └─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
+│ └─4IFIR.ovl (2ea811f873d286a491d1e88861e90858)
 </code>
 <hr>
 
