@@ -88,20 +88,22 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 00:43<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 02:04<hr>
 
-<h3>Added files/folders</h3>
-<code>switch
-└─MicroMemBench.nro (5ffa757440c118f706d5ed3272327e11)
-└─MicroMemTest.nro (c315abf22cd9c332aecb7f13c8a9d8f4)
-</code>
 <h3>Modified files</h3>
 <code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (b1faba387b9208e0af32bc1f76a464de)
 ├─kips
-│ └─loader.kip (fe0a951409fe55c771aae9563884eb8b)
+│ └─loader.kip (b6e852fe62647897e1981059582f4362)
 config
-└─sys-clk
-│ └─config.ini (2baa79331042fe08388fd7eb19030e95)
+├─sys-clk
+│ └─config.ini (314a62d96ec04a7a6d5bbfa461a088a0)
+switch
+└─.overlays
+│ ├─4IFIR.ovl (9c55077043f6a6ae139d040ac787f9c0)
+└─MicroMemTest.nro (05d0f9d0e82fe4fd8c2a0e55aa2ccd86)
 </code>
 <hr>
 

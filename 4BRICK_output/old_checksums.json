@@ -14,7 +14,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "e891da266da036426bf157c38648b40f"
+                                "checksum": "b1faba387b9208e0af32bc1f76a464de"
                             },
                             {
                                 "type": "directory",
@@ -38,7 +38,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "fe0a951409fe55c771aae9563884eb8b"
+                        "checksum": "b6e852fe62647897e1981059582f4362"
                     }
                 ]
             }
@@ -55,7 +55,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "2baa79331042fe08388fd7eb19030e95"
+                        "checksum": "314a62d96ec04a7a6d5bbfa461a088a0"
                     }
                 ]
             }
@@ -72,7 +72,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "2ea811f873d286a491d1e88861e90858"
+                        "checksum": "9c55077043f6a6ae139d040ac787f9c0"
                     }
                 ]
             },
@@ -84,7 +84,7 @@
             {
                 "type": "file",
                 "name": "MicroMemTest.nro",
-                "checksum": "c315abf22cd9c332aecb7f13c8a9d8f4"
+                "checksum": "05d0f9d0e82fe4fd8c2a0e55aa2ccd86"
             }
         ]
     }
