@@ -88,20 +88,12 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 03:25<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 03:51<hr>
 
-<h3>Added files/folders</h3>
-<code>atmosphere
-├─package3 (971e8b8df72e33bb8c6942f5b9ecf7df)
-├─reboot_payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
-├─stratosphere.romfs (602b87aadce201cbd99851a6d773c97b)
-bootloader
-payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
-</code>
 <h3>Modified files</h3>
 <code>atmosphere
 └─kips
-│ └─loader.kip (2f4c1fedcdeb2ee743d8b79698097ef4)
+│ └─loader.kip (051826cfeb0230cde75091142093864f)
 </code>
 <hr>
 
