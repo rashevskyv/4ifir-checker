@@ -88,22 +88,12 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 02:04<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 02:40<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (b1faba387b9208e0af32bc1f76a464de)
-├─kips
-│ └─loader.kip (b6e852fe62647897e1981059582f4362)
-config
-├─sys-clk
-│ └─config.ini (314a62d96ec04a7a6d5bbfa461a088a0)
-switch
-└─.overlays
-│ ├─4IFIR.ovl (9c55077043f6a6ae139d040ac787f9c0)
-└─MicroMemTest.nro (05d0f9d0e82fe4fd8c2a0e55aa2ccd86)
+└─kips
+│ └─loader.kip (cf2c1587d316ab8ff5ab9a3fd74890ee)
 </code>
 <hr>
 

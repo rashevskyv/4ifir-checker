@@ -4,28 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "b1faba387b9208e0af32bc1f76a464de"
-        },
-        {
-            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "b6e852fe62647897e1981059582f4362"
-        },
-        {
-            "type": "file",
-            "name": "config/sys-clk/config.ini",
-            "checksum": "314a62d96ec04a7a6d5bbfa461a088a0"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "9c55077043f6a6ae139d040ac787f9c0"
-        },
-        {
-            "type": "file",
-            "name": "switch/MicroMemTest.nro",
-            "checksum": "05d0f9d0e82fe4fd8c2a0e55aa2ccd86"
+            "checksum": "cf2c1587d316ab8ff5ab9a3fd74890ee"
         }
     ]
 }
