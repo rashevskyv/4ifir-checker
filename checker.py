@@ -39,8 +39,10 @@ def main():
             if (telegram):
                 # with open(archive_file, 'rb') as file:
                 #     input_file = InputFile(file)
-                asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, archive_file, archivename))
-                print("Report sent to Telegram.")
+
+                if archivename != '4BRICK':
+                    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, archive_file, archivename))
+                    print("Report sent to Telegram.")
 
             html_report_content += result
             html_report_content += '<hr>\n\n'
