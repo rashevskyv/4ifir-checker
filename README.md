@@ -88,12 +88,24 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 18.06.2023 19:43<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 26.05.2023 19:52<hr>
 
-<h3>Modified files</h3>
-<code>atmosphere
-└─kips
-│ └─loader.kip (ceb33cf5fa1a5888486c55b95fcfaabd)
+<h3>Added files/folders</h3>
+<code>config
+├─aio-switch-updater
+switch
+└─aio-switch-updater
+</code>
+<h3>Removed files/folders</h3>
+<code>config
+├─sys-clk
+switch
+├─.overlays
+├─MicroMemBench.nro (5ffa757440c118f706d5ed3272327e11)
+├─MicroMemTest.nro (05d0f9d0e82fe4fd8c2a0e55aa2ccd86)
+atmosphere
+bootloader
+payload.bin (83a4d7dd9ec38ab520f053ee3bbdafb2)
 </code>
 <hr>
 
