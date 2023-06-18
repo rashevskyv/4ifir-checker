@@ -37,10 +37,7 @@ def main():
             result = create_html_report(comparison_results, last_modified, archive["filename"])
 
             if (telegram):
-                # with open(archive_file, 'rb') as file:
-                #     input_file = InputFile(file)
-
-                if archivename != '4BRICK':
+                if "4BRICK" not in archivename:
                     asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, archive_file, archivename))
                     print("Report sent to Telegram.")
 
