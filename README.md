@@ -88,7 +88,18 @@ SaltySD
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 17.06.2023 06:52<hr>
+<h2>Archive Comparison Report for <b>4BRICK</b></h2><b>Last archive modification date:</b> 18.06.2023 18:52<hr>
 
+<h3>Modified files</h3>
+<code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (d69133ef4e0e7a39eafc494c32422cf4)
+├─kips
+│ └─loader.kip (3edd2735a44e10a3bb77ba6e00376cc4)
+switch
+└─.overlays
+│ └─4IFIR.ovl (3eb66b744852663b5a247443dfa90900)
+</code>
 <hr>
 
