@@ -11,7 +11,16 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 19.06.2023 01:45<hr>
+<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 19.06.2023 02:49<hr>
+
+<h3>Modified files</h3>
+<code>atmosphere
+└─kips
+│ └─loader.kip (1ec70da24576c4009c493f36952c125c)
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 19.06.2023 02:41<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
@@ -19,22 +28,10 @@ switch
 │ ├─00FF0000636C6BFF
 │ │ └─exefs.nsp (bb9383dc10de6c706a838c1c563ef0c6)
 ├─kips
-│ └─loader.kip (a7a12dbe291b7c575e2c0a32e4404fd9)
+│ └─loader.kip (e51f31bd4e2e558795ca3940c7cab8f3)
 switch
 └─.overlays
 │ └─4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Stage 8+</b></h2><b>Last archive modification date:</b> 15.06.2023 02:52<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-├─kips
-│ └─loader.kip (f828645204f5fb7788285cff04d2cba4)
-switch
-└─.overlays
-│ └─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
 </code>
 <hr>
 
