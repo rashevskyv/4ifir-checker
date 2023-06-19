@@ -1,4 +1,17 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 19.06.2023 00:45<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 19.06.2023 01:32<hr>
+
+<h3>Modified files</h3>
+<code>atmosphere
+├─kips
+│ ├─loader.kip (44af2b2fd8e764747529ff392f2616d3)
+├─package3 (d0bd3af6a5a2ba39543d4ac8dc194d49)
+switch
+└─.overlays
+│ └─4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 19.06.2023 01:45<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
@@ -6,27 +19,10 @@
 │ ├─00FF0000636C6BFF
 │ │ └─exefs.nsp (bb9383dc10de6c706a838c1c563ef0c6)
 ├─kips
-│ ├─loader.kip (07457c33020b4604b9380ac54db15d82)
-├─package3 (34b97176336dd4b3f4fad7e5e15cbe2d)
-config
-├─aio-switch-updater
-│ └─custom_packs.json (5f53d6f943c148288d29170db03f8905)
+│ └─loader.kip (a7a12dbe291b7c575e2c0a32e4404fd9)
 switch
 └─.overlays
-│ └─4IFIR.ovl (729b1e7b96e5cc6fc8b904a9ebc420f1)
-│ └─InfoNX-ovl.ovl (f29a30ea181bfd52e7c0d83423a0a8c0)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Stage 8</b></h2><b>Last archive modification date:</b> 15.06.2023 02:52<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-├─kips
-│ └─loader.kip (d474e9b253b961a30e416db84a3df674)
-switch
-└─.overlays
-│ └─4IFIR.ovl (715f16c37a40cc71885f0ec4484bb036)
+│ └─4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
 </code>
 <hr>
 

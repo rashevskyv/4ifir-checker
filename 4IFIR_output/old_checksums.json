@@ -562,7 +562,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "07457c33020b4604b9380ac54db15d82"
+                        "checksum": "44af2b2fd8e764747529ff392f2616d3"
                     }
                 ]
             },
@@ -1248,7 +1248,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "34b97176336dd4b3f4fad7e5e15cbe2d"
+                "checksum": "d0bd3af6a5a2ba39543d4ac8dc194d49"
             },
             {
                 "type": "file",
@@ -3208,7 +3208,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "729b1e7b96e5cc6fc8b904a9ebc420f1"
+                        "checksum": "992a3359cc2395e3a1ef35d08ca0a32c"
                     },
                     {
                         "type": "file",
