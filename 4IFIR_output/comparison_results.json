@@ -4,8 +4,33 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "bb9383dc10de6c706a838c1c563ef0c6"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "3cd88cd19d0515b4ad093147f5bbf4a9"
+            "checksum": "07457c33020b4604b9380ac54db15d82"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "34b97176336dd4b3f4fad7e5e15cbe2d"
+        },
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "5f53d6f943c148288d29170db03f8905"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "729b1e7b96e5cc6fc8b904a9ebc420f1"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "f29a30ea181bfd52e7c0d83423a0a8c0"
         }
     ]
 }
