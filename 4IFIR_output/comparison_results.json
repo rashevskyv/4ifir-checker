@@ -1,21 +1,17 @@
 {
     "added": [],
-    "removed": [],
+    "removed": [
+        {
+            "type": "file",
+            "name": "switch/MicroMemTest.nro",
+            "checksum": "c315abf22cd9c332aecb7f13c8a9d8f4"
+        }
+    ],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "44af2b2fd8e764747529ff392f2616d3"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "d0bd3af6a5a2ba39543d4ac8dc194d49"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "992a3359cc2395e3a1ef35d08ca0a32c"
+            "checksum": "3d2b93f0941d010eef4550da6b82fb13"
         }
     ]
 }

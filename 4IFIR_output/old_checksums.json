@@ -562,7 +562,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "44af2b2fd8e764747529ff392f2616d3"
+                        "checksum": "3d2b93f0941d010eef4550da6b82fb13"
                     }
                 ]
             },
@@ -3379,11 +3379,6 @@
                 "type": "file",
                 "name": "MicroMemBench.nro",
                 "checksum": "5ffa757440c118f706d5ed3272327e11"
-            },
-            {
-                "type": "file",
-                "name": "MicroMemTest.nro",
-                "checksum": "c315abf22cd9c332aecb7f13c8a9d8f4"
             },
             {
                 "type": "file",
