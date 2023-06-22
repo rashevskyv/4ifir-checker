@@ -1,17 +1,11 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "file",
-            "name": "switch/MicroMemTest.nro",
-            "checksum": "c315abf22cd9c332aecb7f13c8a9d8f4"
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "3d2b93f0941d010eef4550da6b82fb13"
+            "checksum": "fae603c8a7d6b04145c349e96cc52ae4"
         }
     ]
 }
