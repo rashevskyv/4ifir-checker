@@ -3,6 +3,9 @@ import os
 from status_result import process_items
 from datetime import datetime
 import shutil
+from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file
+
+bot_token, chat_id, message_thread_id = TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID
 
 def create_html_report(results, last_modified, archive_filename):
     report_content = ''
@@ -79,18 +82,29 @@ def split_html_content(content, max_length=4096, tag='<code>', delimiter='------
 
     return header, blocks
 
-async def send_telegram_message(bot_token, chat_id, message_thread_id, report_content, file, archivename):
-    # Generate the list of changes
-    report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
+async def send_to_tg(report_content, file, archivename):
+        
+    def process_report_content(report_content):
+        report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
+        header, blocks = split_html_content(report_content)
+        print("header:", header)
+        delimiter="-------------------------------"
+        split_index = header.rfind(delimiter)
+        small_caption = header[:split_index]
+        headless_header=header[split_index+len(delimiter):]
+        return header, blocks, small_caption, headless_header
 
-    header, blocks = split_html_content(report_content)
-    print("header:", header)
+    def prepare_file(file, archivename):
+        desired_filename = archivename + '.zip'
+        if file != desired_filename:
+            shutil.copy2(file, desired_filename)
+        else:
+            print("File names are the same, not renaming.")
+        file_obj = open(desired_filename, 'rb')
+        return file_obj
 
-    delimiter="-------------------------------"
-
-    split_index = header.rfind(delimiter)
-    small_caption = header[:split_index]
-    headless_header=header[split_index+len(delimiter):]
+    header, blocks, small_caption, headless_header = process_report_content(report_content)
+    file_obj = prepare_file(file, archivename)
 
     bot = Bot(token=bot_token)
 
@@ -141,4 +155,11 @@ async def send_telegram_message(bot_token, chat_id, message_thread_id, report_co
         await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
 
     file_obj.close()    
+    await bot.close()
+
+async def send_tg_message(message):
+    bot = Bot(token=bot_token)
+    print("Sending message to Telegram...")
+    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=message)
+    print("Message sent to Telegram.")
     await bot.close()

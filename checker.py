@@ -3,8 +3,8 @@ import json
 import asyncio
 from aiogram.types import InputFile
 from archives import process_archive, custom_packs_dict, archives
-from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file
-from report import create_html_report, send_telegram_message
+from settings import report_file
+from report import create_html_report, send_to_tg
 from files import remove_unlisted_directories
 
 def main():
@@ -38,7 +38,7 @@ def main():
 
             if (telegram):
                 if "4BRICK" not in archivename:
-                    asyncio.run(send_telegram_message(TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, result, archive_file, archivename))
+                    asyncio.run(send_to_tg(result, archive_file, archivename))
                     print("Report sent to Telegram.")
 
             html_report_content += result
