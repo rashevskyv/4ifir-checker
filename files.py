@@ -16,15 +16,15 @@ def download_file(url, output_path):
         with open("serverresponse.txt", 'r') as server_response:
             if server_response.read() == '0':
                 asyncio.run(send_tg_message("Server is up!"))
-        with open("serverresponse.txt", 'w') as server_response:
-                server_response.write('1')
+                with open("serverresponse.txt", 'w') as server_response:
+                        server_response.write('1')
     except:
         print('Error downloading archive.')
         with open("serverresponse.txt", 'r') as server_response:
             if server_response.read() == '1':
                 asyncio.run(send_tg_message("Server is down"))
-        with open("serverresponse.txt", 'w') as server_response:
-            server_response.write('0')
+                with open("serverresponse.txt", 'w') as server_response:
+                    server_response.write('0')
         sys.exit(0)
 
 # Remove directories that are not present in custom_packs
