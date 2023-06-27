@@ -11,7 +11,7 @@ def load_config(file):
         print(f'Error loading config file {file}:', e)
         sys.exit(1)
 
-aio_zip_url = "https://github.com/rashevskyv/4IFIR/releases/latest/download/AIO.zip"
+aio_zip_url = "https://sintez.io/AIO.zip"
 # aio_zip_url = "http://127.0.0.1/aio.zip"
 aio_zip_path = "aio.zip"
 custom_packs_path = "custom_packs.json"
