@@ -1,9 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 22.06.2023 17:02<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 27.06.2023 07:43<hr>
 
+<h3>Added files/folders</h3>
+<code>config
+└─nx-hbmenu
+</code>
 <h3>Modified files</h3>
 <code>atmosphere
-└─kips
-│ └─loader.kip (fae603c8a7d6b04145c349e96cc52ae4)
+└─config
+│ └─system_settings.ini (be96d4f07bc771e648fb24c151c9e9fb)
 </code>
 <hr>
 
