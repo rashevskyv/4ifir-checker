@@ -1,13 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 27.06.2023 07:43<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 13.08.2023 12:24<hr>
 
-<h3>Added files/folders</h3>
-<code>config
-└─nx-hbmenu
-</code>
 <h3>Modified files</h3>
-<code>atmosphere
-└─config
-│ └─system_settings.ini (be96d4f07bc771e648fb24c151c9e9fb)
+<code>bootloader
+└─res
+│ └─4mosphere.bmp (a1889361400982b51d9d157d2d3b5012)
 </code>
 <hr>
 

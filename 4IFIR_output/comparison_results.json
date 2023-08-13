@@ -1,34 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "config/nx-hbmenu",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "settings.cfg",
-                    "checksum": "f20c04ca39540d695ca968066f189b82"
-                },
-                {
-                    "type": "directory",
-                    "name": "themes",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "DefaultDarkerHighlight.cfg",
-                            "checksum": "792f54d899621f408caf2303287fc0c2"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/config/system_settings.ini",
-            "checksum": "be96d4f07bc771e648fb24c151c9e9fb"
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "a1889361400982b51d9d157d2d3b5012"
         }
     ]
 }
