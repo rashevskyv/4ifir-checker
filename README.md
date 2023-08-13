@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 13.08.2023 12:24<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 13.08.2023 12:57<hr>
 
 <h3>Modified files</h3>
-<code>bootloader
-└─res
-│ └─4mosphere.bmp (a1889361400982b51d9d157d2d3b5012)
+<code>config
+└─aio-switch-updater
+│ └─custom_packs.json (a5e3c705f1e865b3f7cb8052f88f95b0)
 </code>
 <hr>
 
@@ -45,12 +45,12 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 19.06.2023 00:20<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 13.08.2023 12:57<hr>
 
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─custom_packs.json (5f53d6f943c148288d29170db03f8905)
+│ └─custom_packs.json (a5e3c705f1e865b3f7cb8052f88f95b0)
 </code>
 <hr>
 
