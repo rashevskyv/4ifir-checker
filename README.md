@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 13.08.2023 12:57<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 13.08.2023 19:29<hr>
 
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─custom_packs.json (a5e3c705f1e865b3f7cb8052f88f95b0)
+│ └─custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
 </code>
 <hr>
 
@@ -45,12 +45,12 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 13.08.2023 12:57<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 13.08.2023 19:28<hr>
 
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─custom_packs.json (a5e3c705f1e865b3f7cb8052f88f95b0)
+│ └─custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
 </code>
 <hr>
 
