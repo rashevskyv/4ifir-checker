@@ -12,10 +12,10 @@ def main():
 
     for archive in archives:
         if (process_archive(archive)):
-            print(f"Archive {archive['filename']} processed.")
+            print(f"{archive['filename']}: Archive processed.")
             telegram = 1
         else:
-            print("No changes detected in the archive since the last execution.")
+            print(f"{archive['filename']}: No changes detected in the archive since the last execution.")
             telegram = 0
 
         filename = os.path.splitext(os.path.basename(archive["url"]))[0]

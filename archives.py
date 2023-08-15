@@ -49,7 +49,7 @@ def process_archive(archive):
         with open(status_file, 'r') as f:
             status = json.load(f)
     except (json.JSONDecodeError, FileNotFoundError) as e:
-        print('No status file found, creating a new one.')
+        print(f"{archive['filename']}: No status file found, creating a new one.")
         status = {}
 
     # Check if the archive has been modified
@@ -72,11 +72,15 @@ def process_archive(archive):
         if os.path.exists(old_checksum_file):
             with open(old_checksum_file, 'r') as f:
                 old_checksums = json.load(f)
+        else:
+            old_checksums = {}
+            with open(old_checksum_file, 'w') as f:
+                json.dump(old_checksums, f)
 
-            comparison_results = compare_checksums(old_checksums, new_checksums)
+        comparison_results = compare_checksums(old_checksums, new_checksums)
 
-            # Save the comparison results to a file
-            save_comparison_results(comparison_results, comparison_results_file)
+        # Save the comparison results to a file
+        save_comparison_results(comparison_results, comparison_results_file)
 
         # Save the new checksums
         with open(new_checksum_file, 'w') as f:

@@ -6,7 +6,7 @@ import hashlib
 def save_status(status_file, status, archive_filename):
     with open(status_file, 'w') as f:
         json.dump(status, f, indent=4)
-        print(f'Script status for {archive_filename} saved to', status_file)
+        print(f'{archive_filename}: Script status saved to', status_file)
 
 # Build tree structure and add the item to the tree
 def build_tree(path, contents):
@@ -92,9 +92,8 @@ def save_comparison_results(results, output_file):
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=4)
 
-def process_items(items, indent_level=1):
+def process_items(items):
     folder_tree = {}
-    prefix = '  ' * indent_level
 
     for item in items:
         path_parts = item["name"].split('/')
@@ -105,6 +104,10 @@ def process_items(items, indent_level=1):
                 folder[part] = {}
             folder = folder[part]
 
-        folder[path_parts[-1]] = item
+        folder_name = path_parts[-1]
+        if "children" in item:
+            folder[folder_name] = process_items(item["children"])
+        else:
+            folder[folder_name] = item["name"] + " (" + item["checksum"] + ")" if "checksum" in item else item["name"]
 
     return folder_tree

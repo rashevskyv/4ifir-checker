@@ -28,13 +28,13 @@ def create_html_report(results, last_modified, archive_filename):
         for index, (key, value) in enumerate(tree.items()):
             is_last_child = index == len(tree) - 1
 
-            if isinstance(value, dict):
-                if "name" in value and "checksum" in value:
-                    file_name, file_extension = os.path.splitext(os.path.basename(value['name']))
-                    tree_str += f"{prefix}{file_name}{file_extension} ({value['checksum']})\n"
-                else:
-                    tree_str += f"{prefix}{key}\n"
-                    tree_str += render_tree(value, level + 1, is_last_child)
+            if isinstance(value, str) and "(" in value and ")" in value:
+                # Це файл з контрольною сумою
+                file_name, checksum = value.split(' ')
+                tree_str += f"{prefix}{file_name} ({checksum[1:-1]})\n"
+            elif isinstance(value, dict):
+                tree_str += f"{prefix}{key}\n"
+                tree_str += render_tree(value, level + 1, is_last_child)
 
         return tree_str
 
@@ -48,6 +48,7 @@ def create_html_report(results, last_modified, archive_filename):
                 report_content += '<h3>Modified files</h3>\n<code>'
 
             folder_tree = process_items(items)
+
             report_content += render_tree(folder_tree)
             report_content += '</code>\n'  # Закрытие блока кода с помощью ```
     return report_content
@@ -87,7 +88,7 @@ async def send_to_tg(report_content, file, archivename):
     def process_report_content(report_content):
         report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
         header, blocks = split_html_content(report_content)
-        print("header:", header)
+        # print("header:", header)
         delimiter="-------------------------------"
         split_index = header.rfind(delimiter)
         small_caption = header[:split_index]

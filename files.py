@@ -12,7 +12,7 @@ def download_file(url, output_path):
         response = requests.get(url)
         with open(output_path, 'wb') as f:
             f.write(response.content)
-        print('Archive downloaded successfully.')
+        print(f'{output_path}: Archive downloaded successfully.')
         with open("serverresponse.txt", 'r') as server_response:
             if server_response.read() == '0':
                 asyncio.run(send_tg_message("Server is up!"))
