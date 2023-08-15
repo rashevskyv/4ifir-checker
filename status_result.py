@@ -108,6 +108,7 @@ def process_items(items):
         if "children" in item:
             folder[folder_name] = process_items(item["children"])
         else:
-            folder[folder_name] = item["name"] + " (" + item["checksum"] + ")" if "checksum" in item else item["name"]
+            file_name = folder_name
+            folder[file_name] = file_name + " (" + item["checksum"] + ")" if "checksum" in item else file_name
 
     return folder_tree
