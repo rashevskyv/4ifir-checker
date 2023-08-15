@@ -3,7 +3,7 @@
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─config/aio-switch-updater/custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
+│ └─custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
 </code>
 <hr>
 
@@ -12,7 +12,7 @@
 <h3>Modified files</h3>
 <code>atmosphere
 └─kips
-│ └─atmosphere/kips/loader.kip (1ec70da24576c4009c493f36952c125c)
+│ └─loader.kip (1ec70da24576c4009c493f36952c125c)
 </code>
 <hr>
 
@@ -22,12 +22,12 @@
 <code>atmosphere
 ├─contents
 │ ├─00FF0000636C6BFF
-│ │ └─atmosphere/contents/00FF0000636C6BFF/exefs.nsp (bb9383dc10de6c706a838c1c563ef0c6)
+│ │ └─exefs.nsp (bb9383dc10de6c706a838c1c563ef0c6)
 ├─kips
-│ └─atmosphere/kips/loader.kip (e51f31bd4e2e558795ca3940c7cab8f3)
+│ └─loader.kip (e51f31bd4e2e558795ca3940c7cab8f3)
 switch
 └─.overlays
-│ └─switch/.overlays/4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
+│ └─4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
 </code>
 <hr>
 
@@ -93,9 +93,9 @@ switch
 │ └─FPSLocker
 │ │ └─patches
 │ │ │ └─01005420101DA000
-│ │ │ │ ├─SaltySD/plugins/FPSLocker/patches/01005420101DA000/134EC3D8BE75126F.yaml (cc6df05e4ac20c567ea1949a20e5d3b7)
+│ │ │ │ ├─134EC3D8BE75126F.yaml (cc6df05e4ac20c567ea1949a20e5d3b7)
 │ │ │ └─01007B5017A12000
-│ │ │ │ └─SaltySD/plugins/FPSLocker/patches/01007B5017A12000/C56FA2C9627A26CF.yaml (d31096a96b421b2e1df8896571c0ba8d)
+│ │ │ │ └─C56FA2C9627A26CF.yaml (d31096a96b421b2e1df8896571c0ba8d)
 </code>
 <hr>
 
@@ -104,7 +104,7 @@ switch
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─config/aio-switch-updater/custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
+│ └─custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
 </code>
 <hr>
 
