@@ -31,57 +31,47 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8++</b></h2><b>Last archive modification date:</b> 13.08.2023 12:54<hr>
+<h2>Archive Comparison Report for <b>Stage 8++</b></h2><b>Last archive modification date:</b> 15.08.2023 16:35<hr>
 
 <h3>Added files/folders</h3>
-<code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (092e7a9334647c416b7f5e287e4fba06)
-│ │ └─flags
-│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
-├─kips
-│ ├─loader.kip (d9f10e8cc7302569d6c6bbc30efd956c)
-├─reboot_payload.bin (f4e1149033aac84cc178fdaeee01dca2)
-bootloader
-├─4IFIR.ini (bd4c63d0d862379afb7867715941ce8c)
-├─res
-│ ├─4mosphere.bmp (a1889361400982b51d9d157d2d3b5012)
-├─update.bin (f4e1149033aac84cc178fdaeee01dca2)
-config
-├─sys-clk
-│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
-payload.bin (f4e1149033aac84cc178fdaeee01dca2)
-switch
-└─.overlays
-│ └─4IFIR.ovl (a274798a064677266ea520bdcff2c576)
+<code>bootloader
+└─sys
+│ └─emummc.kipm (b6abb8e88f0a95ebf6491a6ab038ad62)
+│ └─l4t
+│ │ ├─bpmpfw.bin (af4a15d2bf1e2cbaed8747524e82b15d)
+│ │ ├─bpmpfw_b01.bin (4382c675dc004c57f3f851599b07d5f5)
+│ │ ├─mtc_tbl_b01.bin (56a64b26e1152868f8b0054b47c8b61d)
+│ │ ├─sc7entry.bin (7c68161a45e8590e9cd86e6b51d27336)
+│ │ ├─sc7exit.bin (507071759bfa902512cbe3d9b6a19792)
+│ │ ├─sc7exit_b01.bin (e31111479a097bbf1dbb0bb814620952)
+│ └─libsys_lp0.bso (789f27ebf59e6cb74d56339138f9eb8e)
+│ └─libsys_minerva.bso (a309493a58e7da19f0c0b3cae046e2a5)
+│ └─module_sample.bso (c3847f44a46db577be2e208641b7a2d3)
+│ └─nyx.bin (328d74060f65c4887ce596e06a0d6e09)
+│ └─res.pak (51f8b1ce7b749b49c0944255dd25af23)
+│ └─thk.bin (ca100bbaa4abcd77aeaf4dbce1eabd63)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 9</b></h2><b>Last archive modification date:</b> 13.08.2023 19:26<hr>
+<h2>Archive Comparison Report for <b>Stage 9</b></h2><b>Last archive modification date:</b> 15.08.2023 16:35<hr>
 
 <h3>Added files/folders</h3>
-<code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (092e7a9334647c416b7f5e287e4fba06)
-│ │ └─flags
-│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
-├─kips
-│ ├─loader.kip (740edb0f9facea4cabd7fd0898f96978)
-├─reboot_payload.bin (f4e1149033aac84cc178fdaeee01dca2)
-bootloader
-├─4IFIR.ini (bd4c63d0d862379afb7867715941ce8c)
-├─res
-│ ├─4mosphere.bmp (a1889361400982b51d9d157d2d3b5012)
-├─update.bin (f4e1149033aac84cc178fdaeee01dca2)
-config
-├─sys-clk
-│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
-payload.bin (f4e1149033aac84cc178fdaeee01dca2)
-switch
-└─.overlays
-│ └─4IFIR.ovl (a274798a064677266ea520bdcff2c576)
+<code>bootloader
+└─sys
+│ └─emummc.kipm (b6abb8e88f0a95ebf6491a6ab038ad62)
+│ └─l4t
+│ │ ├─bpmpfw.bin (af4a15d2bf1e2cbaed8747524e82b15d)
+│ │ ├─bpmpfw_b01.bin (4382c675dc004c57f3f851599b07d5f5)
+│ │ ├─mtc_tbl_b01.bin (56a64b26e1152868f8b0054b47c8b61d)
+│ │ ├─sc7entry.bin (7c68161a45e8590e9cd86e6b51d27336)
+│ │ ├─sc7exit.bin (507071759bfa902512cbe3d9b6a19792)
+│ │ ├─sc7exit_b01.bin (e31111479a097bbf1dbb0bb814620952)
+│ └─libsys_lp0.bso (789f27ebf59e6cb74d56339138f9eb8e)
+│ └─libsys_minerva.bso (a309493a58e7da19f0c0b3cae046e2a5)
+│ └─module_sample.bso (c3847f44a46db577be2e208641b7a2d3)
+│ └─nyx.bin (328d74060f65c4887ce596e06a0d6e09)
+│ └─res.pak (51f8b1ce7b749b49c0944255dd25af23)
+│ └─thk.bin (ca100bbaa4abcd77aeaf4dbce1eabd63)
 </code>
 <hr>
 
