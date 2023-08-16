@@ -75,17 +75,41 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 19.06.2023 00:10<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 16.08.2023 01:24<hr>
 
+<h3>Added files/folders</h3>
+<code>SaltySD
+└─plugins
+│ └─FPSLocker
+│ │ └─patches
+│ │ │ └─01004800197F0000
+│ │ │ │ ├─2058227F80E9B40C.yaml (6c62b3600ccf749856081da2eeb5d294)
+│ │ │ └─010066F01A0E0000
+│ │ │ │ ├─224357DED42E86ED.yaml (44510c94c88487b76b7dbc9c88ff5be3)
+│ │ │ └─0100739018020000
+│ │ │ │ ├─E93D49581521E084.yaml (e1d15b31be961685fc7367830bc7077b)
+│ │ │ └─010074F013262000
+│ │ │ │ ├─B6BE4A6B83D4F237.yaml (8943a7bc3b6051d30ded405b20601b14)
+│ │ │ └─01007B5017A12000
+│ │ │ │ ├─CE14D183190A44D2.yaml (561065b33d4cd41b2972635512ed43bd)
+│ │ │ └─0100B04011742000
+│ │ │ │ ├─55D50CA1805E9C5B.yaml (33a8fab6fb4b20a08d1e4de2ae21d989)
+│ │ │ └─0100B750198C6000
+│ │ │ │ ├─CEE6B8B19D3A863E.yaml (aeb5103ae9d77ca5777ae8e92ab8408b)
+│ │ │ └─0100D7F00FB1A000
+│ │ │ │ ├─D871B992E95B71C5.yaml (3ed624b45da66b8aed0b3872e55fe7a0)
+│ │ │ └─0100F3200E7CA000
+│ │ │ │ └─254DF6A118587EA0.yaml (56e4aa359ddf9c9e27421b4ae7cc2d9d)
+</code>
 <h3>Modified files</h3>
 <code>SaltySD
 └─plugins
 │ └─FPSLocker
 │ │ └─patches
+│ │ │ └─010020B016EF4000
+│ │ │ │ ├─7E25622D50D562BF.yaml (91898d54d353511305e94093ae265fc4)
 │ │ │ └─01005420101DA000
-│ │ │ │ ├─134EC3D8BE75126F.yaml (cc6df05e4ac20c567ea1949a20e5d3b7)
-│ │ │ └─01007B5017A12000
-│ │ │ │ └─C56FA2C9627A26CF.yaml (d31096a96b421b2e1df8896571c0ba8d)
+│ │ │ │ └─134EC3D8BE75126F.yaml (c317d65e51bcbfd4047c79d82d593ab0)
 </code>
 <hr>
 
