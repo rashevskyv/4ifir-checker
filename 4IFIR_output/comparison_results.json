@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "2dd0d8822f05135eccf957e7a7a65dcc"
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "95d608cd2a27c82e7e82a64a2721ada0"
         }
     ]
 }
