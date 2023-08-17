@@ -31,25 +31,12 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Stage 8++</b></h2><b>Last archive modification date:</b> 15.08.2023 16:35<hr>
+<h2>Archive Comparison Report for <b>Stage 8++</b></h2><b>Last archive modification date:</b> 17.08.2023 02:58<hr>
 
-<h3>Added files/folders</h3>
-<code>bootloader
-└─sys
-│ └─emummc.kipm (b6abb8e88f0a95ebf6491a6ab038ad62)
-│ └─l4t
-│ │ ├─bpmpfw.bin (af4a15d2bf1e2cbaed8747524e82b15d)
-│ │ ├─bpmpfw_b01.bin (4382c675dc004c57f3f851599b07d5f5)
-│ │ ├─mtc_tbl_b01.bin (56a64b26e1152868f8b0054b47c8b61d)
-│ │ ├─sc7entry.bin (7c68161a45e8590e9cd86e6b51d27336)
-│ │ ├─sc7exit.bin (507071759bfa902512cbe3d9b6a19792)
-│ │ ├─sc7exit_b01.bin (e31111479a097bbf1dbb0bb814620952)
-│ └─libsys_lp0.bso (789f27ebf59e6cb74d56339138f9eb8e)
-│ └─libsys_minerva.bso (a309493a58e7da19f0c0b3cae046e2a5)
-│ └─module_sample.bso (c3847f44a46db577be2e208641b7a2d3)
-│ └─nyx.bin (328d74060f65c4887ce596e06a0d6e09)
-│ └─res.pak (51f8b1ce7b749b49c0944255dd25af23)
-│ └─thk.bin (ca100bbaa4abcd77aeaf4dbce1eabd63)
+<h3>Modified files</h3>
+<code>atmosphere
+└─kips
+│ └─loader.kip (47fd42010c83c240785d146bceb91f67)
 </code>
 <hr>
 
