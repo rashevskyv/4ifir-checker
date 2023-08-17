@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 16.08.2023 13:12<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 17.08.2023 14:48<hr>
 
 <h3>Modified files</h3>
-<code>switch
-└─.overlays
-│ └─Status-Monitor-Overlay.ovl (95d608cd2a27c82e7e82a64a2721ada0)
+<code>config
+└─aio-switch-updater
+│ └─custom_packs.json (e88c7a7e05c4d92b338a08a19a698723)
 </code>
 <hr>
 
@@ -28,24 +28,6 @@
 switch
 └─.overlays
 │ └─4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Stage 8++</b></h2><b>Last archive modification date:</b> 17.08.2023 02:58<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-└─kips
-│ └─loader.kip (47fd42010c83c240785d146bceb91f67)
-</code>
-<hr>
-
-<h2>Archive Comparison Report for <b>Stage 9</b></h2><b>Last archive modification date:</b> 17.08.2023 03:51<hr>
-
-<h3>Modified files</h3>
-<code>atmosphere
-└─kips
-│ └─loader.kip (5067785a523fb3716594b138e831afb9)
 </code>
 <hr>
 
@@ -87,12 +69,27 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 13.08.2023 19:28<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 17.08.2023 14:48<hr>
 
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─custom_packs.json (2dd0d8822f05135eccf957e7a7a65dcc)
+│ └─custom_packs.json (e88c7a7e05c4d92b338a08a19a698723)
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>Placebo</b></h2><b>Last archive modification date:</b> 17.08.2023 14:56<hr>
+
+<h3>Added files/folders</h3>
+<code>config
+├─aio-switch-updater
+│ └─.aio-switch-updater (d41d8cd98f00b204e9800998ecf8427e)
+│ └─custom_packs.json (cea05216889acd7b011bdb5e417f28ed)
+│ └─hide_tabs.json (1e6f9c206da36a4cb1b49612311367e9)
+switch
+└─aio-switch-updater
+│ └─.aio-switch-updater.nro.star (d41d8cd98f00b204e9800998ecf8427e)
+│ └─aio-switch-updater.nro (c937947e7f8b596aadfd31ed24f83f2f)
 </code>
 <hr>
 
