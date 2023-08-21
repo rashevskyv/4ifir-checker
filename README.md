@@ -93,3 +93,43 @@ switch
 </code>
 <hr>
 
+<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 21.08.2023 11:05<hr>
+
+<h3>Added files/folders</h3>
+<code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (0aea189066db693fe4482e8822fe8fe6)
+│ │ └─flags
+│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
+├─kips
+│ └─loader.kip (c6f71ce1ab503550414fe7db1424ecf1)
+config
+├─sys-clk
+│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
+switch
+└─.overlays
+│ └─4IFIR.ovl (7c55125fb517c02ef8254bc569b11488)
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>ST9+ ECO (MGCL)</b></h2><b>Last archive modification date:</b> 21.08.2023 05:13<hr>
+
+<h3>Added files/folders</h3>
+<code>atmosphere
+├─contents
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (0aea189066db693fe4482e8822fe8fe6)
+│ │ └─flags
+│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
+├─kips
+│ └─loader.kip (f21d860459cbd73cfb3a53034298fb32)
+config
+├─sys-clk
+│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
+switch
+└─.overlays
+│ └─4IFIR.ovl (7c55125fb517c02ef8254bc569b11488)
+</code>
+<hr>
+

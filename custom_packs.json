@@ -4,9 +4,11 @@
     },
     "misc": {
         "Stage 8": "https://sintez.io/ST.zip",
-		"Stage 8+": "https://sintez.io/ST+.zip",
-		"4MODS": "https://sintez.io/4MODS.zip",
-		"Refresh": "https://sintez.io/AIO.zip",
-        "Placebo": "https://sintez.io/AIOB.zip"
+        "Stage 8+": "https://sintez.io/ST+.zip",
+        "4MODS": "https://sintez.io/4MODS.zip",
+        "Refresh": "https://sintez.io/AIO.zip",
+        "Placebo": "https://sintez.io/AIOB.zip",
+        "ST9 ECO (MGCJ)": "https://sintez.io/ST++.zip",
+        "ST9+ ECO (MGCL)": "https://sintez.io/ST+++.zip"
     }
 }
