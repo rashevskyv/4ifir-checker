@@ -11,11 +11,12 @@ def load_config(file):
         print(f'Error loading config file {file}:', e)
         sys.exit(1)
 
-aio_zip_url = "https://sintez.io/AIO.zip"
-# aio_zip_url = "http://127.0.0.1/aio.zip"
+aio_zip_url = ["https://sintez.io/AIO.zip", "https://sintez.io/AIOB.zip"]
+# aio_zip_url = ["http://127.0.0.1/AIO.zip", "http://127.0.0.1/AIOB.zip"]
 aio_zip_path = "aio.zip"
 custom_packs_path = "custom_packs.json"
 file_to_extract = "config/aio-switch-updater/custom_packs.json"
+output_json_path = "custom_packs.json"
 
 # Load the configuration from external file
 

@@ -5,9 +5,12 @@ import sys
 from datetime import datetime
 from report import send_tg_message
 import asyncio
+import json
+import zipfile
 
 # Download a file from a URL
 def download_file(url, output_path):
+    print(f"Downloading {url}")
     try: 
         response = requests.get(url)
         with open(output_path, 'wb') as f:
@@ -18,8 +21,8 @@ def download_file(url, output_path):
                 asyncio.run(send_tg_message("Server is up!"))
                 with open("serverresponse.txt", 'w') as server_response:
                         server_response.write('1')
-    except:
-        print('Error downloading archive.')
+    except Exception as e:
+        print(f'Error downloading archive. {e}')
         with open("serverresponse.txt", 'r') as server_response:
             if server_response.read() == '1':
                 asyncio.run(send_tg_message("Server is down"))
@@ -56,3 +59,61 @@ def get_last_modified(url):
     except requests.exceptions.RequestException as e:
         print('Error:', e)
         sys.exit(1)
+
+def extract_file_from_zip(zip_path, file_to_extract, output_path):
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        try:
+            with zip_ref.open(file_to_extract, 'r') as file:
+                with open(output_path, 'wb') as output_file:
+                    output_file.write(file.read())
+        except KeyError:
+            print(f"Error: {file_to_extract} not found in {zip_path}")
+            sys.exit(1)
+
+def download_extract_merge_json(aio_zip_urls, file_to_extract, output_json_path):
+    temp_dirs = []
+    temp_json_files = []
+
+    # Шлях до тимчасової папки
+    temp_folder = 'temp'
+
+    # Перевірка наявності папки, якщо існує - видалення
+    if os.path.exists(temp_folder):
+        shutil.rmtree(temp_folder)
+
+    # Створення тимчасової папки
+    os.makedirs(temp_folder)
+
+    # Скачування та розпакування файлів
+    for url in aio_zip_urls:
+        zip_name = os.path.basename(url)
+        zip_path = os.path.join(temp_folder, zip_name)
+        download_file(url, zip_path)
+        output_path = os.path.join(temp_folder, zip_name + "_output")
+        os.makedirs(output_path, exist_ok=True)
+        temp_dirs.append(output_path)
+        json_path = os.path.join(output_path, 'custom_packsB.json')
+        extract_file_from_zip(zip_path, file_to_extract, json_path)
+        temp_json_files.append(json_path)
+
+    # Об'єднання JSON файлів (змінений порядок)
+    merged_data = {}
+    for json_file in temp_json_files:
+        with open(json_file, 'r') as file:
+            data = json.load(file)
+        for category, packs in data.items():
+            if category not in merged_data:
+                merged_data[category] = packs
+            else:
+                for pack_name, pack_url in packs.items():
+                    if pack_url not in merged_data[category].values():
+                        merged_data[category][pack_name] = pack_url
+
+    # Збереження об'єднаного JSON
+    with open(output_json_path, 'w') as file:
+        json.dump(merged_data, file, indent=4)
+
+    # Видалення тимчасових файлів та директорії "temp"
+    shutil.rmtree(temp_folder)
+
+    return output_json_path

@@ -1,14 +1,24 @@
 import os
 import json
 import asyncio
-from aiogram.types import InputFile
-from archives import process_archive, custom_packs_dict, archives
+from archives import process_archive
 from settings import report_file
 from report import create_html_report, send_to_tg
 from files import remove_unlisted_directories
+from settings import aio_zip_url
+from files import download_extract_merge_json
+from archives import process_archives
+from settings import file_to_extract, output_json_path
 
 def main():
     html_report_content = ''
+
+    custom_packs_path = download_extract_merge_json(aio_zip_url, file_to_extract, output_json_path)
+
+    with open(custom_packs_path, 'r') as f:
+        custom_packs_dict = json.load(f)
+
+    archives = process_archives(custom_packs_dict)
 
     for archive in archives:
         if (process_archive(archive)):

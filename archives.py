@@ -1,36 +1,15 @@
 import os
 import json
 from datetime import datetime
-import zipfile
-import sys
-from files import download_file, get_last_modified
-from settings import custom_packs_path, aio_zip_url, aio_zip_path, file_to_extract
 from status_result import save_status, save_comparison_results, compare_checksums, build_tree_and_save_checksums
+from files import get_last_modified, download_file
 
-def extract_file_from_zip(zip_path, file_to_extract, output_path):
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        try:
-            with zip_ref.open(file_to_extract, 'r') as file:
-                with open(output_path, 'wb') as output_file:
-                    output_file.write(file.read())
-        except KeyError:
-            print(f"Error: {file_to_extract} not found in {zip_path}")
-            sys.exit(1)
-
-def process_archives():
+def process_archives(custom_packs_dict):
     archives = []
     for category, packs in custom_packs_dict.items():
         for pack_name, pack_url in packs.items():
             archives.append({"filename": pack_name, "url": pack_url})
     return archives
-
-download_file(aio_zip_url, aio_zip_path)
-extract_file_from_zip(aio_zip_path, file_to_extract, custom_packs_path)
-
-with open(custom_packs_path, 'r') as f:
-	custom_packs_dict = json.load(f)
-
-archives = process_archives()
 
 def process_archive(archive):
     url = archive["url"]
