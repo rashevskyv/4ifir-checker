@@ -4,7 +4,7 @@ from datetime import datetime
 from status_result import save_status, save_comparison_results, compare_checksums, build_tree_and_save_checksums
 from files import get_last_modified, download_file
 
-def process_archives(custom_packs_dict):
+def process_archives_from_json(custom_packs_dict):
     archives = []
     for category, packs in custom_packs_dict.items():
         for pack_name, pack_url in packs.items():
@@ -43,7 +43,7 @@ def process_archive(archive):
 
     if status.get("last_archive_modification") != last_modified:
         download_file(url, downld_file)
-
+        
         # Build the tree structure and calculate checksums
         new_checksums = build_tree_and_save_checksums(downld_file)
 

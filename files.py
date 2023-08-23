@@ -7,6 +7,7 @@ from report import send_tg_message
 import asyncio
 import json
 import zipfile
+from settings import output_json_path
 
 # Download a file from a URL
 def download_file(url, output_path):
@@ -45,6 +46,10 @@ def remove_unlisted_directories(custom_packs_dict, output_parent_dir):
         if os.path.isdir(entry_path) and entry.endswith('_output') and entry not in pack_directories:
             shutil.rmtree(entry_path)
             print(f"Removed directory: {entry}")
+
+    if os.path.exists(output_json_path):
+        os.remove(output_json_path)
+        print(f"Removed file: {output_json_path}")
 
 # Get the last modified date of the file from the URL
 def get_last_modified(url):

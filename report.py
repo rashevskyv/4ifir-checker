@@ -10,57 +10,85 @@ bot_token, chat_id, message_thread_id = TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_
 def create_html_report(results, last_modified, archive_filename):
     report_content = ''
     report_content += f'<h2>Archive Comparison Report for <b>{archive_filename}</b></h2>'
-
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
     report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>\n\n'
-
-    def render_tree(tree, level=1, last_child=False):
-        tree_str = ""
-        prefix = '  ' * (level - 1)
-
-        if level > 1:
-            prefix = '│ ' * (level - 2)
-            if last_child:
-                prefix += '└─'
-            else:
-                prefix += '├─'
-
-        for index, (key, value) in enumerate(tree.items()):
-            is_last_child = index == len(tree) - 1
-
-            if isinstance(value, str) and "(" in value and ")" in value:
-                # Це файл з контрольною сумою
-                file_name, checksum = value.split(' ')
-                tree_str += f"{prefix}{file_name} ({checksum[1:-1]})\n"
-            elif isinstance(value, dict):
-                tree_str += f"{prefix}{key}\n"
-                tree_str += render_tree(value, level + 1, is_last_child)
-
-        return tree_str
-
+    
     for change_type, items in results.items():
-        if items:  # Add this condition
+        if items:
             if change_type == "added":
                 report_content += '<h3>Added files/folders</h3>\n<code>'
             elif change_type == "removed":
                 report_content += '<h3>Removed files/folders</h3>\n<code>'
             elif change_type == "modified":
                 report_content += '<h3>Modified files</h3>\n<code>'
-
             folder_tree = process_items(items)
-
             report_content += render_tree(folder_tree)
-            report_content += '</code>\n'  # Закрытие блока кода с помощью ```
+            report_content += '</code>\n'
     return report_content
 
+def render_tree(tree, level=1, last_child=False):
+    tree_str = ""
+    prefix = '  ' * (level - 1)
+
+    if level > 1:
+        prefix = '│ ' * (level - 2)
+        if last_child:
+            prefix += '└─'
+        else:
+            prefix += '├─'
+
+    items_list = list(tree.items())
+    should_truncate = len(items_list) > 15
+
+    for index, (key, value) in enumerate(items_list[:7] if should_truncate else items_list):
+        is_last_child = index == len(tree) - 1
+
+        if isinstance(value, str) and "(" in value and ")" in value:
+            file_name, checksum = value.split(' ')
+            checksum_short = checksum[1:8]
+            
+            # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
+            if len(file_name) > 30:
+                file_name = file_name[:15] + "..." + file_name[-15:]
+            
+            tree_str += f"{prefix}{file_name} ({checksum_short})\n"
+
+        elif isinstance(value, dict):
+            tree_str += f"{prefix}{key}\n"
+            tree_str += render_tree(value, level + 1, is_last_child)
+
+    if should_truncate:
+        tree_str += f"{prefix}...\n"
+        for index, (key, value) in enumerate(items_list[-7:]):
+            is_last_child = index == len(items_list[-7:]) - 1
+
+            if isinstance(value, str) and "(" in value and ")" in value:
+                file_name, checksum = value.split(' ')
+                checksum_short = checksum[1:8]
+                
+                # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
+                if len(file_name) > 42:
+                    file_name = file_name[:10] + "..." + file_name[-10:]
+                
+                tree_str += f"{prefix}{file_name} ({checksum_short})\n"
+            elif isinstance(value, dict):
+                tree_str += f"{prefix}{key}\n"
+                tree_str += render_tree(value, level + 1, is_last_child)
+
+    return tree_str
+
 def split_html_content(content, max_length=4096, tag='<code>', delimiter='-------------------------------'):
+    # Генерування закриваючого тегу
+    close_tag = tag.replace('<', '</')
+
+    # Зменшення max_length на розмір tag + close_tag
+    max_length -= len(tag) + len(close_tag)
+
     content_length = len(content)
     if content_length <= max_length:
         return content, []
 
-    # Извлекаем заголовок
     header_end_index = content.find(delimiter)
-    print("header_end_index: ", header_end_index) 
     if header_end_index != -1:
         header = content[:header_end_index + len(delimiter)]
         content = content[header_end_index + len(delimiter):]
@@ -74,11 +102,19 @@ def split_html_content(content, max_length=4096, tag='<code>', delimiter='------
     while start_index < content_length:
         end_index = start_index + max_length
         if end_index < content_length:
-            end_index = content.rfind(tag, start_index, end_index)
+            end_index = content.rfind('\n', start_index, end_index)
             if end_index == -1:
                 end_index = start_index + max_length
 
-        blocks.append(content[start_index:end_index])
+        block = content[start_index:end_index]
+
+        # Перевірка блоку на наявність tag та close_tag
+        if tag not in block:
+            block = tag + block
+        if close_tag not in block:
+            block += close_tag
+
+        blocks.append(block)
         start_index = end_index
 
     return header, blocks

@@ -7,7 +7,7 @@ from report import create_html_report, send_to_tg
 from files import remove_unlisted_directories
 from settings import aio_zip_url
 from files import download_extract_merge_json
-from archives import process_archives
+from archives import process_archives_from_json
 from settings import file_to_extract, output_json_path
 
 def main():
@@ -18,7 +18,7 @@ def main():
     with open(custom_packs_path, 'r') as f:
         custom_packs_dict = json.load(f)
 
-    archives = process_archives(custom_packs_dict)
+    archives = process_archives_from_json(custom_packs_dict)
 
     for archive in archives:
         if (process_archive(archive)):
@@ -31,7 +31,7 @@ def main():
         filename = os.path.splitext(os.path.basename(archive["url"]))[0]
         archive_output_dir = (filename + '_output')
         comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
-        archivename = os.path.join(archive_output_dir, archive["filename"])
+        archive_name = os.path.join(archive_output_dir, archive["filename"])
         status_file = os.path.join(archive_output_dir, 'status.json')
         archive_file = os.path.join(archive_output_dir, filename + '.zip')
 
@@ -47,8 +47,8 @@ def main():
             result = create_html_report(comparison_results, last_modified, archive["filename"])
 
             if (telegram):
-                if "4BRICK" not in archivename:
-                    asyncio.run(send_to_tg(result, archive_file, archivename))
+                if "4BRICK" not in archive_name:
+                    asyncio.run(send_to_tg(result, archive_file, archive_name))
                     print("Report sent to Telegram.")
 
             html_report_content += result
