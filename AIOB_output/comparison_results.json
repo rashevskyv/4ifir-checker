@@ -1,55 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "config",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "aio-switch-updater",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": ".aio-switch-updater",
-                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                        },
-                        {
-                            "type": "file",
-                            "name": "custom_packs.json",
-                            "checksum": "cea05216889acd7b011bdb5e417f28ed"
-                        },
-                        {
-                            "type": "file",
-                            "name": "hide_tabs.json",
-                            "checksum": "1e6f9c206da36a4cb1b49612311367e9"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "aio-switch-updater",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": ".aio-switch-updater.nro.star",
-                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                        },
-                        {
-                            "type": "file",
-                            "name": "aio-switch-updater.nro",
-                            "checksum": "c937947e7f8b596aadfd31ed24f83f2f"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "5bdcf41f4a4ab448e19fd52aac61ebd4"
+        }
+    ]
 }

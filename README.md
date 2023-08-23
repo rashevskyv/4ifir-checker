@@ -3,7 +3,298 @@
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─custom_packs.json (e88c7a7e05c4d92b338a08a19a698723)
+│ └─custom_packs.json (e88c7a7)
+</code>
+<hr>
+
+<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 22.08.2023 20:17<hr>
+
+<h3>Added files/folders</h3>
+<code>atmosphere
+├─config
+│ ├─override_config.ini (15d4474)
+│ ├─system_settings.ini (be96d4f)
+├─config_templates
+│ ├─exosphere.ini (e9018a4)
+│ ├─override_config.ini (4e46a1f)
+│ ├─stratosphere.ini (9f6ef9d)
+│ ├─system_settings.ini (bcf4d07)
+├─contents
+│ ├─0000000000534C56
+│ │ ├─exefs.nsp (1ceea64)
+│ │ ├─flags
+│ │ │ ├─boot2.flag (d41d8cd)
+│ │ ├─toolbox.json (3ad6747)
+│ ├─00FF0000636C6BFF
+│ │ ├─exefs.nsp (0aea189)
+│ │ ├─flags
+│ │ │ ├─boot2.flag (d41d8cd)
+│ │ ├─toolbox.json (1dc1aed)
+│ ├─00FF0000A53BB665
+│ │ ├─exefs.nsp (96cdd96)
+│ │ ├─flags
+│ │ │ ├─boot2.flag (d41d8cd)
+│ │ ├─toolbox.json (c3e9741)
+│ ├─0100000000000F12
+│ │ ├─exefs.nsp (c0169b3)
+│ │ ├─flags
+│ │ │ ├─boot2.flag (d41d8cd)
+│ │ ├─toolbox.json (c482f38)
+│ ├─420000000000000E
+│ │ ├─exefs.nsp (1eafc96)
+│ │ ├─flags
+│ │ │ ├─boot2.flag (d41d8cd)
+│ │ ├─toolbox.json (652d1aa)
+│ ├─420000000007E51A
+│ │ └─exefs.nsp (1488327)
+│ │ └─flags
+│ │ │ ├─boot2.flag (d41d8cd)
+│ │ └─toolbox.json (60df958)
+├─exefs_patches
+│ ├─am
+│ │ ├─255097EF11C0759...00000000000.ips (1f91123)
+│ │ ├─2C1AD224328D2AF...00000000000.ips (576eb36)
+│ │ ├─511A399C6DFF007...00000000000.ips (2527794)
+│ │ ├─5E5F1CC24D37459...00000000000.ips (df0fc9a)
+│ │ ├─677F3AA70E0FC13...00000000000.ips (32935f1)
+│ │ ├─75A273B296056EA...00000000000.ips (557d518)
+│ │ ├─8A94FE28430F4D9...00000000000.ips (481b753)
+│ │ ├─D5A8BA90D4E8310...00000000000.ips (30b5477)
+│ │ ├─version (8e6a970)
+│ ├─es_patches
+│ │ ├─03E4EB5556B98B3...ADF2C544470.ips (bdec6b2)
+│ │ ├─1114E9102F1EBCD...2CFCB8B5D2C.ips (de49fc0)
+│ │ ├─127904316C92432...E5DC259AF6B.ips (4250e51)
+│ │ ├─34E95FF2929B5B7...927D2D7F5DC.ips (c05d3e4)
+│ │ ├─39E7884F7DDEA9B...ACC466A080A.ips (67929b9)
+│ │ ├─3B8BF56DBEC7225...C0DC4552010.ips (38d0da0)
+│ │ ├─4FB9AFAED8A9093...1C165F9444A.ips (8adf285)
+│ │ ├─...
+│ │ ├─D0ECC9483E...9977D7.ips (f8c0b2d)
+│ │ ├─D2D2430244...2160F1.ips (b1f1ca7)
+│ │ ├─E581B18986...7E05D1.ips (fa7e7ea)
+│ │ ├─F48ABC3EF4...53243A.ips (9633aef)
+│ │ ├─F65FBA401B...A6C3AD.ips (145247f)
+│ │ ├─F86D615F9F...DAB0DF.ips (af6c0d9)
+│ │ ├─F92CFF2837...DC4D3C.ips (af6c0d9)
+│ ├─nfim_ctest
+│ │ └─38774C42DFCB8B9...D335472556C.ips (17eb8cd)
+│ │ └─3AED90979B380C6...EA2B4730E8C.ips (14245fd)
+│ │ └─43F10952AE80CFA...552EF4A4528.ips (2e7c9fd)
+│ │ └─5835E2DADB4DD57...91AC3C7B717.ips (c35dbad)
+│ │ └─5DA461C7B6CAE6B...CF0943B10BB.ips (c1397de)
+│ │ └─69E25CDEEED5C65...1CD8FC46E40.ips (1534548)
+│ │ └─6F02D68B1DCD2AF...1F3C327E537.ips (2c6b064)
+│ │ └─...
+│ │ └─AD32FB6D8F...3931C0.ips (aab929d)
+│ │ └─B6966381A8...3085F7.ips (4f254b5)
+│ │ └─BA91B5A61E...E27DCB.ips (ab3304f)
+│ │ └─D47D150600...1FBADA.ips (483b825)
+│ │ └─D82361E0D6...69C578.ips (5111bb3)
+│ │ └─E6BFDADD5C...0C8E1F.ips (85d65fc)
+│ │ └─FD53CB8637...FFD4ED.ips (312b561)
+├─hbl.nsp (0bc0a3a)
+├─hbl_html
+│ ├─accessible-urls
+│ │ └─accessible-urls.txt (543c06d)
+├─hosts
+│ ├─default.txt (d41d8cd)
+│ ├─domains.txt (8cc7bf9)
+├─kips
+│ ├─loader.kip (a3849ee)
+├─kip_patches
+│ ├─default_nogc
+│ │ ├─02D5ABAAFD20C8B...0CE69E74311.ips (71c09b9)
+│ │ ├─06E90719595A010...E0B458D7E89.ips (2079be5)
+│ │ ├─0BA15BB304B5056...94075976F06.ips (11c5e94)
+│ │ ├─10B2D8160548859...FAEC0947097.ips (e7b0db7)
+│ │ ├─160D3E104EAD617...812971BC161.ips (bd1231e)
+│ │ ├─2ADBE97E9B5F417...5CD69BACCE8.ips (a002774)
+│ │ ├─2CCE659CEC536A8...8E39112DB50.ips (d407695)
+│ │ ├─...
+│ │ ├─CE3ECBA2F2...4AE805.ips (e0bf2fe)
+│ │ ├─D5A5BF3664...9B6AF7.ips (c8c4d42)
+│ │ ├─DBD941C0C5...755B3D.ips (f40e1ee)
+│ │ ├─DC2A084996...531CDE.ips (c8c4d42)
+│ │ ├─E1E8D3D6A2...5EEDC0.ips (d74d2a8)
+│ │ ├─E399156E84...BFD7DC.ips (11c5e94)
+│ │ ├─F196D144D0...52BC99.ips (9d505a6)
+│ ├─fs_patches
+│ │ ├─02D5ABAAFD20C8B...0CE69E74311.ips (d804dc5)
+│ │ ├─06E90719595A010...E0B458D7E89.ips (d804dc5)
+│ │ ├─073099D7C6AD7D8...7F5794FDE28.ips (db6acda)
+│ │ ├─0BA15BB304B5056...94075976F06.ips (fddff78)
+│ │ ├─0D7005627B07767...DEEBF97205B.ips (3fd24a7)
+│ │ ├─10B2D8160548859...FAEC0947097.ips (20b199f)
+│ │ ├─160D3E104EAD617...812971BC161.ips (c997a51)
+│ │ ├─...
+│ │ ├─DBD941C0C5...755B3D.ips (4fccb4e)
+│ │ ├─DC2A084996...531CDE.ips (d2b56aa)
+│ │ ├─DE9FDDA408...CECD6F.ips (5c482d1)
+│ │ ├─E1E8D3D6A2...5EEDC0.ips (9083ed1)
+│ │ ├─E399156E84...BFD7DC.ips (fddff78)
+│ │ ├─E76692DFAA...A41FC3.ips (73254a0)
+│ │ ├─F196D144D0...52BC99.ips (cc8f6f7)
+│ ├─loader_patches
+│ │ └─0CDAA07AA666201...88BA6B7BB6C.ips (f5594b9)
+│ │ └─0E41C033A98F85D...D81B3AEC8C4.ips (0226113)
+│ │ └─0EAF7E159D3BE09...38122135EB9.ips (d0c139b)
+│ │ └─0f3850b7ce489f6...e8ba9d5ac24.ips (aa4c8c1)
+│ │ └─11733BF70FA36F4...40BF4F3EE2C.ips (4b84288)
+│ │ └─183CBD5BE392C1A...18DF5A79EE8.ips (fb1ba16)
+│ │ └─20EFF0183DA0956...C280EB05D1B.ips (82e6d61)
+│ │ └─...
+│ │ └─C6319D50A4...7E81F5.ips (0ccd23e)
+│ │ └─CED1E857D8...FEF7B6.ips (d0c139b)
+│ │ └─E2A0529B9B...95415F.ips (a66ad75)
+│ │ └─eac30efb8b...d64d9e.ips (663dc57)
+│ │ └─F7EF8F8130...C418E1.ips (a46194c)
+│ │ └─F9D7F2F90A...ECF76B.ips (2fe3e5f)
+│ │ └─fca59c745a...ef4704.ips (93b1a61)
+├─package3 (70bc0e4)
+├─reboot_payload.bin (d8a1200)
+├─stratosphere.romfs (76a8380)
+boot.dat (20cf385)
+boot.ini (a84fe7d)
+bootloader
+├─4IFIR.ini (1feb3ba)
+├─hekate_ipl.ini (023b2f4)
+├─nyx.ini (da382ab)
+├─patches.ini (208c35a)
+├─payloads
+│ ├─fusee.bin (fbc9534)
+│ ├─Lockpick_RCM.bin (6730af7)
+├─res
+│ ├─4emi.bmp (7159a83)
+│ ├─4mosphere.bmp (a188936)
+│ ├─4tock.bmp (53b9c7e)
+│ ├─icon_payload.bmp (8c25ed5)
+│ ├─icon_switch.bmp (a336749)
+├─sys
+│ ├─emummc.kipm (f99aa40)
+│ ├─l4t
+│ │ ├─bpmpfw.bin (b99f059)
+│ │ ├─bpmpfw_b01.bin (9224163)
+│ │ ├─mtc_tbl_b01.bin (1f806ad)
+│ │ ├─sc7entry.bin (16ff939)
+│ │ ├─sc7exit.bin (2ed4c02)
+│ │ ├─sc7exit_b01.bin (7c4ba2b)
+│ ├─libsys_lp0.bso (789f27e)
+│ ├─libsys_minerva.bso (eae4cc8)
+│ ├─module_sample.bso (048d772)
+│ ├─nyx.bin (a2f23c6)
+│ ├─res.pak (51f8b1c)
+│ ├─thk.bin (ca100bb)
+├─update.bin (d8a1200)
+config
+├─aio-switch-updater
+│ ├─.aio-switch-updater (d41d8cd)
+│ ├─custom_packs.json (e88c7a7)
+│ ├─hide_tabs.json (1e6f9c2)
+├─nx-hbmenu
+│ ├─settings.cfg (f20c04c)
+│ ├─themes
+│ │ └─DefaultDarkerHighlight.cfg (792f54d)
+├─sys-clk
+│ ├─config.ini (23ef5e0)
+├─sys-ftpd
+│ ├─config.ini (aeff38f)
+├─tesla
+│ └─config.ini (871b288)
+exosphere.ini (8e5a879)
+hbmenu.nro (c0fa9c1)
+payload.bin (d8a1200)
+SaltySD
+├─exceptions.txt (d6af718)
+├─flags
+│ ├─ReverseNX
+│ │ └─createremove.flag (d41d8cd)
+│ │ └─titleid.flag (d41d8cd)
+├─FPSoffset.hex (8e43a5e)
+├─patches
+│ ├─01000bd00ce64000
+│ │ ├─_ZN2nn2oe16GetO...ionModeEv.asm64 (9a3f3cd)
+│ │ ├─_ZN2nn2oe18GetP...nceModeEv.asm64 (9a3f3cd)
+│ ├─010027400cdc6000
+│ │ ├─_ZN2nn2oe16GetO...ionModeEv.asm64 (9a3f3cd)
+│ │ ├─_ZN2nn2oe18GetP...nceModeEv.asm64 (9a3f3cd)
+│ ├─01005fe01291a000
+│ │ └─_ZN2nn2oe16GetO...ionModeEv.asm64 (9a3f3cd)
+│ │ └─_ZN2nn2oe18GetP...nceModeEv.asm64 (9a3f3cd)
+├─plugins
+│ ├─FPSLocker
+│ │ ├─patches
+│ │ │ └─010000400F582000
+│ │ │ │ ├─02F2E5C8CBF5A92F.yaml (e210c32)
+│ │ │ └─010000600CD54000
+│ │ │ │ ├─78885A1CA987C04C.yaml (346aee6)
+│ │ │ └─0100041018810000
+│ │ │ │ ├─B8BE1CFAE53CAEBE.yaml (cd6811a)
+│ │ │ └─010007B010FCC000
+│ │ │ │ ├─4EEA2970DF38ECE1.bin (ed65e33)
+│ │ │ │ ├─4EEA2970DF38ECE1.yaml (ab0eff1)
+│ │ │ └─01000A10041EA000
+│ │ │ │ ├─771BDFB65F8D0AF7.yaml (f0a60c3)
+│ │ │ └─01000BB00E9D2000
+│ │ │ │ ├─4FFB62F1CD9E17F8.yaml (816e37f)
+│ │ │ └─01000BD00CE64000
+│ │ │ │ ├─E417100FFEEFD1DE.yaml (8178775)
+│ │ │ └─...
+│ │ │ └─0100DCF0093EC000
+│ │ │ │ ├─71873FEB4648FA39.yaml (fd573b7)
+│ │ │ └─0100E1C0148F8000
+│ │ │ │ ├─77C053D779EE97F6.yaml (5150d90)
+│ │ │ └─0100F0400E850000
+│ │ │ │ ├─85C362CC9790F0ED.yaml (2a8002d)
+│ │ │ └─0100F4F014108000
+│ │ │ │ ├─2284DFB25F387719.yaml (2ad1dfb)
+│ │ │ └─0100F8F014190000
+│ │ │ │ ├─AF7114F019CE6E1D.yaml (083c851)
+│ │ │ └─0100FD101186C000
+│ │ │ │ ├─BF0088C59D7E97C0.yaml (7169d27)
+│ │ │ └─0100FF500E34A000
+│ │ │ │ └─92C78BB3DCBBC3F7.yaml (aef3438)
+│ ├─NX-FPS.elf (cd7b671)
+│ ├─ReverseNX-RT.elf (5d0e7cb)
+├─ReverseNX-RT.hex (59aff1d)
+├─saltysd_core.elf (3e18e56)
+switch
+└─.overlays
+│ ├─4IFIR.ovl (7c55125)
+│ ├─Fizeau.ovl (ed8d941)
+│ ├─FPSLocker.ovl (535a23a)
+│ ├─InfoNX-ovl.ovl (f29a30e)
+│ ├─lang
+│ │ ├─EdiZon
+│ │ │ ├─zh-Hans.json (cec27b0)
+│ │ │ ├─zh-Hant.json (db8a864)
+│ │ ├─Fizeau
+│ │ │ └─en.json (9308030)
+│ │ │ └─ru.json (0a0c4c6)
+│ │ │ └─zh-Hans.json (fcef97a)
+│ │ │ └─zh-Hant.json (a3f23ce)
+│ ├─ovlEdiZon.ovl (f56d79f)
+│ ├─ovlmenu.ovl (48cab4f)
+│ ├─ovlSysmodules.ovl (1688162)
+│ ├─QuickNTP.ovl (3769c3a)
+│ ├─ReverseNX-RT-ovl.ovl (0be211a)
+│ ├─Status-Monitor-Overlay.ovl (95d608c)
+│ ├─sys-clk-overlay.ovl (d41d8cd)
+│ ├─sysdvr-overlay.ovl (df76ddd)
+└─aio-switch-updater
+│ ├─.aio-switch-updater.nro.star (d41d8cd)
+│ ├─aio-switch-updater.nro (c937947)
+└─appstore
+│ ├─appstore.nro (2d30a44)
+└─daybreak
+│ ├─daybreak.nro (21ed0d2)
+└─DBI
+│ ├─DBI.nro (6d65feb)
+└─Fizeau
+│ ├─Fizeau.nro (8b90c7b)
+└─MicroMemBench.nro (5ffa757)
+└─ReverseNX-Tool.nro (6c10331)
+└─SysDVR-conf.nro (274440b)
 </code>
 <hr>
 
@@ -12,7 +303,7 @@
 <h3>Modified files</h3>
 <code>atmosphere
 └─kips
-│ └─loader.kip (1ec70da24576c4009c493f36952c125c)
+│ └─loader.kip (1ec70da)
 </code>
 <hr>
 
@@ -22,12 +313,12 @@
 <code>atmosphere
 ├─contents
 │ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (bb9383dc10de6c706a838c1c563ef0c6)
+│ │ └─exefs.nsp (bb9383d)
 ├─kips
-│ └─loader.kip (e51f31bd4e2e558795ca3940c7cab8f3)
+│ └─loader.kip (e51f31b)
 switch
 └─.overlays
-│ └─4IFIR.ovl (992a3359cc2395e3a1ef35d08ca0a32c)
+│ └─4IFIR.ovl (992a335)
 </code>
 <hr>
 
@@ -39,23 +330,23 @@ switch
 │ └─FPSLocker
 │ │ └─patches
 │ │ │ └─01004800197F0000
-│ │ │ │ ├─2058227F80E9B40C.yaml (6c62b3600ccf749856081da2eeb5d294)
+│ │ │ │ ├─2058227F80E9B40C.yaml (6c62b36)
 │ │ │ └─010066F01A0E0000
-│ │ │ │ ├─224357DED42E86ED.yaml (44510c94c88487b76b7dbc9c88ff5be3)
+│ │ │ │ ├─224357DED42E86ED.yaml (44510c9)
 │ │ │ └─0100739018020000
-│ │ │ │ ├─E93D49581521E084.yaml (e1d15b31be961685fc7367830bc7077b)
+│ │ │ │ ├─E93D49581521E084.yaml (e1d15b3)
 │ │ │ └─010074F013262000
-│ │ │ │ ├─B6BE4A6B83D4F237.yaml (8943a7bc3b6051d30ded405b20601b14)
+│ │ │ │ ├─B6BE4A6B83D4F237.yaml (8943a7b)
 │ │ │ └─01007B5017A12000
-│ │ │ │ ├─CE14D183190A44D2.yaml (561065b33d4cd41b2972635512ed43bd)
+│ │ │ │ ├─CE14D183190A44D2.yaml (561065b)
 │ │ │ └─0100B04011742000
-│ │ │ │ ├─55D50CA1805E9C5B.yaml (33a8fab6fb4b20a08d1e4de2ae21d989)
+│ │ │ │ ├─55D50CA1805E9C5B.yaml (33a8fab)
 │ │ │ └─0100B750198C6000
-│ │ │ │ ├─CEE6B8B19D3A863E.yaml (aeb5103ae9d77ca5777ae8e92ab8408b)
+│ │ │ │ ├─CEE6B8B19D3A863E.yaml (aeb5103)
 │ │ │ └─0100D7F00FB1A000
-│ │ │ │ ├─D871B992E95B71C5.yaml (3ed624b45da66b8aed0b3872e55fe7a0)
+│ │ │ │ ├─D871B992E95B71C5.yaml (3ed624b)
 │ │ │ └─0100F3200E7CA000
-│ │ │ │ └─254DF6A118587EA0.yaml (56e4aa359ddf9c9e27421b4ae7cc2d9d)
+│ │ │ │ └─254DF6A118587EA0.yaml (56e4aa3)
 </code>
 <h3>Modified files</h3>
 <code>SaltySD
@@ -63,9 +354,9 @@ switch
 │ └─FPSLocker
 │ │ └─patches
 │ │ │ └─010020B016EF4000
-│ │ │ │ ├─7E25622D50D562BF.yaml (91898d54d353511305e94093ae265fc4)
+│ │ │ │ ├─7E25622D50D562BF.yaml (91898d5)
 │ │ │ └─01005420101DA000
-│ │ │ │ └─134EC3D8BE75126F.yaml (c317d65e51bcbfd4047c79d82d593ab0)
+│ │ │ │ └─134EC3D8BE75126F.yaml (c317d65)
 </code>
 <hr>
 
@@ -74,22 +365,16 @@ switch
 <h3>Modified files</h3>
 <code>config
 └─aio-switch-updater
-│ └─custom_packs.json (e88c7a7e05c4d92b338a08a19a698723)
+│ └─custom_packs.json (e88c7a7)
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Placebo</b></h2><b>Last archive modification date:</b> 17.08.2023 14:56<hr>
+<h2>Archive Comparison Report for <b>Placebo</b></h2><b>Last archive modification date:</b> 22.08.2023 18:50<hr>
 
-<h3>Added files/folders</h3>
+<h3>Modified files</h3>
 <code>config
-├─aio-switch-updater
-│ └─.aio-switch-updater (d41d8cd98f00b204e9800998ecf8427e)
-│ └─custom_packs.json (cea05216889acd7b011bdb5e417f28ed)
-│ └─hide_tabs.json (1e6f9c206da36a4cb1b49612311367e9)
-switch
 └─aio-switch-updater
-│ └─.aio-switch-updater.nro.star (d41d8cd98f00b204e9800998ecf8427e)
-│ └─aio-switch-updater.nro (c937947e7f8b596aadfd31ed24f83f2f)
+│ └─custom_packs.json (5bdcf41)
 </code>
 <hr>
 
@@ -99,17 +384,17 @@ switch
 <code>atmosphere
 ├─contents
 │ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (0aea189066db693fe4482e8822fe8fe6)
+│ │ └─exefs.nsp (0aea189)
 │ │ └─flags
-│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
+│ │ │ └─boot2.flag (d41d8cd)
 ├─kips
-│ └─loader.kip (c6f71ce1ab503550414fe7db1424ecf1)
+│ └─loader.kip (c6f71ce)
 config
 ├─sys-clk
-│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
+│ └─config.ini (23ef5e0)
 switch
 └─.overlays
-│ └─4IFIR.ovl (7c55125fb517c02ef8254bc569b11488)
+│ └─4IFIR.ovl (7c55125)
 </code>
 <hr>
 
@@ -119,17 +404,17 @@ switch
 <code>atmosphere
 ├─contents
 │ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (0aea189066db693fe4482e8822fe8fe6)
+│ │ └─exefs.nsp (0aea189)
 │ │ └─flags
-│ │ │ └─boot2.flag (d41d8cd98f00b204e9800998ecf8427e)
+│ │ │ └─boot2.flag (d41d8cd)
 ├─kips
-│ └─loader.kip (f21d860459cbd73cfb3a53034298fb32)
+│ └─loader.kip (f21d860)
 config
 ├─sys-clk
-│ └─config.ini (23ef5e06caa24c45fa823a9d9e19fa50)
+│ └─config.ini (23ef5e0)
 switch
 └─.overlays
-│ └─4IFIR.ovl (7c55125fb517c02ef8254bc569b11488)
+│ └─4IFIR.ovl (7c55125)
 </code>
 <hr>
 
