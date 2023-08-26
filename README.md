@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 17.08.2023 14:48<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.6</b></h2><b>Last archive modification date:</b> 26.08.2023 14:15<hr>
 
 <h3>Modified files</h3>
-<code>config
-└─aio-switch-updater
-│ └─custom_packs.json (e88c7a7)
+<code>atmosphere
+└─config
+│ └─system_settings.ini (e8ecdaa)
 </code>
 <hr>
 
