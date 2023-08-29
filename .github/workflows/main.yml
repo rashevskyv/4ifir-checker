@@ -44,12 +44,15 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
 
+    - name: Set up a custom date format
+      run: echo "CURRENT_DATE=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       with:
-        tag_name: ${{ format('{0}{1}', github.ref, format-date()) }}
-        release_name: 4IFIR ${{ format-date() }}
+        tag_name: ${{ github.ref }}-${{ env.CURRENT_DATE }}
+        release_name: 4IFIR ${{ env.CURRENT_DATE }}
         draft: false
         prerelease: false
       env:
@@ -65,7 +68,7 @@ jobs:
             --data-binary @$file \
             "${{ steps.create_release.outputs.upload_url }}?name=$(basename $file)"
         done
-
+        
     - name: Set up a custom date format
       run: echo "format-date() { date +'%Y%m%d%H%M'; }" >> $GITHUB_ENV
 
