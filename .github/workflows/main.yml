@@ -47,16 +47,23 @@ jobs:
     - name: Set up a custom date format
       run: echo "CURRENT_DATE=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
 
+    - name: Create Tag
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "github-actions@example.com"
+        git tag ${{ env.CURRENT_DATE }}
+        git push origin ${{ env.CURRENT_DATE }}
+
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       with:
-        tag_name: ${{ github.ref }}-${{ env.CURRENT_DATE }}
+        tag_name: ${{ env.CURRENT_DATE }}
         release_name: 4IFIR ${{ env.CURRENT_DATE }}
         draft: false
         prerelease: false
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload All Files from 'github' folder
       run: |
