@@ -78,8 +78,22 @@ jobs:
             "${{ steps.create_release.outputs.upload_url }}?name=$(basename $file)"
         done
         
+    - name: Check for changes in 'github' folder
+      id: check_changes
+      run: |
+        git fetch origin
+        DIFF=$(git diff --name-only origin/main...HEAD -- 'github/')
+        if [ "$DIFF" != "" ]; then
+          echo "Files in 'github' folder changed."
+          echo "HAS_CHANGES=true" >> $GITHUB_ENV
+        else
+          echo "No changes in 'github' folder."
+          echo "HAS_CHANGES=false" >> $GITHUB_ENV
+        fi
+
     - name: Set up a custom date format
-      run: echo "format-date() { date +'%Y%m%d%H%M'; }" >> $GITHUB_ENV
+      if: env.HAS_CHANGES == 'true'
+      run: echo "CURRENT_DATE=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
 
     - name: Commit and push changes
       run: |
