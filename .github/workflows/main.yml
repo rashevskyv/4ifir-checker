@@ -39,7 +39,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
     - name: Set up a custom date format
-      run: echo "CURRENT_DATE=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+      run: echo "CURRENT_DATE=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
 
     - name: Create Tag
       run: |
