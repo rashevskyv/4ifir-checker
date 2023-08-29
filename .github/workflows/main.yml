@@ -58,18 +58,16 @@ jobs:
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-    
-    - name: Upload All Files from 'github' folder
-      run: |
-        for file in github/*; do
-          echo "Uploading $file"
-          ENCODED_NAME=$(curl -Gso /dev/null -w %{url_effective} --data-urlencode "name=$(basename $file)" "")
-          curl -v \
-            -H "Authorization: token ${{ secrets.GH_PAT }}" \
-            -H "Content-Type: $(file -b --mime-type $file)" \
-            --data-binary @$file \
-            "https://uploads.github.com/repos/rashevskyv/4ifir-checker/releases/${{ steps.create_release.outputs.id }}/assets?name=${ENCODED_NAME:2}"
-        done
+
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }} 
+        asset_path: ./github/4IFIR.zip
+        asset_name: 4IFIR.zip
+        asset_content_type: application/zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
     - name: Check for changes in 'github' folder
       id: check_changes
