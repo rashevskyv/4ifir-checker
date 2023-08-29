@@ -59,13 +59,18 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
-    - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }} 
-        asset_path: ./github/4IFIR.zip
-        asset_name: 4IFIR.zip
-        asset_content_type: application/zip
+    - name: Upload All Files from 'github' Folder
+      run: |
+        for file in ./github/*; do
+          echo "Uploading $file"
+          asset_name=$(basename $file)
+          mime_type=$(file -b --mime-type $file)
+          curl \
+            -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            -H "Content-Type: $mime_type" \
+            --data-binary "@$file" \
+            "${{ steps.create_release.outputs.upload_url }}?name=$asset_name"
+        done
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
