@@ -38,14 +38,6 @@ jobs:
       env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
-  release:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.GH_PAT }}  # Use the personal access token here
-
     - name: Set up a custom date format
       run: echo "CURRENT_DATE=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
 
