@@ -1,12 +1,22 @@
-new
-old
-unpacked
-download
-tmp
+# Ігнорувати всі папки
+new/
+old/
+unpacked/
+download/
+tmp/
+
+# Ігнорувати конкретні файли
 /checksums.json
 /report.md
-*.zip
 /test_settings.json
 /test_archives.json
-/__pycache__
 /local_settings.json
+
+# Ігнорувати всі .zip файли
+*.zip
+
+# Не ігнорувати .zip файли в папці github
+!github/*.zip
+
+# Ігнорувати Python cache
+/__pycache__
