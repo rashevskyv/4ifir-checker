@@ -68,9 +68,9 @@ jobs:
             -H "Authorization: token ${{ secrets.GH_PAT }}" \
             -H "Content-Type: $(file -b --mime-type $file)" \
             --data-binary @$file \
-            "${{ steps.create_release.outputs.upload_url }}?name=${ENCODED_NAME:2}"
+            "https://uploads.github.com/repos/rashevskyv/4ifir-checker/releases/119142264/assets?name=${ENCODED_NAME:2}"
         done
-        
+
     - name: Check for changes in 'github' folder
       id: check_changes
       run: |
