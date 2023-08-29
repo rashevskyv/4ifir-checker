@@ -6,9 +6,10 @@ from settings import report_file
 from report import create_html_report, send_to_tg
 from files import remove_unlisted_directories
 from settings import aio_zip_url
-from files import download_extract_merge_json
+from files import download_extract_merge_json, download_file
 from archives import process_archives_from_json
 from settings import file_to_extract, output_json_path
+from archive_handler import handle_archive
 
 def main():
     html_report_content = ''
@@ -21,12 +22,6 @@ def main():
     archives = process_archives_from_json(custom_packs_dict)
 
     for archive in archives:
-        if (process_archive(archive)):
-            print(f"{archive['filename']}: Archive processed.")
-            telegram = 1
-        else:
-            print(f"{archive['filename']}: No changes detected in the archive since the last execution.")
-            telegram = 0
 
         filename = os.path.splitext(os.path.basename(archive["url"]))[0]
         archive_output_dir = (filename + '_output')
@@ -34,6 +29,18 @@ def main():
         archive_name = os.path.join(archive_output_dir, archive["filename"])
         status_file = os.path.join(archive_output_dir, 'status.json')
         archive_file = os.path.join(archive_output_dir, filename + '.zip')
+        changes = process_archive(archive)
+
+        if (changes):
+            print(f"{archive['filename']}: Archive processed.")
+            telegram = 1
+            handle_archive(archive_file)
+        else:
+            print(f"{archive['filename']}: No changes detected in the archive since the last execution.")
+            telegram = 0
+            github_file = os.path.join('github', filename + '.zip')
+            if not os.path.exists(github_file):
+                handle_archive(archive_file)
 
         if os.path.exists(status_file):
             with open(status_file, 'r') as f:

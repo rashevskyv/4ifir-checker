@@ -38,6 +38,37 @@ jobs:
       env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      with:
+        tag_name: ${{ format('{0}{1}', github.ref, format-date()) }}
+        release_name: 4IFIR ${{ format-date() }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Upload All Files from 'github' folder
+      run: |
+        for file in github/*; do
+          echo "Uploading $file"
+          curl \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: $(file -b --mime-type $file)" \
+            --data-binary @$file \
+            "${{ steps.create_release.outputs.upload_url }}?name=$(basename $file)"
+        done
+
+    - name: Set up a custom date format
+      run: echo "format-date() { date +'%Y%m%d%H%M'; }" >> $GITHUB_ENV
+
     - name: Commit and push changes
       run: |
         git config --global user.name "GitHub Actions Bot"

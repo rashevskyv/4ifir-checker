@@ -68,6 +68,13 @@ def process_archive(archive):
         # Move the new checksums to the old checksums file
         os.replace(new_checksum_file, old_checksum_file)
     else:
+        if not os.path.exists(downld_file):
+            print(f"{downld_file}: No archive found, downloading a new one.")
+            download_file(url, downld_file)
+            if os.path.exists(downld_file):
+                print(f"{downld_file}: Archive downloaded.")
+            else:
+                print(f"{downld_file}: Archive download failed.")
         return False
         
     status["last_archive_modification"] = last_modified
