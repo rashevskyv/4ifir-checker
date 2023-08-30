@@ -8,6 +8,7 @@ def handle_archive(archive_path, temp_folder='github/temp', output_folder='githu
     new_archive_path = os.path.join(output_folder, archive_name)
     sintez_link = 'sintez.io/'
     github_link = 'github.com/rashevskyv/4ifir-checker/releases/latest/download/'
+    github_link = 'github.com/rashevskyv/4ifir-checker/raw/main/github/'
     custom_packs_path = 'config/aio-switch-updater/custom_packs.json'
     custom_packs_temp_path = os.path.join(temp_folder, custom_packs_path)
     
