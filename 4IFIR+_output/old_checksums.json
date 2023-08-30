@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "1803cfac7455e5a9878a2ef315ed376d"
+                                "checksum": "50457a8adda9621142e1cbd72666bb79"
                             },
                             {
                                 "type": "directory",
@@ -562,7 +562,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "a3849eeee52e5081a79dd9314d44ade1"
+                        "checksum": "6777a91b7e6417ff6d3b9e37881fd28f"
                     }
                 ]
             },
@@ -1248,7 +1248,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "70bc0e49d9acd7a8cc2c9ce4ff88c7b6"
+                "checksum": "5af03ca2659d4c367f457dc403297adc"
             },
             {
                 "type": "file",
@@ -1279,7 +1279,7 @@
             {
                 "type": "file",
                 "name": "4IFIR.ini",
-                "checksum": "1feb3bab2a7f7024aff12982d3019992"
+                "checksum": "6a7a0dddf733c3fa58853f62de7519ef"
             },
             {
                 "type": "file",
@@ -1302,13 +1302,13 @@
                 "children": [
                     {
                         "type": "file",
-                        "name": "fusee.bin",
-                        "checksum": "fbc95347d550a4b6d8f854eb112a7b5b"
+                        "name": "Lockpick_RCM.bin",
+                        "checksum": "6730af75ce3a071a81d67e90f6e5772a"
                     },
                     {
                         "type": "file",
-                        "name": "Lockpick_RCM.bin",
-                        "checksum": "6730af75ce3a071a81d67e90f6e5772a"
+                        "name": "TegraExplorer.bin",
+                        "checksum": "8fce7781eb01c66e5562c9524065a23d"
                     }
                 ]
             },
@@ -1333,6 +1333,11 @@
                     },
                     {
                         "type": "file",
+                        "name": "atmosphere.bmp",
+                        "checksum": "efca6e2873a75980a01aab72da4be543"
+                    },
+                    {
+                        "type": "file",
                         "name": "icon_payload.bmp",
                         "checksum": "8c25ed51d133e0e11c998acc5e79c7e3"
                     },
@@ -1340,6 +1345,11 @@
                         "type": "file",
                         "name": "icon_switch.bmp",
                         "checksum": "a336749f763701ada9806eb889817c5b"
+                    },
+                    {
+                        "type": "file",
+                        "name": "switch.bmp",
+                        "checksum": "be3b7dcd537ff631bd142e974a0b0d20"
                     }
                 ]
             },
@@ -1391,7 +1401,7 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "789f27ebf59e6cb74d56339138f9eb8e"
+                        "checksum": "35fa5c17f98d38c61de33cd8ab46a9c1"
                     },
                     {
                         "type": "file",
@@ -1401,12 +1411,12 @@
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "048d77266bb0d1a88b4e0cde1482784b"
+                        "checksum": "945b945f41a93ea735f75d28929f21e0"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "a2f23c6dad44796483b42ab99d1e6064"
+                        "checksum": "0b7a5abba617776f37f1bd0e88deba7a"
                     },
                     {
                         "type": "file",
@@ -1423,7 +1433,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "d8a12007d02cc1eb3b37921dd096a48a"
+                "checksum": "d97e84581fbd92d1d6d4e88bb80dd624"
             }
         ]
     },
@@ -1522,7 +1532,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "d8a12007d02cc1eb3b37921dd096a48a"
+        "checksum": "d97e84581fbd92d1d6d4e88bb80dd624"
     },
     {
         "type": "directory",
@@ -3789,7 +3799,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "dabe7e5392e09a03aa9c79feadf1d644"
+                        "checksum": "cc0edda86e53a8cc2a66a6d4381d4f4f"
                     },
                     {
                         "type": "file",
@@ -4078,7 +4088,7 @@
                     {
                         "type": "file",
                         "name": "daybreak.nro",
-                        "checksum": "21ed0d24e65a7b01df55253b53a8b14f"
+                        "checksum": "56ffb9453afa627d079a43559602bd53"
                     }
                 ]
             },

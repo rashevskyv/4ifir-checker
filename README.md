@@ -7,93 +7,42 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 30.08.2023 11:30<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 30.08.2023 17:47<hr>
 
 <h3>Added files/folders</h3>
-<code>SaltySD
-├─patches
-│ ├─0100d1b006744000
-│ │ ├─_ZN2nn2oe16GetO...ionModeEv.asm64 (9a3f3cd)
-│ │ ├─_ZN2nn2oe18GetP...nceModeEv.asm64 (9a3f3cd)
-│ ├─0100f9f00c696000
-│ │ └─_ZN2nn2oe16GetO...ionModeEv.asm64 (9a3f3cd)
-│ │ └─_ZN2nn2oe18GetP...nceModeEv.asm64 (9a3f3cd)
-├─plugins
-│ └─FPSLocker
-│ │ └─patches
-│ │ │ └─0100040016EE2000
-│ │ │ │ ├─331E3DFBDF650226.yaml (3a11619)
-│ │ │ └─010018C01B106000
-│ │ │ │ ├─63B72CD5F2A90020.yaml (c4f4483)
-│ │ │ └─01001E3017A10000
-│ │ │ │ ├─1C38F0E269ED4438.yaml (378d85a)
-│ │ │ └─01001F3018880000
-│ │ │ │ ├─DF556AF2E30073C0.yaml (8d5ac30)
-│ │ │ └─010020B016EF4000
-│ │ │ │ ├─7E25622D50D562BF.yaml (91898d5)
-│ │ │ └─010027400CDC6000
-│ │ │ │ ├─4979B200D53BB282.yaml (e2542f1)
-│ │ │ └─010039B015CB6000
-│ │ │ │ ├─39DC785D9073C22B.yaml (039a618)
-│ │ │ └─...
-│ │ │ └─0100D7F00FB1A000
-│ │ │ │ ├─D871B992E95B71C5.yaml (3ed624b)
-│ │ │ └─0100DFC00E472000
-│ │ │ │ ├─448C08A9533F3CAD.yaml (5badfee)
-│ │ │ └─0100E5900F49A000
-│ │ │ │ ├─A8BA2A8F93AAE647.yaml (b07afcc)
-│ │ │ └─0100E66010ADE000
-│ │ │ │ ├─45CE2B6625A35771.yaml (2ac6959)
-│ │ │ └─0100E87017D0E000
-│ │ │ │ ├─ACF3FF125C2A3E68.yaml (1bb1c29)
-│ │ │ └─0100F3200E7CA000
-│ │ │ │ ├─254DF6A118587EA0.yaml (56e4aa3)
-│ │ │ └─0100FA2019AC2000
-│ │ │ │ └─1DF30F9632347530.yaml (806413a)
-switch
-└─.packages
-│ └─Broomstick
-│ │ ├─config.ini (a409fc3)
-│ │ ├─README.md (49c5127)
-│ └─config.ini (ade29d0)
-│ └─Cool Curves
-│ │ ├─config.ini (b4bfcf4)
-│ │ ├─README.md (2a492d0)
-│ └─Easy Installer
-│ │ ├─config.ini (e5a8374)
-│ │ ├─music.json (ac3749d)
-│ │ ├─overlays.json (346af6c)
-│ │ ├─packages.json (d4ee4ca)
-│ └─Host Guard
-│ │ ├─config.ini (af9d249)
-│ │ ├─emummc.txt (e71a562)
-│ │ ├─README.md (739fd2a)
-│ │ ├─sysmmc.txt (e71a562)
-│ └─l4t_reboot
-│ │ ├─install.sh (d175927)
-│ │ ├─l4t_reboot.py (f97ffdb)
-│ │ ├─README.md (d58b093)
-│ └─Mod Master
-│ │ ├─config.ini (8ed6967)
-│ │ ├─README.md (f269b0b)
-│ └─Overclock Buster
-│ │ └─config.ini (f0a0d00)
-│ │ └─README.md (80c2367)
+<code>bootloader
+└─payloads
+│ ├─TegraExplorer.bin (8fce778)
+└─res
+│ └─atmosphere.bmp (efca6e2)
+│ └─switch.bmp (be3b7dc)
+</code>
+<h3>Removed files/folders</h3>
+<code>bootloader
+└─payloads
+│ └─fusee.bin (fbc9534)
 </code>
 <h3>Modified files</h3>
 <code>atmosphere
-├─config
-│ ├─system_settings.ini (e8ecdaa)
 ├─contents
-│ └─00FF0000636C6BFF
-│ │ └─exefs.nsp (1803cfa)
-SaltySD
-├─plugins
-│ └─ReverseNX-RT.elf (6618b18)
+│ ├─00FF0000636C6BFF
+│ │ └─exefs.nsp (50457a8)
+├─kips
+│ ├─loader.kip (6777a91)
+├─package3 (5af03ca)
+bootloader
+├─4IFIR.ini (6a7a0dd)
+├─sys
+│ ├─libsys_lp0.bso (35fa5c1)
+│ ├─module_sample.bso (945b945)
+│ ├─nyx.bin (0b7a5ab)
+├─update.bin (d97e845)
+payload.bin (d97e845)
 switch
 └─.overlays
-│ └─4IFIR.ovl (dabe7e5)
-│ └─ovlmenu.ovl (804c13b)
+│ ├─4IFIR.ovl (cc0edda)
+└─daybreak
+│ └─daybreak.nro (56ffb94)
 </code>
 <hr>
 
