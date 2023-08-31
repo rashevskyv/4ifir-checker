@@ -7,42 +7,11 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 30.08.2023 17:47<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 31.08.2023 01:55<hr>
 
-<h3>Added files/folders</h3>
-<code>bootloader
-└─payloads
-│ ├─TegraExplorer.bin (8fce778)
-└─res
-│ └─atmosphere.bmp (efca6e2)
-│ └─switch.bmp (be3b7dc)
-</code>
-<h3>Removed files/folders</h3>
-<code>bootloader
-└─payloads
-│ └─fusee.bin (fbc9534)
-</code>
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (50457a8)
-├─kips
-│ ├─loader.kip (6777a91)
-├─package3 (5af03ca)
-bootloader
-├─4IFIR.ini (6a7a0dd)
-├─sys
-│ ├─libsys_lp0.bso (35fa5c1)
-│ ├─module_sample.bso (945b945)
-│ ├─nyx.bin (0b7a5ab)
-├─update.bin (d97e845)
-payload.bin (d97e845)
-switch
-└─.overlays
-│ ├─4IFIR.ovl (cc0edda)
-└─daybreak
-│ └─daybreak.nro (56ffb94)
+└─package3 (bce4b8e)
 </code>
 <hr>
 

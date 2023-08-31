@@ -1,83 +1,11 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "bootloader/payloads/TegraExplorer.bin",
-            "checksum": "8fce7781eb01c66e5562c9524065a23d"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/res/atmosphere.bmp",
-            "checksum": "efca6e2873a75980a01aab72da4be543"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/res/switch.bmp",
-            "checksum": "be3b7dcd537ff631bd142e974a0b0d20"
-        }
-    ],
-    "removed": [
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "fbc95347d550a4b6d8f854eb112a7b5b"
-        }
-    ],
+    "added": [],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "50457a8adda9621142e1cbd72666bb79"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "6777a91b7e6417ff6d3b9e37881fd28f"
-        },
-        {
-            "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "5af03ca2659d4c367f457dc403297adc"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/4IFIR.ini",
-            "checksum": "6a7a0dddf733c3fa58853f62de7519ef"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "35fa5c17f98d38c61de33cd8ab46a9c1"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "945b945f41a93ea735f75d28929f21e0"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "0b7a5abba617776f37f1bd0e88deba7a"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "d97e84581fbd92d1d6d4e88bb80dd624"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "d97e84581fbd92d1d6d4e88bb80dd624"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "cc0edda86e53a8cc2a66a6d4381d4f4f"
-        },
-        {
-            "type": "file",
-            "name": "switch/daybreak/daybreak.nro",
-            "checksum": "56ffb9453afa627d079a43559602bd53"
+            "checksum": "bce4b8ee3bb76bf1917378b705993a21"
         }
     ]
 }
