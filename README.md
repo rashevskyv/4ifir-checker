@@ -7,11 +7,12 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 31.08.2023 01:55<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 02.09.2023 12:41<hr>
 
 <h3>Modified files</h3>
-<code>atmosphere
-└─package3 (bce4b8e)
+<code>switch
+└─.overlays
+│ └─4IFIR.ovl (6ce90f1)
 </code>
 <hr>
 
@@ -95,23 +96,18 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 21.08.2023 11:05<hr>
+<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 02.09.2023 12:40<hr>
 
-<h3>Added files/folders</h3>
+<h3>Modified files</h3>
 <code>atmosphere
 ├─contents
 │ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (0aea189)
-│ │ └─flags
-│ │ │ └─boot2.flag (d41d8cd)
+│ │ └─exefs.nsp (50457a8)
 ├─kips
-│ └─loader.kip (c6f71ce)
-config
-├─sys-clk
-│ └─config.ini (23ef5e0)
+│ └─loader.kip (137777f)
 switch
 └─.overlays
-│ └─4IFIR.ovl (7c55125)
+│ └─4IFIR.ovl (6ce90f1)
 </code>
 <hr>
 

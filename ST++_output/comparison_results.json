@@ -1,85 +1,21 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "contents",
-                    "children": [
-                        {
-                            "type": "directory",
-                            "name": "00FF0000636C6BFF",
-                            "children": [
-                                {
-                                    "type": "file",
-                                    "name": "exefs.nsp",
-                                    "checksum": "0aea189066db693fe4482e8822fe8fe6"
-                                },
-                                {
-                                    "type": "directory",
-                                    "name": "flags",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "boot2.flag",
-                                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "directory",
-                    "name": "kips",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "loader.kip",
-                            "checksum": "c6f71ce1ab503550414fe7db1424ecf1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "config",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "sys-clk",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "config.ini",
-                            "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": ".overlays",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "4IFIR.ovl",
-                            "checksum": "7c55125fb517c02ef8254bc569b11488"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "50457a8adda9621142e1cbd72666bb79"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "137777f74ea74076e13b31eb1da064b8"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "6ce90f1f192ed40828dfefffd4a060a8"
+        }
+    ]
 }
