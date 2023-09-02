@@ -1,4 +1,4 @@
-import zipfile
+import pyzipper
 import os
 import json
 import shutil
@@ -27,7 +27,7 @@ def handle_archive(archive_path, temp_folder='github/temp', output_folder='githu
         os.makedirs(temp_folder)
 
     # Extract the archive to the temp folder
-    with zipfile.ZipFile(archive_path, 'r') as zip_ref:
+    with pyzipper.ZipFile(archive_path, 'r') as zip_ref:
         zip_ref.extractall(temp_folder)
 
     # Navigate to config/aio-switch-updater/ and locate custom_packs.json
@@ -47,7 +47,7 @@ def handle_archive(archive_path, temp_folder='github/temp', output_folder='githu
     
     # Create a new archive with modified files
     print('Creating new archive with github links...')
-    with zipfile.ZipFile(new_archive_path, 'w', compression=zipfile.ZIP_DEFLATED) as new_zip:
+    with pyzipper.ZipFile(new_archive_path, 'w', compression=pyzipper.ZIP_DEFLATED) as new_zip:
         for root, _, files in os.walk(temp_folder):
             for file in files:
                 if file != archive_name:  # Skip adding this file to the new archive
