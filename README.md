@@ -96,18 +96,12 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 02.09.2023 12:40<hr>
+<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 06.09.2023 15:48<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-├─contents
-│ ├─00FF0000636C6BFF
-│ │ └─exefs.nsp (50457a8)
-├─kips
-│ └─loader.kip (137777f)
-switch
-└─.overlays
-│ └─4IFIR.ovl (6ce90f1)
+└─kips
+│ └─loader.kip (595d91a)
 </code>
 <hr>
 
