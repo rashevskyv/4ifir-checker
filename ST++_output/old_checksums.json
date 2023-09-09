@@ -14,7 +14,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "50457a8adda9621142e1cbd72666bb79"
+                                "checksum": "2d5ffd89f253e24e49afd9fb8e7e8277"
                             },
                             {
                                 "type": "directory",
@@ -38,7 +38,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "595d91a8e7392228ff472c244b3bd3de"
+                        "checksum": "f2c9b8bf9f1c23effb06bdcd5eba3aa5"
                     }
                 ]
             }
@@ -72,7 +72,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "6ce90f1f192ed40828dfefffd4a060a8"
+                        "checksum": "f1960ecc76022026f3281a627c79fa05"
                     }
                 ]
             }
