@@ -22,8 +22,10 @@ def create_html_report(results, last_modified, archive_filename):
             elif change_type == "modified":
                 report_content += '<h3>Modified files</h3>\n<code>'
             folder_tree = process_items(items)
+            # print(f"======================\nfolder_tree for {archive_filename}:\n======================\n\n{folder_tree}")
             report_content += render_tree(folder_tree)
             report_content += '</code>\n'
+            # print(str(report_content))
     return report_content
 
 def render_tree(tree, level=1, last_child=False):
@@ -44,7 +46,7 @@ def render_tree(tree, level=1, last_child=False):
         is_last_child = index == len(tree) - 1
 
         if isinstance(value, str) and "(" in value and ")" in value:
-            file_name, checksum = value.split(' ')
+            file_name, checksum = value.split(' ', 1)
             checksum_short = checksum[1:8]
             
             # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
@@ -106,13 +108,21 @@ def split_html_content(content, max_length=4096, tag='<code>', delimiter='------
             if end_index == -1:
                 end_index = start_index + max_length
 
-        block = content[start_index:end_index]
+        block = content[start_index:end_index].strip()
+        # print(f"block: {block}\n---------------------\n\n")
 
         # Перевірка блоку на наявність tag та close_tag
-        if tag not in block:
+        start_tag = "<b>"
+
+
+        if not block.startswith(start_tag):
             block = tag + block
-        if close_tag not in block:
+        tag_count = block.count(tag)
+        close_tag_count = block.count(close_tag)
+        if tag_count != close_tag_count:
             block += close_tag
+
+        # print(f"block after tag check: {block}\n---------------------\n\n")
 
         blocks.append(block)
         start_index = end_index
@@ -123,8 +133,10 @@ async def send_to_tg(report_content, file, archivename):
         
     def process_report_content(report_content):
         report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
+        # print(f"======================\nreport_content for {archivename}:\n======================\n\n{report_content}\n====--------------====\n\n")
         header, blocks = split_html_content(report_content)
         # print("header:", header)
+        # print(f"======================\nblocks for {archivename}:\n======================\n\n{blocks}\n====--------------====\n\n")
         delimiter="-------------------------------"
         split_index = header.rfind(delimiter)
         small_caption = header[:split_index]
@@ -174,21 +186,30 @@ async def send_to_tg(report_content, file, archivename):
                     start = end
 
                 # Send the smaller parts of the second_part
-                for part in parts:
+                for i, part in parts:
+                    # print("Sending header if message bigger than 4K...")
+                    # print(f"Part {i} of {len(parts)}: {part}\n---------------------\n\n")
                     await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
             else:
                 # Отправляем вторую часть
+                print("Sending body if message bigger than 4K...")
                 await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
         else:
             # Отправляем обе части одним сообщением
+            print("Sending both parts of the header if message text smaller than 4K...")
             await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=small_caption, parse_mode=types.ParseMode.HTML)
             await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
     else:
         # Отправляем файл с описанием (header)
+        print("Sending header if message smaller than 4K...")
+        # print(f"Header: {header}\n---------------------\n\n")
         await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=header, parse_mode=types.ParseMode.HTML)
+        print("DONE")
 
     # Отправляем блоки содержимого
     for part in blocks:
+        print("Sending body if message smaller than 4K...")
+        # print(f"{part}\n---------------------\n\n")
         await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
 
     file_obj.close()    

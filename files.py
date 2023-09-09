@@ -2,7 +2,8 @@ import requests
 import os
 import shutil
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
+from pytz import timezone
 from report import send_tg_message
 import asyncio
 import json
@@ -56,8 +57,12 @@ def get_last_modified(url):
     try:
         head_response = requests.head(url)
         if head_response.status_code == 200:
-            last_modified = (datetime.strptime(head_response.headers.get('Last-Modified'), '%a, %d %b %Y %H:%M:%S %Z')).isoformat()
-            return last_modified
+            last_modified_utc = datetime.strptime(head_response.headers.get('Last-Modified'), '%a, %d %b %Y %H:%M:%S %Z')
+            # Convert to UTC timezone
+            last_modified_utc = last_modified_utc.replace(tzinfo=timezone('UTC'))
+            # Convert to GMT+3
+            last_modified_gmt3 = last_modified_utc.astimezone(timezone('Etc/GMT-3'))
+            return last_modified_gmt3.isoformat()
         else:
             print('Error getting Last-Modified:', head_response.status_code)
             sys.exit(1)

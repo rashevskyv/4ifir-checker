@@ -55,6 +55,7 @@ def main():
 
             if (telegram):
                 if "4BRICK" not in archive_name:
+                    # print(f'INCOMING:\n----------\n\narchive_file: {archive_file}\narchive_name: {archive_name}\nresult: {result}\n\n-------------------\n\n')
                     asyncio.run(send_to_tg(result, archive_file, archive_name))
                     print("Report sent to Telegram.")
 

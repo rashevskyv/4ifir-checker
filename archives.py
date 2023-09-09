@@ -1,6 +1,7 @@
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
+from pytz import timezone
 from status_result import save_status, save_comparison_results, compare_checksums, build_tree_and_save_checksums
 from files import get_last_modified, download_file
 
@@ -32,8 +33,14 @@ def process_archive(archive):
         status = {}
 
     # Check if the archive has been modified
+    # Convert the current time to GMT+3 and then to ISO format
+    def get_current_time_gmt3():
+        current_time_utc = datetime.now(timezone('UTC'))
+        current_time_gmt3 = current_time_utc.astimezone(timezone('Etc/GMT-3'))
+        return current_time_gmt3.isoformat()
+
     last_modified = get_last_modified(url)
-    status["last_execution"] = datetime.now().isoformat()
+    status["last_execution"] =  get_current_time_gmt3()
 
     if os.path.exists(comparison_results_file):
             with open(comparison_results_file, 'r') as f:

@@ -2,17 +2,19 @@ import zipfile
 import json
 import hashlib
 
+
 # Save the status of the script to a JSON file
 def save_status(status_file, status, archive_filename):
     with open(status_file, 'w') as f:
         json.dump(status, f, indent=4)
         print(f'{archive_filename}: Script status saved to', status_file)
 
+
 # Build tree structure and add the item to the tree
 def build_tree(path, contents):
     parts = path.split('/', 1)
     current = parts[0]
-    
+
     if len(parts) == 1:
         contents.append({"type": "file", "name": current})
     else:
@@ -22,11 +24,12 @@ def build_tree(path, contents):
                 directory_found = True
                 build_tree(parts[1], item["children"])
                 break
-        
+
         if not directory_found:
             new_dir = {"type": "directory", "name": current, "children": []}
             build_tree(parts[1], new_dir["children"])
             contents.append(new_dir)
+
 
 # Build tree structure, calculate checksums and save them
 def build_tree_and_save_checksums(downld_file):
@@ -53,6 +56,7 @@ def build_tree_and_save_checksums(downld_file):
                                     current = item["children"]
                                 break
     return archive_contents
+
 
 # Compare checksums between old and new files
 def compare_checksums(old_checksums, new_checksums):
@@ -87,28 +91,36 @@ def compare_checksums(old_checksums, new_checksums):
     compare_directories(old_checksums, new_checksums)
     return result
 
+
 # Save comparison results to a JSON file
 def save_comparison_results(results, output_file):
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=4)
 
-def process_items(items):
-    folder_tree = {}
 
-    for item in items:
-        path_parts = item["name"].split('/')
-        folder = folder_tree
+def process_items(input_items):
+    def parse(value, folder):
+        for item in value:
+            path_parts = item["name"].split('/')
 
-        for part in path_parts[:-1]:
-            if part not in folder:
-                folder[part] = {}
-            folder = folder[part]
+            for part in path_parts[:-1]:
+                if part not in folder:
+                    folder[part] = {}
+                folder = folder[part]
 
-        folder_name = path_parts[-1]
-        if "children" in item:
-            folder[folder_name] = process_items(item["children"])
-        else:
-            file_name = folder_name
-            folder[file_name] = file_name + " (" + item["checksum"] + ")" if "checksum" in item else file_name
+            folder_name = path_parts[-1]
+            if "children" in item:
+                folder[folder_name] = process_items(item["children"])
+            else:
+                file_name = folder_name
+                folder[file_name] = file_name + " (" + item["checksum"] + ")" if "checksum" in item else file_name
 
-    return folder_tree
+        return folder
+
+    final_folder = {}
+    if isinstance(input_items, dict):
+        for key, value in input_items.items():
+            parse(value, final_folder)
+    else:
+        parse(input_items, final_folder)
+    return final_folder
