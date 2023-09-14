@@ -184,12 +184,12 @@
 
 <hr>
 
-<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 14.09.2023 05:18<hr>
+<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 14.09.2023 06:14<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
 └─kips
-│ └─loader.kip (360a056)
+│ └─loader.kip (0ecb56b)
 </code>
 <hr>
 
