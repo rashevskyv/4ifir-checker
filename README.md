@@ -184,19 +184,12 @@
 
 <hr>
 
-<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 09.09.2023 16:01<hr>
+<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 14.09.2023 05:18<hr>
 
 <h3>Modified files</h3>
 <code>atmosphere
-└─contents
-│ └─00FF0000636C6BFF
-│ │ └─exefs.nsp (2d5ffd8)
-│ │ └─atmosphere
-│ │ │ └─kips
-│ │ │ │ └─loader.kip (f2c9b8b)
-│ │ │ │ └─switch
-│ │ │ │ │ └─.overlays
-│ │ │ │ │ │ └─4IFIR.ovl (f1960ec)
+└─kips
+│ └─loader.kip (360a056)
 </code>
 <hr>
 
