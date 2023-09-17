@@ -2,249 +2,40 @@
     "added": [
         {
             "type": "directory",
-            "name": "switch/.packages/4IFIR Wizard",
+            "name": "switch/.packages/4IFIR Wizard/1_Configure",
             "children": [
                 {
                     "type": "file",
-                    "name": "Backup.json",
-                    "checksum": "133126f915daef8b552f3722d0243b6c"
-                },
-                {
-                    "type": "file",
                     "name": "config.ini",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    "checksum": "6799af647facbb28e24a79234af18508"
                 },
                 {
                     "type": "directory",
-                    "name": "Erista",
+                    "name": "CPU",
                     "children": [
                         {
                             "type": "file",
                             "name": "config.ini",
-                            "checksum": "4151b0d4e11f87f4119d43b807528603"
+                            "checksum": "98208a4adcc80d52ac3c4e4433b818c4"
                         },
                         {
                             "type": "directory",
-                            "name": "Configure",
+                            "name": "json",
                             "children": [
                                 {
                                     "type": "file",
-                                    "name": "config.ini",
-                                    "checksum": "bc2da6dc1b0413b06341490876ea5039"
+                                    "name": "priority.json",
+                                    "checksum": "d153af26c2bb75ece26749aa9738a53b"
                                 },
-                                {
-                                    "type": "directory",
-                                    "name": "CPU",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "config.ini",
-                                            "checksum": "bd441cb8b7fb6582b731ff0ff3431c0c"
-                                        },
-                                        {
-                                            "type": "directory",
-                                            "name": "json",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "priority.json",
-                                                    "checksum": "2cc1e03b4f91cafa658a3b5ffa9e836c"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "voltage.json",
-                                                    "checksum": "a259bd29c3fd9a4a6b68b4f016a7493c"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "directory",
-                                    "name": "GPU",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "config.ini",
-                                            "checksum": "6efb270d06b5609620c473f05ccefd2f"
-                                        },
-                                        {
-                                            "type": "directory",
-                                            "name": "json",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "1000MHz.json",
-                                                    "checksum": "4bd3a67f95b1747abae220b7910d0fb7"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "230-460MHz.json",
-                                                    "checksum": "5b83b16d69798a642dff2c82fc570850"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "537-690MHz.json",
-                                                    "checksum": "ff62aaef282f16fe1e545d63fda187ef"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "768MHz.json",
-                                                    "checksum": "5bd6ea065db77b6f034df96d3aa108dc"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "806MHz.json",
-                                                    "checksum": "5aa1b1a36a715d1f924f936e0498096c"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "844MHz.json",
-                                                    "checksum": "7d8213378fca9efb036c5429be12f5e5"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "921MHz.json",
-                                                    "checksum": "3ac6ceec57a86256df2f80105b07c38d"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "directory",
-                                    "name": "RAM",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "config.ini",
-                                            "checksum": "642d79ae8bd4fdc166e1ae9cf6790c4e"
-                                        },
-                                        {
-                                            "type": "directory",
-                                            "name": "Help",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "config.ini",
-                                                    "checksum": "2e608c481030c8cbe95f597ab142fda0"
-                                                },
-                                                {
-                                                    "type": "directory",
-                                                    "name": "data",
-                                                    "children": [
-                                                        {
-                                                            "type": "file",
-                                                            "name": "dvb.txt",
-                                                            "checksum": "9693b82c11040404cac24ea3c7a8b8bf"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "latency.txt",
-                                                            "checksum": "b7e72e87480c4dd8b7d24383cb5027d5"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "MHz.txt",
-                                                            "checksum": "4cabf8c6a0d7a50fbfda6839f42c15e3"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing1.txt",
-                                                            "checksum": "5292e8356b9bded6109d0c84924062a6"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing2.txt",
-                                                            "checksum": "fb8897ae4584bddc5f8017c8d7536cca"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing3.txt",
-                                                            "checksum": "f0aeec9f7dbbde8662f4090a04b5d264"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing4.txt",
-                                                            "checksum": "e0e2acce8119fac1ad43a7ff642c7784"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing5.txt",
-                                                            "checksum": "82e440bc7e8e0d2d95853b9b5b566456"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "vdd2.txt",
-                                                            "checksum": "ed636dae0ce5f30e2844f946cbbb4d99"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "type": "directory",
-                                            "name": "json",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "EMC DVB Table.json",
-                                                    "checksum": "98b53f94782f53cb2e399c94f48e1b19"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "latency_decrement.json",
-                                                    "checksum": "a9bd552e2c6bd0b4c8910e714765fad4"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "MHz.json",
-                                                    "checksum": "9b47902ecad20dccd66bc088dae182c8"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "primary_timings.json",
-                                                    "checksum": "45628f62cfa323975a13965fa82d6dbd"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings1.json",
-                                                    "checksum": "bdef2dd157914d58001672bd55a9d347"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings2.json",
-                                                    "checksum": "370916ea97e13119c84bc460a14d7d58"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings3.json",
-                                                    "checksum": "8551a047d4d4218fe1a24f19b2281180"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings4.json",
-                                                    "checksum": "b41b1bdf983d7043e8d2c78b2ae62273"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "Vdd2.json",
-                                                    "checksum": "c515a7cae2243b8c77ed3fdd6543efff"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "directory",
-                            "name": "Help",
-                            "children": [
                                 {
                                     "type": "file",
-                                    "name": "text.txt",
-                                    "checksum": "1328b944a2a5dcb44c02a21a2abb4f03"
+                                    "name": "voltage_erista.json",
+                                    "checksum": "6ea7ec4d32db1d051c957713be1877d7"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "voltage_mariko.json",
+                                    "checksum": "ed2c67e19d4d143ce6ffd282faaa31c8"
                                 }
                             ]
                         }
@@ -252,266 +43,162 @@
                 },
                 {
                     "type": "directory",
-                    "name": "Mariko",
+                    "name": "GPU",
                     "children": [
                         {
                             "type": "file",
                             "name": "config.ini",
-                            "checksum": "bdb3e40e8c9b8486cca7189ba57489f5"
+                            "checksum": "1bb550e7936c569cc8e0084b8b3d532b"
                         },
                         {
                             "type": "directory",
-                            "name": "Configure",
+                            "name": "data",
                             "children": [
                                 {
                                     "type": "file",
-                                    "name": "config.ini",
-                                    "checksum": "48ec7783d1f57d5739fcfbc7da98aaf3"
-                                },
+                                    "name": "help.txt",
+                                    "checksum": "342e72541ca56b51f9f65ca7c799c6a6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "json",
+                            "children": [
                                 {
                                     "type": "directory",
-                                    "name": "CPU",
+                                    "name": "Erista",
                                     "children": [
                                         {
                                             "type": "file",
-                                            "name": "config.ini",
-                                            "checksum": "610fbe7cae3b047bf234f0a6a81beb63"
+                                            "name": "1000MHz.json",
+                                            "checksum": "93ab6eb2bd5d31f0c488010fe06a8850"
                                         },
                                         {
-                                            "type": "directory",
-                                            "name": "json",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "priority.json",
-                                                    "checksum": "2cc1e03b4f91cafa658a3b5ffa9e836c"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "voltage.json",
-                                                    "checksum": "7d1d12dff10ab13b8cd0ecba11b3b355"
-                                                }
-                                            ]
+                                            "type": "file",
+                                            "name": "230-614MHz.json",
+                                            "checksum": "2d4421f61acdce78a144b748657f8904"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "690MHz.json",
+                                            "checksum": "c12a02d5f17f042d017b5fa0c938b255"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "729MHz.json",
+                                            "checksum": "754a3e560f6f07f1ad4da12634b59760"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "768MHz.json",
+                                            "checksum": "94a44cacd27b9981639593853b66cbb8"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "806MHz.json",
+                                            "checksum": "7903d0b540fbd81282aba1a36d3c5cf3"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "844MHz.json",
+                                            "checksum": "049f8d06e4563b92e23cbd70a78f855a"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "921MHz.json",
+                                            "checksum": "b85fb6dc5356a4b68d05afb0858f4173"
                                         }
                                     ]
                                 },
                                 {
                                     "type": "directory",
-                                    "name": "GPU",
+                                    "name": "Mariko",
                                     "children": [
                                         {
                                             "type": "file",
-                                            "name": "config.ini",
-                                            "checksum": "bef5c7d2de28c179c995df2cf40d2622"
+                                            "name": "1075MHz.json",
+                                            "checksum": "bdf74e7a1235a123021d1a55acdd80c8"
                                         },
-                                        {
-                                            "type": "directory",
-                                            "name": "json",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "1075MHz.json",
-                                                    "checksum": "927466d9e749ff4aaa2228ae2ae22ef9"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "1152MHz.json",
-                                                    "checksum": "4d771a061234739dc5b2cfcd0393cb9d"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "1228MHz.json",
-                                                    "checksum": "fe611da6788a64d50725a2d6740adb65"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "1267MHz.json",
-                                                    "checksum": "e5597101c146da4a503329afb1ae0887"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "1305MHz.json",
-                                                    "checksum": "f49f9de4ed233acd85d6ee663c9ac090"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "230-460MHz.json",
-                                                    "checksum": "4c17ce0548cb2db7a967ddd422c8b76b"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "537-691MHz.json",
-                                                    "checksum": "23e747e68eae358f5f26a6602c2d5aa2"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "768MHz.json",
-                                                    "checksum": "ea6f0344e0d1db59d99a698a69864033"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "844MHz.json",
-                                                    "checksum": "6771484adf045686c9a9a0743c74c345"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "864MHz.json",
-                                                    "checksum": "eca232904bec608467e3df1c928045cb"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "921MHz.json",
-                                                    "checksum": "b0e823c2feae91ceabab4d4a64674ad4"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "998MHz.json",
-                                                    "checksum": "93173bd641a39076e1ec7a74f00eb109"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "Stage.json",
-                                                    "checksum": "e311928d085060a2be9acc7cd279c4d9"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "directory",
-                                    "name": "RAM",
-                                    "children": [
                                         {
                                             "type": "file",
-                                            "name": "config.ini",
-                                            "checksum": "487752d7e69623ed18abd7b7c358613b"
+                                            "name": "1152MHz.json",
+                                            "checksum": "2e75085f69a61eed58ab467e4fa14088"
                                         },
                                         {
-                                            "type": "directory",
-                                            "name": "Help",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "config.ini",
-                                                    "checksum": "f07e2359a1b1b2b12b71b2feb100cb68"
-                                                },
-                                                {
-                                                    "type": "directory",
-                                                    "name": "data",
-                                                    "children": [
-                                                        {
-                                                            "type": "file",
-                                                            "name": "dvb.txt",
-                                                            "checksum": "9693b82c11040404cac24ea3c7a8b8bf"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "latency.txt",
-                                                            "checksum": "b7e72e87480c4dd8b7d24383cb5027d5"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "MHz.txt",
-                                                            "checksum": "4cabf8c6a0d7a50fbfda6839f42c15e3"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing1.txt",
-                                                            "checksum": "5292e8356b9bded6109d0c84924062a6"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing2.txt",
-                                                            "checksum": "fb8897ae4584bddc5f8017c8d7536cca"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing3.txt",
-                                                            "checksum": "f0aeec9f7dbbde8662f4090a04b5d264"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing4.txt",
-                                                            "checksum": "e0e2acce8119fac1ad43a7ff642c7784"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "timing5.txt",
-                                                            "checksum": "82e440bc7e8e0d2d95853b9b5b566456"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "vdd2.txt",
-                                                            "checksum": "ed636dae0ce5f30e2844f946cbbb4d99"
-                                                        },
-                                                        {
-                                                            "type": "file",
-                                                            "name": "Vddq.txt",
-                                                            "checksum": "3ba607d0f26443d8dad37525e55e2be8"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            "type": "file",
+                                            "name": "1228MHz.json",
+                                            "checksum": "9685607cc04c378ae24b0a1dd8c7ce10"
                                         },
                                         {
-                                            "type": "directory",
-                                            "name": "json",
-                                            "children": [
-                                                {
-                                                    "type": "file",
-                                                    "name": "EMC DVB Table.json",
-                                                    "checksum": "876363107d7b9041c4eef4127ca6013d"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "latency_decrement.json",
-                                                    "checksum": "f2fe2ac86cd1f56b117c941e6e689d76"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "MHz.json",
-                                                    "checksum": "1183e475682c54cbd656b5ce100cc69a"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "primary_timings.json",
-                                                    "checksum": "2ef66723bd9fccc0a04484f1a3ac4dc3"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings1.json",
-                                                    "checksum": "4261ea55597223700d2e756112b2f994"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings2.json",
-                                                    "checksum": "2e532c430b5e5ee67f5c41fcc5b85ef0"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings3.json",
-                                                    "checksum": "f8bd60e7e2df462d04300d119ecf0bdc"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "second_timings4.json",
-                                                    "checksum": "225f02139ec6ed152c7297e1da244f3f"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "Vdd2.json",
-                                                    "checksum": "c515a7cae2243b8c77ed3fdd6543efff"
-                                                },
-                                                {
-                                                    "type": "file",
-                                                    "name": "Vddq.json",
-                                                    "checksum": "82c206562d635385d166bbbeca08c635"
-                                                }
-                                            ]
+                                            "type": "file",
+                                            "name": "1267MHz.json",
+                                            "checksum": "c5a6af9beeaa4adec4189c9ddde6ce10"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "1305MHz.json",
+                                            "checksum": "4a4c1c6fdf86e2f470ddd055f637f317"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "230-460MHz.json",
+                                            "checksum": "58800a993a2f4b1c44c027b328a0c078"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "537-691MHz.json",
+                                            "checksum": "adc4e18e4061301764f034417a8c3ef8"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "768MHz.json",
+                                            "checksum": "0c7cda4a0bb362b7308983585d5dd700"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "844MHz.json",
+                                            "checksum": "c9c5e3977602d6caeb1e225a2b45addb"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "864MHz.json",
+                                            "checksum": "0fa49ec8c15cb51a94bbbeec1c4bf29c"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "921MHz.json",
+                                            "checksum": "4a3c13f1613bf9f2d95f3fd6f539bb9a"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "998MHz.json",
+                                            "checksum": "28a5f57a96bfcf59df588bdaea4ef0ba"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Reset.json",
+                                            "checksum": "f26c30a283cff501d6c00f5583260f3d"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Stage.json",
+                                            "checksum": "2d091f8111f543253740e2baee2e9494"
                                         }
                                     ]
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "type": "directory",
+                    "name": "RAM",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "config.ini",
+                            "checksum": "117fc478bdb5aa42b2fe89bd6a7c5bac"
                         },
                         {
                             "type": "directory",
@@ -519,156 +206,670 @@
                             "children": [
                                 {
                                     "type": "file",
-                                    "name": "text.txt",
-                                    "checksum": "b2168b38db40433aad94bb4b54006832"
+                                    "name": "config.ini",
+                                    "checksum": "016d36608eb9ec674329abb497ba3f03"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "data",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "dvb.txt",
+                                            "checksum": "8015a345df8c739229d4ea36b2cd15bb"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "MHz.txt",
+                                            "checksum": "3fb5519b6af948bfaaf709c1f65bde69"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Timings.txt",
+                                            "checksum": "ab0dac0677b459ad6048750467b62d0f"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "vdd2.txt",
+                                            "checksum": "e10b86744381acd1360ed96bd815a4ff"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Vddq.txt",
+                                            "checksum": "9c0f16c9788a19c7479dc8ec7c9a6260"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "json",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "core_timings1.json",
+                                    "checksum": "675cdca892b76bc2ffa3c275cc749fd1"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "core_timings2.json",
+                                    "checksum": "f7d9d9a2ef8d499fda08dc658d758722"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "core_timings3.json",
+                                    "checksum": "eaac6a704bbdd9db2eecf87dbe90d7a9"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "core_timings4.json",
+                                    "checksum": "6a39b9cd84cd0ebe11fff60385c12758"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "core_timings5.json",
+                                    "checksum": "eaac6a704bbdd9db2eecf87dbe90d7a9"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "core_timings6.json",
+                                    "checksum": "7f5d5c3ab91b16ba98f02f9d2a09098e"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "EMC DVB Table.json",
+                                    "checksum": "5b3550ab839362a7cbb8f28954e3988d"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "MHz_erista.json",
+                                    "checksum": "3abda250f2f611c156b7a0f79502d2bc"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "MHz_mariko.json",
+                                    "checksum": "2529fc08f23d7c29ffcacad9a6185a58"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "Vdd2.json",
+                                    "checksum": "589a94e6226538e5c60da9176766cd6e"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "Vddq.json",
+                                    "checksum": "d0de09ade502598af3392019e4c50a5f"
                                 }
                             ]
                         }
                     ]
                 }
             ]
-        }
-    ],
-    "removed": [
+        },
         {
             "type": "directory",
-            "name": "switch/.packages/Broomstick",
+            "name": "switch/.packages/4IFIR Wizard/2_About",
             "children": [
                 {
                     "type": "file",
                     "name": "config.ini",
-                    "checksum": "a409fc3ef9b15fc1ce003797d7005e6a"
+                    "checksum": "b3389d593839d912ab07bf17675b624a"
                 },
                 {
-                    "type": "file",
-                    "name": "README.md",
-                    "checksum": "49c5127f9b40460364f28a11302410a4"
+                    "type": "directory",
+                    "name": "Data",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "about.txt",
+                            "checksum": "95a918dc4ae9ff64789f95f2661da09a"
+                        },
+                        {
+                            "type": "file",
+                            "name": "Backup.json",
+                            "checksum": "0dc965e471e165db851475f8785f55d5"
+                        },
+                        {
+                            "type": "file",
+                            "name": "curconf_erista.json",
+                            "checksum": "1d973935f68e02208c69843c0110e242"
+                        },
+                        {
+                            "type": "file",
+                            "name": "curconf_mariko.json",
+                            "checksum": "e32ae9c0e59c3d53eff68d8a44afe72a"
+                        }
+                    ]
                 }
             ]
         },
         {
             "type": "file",
-            "name": "switch/.packages/config.ini",
-            "checksum": "ade29d0074014ba92f93cc75bdefc87a"
+            "name": "switch/MicroMemTest.nro",
+            "checksum": "95d4098a7870a1f0e5d7148aa5c7f212"
+        },
+        {
+            "type": "file",
+            "name": "switch/RaytracingNX.nro",
+            "checksum": "15b33a88d498d3104487b36ceadc65d1"
+        }
+    ],
+    "removed": [
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/Backup.json",
+            "checksum": "133126f915daef8b552f3722d0243b6c"
         },
         {
             "type": "directory",
-            "name": "switch/.packages/Cool Curves",
+            "name": "switch/.packages/4IFIR Wizard/Erista",
             "children": [
                 {
                     "type": "file",
                     "name": "config.ini",
-                    "checksum": "b4bfcf4be22a090587a8a4de79baf980"
+                    "checksum": "4151b0d4e11f87f4119d43b807528603"
                 },
                 {
-                    "type": "file",
-                    "name": "README.md",
-                    "checksum": "2a492d0d74347ee8d7198b3a82dcba7c"
+                    "type": "directory",
+                    "name": "Configure",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "config.ini",
+                            "checksum": "bc2da6dc1b0413b06341490876ea5039"
+                        },
+                        {
+                            "type": "directory",
+                            "name": "CPU",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "config.ini",
+                                    "checksum": "bd441cb8b7fb6582b731ff0ff3431c0c"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "json",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "priority.json",
+                                            "checksum": "2cc1e03b4f91cafa658a3b5ffa9e836c"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "voltage.json",
+                                            "checksum": "a259bd29c3fd9a4a6b68b4f016a7493c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "GPU",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "config.ini",
+                                    "checksum": "6efb270d06b5609620c473f05ccefd2f"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "json",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "1000MHz.json",
+                                            "checksum": "4bd3a67f95b1747abae220b7910d0fb7"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "230-460MHz.json",
+                                            "checksum": "5b83b16d69798a642dff2c82fc570850"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "537-690MHz.json",
+                                            "checksum": "ff62aaef282f16fe1e545d63fda187ef"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "768MHz.json",
+                                            "checksum": "5bd6ea065db77b6f034df96d3aa108dc"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "806MHz.json",
+                                            "checksum": "5aa1b1a36a715d1f924f936e0498096c"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "844MHz.json",
+                                            "checksum": "7d8213378fca9efb036c5429be12f5e5"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "921MHz.json",
+                                            "checksum": "3ac6ceec57a86256df2f80105b07c38d"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "RAM",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "config.ini",
+                                    "checksum": "642d79ae8bd4fdc166e1ae9cf6790c4e"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "Help",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "config.ini",
+                                            "checksum": "2e608c481030c8cbe95f597ab142fda0"
+                                        },
+                                        {
+                                            "type": "directory",
+                                            "name": "data",
+                                            "children": [
+                                                {
+                                                    "type": "file",
+                                                    "name": "dvb.txt",
+                                                    "checksum": "9693b82c11040404cac24ea3c7a8b8bf"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "latency.txt",
+                                                    "checksum": "b7e72e87480c4dd8b7d24383cb5027d5"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "MHz.txt",
+                                                    "checksum": "4cabf8c6a0d7a50fbfda6839f42c15e3"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing1.txt",
+                                                    "checksum": "5292e8356b9bded6109d0c84924062a6"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing2.txt",
+                                                    "checksum": "fb8897ae4584bddc5f8017c8d7536cca"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing3.txt",
+                                                    "checksum": "f0aeec9f7dbbde8662f4090a04b5d264"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing4.txt",
+                                                    "checksum": "e0e2acce8119fac1ad43a7ff642c7784"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing5.txt",
+                                                    "checksum": "82e440bc7e8e0d2d95853b9b5b566456"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "vdd2.txt",
+                                                    "checksum": "ed636dae0ce5f30e2844f946cbbb4d99"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "json",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "EMC DVB Table.json",
+                                            "checksum": "98b53f94782f53cb2e399c94f48e1b19"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "latency_decrement.json",
+                                            "checksum": "a9bd552e2c6bd0b4c8910e714765fad4"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "MHz.json",
+                                            "checksum": "9b47902ecad20dccd66bc088dae182c8"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "primary_timings.json",
+                                            "checksum": "45628f62cfa323975a13965fa82d6dbd"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings1.json",
+                                            "checksum": "bdef2dd157914d58001672bd55a9d347"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings2.json",
+                                            "checksum": "370916ea97e13119c84bc460a14d7d58"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings3.json",
+                                            "checksum": "8551a047d4d4218fe1a24f19b2281180"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings4.json",
+                                            "checksum": "b41b1bdf983d7043e8d2c78b2ae62273"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Vdd2.json",
+                                            "checksum": "c515a7cae2243b8c77ed3fdd6543efff"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "directory",
+                    "name": "Help",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "text.txt",
+                            "checksum": "1328b944a2a5dcb44c02a21a2abb4f03"
+                        }
+                    ]
                 }
             ]
         },
         {
             "type": "directory",
-            "name": "switch/.packages/Easy Installer",
+            "name": "switch/.packages/4IFIR Wizard/Mariko",
             "children": [
                 {
                     "type": "file",
                     "name": "config.ini",
-                    "checksum": "e5a8374d5fdb3a8eff74f5514835527d"
+                    "checksum": "bdb3e40e8c9b8486cca7189ba57489f5"
                 },
                 {
-                    "type": "file",
-                    "name": "music.json",
-                    "checksum": "ac3749da6344cc49ce4c4272ee4d7fdd"
+                    "type": "directory",
+                    "name": "Configure",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "config.ini",
+                            "checksum": "48ec7783d1f57d5739fcfbc7da98aaf3"
+                        },
+                        {
+                            "type": "directory",
+                            "name": "CPU",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "config.ini",
+                                    "checksum": "610fbe7cae3b047bf234f0a6a81beb63"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "json",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "priority.json",
+                                            "checksum": "2cc1e03b4f91cafa658a3b5ffa9e836c"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "voltage.json",
+                                            "checksum": "7d1d12dff10ab13b8cd0ecba11b3b355"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "GPU",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "config.ini",
+                                    "checksum": "bef5c7d2de28c179c995df2cf40d2622"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "json",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "1075MHz.json",
+                                            "checksum": "927466d9e749ff4aaa2228ae2ae22ef9"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "1152MHz.json",
+                                            "checksum": "4d771a061234739dc5b2cfcd0393cb9d"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "1228MHz.json",
+                                            "checksum": "fe611da6788a64d50725a2d6740adb65"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "1267MHz.json",
+                                            "checksum": "e5597101c146da4a503329afb1ae0887"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "1305MHz.json",
+                                            "checksum": "f49f9de4ed233acd85d6ee663c9ac090"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "230-460MHz.json",
+                                            "checksum": "4c17ce0548cb2db7a967ddd422c8b76b"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "537-691MHz.json",
+                                            "checksum": "23e747e68eae358f5f26a6602c2d5aa2"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "768MHz.json",
+                                            "checksum": "ea6f0344e0d1db59d99a698a69864033"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "844MHz.json",
+                                            "checksum": "6771484adf045686c9a9a0743c74c345"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "864MHz.json",
+                                            "checksum": "eca232904bec608467e3df1c928045cb"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "921MHz.json",
+                                            "checksum": "b0e823c2feae91ceabab4d4a64674ad4"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "998MHz.json",
+                                            "checksum": "93173bd641a39076e1ec7a74f00eb109"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Stage.json",
+                                            "checksum": "e311928d085060a2be9acc7cd279c4d9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "directory",
+                            "name": "RAM",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "config.ini",
+                                    "checksum": "487752d7e69623ed18abd7b7c358613b"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "Help",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "config.ini",
+                                            "checksum": "f07e2359a1b1b2b12b71b2feb100cb68"
+                                        },
+                                        {
+                                            "type": "directory",
+                                            "name": "data",
+                                            "children": [
+                                                {
+                                                    "type": "file",
+                                                    "name": "dvb.txt",
+                                                    "checksum": "9693b82c11040404cac24ea3c7a8b8bf"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "latency.txt",
+                                                    "checksum": "b7e72e87480c4dd8b7d24383cb5027d5"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "MHz.txt",
+                                                    "checksum": "4cabf8c6a0d7a50fbfda6839f42c15e3"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing1.txt",
+                                                    "checksum": "5292e8356b9bded6109d0c84924062a6"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing2.txt",
+                                                    "checksum": "fb8897ae4584bddc5f8017c8d7536cca"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing3.txt",
+                                                    "checksum": "f0aeec9f7dbbde8662f4090a04b5d264"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing4.txt",
+                                                    "checksum": "e0e2acce8119fac1ad43a7ff642c7784"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "timing5.txt",
+                                                    "checksum": "82e440bc7e8e0d2d95853b9b5b566456"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "vdd2.txt",
+                                                    "checksum": "ed636dae0ce5f30e2844f946cbbb4d99"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "Vddq.txt",
+                                                    "checksum": "3ba607d0f26443d8dad37525e55e2be8"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "json",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "EMC DVB Table.json",
+                                            "checksum": "876363107d7b9041c4eef4127ca6013d"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "latency_decrement.json",
+                                            "checksum": "f2fe2ac86cd1f56b117c941e6e689d76"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "MHz.json",
+                                            "checksum": "1183e475682c54cbd656b5ce100cc69a"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "primary_timings.json",
+                                            "checksum": "2ef66723bd9fccc0a04484f1a3ac4dc3"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings1.json",
+                                            "checksum": "4261ea55597223700d2e756112b2f994"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings2.json",
+                                            "checksum": "2e532c430b5e5ee67f5c41fcc5b85ef0"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings3.json",
+                                            "checksum": "f8bd60e7e2df462d04300d119ecf0bdc"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "second_timings4.json",
+                                            "checksum": "225f02139ec6ed152c7297e1da244f3f"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Vdd2.json",
+                                            "checksum": "c515a7cae2243b8c77ed3fdd6543efff"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "Vddq.json",
+                                            "checksum": "82c206562d635385d166bbbeca08c635"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "type": "file",
-                    "name": "overlays.json",
-                    "checksum": "346af6c7cd861807fd546e5b31ea89c7"
-                },
-                {
-                    "type": "file",
-                    "name": "packages.json",
-                    "checksum": "d4ee4ca7cbfe3f9a19af7d9173d8277f"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch/.packages/Host Guard",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "af9d249ad9ea116b56c45efe10c9b455"
-                },
-                {
-                    "type": "file",
-                    "name": "emummc.txt",
-                    "checksum": "e71a5620b179f0f9e055d46d1c445eea"
-                },
-                {
-                    "type": "file",
-                    "name": "README.md",
-                    "checksum": "739fd2a8311ceeaf333d88815324151e"
-                },
-                {
-                    "type": "file",
-                    "name": "sysmmc.txt",
-                    "checksum": "e71a5620b179f0f9e055d46d1c445eea"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch/.packages/l4t_reboot",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "install.sh",
-                    "checksum": "d175927aa1d9badf2ef51b1429332213"
-                },
-                {
-                    "type": "file",
-                    "name": "l4t_reboot.py",
-                    "checksum": "f97ffdbbe44fd0833bd0eb42580777b9"
-                },
-                {
-                    "type": "file",
-                    "name": "README.md",
-                    "checksum": "d58b0938058182a288938822b2c69f65"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch/.packages/Mod Master",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "8ed6967737a44a8af1906fd95ff23290"
-                },
-                {
-                    "type": "file",
-                    "name": "README.md",
-                    "checksum": "f269b0b69cecca2017abde2983886679"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "switch/.packages/Overclock Buster",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "f0a0d00f0b5eac514d0257ae55116a3d"
-                },
-                {
-                    "type": "file",
-                    "name": "README.md",
-                    "checksum": "80c23671a5ba328c3b923a209d09251a"
+                    "type": "directory",
+                    "name": "Help",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "text.txt",
+                            "checksum": "b2168b38db40433aad94bb4b54006832"
+                        }
+                    ]
                 }
             ]
         }
@@ -676,13 +877,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "5bdcf41f4a4ab448e19fd52aac61ebd4"
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "38e32733711e96f03722b84ed5b8dde9"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "77d27083ca66a6c158faa32a22b9bf11"
+            "name": "switch/.packages/4IFIR Wizard/config.ini",
+            "checksum": "6d038b5a1f4200160c403fb3732030d6"
         }
     ]
 }
