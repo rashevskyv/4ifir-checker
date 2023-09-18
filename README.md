@@ -2,19 +2,12 @@
 
 <hr>
 
-<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 18.09.2023 04:39<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 18.09.2023 05:06<hr>
 
 <h3>Modified files</h3>
 <code>switch
-└─.packages
-│ └─4IFIR Wizard
-│ │ └─1_Configure
-│ │ │ └─RAM
-│ │ │ │ └─config.ini (bc5dbad)
-│ │ │ │ └─switch
-│ │ │ │ │ └─.packages
-│ │ │ │ │ │ └─4IFIR Wizard
-│ │ │ │ │ │ │ └─config.ini (35f3820)
+└─.overlays
+│ └─ovlmenu.ovl (77d2708)
 </code>
 <hr>
 

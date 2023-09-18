@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/1_Configure/RAM/config.ini",
-            "checksum": "bc5dbaddc9a029b65c02e18f9eade2cb"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/config.ini",
-            "checksum": "35f38205386835a41eee30101cfef64c"
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "77d27083ca66a6c158faa32a22b9bf11"
         }
     ]
 }
