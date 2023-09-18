@@ -4112,7 +4112,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "config.ini",
-                                                "checksum": "117fc478bdb5aa42b2fe89bd6a7c5bac"
+                                                "checksum": "bc5dbaddc9a029b65c02e18f9eade2cb"
                                             },
                                             {
                                                 "type": "directory",
@@ -4261,7 +4261,7 @@
                             {
                                 "type": "file",
                                 "name": "config.ini",
-                                "checksum": "6d038b5a1f4200160c403fb3732030d6"
+                                "checksum": "35f38205386835a41eee30101cfef64c"
                             }
                         ]
                     }
