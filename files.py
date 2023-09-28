@@ -38,9 +38,9 @@ def remove_unlisted_directories(custom_packs_dict, output_parent_dir):
     archives = []
     for category, packs in custom_packs_dict.items():
         for pack_name, pack_url in packs.items():
-            archives.append({"url": pack_url})
+            archives.append({"filename": pack_name})
 
-    pack_directories = [os.path.splitext(os.path.basename(archive["url"]))[0] + '_output' for archive in archives]
+    pack_directories = [archive["filename"] + '_output' for archive in archives]
 
     for entry in os.listdir(output_parent_dir):
         entry_path = os.path.join(output_parent_dir, entry)

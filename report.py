@@ -35,9 +35,9 @@ def render_tree(tree, level=1, last_child=False):
     if level > 1:
         prefix = '│ ' * (level - 2)
         if last_child:
-            prefix += '└─'
+            prefix += '└╴'
         else:
-            prefix += '├─'
+            prefix += '├╴'
 
     items_list = list(tree.items())
     should_truncate = len(items_list) > 15
@@ -147,8 +147,6 @@ async def send_to_tg(report_content, file, archivename):
         desired_filename = archivename + '.zip'
         if file != desired_filename:
             shutil.copy2(file, desired_filename)
-        else:
-            print("File names are the same, not renaming.")
         file_obj = open(desired_filename, 'rb')
         return file_obj
 
@@ -160,8 +158,6 @@ async def send_to_tg(report_content, file, archivename):
     desired_filename = archivename + '.zip'
     if file != desired_filename:
         shutil.copy2(file, desired_filename)
-    else:
-        print("File names are the same, not renaming.")
     file_obj = open(desired_filename, 'rb')
 
     # Если размер хедера больше 900 символов

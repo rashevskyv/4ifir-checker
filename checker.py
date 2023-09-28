@@ -23,13 +23,14 @@ def main():
 
     for archive in archives:
 
-        filename = os.path.splitext(os.path.basename(archive["url"]))[0]
+        filename = archive["filename"]
         archive_output_dir = (filename + '_output')
         comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
-        archive_name = os.path.join(archive_output_dir, archive["filename"])
+        archive_name = os.path.join(archive_output_dir, filename)
         status_file = os.path.join(archive_output_dir, 'status.json')
-        archive_file = os.path.join(archive_output_dir, filename + '.zip')
+        archive_file = os.path.join(archive_name + '.zip')
         changes = process_archive(archive)
+        is_folder_exist = True if os.path.exists(archive_output_dir) else False
 
         if (changes):
             print(f"{archive['filename']}: Archive processed.")
@@ -50,8 +51,17 @@ def main():
             with open(comparison_results_file, 'r') as f:
                 comparison_results = json.load(f)
 
+            
             last_modified = status["last_archive_modification"]
-            result = create_html_report(comparison_results, last_modified, archive["filename"])
+
+            if (is_folder_exist):
+                # If the archive filename is found, continue to create the report
+                print(f"{archive_output_dir} was exist")
+                result = create_html_report(comparison_results, last_modified, archive["filename"])
+            else:
+                # If not found, print a message and you may continue with the next iteration or assign a placeholder to result
+                print(f"{archive_output_dir} was NOT exist")
+                result = "Added new archive."
 
             if (telegram):
                 if "4BRICK" not in archive_name:

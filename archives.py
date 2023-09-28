@@ -14,8 +14,8 @@ def process_archives_from_json(custom_packs_dict):
 
 def process_archive(archive):
     url = archive["url"]
-    filename = os.path.splitext(os.path.basename(url))[0]
-    output_dir = filename+'_output'
+    filename = archive["filename"]
+    output_dir = filename + '_output'
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     downld_file = os.path.join(output_dir, filename + '.zip')

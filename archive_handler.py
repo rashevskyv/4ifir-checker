@@ -26,6 +26,10 @@ def handle_archive(archive_path, temp_folder='github/temp', output_folder='githu
     if not os.path.exists(temp_folder):
         os.makedirs(temp_folder)
 
+    # # Check if temp_folder exists, if not create it
+    # if not os.path.exists(os.path.dirname(archive_path)):
+    #     os.makedirs(os.path.dirname(archive_path))
+
     # Extract the archive to the temp folder
     with pyzipper.ZipFile(archive_path, 'r') as zip_ref:
         zip_ref.extractall(temp_folder)
