@@ -1,0 +1,81 @@
+[
+    {
+        "type": "directory",
+        "name": "atmosphere",
+        "children": [
+            {
+                "type": "directory",
+                "name": "contents",
+                "children": [
+                    {
+                        "type": "directory",
+                        "name": "00FF0000636C6BFF",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "exefs.nsp",
+                                "checksum": "2d5ffd89f253e24e49afd9fb8e7e8277"
+                            },
+                            {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "kips",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "loader.kip",
+                        "checksum": "61fe76fa21273e00725cd528277d73ed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "name": "config",
+        "children": [
+            {
+                "type": "directory",
+                "name": "sys-clk",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "23ef5e06caa24c45fa823a9d9e19fa50"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "name": "switch",
+        "children": [
+            {
+                "type": "directory",
+                "name": ".overlays",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "4IFIR.ovl",
+                        "checksum": "f1960ecc76022026f3281a627c79fa05"
+                    }
+                ]
+            }
+        ]
+    }
+]
