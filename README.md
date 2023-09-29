@@ -501,107 +501,12 @@ switch
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>STX+ ECO (MGCL)</b></h2><b>Last archive modification date:</b> 28.09.2023 16:08<hr>
+<h2>Archive Comparison Report for <b>STX+ ECO (MGCL)</b></h2><b>Last archive modification date:</b> 30.09.2023 01:56<hr>
 
-<h3>Added files/folders</h3>
+<h3>Modified files</h3>
 <code>atmosphere
-├╴contents
-│ ├╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (f33d29a)
-│ │ └╴flags
-│ │ │ └╴boot2.flag (d41d8cd)
-├╴kips
-│ └╴loader.kip (3ff9459)
-config
-├╴sys-clk
-│ └╴config.ini (23ef5e0)
-switch
-└╴.overlays
-│ ├╴4IFIR.ovl (c1acfc4)
-│ ├╴ovlmenu.ovl (b847f4b)
-└╴.packages
-│ └╴4IFIR Wizard
-│ │ └╴1_Configure
-│ │ │ ├╴1_CPU
-│ │ │ │ ├╴config.ini (1620297)
-│ │ │ │ ├╴json
-│ │ │ │ │ └╴undervolt_high.json (e4962c8)
-│ │ │ │ │ └╴undervolt_low.json (e4962c8)
-│ │ │ │ │ └╴voltage_erista.json (6ea7ec4)
-│ │ │ │ │ └╴voltage_mariko.json (631b7c0)
-│ │ │ ├╴2_GPU
-│ │ │ │ ├╴config.ini (cb30ca2)
-│ │ │ │ ├╴data
-│ │ │ │ │ ├╴help.txt (342e725)
-│ │ │ │ ├╴json
-│ │ │ │ │ └╴Erista
-│ │ │ │ │ │ ├╴1000MHz.json (93ab6eb)
-│ │ │ │ │ │ ├╴230-614MHz.json (2d4421f)
-│ │ │ │ │ │ ├╴690MHz.json (c12a02d)
-│ │ │ │ │ │ ├╴729MHz.json (754a3e5)
-│ │ │ │ │ │ ├╴768MHz.json (94a44ca)
-│ │ │ │ │ │ ├╴806MHz.json (7903d0b)
-│ │ │ │ │ │ ├╴844MHz.json (049f8d0)
-│ │ │ │ │ │ ├╴921MHz.json (b85fb6d)
-│ │ │ │ │ └╴Mariko
-│ │ │ │ │ │ └╴1075MHz.json (bdf74e7)
-│ │ │ │ │ │ └╴1152MHz.json (2e75085)
-│ │ │ │ │ │ └╴1228MHz.json (9685607)
-│ │ │ │ │ │ └╴1267MHz.json (c5a6af9)
-│ │ │ │ │ │ └╴1305MHz.json (4a4c1c6)
-│ │ │ │ │ │ └╴230-460MHz.json (58800a9)
-│ │ │ │ │ │ └╴537-691MHz.json (adc4e18)
-│ │ │ │ │ │ └╴768MHz.json (0c7cda4)
-│ │ │ │ │ │ └╴844MHz.json (c9c5e39)
-│ │ │ │ │ │ └╴864MHz.json (0fa49ec)
-│ │ │ │ │ │ └╴921MHz.json (4a3c13f)
-│ │ │ │ │ │ └╴998MHz.json (28a5f57)
-│ │ │ │ │ │ └╴Reset.json (f26c30a)
-│ │ │ │ │ │ └╴Stage.json (2d091f8)
-│ │ │ ├╴3_RAM
-│ │ │ │ ├╴config.ini (392064c)
-│ │ │ │ ├╴json
-│ │ │ │ │ └╴core_timings1.json (675cdca)
-│ │ │ │ │ └╴core_timings2.json (f7d9d9a)
-│ │ │ │ │ └╴core_timings3.json (eaac6a7)
-│ │ │ │ │ └╴core_timings4.json (6a39b9c)
-│ │ │ │ │ └╴core_timings5.json (eaac6a7)
-│ │ │ │ │ └╴core_timings6.json (9cf4bd8)
-│ │ │ │ │ └╴EMC (VB Tabl)
-│ │ │ │ │ └╴MHz_erista.json (281143c)
-│ │ │ │ │ └╴MHz_mariko.json (102104d)
-│ │ │ │ │ └╴Vdd2.json (9608b16)
-│ │ │ │ │ └╴Vddq.json (04cc4b6)
-│ │ │ ├╴4_Video Capture Settings
-│ │ │ │ ├╴config.ini (b849c59)
-│ │ │ │ ├╴json
-│ │ │ │ │ └╴bitrate.json (f3afc7a)
-│ │ │ │ │ └╴fps.json (00a1cb4)
-│ │ │ ├╴config.ini (6799af6)
-│ │ └╴2_Backup
-│ │ │ ├╴config.ini (b293099)
-│ │ └╴3_About
-│ │ │ ├╴config.ini (e709f95)
-│ │ │ ├╴Data
-│ │ │ │ └╴about.txt (5a38a69)
-│ │ │ │ └╴curconf_erista.json (1d97393)
-│ │ │ │ └╴curconf_mariko.json (2790e38)
-│ │ └╴config.ini (4c629a8)
-│ │ └╴Help
-│ │ │ └╴Backup.txt (420a854)
-│ │ │ └╴CPU
-│ │ │ │ ├╴High (Hz Unde)
-│ │ │ │ ├╴Low (Hz Unde)
-│ │ │ └╴GPU
-│ │ │ │ ├╴GPU (ndervol)
-│ │ │ └╴GPU.txt (342e725)
-│ │ │ └╴RAM
-│ │ │ │ ├╴Core (imings.)
-│ │ │ │ ├╴EMC (VB Tabl)
-│ │ │ │ ├╴RAM (Hz.txt )
-│ │ │ │ ├╴RAM (dd2.txt)
-│ │ │ │ ├╴RAM (ddq.txt)
-│ │ │ └╴Video (apture )
+└╴kips
+│ └╴loader.kip (a729f01)
 </code>
 <hr>
 
