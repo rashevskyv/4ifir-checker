@@ -4218,7 +4218,7 @@
                                     {
                                         "type": "file",
                                         "name": "config.ini",
-                                        "checksum": "b293099377860497803aa70623924cd2"
+                                        "checksum": "3fd10e224cb4803219d83fc7c4e8ff68"
                                     }
                                 ]
                             },
@@ -4243,7 +4243,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "curconf_erista.json",
-                                                "checksum": "1d973935f68e02208c69843c0110e242"
+                                                "checksum": "d403c3ea9e03be0b05b76db0e49f25fd"
                                             },
                                             {
                                                 "type": "file",
