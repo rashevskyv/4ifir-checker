@@ -1,17 +1,14 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.8</b></h2><b>Last archive modification date:</b> 02.10.2023 14:32<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.8</b></h2><b>Last archive modification date:</b> 06.10.2023 12:46<hr>
 
-<h3>Modified files</h3>
-<code>switch
-└╴.packages
-│ └╴4IFIR Wizard
-│ │ └╴2_Backup
-│ │ │ └╴config.ini (3fd10e2)
-│ │ │ └╴switch
-│ │ │ │ └╴.packages
-│ │ │ │ │ └╴4IFIR Wizard
-│ │ │ │ │ │ └╴3_About
-│ │ │ │ │ │ │ └╴Data
-│ │ │ │ │ │ │ │ └╴curconf_erista.json (d403c3e)
+<h3>Added files/folders</h3>
+<code>atmosphere
+└╴contents
+│ └╴0100000000001000
+│ │ └╴fsmitm.flag (d41d8cd)
+│ │ └╴romfs
+│ │ │ └╴message
+│ │ │ │ └╴EUru
+│ │ │ │ │ └╴qlaunch.msbt.szs (8659c19)
 </code>
 <hr>
 
