@@ -22,11 +22,12 @@ def main():
     archives = process_archives_from_json(custom_packs_dict)
 
     for archive in archives:
-
+        url = archive["url"]
         filename = archive["filename"]
+        filename_from_url = os.path.splitext(os.path.basename(url))[0]
         archive_output_dir = (filename + '_output')
         comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
-        archive_name = os.path.join(archive_output_dir, filename)
+        archive_name = os.path.join(archive_output_dir, filename_from_url)
         status_file = os.path.join(archive_output_dir, 'status.json')
         archive_file = os.path.join(archive_name + '.zip')
         changes = process_archive(archive)
@@ -35,13 +36,13 @@ def main():
         if (changes):
             print(f"{archive['filename']}: Archive processed.")
             telegram = 1
-            handle_archive(archive_file)
+            handle_archive(archive_file, filename, filename_from_url)
         else:
             print(f"{archive['filename']}: No changes detected in the archive since the last execution.")
             telegram = 0
-            github_file = os.path.join('github', filename + '.zip')
+            github_file = os.path.join('github', filename_from_url + '.zip')
             if not os.path.exists(github_file):
-                handle_archive(archive_file)
+                handle_archive(archive_file, filename, filename_from_url)
 
         if os.path.exists(status_file):
             with open(status_file, 'r') as f:

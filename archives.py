@@ -15,10 +15,11 @@ def process_archives_from_json(custom_packs_dict):
 def process_archive(archive):
     url = archive["url"]
     filename = archive["filename"]
+    filename_from_url = os.path.splitext(os.path.basename(url))[0]
     output_dir = filename + '_output'
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
-    downld_file = os.path.join(output_dir, filename + '.zip')
+    downld_file = os.path.join(output_dir, filename_from_url + '.zip')
     status_file = os.path.join(output_dir, 'status.json')
     old_checksum_file = os.path.join(output_dir, 'old_checksums.json')
     new_checksum_file = os.path.join(output_dir, 'new_checksums.json')
