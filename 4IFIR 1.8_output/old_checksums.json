@@ -3926,7 +3926,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "95d608cd2a27c82e7e82a64a2721ada0"
+                        "checksum": "17e2336aafa9b858866bc3bd9ee60a63"
                     },
                     {
                         "type": "file",
@@ -4319,6 +4319,11 @@
                                         ]
                                     },
                                     {
+                                        "type": "file",
+                                        "name": "GPU.txt",
+                                        "checksum": "342e72541ca56b51f9f65ca7c799c6a6"
+                                    },
+                                    {
                                         "type": "directory",
                                         "name": "GPU",
                                         "children": [
@@ -4328,11 +4333,6 @@
                                                 "checksum": "7f57db6f22a410cb50909c492570dce1"
                                             }
                                         ]
-                                    },
-                                    {
-                                        "type": "file",
-                                        "name": "GPU.txt",
-                                        "checksum": "342e72541ca56b51f9f65ca7c799c6a6"
                                     },
                                     {
                                         "type": "directory",

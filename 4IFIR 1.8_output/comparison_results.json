@@ -1,40 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents/0100000000001000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "fsmitm.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                },
-                {
-                    "type": "directory",
-                    "name": "romfs",
-                    "children": [
-                        {
-                            "type": "directory",
-                            "name": "message",
-                            "children": [
-                                {
-                                    "type": "directory",
-                                    "name": "EUru",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "qlaunch.msbt.szs",
-                                            "checksum": "8659c19f14a764d4ee1327e8665a46f7"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "17e2336aafa9b858866bc3bd9ee60a63"
+        }
+    ]
 }
