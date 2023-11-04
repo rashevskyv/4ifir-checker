@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "720de9a4a7212ad00831785b9054d407"
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "79acaddb4db4433004c9f2a6f180d3c0"
         }
     ]
 }
