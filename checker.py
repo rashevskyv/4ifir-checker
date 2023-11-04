@@ -27,7 +27,7 @@ def main():
         filename_from_url = os.path.splitext(os.path.basename(url))[0]
         archive_output_dir = (filename + '_output')
         comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
-        archive_name = os.path.join(archive_output_dir, filename_from_url)
+        archive_name = os.path.join(archive_output_dir, filename)
         status_file = os.path.join(archive_output_dir, 'status.json')
         archive_file = os.path.join(archive_name + '.zip')
         changes = process_archive(archive)

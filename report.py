@@ -9,7 +9,7 @@ bot_token, chat_id, message_thread_id = TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_
 
 def create_html_report(results, last_modified, archive_filename):
     report_content = ''
-    report_content += f'<h2>Archive Comparison Report for <b>{archive_filename}</b></h2>'
+    # report_content += f'<h2>Archive Comparison Report for <b>{archive_filename}</b></h2>'
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
     report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>\n\n'
     
