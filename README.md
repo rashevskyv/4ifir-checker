@@ -1,4 +1,4 @@
-<b>Last archive modification date:</b> 03.11.2023 19:04<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.8</b></h2><b>Last archive modification date:</b> 03.11.2023 19:04<hr>
 
 <h3>Modified files</h3>
 <code>switch
@@ -7,7 +7,7 @@
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 28.09.2023 16:38<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 28.09.2023 16:38<hr>
 
 <h3>Modified files</h3>
 <code>config
@@ -22,7 +22,7 @@
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 02.10.2023 14:32<hr>
+<h2>Archive Comparison Report for <b>STX ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 02.10.2023 14:32<hr>
 
 <h3>Modified files</h3>
 <code>switch
@@ -39,7 +39,7 @@
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 02.10.2023 14:32<hr>
+<h2>Archive Comparison Report for <b>STX+ ECO (MGCL)</b></h2><b>Last archive modification date:</b> 02.10.2023 14:32<hr>
 
 <h3>Modified files</h3>
 <code>switch
@@ -56,7 +56,7 @@
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 03.11.2023 19:05<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 03.11.2023 19:05<hr>
 
 <h3>Added files/folders</h3>
 <code>atmosphere
@@ -137,7 +137,7 @@ SaltySD
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 28.09.2023 16:40<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 28.09.2023 16:40<hr>
 
 <h3>Added files/folders</h3>
 <code>config
@@ -152,7 +152,7 @@ switch
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 28.09.2023 16:28<hr>
+<h2>Archive Comparison Report for <b>Placebo</b></h2><b>Last archive modification date:</b> 28.09.2023 16:28<hr>
 
 <h3>Added files/folders</h3>
 <code>config
@@ -167,7 +167,7 @@ switch
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 14.09.2023 06:14<hr>
+<h2>Archive Comparison Report for <b>ST9 ECO (MGCJ)</b></h2><b>Last archive modification date:</b> 14.09.2023 06:14<hr>
 
 <h3>Added files/folders</h3>
 <code>atmosphere
@@ -187,7 +187,7 @@ switch
 </code>
 <hr>
 
-<b>Last archive modification date:</b> 09.09.2023 15:50<hr>
+<h2>Archive Comparison Report for <b>ST9+ ECO (MGCL)</b></h2><b>Last archive modification date:</b> 09.09.2023 15:50<hr>
 
 <h3>Added files/folders</h3>
 <code>atmosphere
