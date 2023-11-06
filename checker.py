@@ -58,7 +58,7 @@ def main():
             if (is_folder_exist):
                 # If the archive filename is found, continue to create the report
                 print(f"{archive_output_dir} was exist")
-                result = create_html_report(comparison_results, last_modified, archive["filename"])
+                result = create_html_report(comparison_results, last_modified)
             else:
                 # If not found, print a message and you may continue with the next iteration or assign a placeholder to result
                 print(f"{archive_output_dir} was NOT exist")
@@ -70,6 +70,7 @@ def main():
                     asyncio.run(send_to_tg(result, archive_file, archive_name))
                     print("Report sent to Telegram.")
 
+            html_report_content += f'<h2>Archive Comparison Report for <b>{archive["filename"]}</b></h2>'
             html_report_content += result
             html_report_content += '<hr>\n\n'
 
