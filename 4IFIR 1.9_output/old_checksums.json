@@ -1605,11 +1605,6 @@
                 ]
             },
             {
-                "type": "file",
-                "name": "FPSoffset.hex",
-                "checksum": "8e43a5e8f29ad41fba52705836ec24bc"
-            },
-            {
                 "type": "directory",
                 "name": "patches",
                 "children": [
@@ -4073,11 +4068,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "type": "file",
-                "name": "ReverseNX-RT.hex",
-                "checksum": "59aff1d106c582bbfb49228d8a968977"
             },
             {
                 "type": "file",
