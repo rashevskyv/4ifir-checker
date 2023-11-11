@@ -9,6 +9,10 @@ bot_token, chat_id, message_thread_id = TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_
 
 def create_html_report(results, last_modified):
     report_content = ''
+
+    if all(not items for items in results.values()):
+        return report_content
+    
     # report_content += f'<h2>Archive Comparison Report for <b>{archive_filename}</b></h2>\n\n'
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
     report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>\n\n'
@@ -46,14 +50,14 @@ def render_tree(tree, level=1, last_child=False):
         is_last_child = index == len(tree) - 1
 
         if isinstance(value, str) and "(" in value and ")" in value:
-            file_name, checksum = value.split(' ', 1)
+            file_name, checksum = value.split('(')
             checksum_short = checksum[1:8]
             
             # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
             if len(file_name) > 30:
                 file_name = file_name[:15] + "..." + file_name[-15:]
             
-            tree_str += f"{prefix}{file_name} ({checksum_short})\n"
+            tree_str += f"{prefix}{file_name}({checksum_short})\n"
 
         elif isinstance(value, dict):
             tree_str += f"{prefix}{key}\n"
@@ -65,14 +69,14 @@ def render_tree(tree, level=1, last_child=False):
             is_last_child = index == len(items_list[-7:]) - 1
 
             if isinstance(value, str) and "(" in value and ")" in value:
-                file_name, checksum = value.split(' ')
+                file_name, checksum = value.split('(')
                 checksum_short = checksum[1:8]
                 
                 # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
                 if len(file_name) > 42:
                     file_name = file_name[:10] + "..." + file_name[-10:]
                 
-                tree_str += f"{prefix}{file_name} ({checksum_short})\n"
+                tree_str += f"{prefix}{file_name}({checksum_short})\n"
             elif isinstance(value, dict):
                 tree_str += f"{prefix}{key}\n"
                 tree_str += render_tree(value, level + 1, is_last_child)

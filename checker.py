@@ -27,11 +27,12 @@ def main():
         filename_from_url = os.path.splitext(os.path.basename(url))[0]
         archive_output_dir = (filename + '_output')
         comparison_results_file = os.path.join(archive_output_dir, 'comparison_results.json')
-        archive_name = os.path.join(archive_output_dir, filename)
+        archive_name = os.path.join(archive_output_dir, filename_from_url)
+        archive_name_for_tg = os.path.join(archive_output_dir, filename)
         status_file = os.path.join(archive_output_dir, 'status.json')
         archive_file = os.path.join(archive_name + '.zip')
-        changes = process_archive(archive)
         is_folder_exist = True if os.path.exists(archive_output_dir) else False
+        changes = process_archive(archive)
 
         if (changes):
             print(f"{archive['filename']}: Archive processed.")
@@ -52,7 +53,6 @@ def main():
             with open(comparison_results_file, 'r') as f:
                 comparison_results = json.load(f)
 
-            
             last_modified = status["last_archive_modification"]
 
             if (is_folder_exist):
@@ -62,12 +62,11 @@ def main():
             else:
                 # If not found, print a message and you may continue with the next iteration or assign a placeholder to result
                 print(f"{archive_output_dir} was NOT exist")
-                result = "Added new archive."
+                result = "<code>New archive was added.</code>"
 
-            if (telegram):
-                if "4BRICK" not in archive_name:
-                    # print(f'INCOMING:\n----------\n\narchive_file: {archive_file}\narchive_name: {archive_name}\nresult: {result}\n\n-------------------\n\n')
-                    asyncio.run(send_to_tg(result, archive_file, archive_name))
+            if telegram:
+                if all(keyword not in archive_name for keyword in ["4BRICK", "AIO", "AIOB", "Refresh", "Placebo"]) and result:
+                    asyncio.run(send_to_tg(result, archive_file, archive_name_for_tg))
                     print("Report sent to Telegram.")
 
             html_report_content += f'<h2>Archive Comparison Report for <b>{archive["filename"]}</b></h2>'

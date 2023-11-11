@@ -35,6 +35,7 @@ def handle_archive(archive_path, local_filename, github_filename, temp_folder='g
     if not os.path.exists(temp_folder):
         os.makedirs(temp_folder)
 
+    print(f'Extracting {archive_path} to {temp_folder}')
     shutil.unpack_archive(archive_path, temp_folder)
 
     if os.path.exists(custom_packs_temp_path):
