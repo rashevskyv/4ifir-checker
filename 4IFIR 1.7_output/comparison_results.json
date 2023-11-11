@@ -1,21 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "4e69a242a253dff0ba6b86bde698bf3a"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "75d4d314ff6069838d965383069b6b20"
-        },
-        {
-            "type": "file",
-            "name": "switch/DBI/DBI.nro",
-            "checksum": "7c4304f9115761b96631b9e865c94d11"
-        }
-    ]
+    "modified": []
 }
