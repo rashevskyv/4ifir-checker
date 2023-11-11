@@ -1,50 +1,5 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "config/uberhand",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "78377a4b8a995e7cc21e82a280cc33a1"
-                },
-                {
-                    "type": "file",
-                    "name": "Updater.ini",
-                    "checksum": "c20604231774c740df9a0c2696b65d3a"
-                }
-            ]
-        }
-    ],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "config/ultrahand",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "84342e0ce000d5ba8e1f88c3520895ec"
-                },
-                {
-                    "type": "file",
-                    "name": "log.txt",
-                    "checksum": "ce8a5d1896318d6afebacea48586f0bd"
-                },
-                {
-                    "type": "file",
-                    "name": "Updater.ini",
-                    "checksum": "c20604231774c740df9a0c2696b65d3a"
-                }
-            ]
-        }
-    ],
-    "modified": [
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/config.ini",
-            "checksum": "94e15a193ae4b3f6596d8811091bcaef"
-        }
-    ]
+    "added": [],
+    "removed": [],
+    "modified": []
 }
