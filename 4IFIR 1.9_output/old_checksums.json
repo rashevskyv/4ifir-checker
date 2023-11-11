@@ -1542,17 +1542,12 @@
             },
             {
                 "type": "directory",
-                "name": "ultrahand",
+                "name": "uberhand",
                 "children": [
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "84342e0ce000d5ba8e1f88c3520895ec"
-                    },
-                    {
-                        "type": "file",
-                        "name": "log.txt",
-                        "checksum": "ce8a5d1896318d6afebacea48586f0bd"
+                        "checksum": "78377a4b8a995e7cc21e82a280cc33a1"
                     },
                     {
                         "type": "file",
@@ -4273,7 +4268,7 @@
                             {
                                 "type": "file",
                                 "name": "config.ini",
-                                "checksum": "3a25185e035e53a176eb22590153d06f"
+                                "checksum": "94e15a193ae4b3f6596d8811091bcaef"
                             },
                             {
                                 "type": "directory",
