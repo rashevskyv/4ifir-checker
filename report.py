@@ -20,15 +20,15 @@ def create_html_report(results, last_modified):
     for change_type, items in results.items():
         if items:
             if change_type == "added":
-                report_content += '<h3>Added files/folders</h3>\n<code>'
+                report_content += '<h3>Added files/folders</h3>\n<pre>'
             elif change_type == "removed":
-                report_content += '<h3>Removed files/folders</h3>\n<code>'
+                report_content += '<h3>Removed files/folders</h3>\n<pre>'
             elif change_type == "modified":
-                report_content += '<h3>Modified files</h3>\n<code>'
+                report_content += '<h3>Modified files</h3>\n<pre>'
             folder_tree = process_items(items)
             # print(f"======================\nfolder_tree for {archive_filename}:\n======================\n\n{folder_tree}")
             report_content += render_tree(folder_tree)
-            report_content += '</code>\n'
+            report_content += '</pre>\n'
             # print(str(report_content))
     return report_content
 
@@ -83,7 +83,7 @@ def render_tree(tree, level=1, last_child=False):
 
     return tree_str
 
-def split_html_content(content, max_length=4096, tag='<code>', delimiter='-------------------------------'):
+def split_html_content(content, max_length=4096, tag='<pre>', delimiter='-------------------------------'):
     # Генерування закриваючого тегу
     close_tag = tag.replace('<', '</')
 
@@ -166,7 +166,7 @@ async def send_to_tg(report_content, file, archivename):
 
     # Если размер хедера больше 900 символов
     if len(header) > 900:
-        split_index = header.rfind("</code>") + len("</code>")
+        split_index = header.rfind("</pre>") + len("</pre>")
         first_part = header[:split_index]
         second_part = header[split_index:]
 
@@ -179,8 +179,8 @@ async def send_to_tg(report_content, file, archivename):
                 parts = []
                 start = 0
                 while start < len(second_part):
-                    end = second_part.rfind('</code>', start, start + 4000) + len('</code>')
-                    if end == -1 + len('</code>'):
+                    end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
+                    if end == -1 + len('</pre>'):
                         end = len(second_part)
                     parts.append(second_part[start:end])
                     start = end
