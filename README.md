@@ -1,12 +1,4 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 12.11.2023 00:43<hr>
-
-<h3>Removed files/folders</h3>
-<code>SaltySD
-└╴FPSoffset.hex (e43a5e8)
-└╴SaltySD
-│ └╴ReverseNX-RT.hex (9aff1d1)
-</code>
-<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><code>New archive was added.</code><hr>
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><hr>
 
@@ -22,12 +14,12 @@
 </code>
 <hr>
 
-<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 11.11.2023 12:14<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 12.11.2023 06:06<hr>
 
 <h3>Modified files</h3>
 <code>config
 └╴aio-switch-updater
-│ └╴custom_packs.json (816eab8)
+│ └╴custom_packs.json (fe6b64e)
 </code>
 <hr>
 
