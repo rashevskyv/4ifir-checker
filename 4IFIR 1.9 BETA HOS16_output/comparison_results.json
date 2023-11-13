@@ -1,38 +1,5 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "switch/.overlays/lang/EdiZon",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "zh-Hans.json",
-                    "checksum": "cec27b0c216ffaf80aaad98c5ebf326a"
-                },
-                {
-                    "type": "file",
-                    "name": "zh-Hant.json",
-                    "checksum": "db8a864d8e0b3e3dd2cdbeae67c4275d"
-                }
-            ]
-        }
-    ],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "0c7d6c357b0d115892d724efb78d2c5b"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "864587d0855afab05d305a3d31e92d1f"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "743cd46bc7192a838e3b25c28757962d"
-        }
-    ]
+    "removed": [],
+    "modified": []
 }
