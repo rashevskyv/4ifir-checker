@@ -555,7 +555,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "43361786409372538dcec5125ee583f2"
+                        "checksum": "0c7d6c357b0d115892d724efb78d2c5b"
                     }
                 ]
             },
@@ -4110,22 +4110,6 @@
                         "children": [
                             {
                                 "type": "directory",
-                                "name": "EdiZon",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "zh-Hans.json",
-                                        "checksum": "cec27b0c216ffaf80aaad98c5ebf326a"
-                                    },
-                                    {
-                                        "type": "file",
-                                        "name": "zh-Hant.json",
-                                        "checksum": "db8a864d8e0b3e3dd2cdbeae67c4275d"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "directory",
                                 "name": "Fizeau",
                                 "children": [
                                     {
@@ -4160,7 +4144,7 @@
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "059b918e852631f0700caff6e2d05e44"
+                        "checksum": "864587d0855afab05d305a3d31e92d1f"
                     },
                     {
                         "type": "file",
@@ -4210,7 +4194,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "d929879c6eae583d779a47dfc111b6e6"
+                                "checksum": "743cd46bc7192a838e3b25c28757962d"
                             },
                             {
                                 "type": "file",
