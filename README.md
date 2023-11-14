@@ -2,15 +2,45 @@
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><hr>
 
-<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 11.11.2023 12:14<hr>
+<h2>Archive Comparison Report for <b>4MODS</b></h2><b>Last archive modification date:</b> 14.11.2023 18:48<hr>
 
 <h3>Added files/folders</h3>
 <pre>SaltySD
 └╴plugins
 │ └╴FPSLocker
 │ │ └╴patches
-│ │ │ └╴0100BDB01A0E6000
-│ │ │ │ └╴59BAA4874FE56C9A.yaml (c0db184)
+│ │ │ └╴01003AE01AA76000
+│ │ │ │ └╴9570C86D7B480C1E.yaml (eb144ee)
+│ │ │ │ └╴SaltySD
+│ │ │ │ │ └╴plugins
+│ │ │ │ │ │ └╴FPSLocker
+│ │ │ │ │ │ │ └╴patches
+│ │ │ │ │ │ │ │ └╴01004F401BEBE000
+│ │ │ │ │ │ │ │ │ ├╴5507B771E68E9DB9.yaml (1268fd1)
+│ │ │ │ │ │ │ │ └╴SaltySD
+│ │ │ │ │ │ │ │ │ └╴plugins
+│ │ │ │ │ │ │ │ │ │ └╴FPSLocker
+│ │ │ │ │ │ │ │ │ │ │ └╴patches
+│ │ │ │ │ │ │ │ │ │ │ │ └╴01008CB0156BC000
+│ │ │ │ │ │ │ │ │ │ │ │ │ └╴BC3750610F6BCA5C.yaml (1d4ac65)
+│ │ │ │ │ │ │ │ │ │ │ │ │ └╴SaltySD
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴plugins
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴FPSLocker
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴patches
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴0100C0000CEEA000
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ ├╴B6E172353E696E65.yaml (75d53b2)
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴SaltySD
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴plugins
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴FPSLocker
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴patches
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴0100CC80140F8000
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴9CB4490E8A718BAE.yaml (d143628)
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴SaltySD
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴plugins
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴FPSLocker
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴patches
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴0100F7E00C70E000
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴550F2E8B387B4520.yaml (fc8f67e)
 </pre>
 <hr>
 
