@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "608d6d87a48cd4606385dc65d8dde619"
+        }
+    ]
 }
