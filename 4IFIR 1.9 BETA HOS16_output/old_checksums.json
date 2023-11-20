@@ -553,6 +553,22 @@
                 "name": "kips",
                 "children": [
                     {
+                        "type": "directory",
+                        "name": ".bak",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "4IFIR D ST3.kip",
+                                "checksum": "f5e276a713b3a6c2e2a125bf6d8cc0d3"
+                            },
+                            {
+                                "type": "file",
+                                "name": "4IFIR E ST3.kip",
+                                "checksum": "f254dfd8908273fc42c3e5b5f9abb4ea"
+                            }
+                        ]
+                    },
+                    {
                         "type": "file",
                         "name": "loader.kip",
                         "checksum": "c0450d5a4bc519c80864b2ae09ae7e1a"

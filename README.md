@@ -1,13 +1,11 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 07:32<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 07:59<hr>
 
-<h3>Modified files</h3>
-<pre>switch
-└╴.packages
-│ └╴4IFIR Wizard
-│ │ └╴files.zip (4aa24e2)
-│ │ └╴switch
-│ │ │ └╴aio-switch-updater
-│ │ │ │ └╴aio-switch-updater.nro (26db342)
+<h3>Added files/folders</h3>
+<pre>atmosphere
+└╴kips
+│ └╴.bak
+│ │ └╴4IFIR D ST3.kip (5e276a7)
+│ │ └╴4IFIR E ST3.kip (254dfd8)
 </pre>
 <hr>
 
