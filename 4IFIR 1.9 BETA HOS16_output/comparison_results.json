@@ -1,22 +1,22 @@
 {
     "added": [
         {
-            "type": "directory",
-            "name": "atmosphere/kips/.bak",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "4IFIR D ST3.kip",
-                    "checksum": "f5e276a713b3a6c2e2a125bf6d8cc0d3"
-                },
-                {
-                    "type": "file",
-                    "name": "4IFIR E ST3.kip",
-                    "checksum": "f254dfd8908273fc42c3e5b5f9abb4ea"
-                }
-            ]
+            "type": "file",
+            "name": "bootloader/res/4emi.bmp",
+            "checksum": "531607e69db2e1627c8d7d680c81f0ed"
         }
     ],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "c0d8d8f50930fd864ec80dfc102c71bf"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "fdaab712f256f45d1ef4a201e5bd9d7e"
+        }
+    ]
 }

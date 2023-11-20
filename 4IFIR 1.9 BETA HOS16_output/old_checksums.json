@@ -1323,7 +1323,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "1c3042cebc09dfd73e7e617d934dd177"
+                "checksum": "c0d8d8f50930fd864ec80dfc102c71bf"
             },
             {
                 "type": "directory",
@@ -1368,8 +1368,13 @@
                 "children": [
                     {
                         "type": "file",
+                        "name": "4emi.bmp",
+                        "checksum": "531607e69db2e1627c8d7d680c81f0ed"
+                    },
+                    {
+                        "type": "file",
                         "name": "4mosphere.bmp",
-                        "checksum": "6c6a10fed091eea40247ec9346295e4e"
+                        "checksum": "fdaab712f256f45d1ef4a201e5bd9d7e"
                     },
                     {
                         "type": "file",

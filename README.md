@@ -1,11 +1,16 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 07:59<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 12:46<hr>
 
 <h3>Added files/folders</h3>
-<pre>atmosphere
-└╴kips
-│ └╴.bak
-│ │ └╴4IFIR D ST3.kip (5e276a7)
-│ │ └╴4IFIR E ST3.kip (254dfd8)
+<pre>bootloader
+└╴res
+│ └╴4emi.bmp (31607e6)
+</pre>
+<h3>Modified files</h3>
+<pre>bootloader
+└╴hekate_ipl.ini (0d8d8f5)
+└╴bootloader
+│ └╴res
+│ │ └╴4mosphere.bmp (daab712)
 </pre>
 <hr>
 
