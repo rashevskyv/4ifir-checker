@@ -1,21 +1,15 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "bootloader/res/4emi.bmp",
-            "checksum": "531607e69db2e1627c8d7d680c81f0ed"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "c0d8d8f50930fd864ec80dfc102c71bf"
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "531607e69db2e1627c8d7d680c81f0ed"
         },
         {
             "type": "file",
-            "name": "bootloader/res/4mosphere.bmp",
+            "name": "bootloader/res/4emi.bmp",
             "checksum": "fdaab712f256f45d1ef4a201e5bd9d7e"
         }
     ]
