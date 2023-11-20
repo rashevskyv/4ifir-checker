@@ -1,9 +1,29 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 17.11.2023 04:46<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 06:40<hr>
 
+<h3>Removed files/folders</h3>
+<pre>bootloader
+└╴res
+│ └╴4emi.bmp (159a83b)
+│ └╴bootloader
+│ │ └╴res
+│ │ │ └╴4tock.bmp (3b9c7e2)
+</pre>
 <h3>Modified files</h3>
-<pre>switch
-└╴.overlays
-│ └╴Status-Monitor-Overlay.ovl (08d6d87)
+<pre>atmosphere
+└╴kips
+│ └╴loader.kip (0450d5a)
+│ └╴bootloader
+│ │ └╴hekate_ipl.ini (c3042ce)
+│ │ └╴bootloader
+│ │ │ └╴res
+│ │ │ │ └╴4mosphere.bmp (c6a10fe)
+│ │ │ │ └╴switch
+│ │ │ │ │ └╴.overlays
+│ │ │ │ │ │ └╴4IFIR.ovl (fa77b36)
+│ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ └╴.packages
+│ │ │ │ │ │ │ │ └╴4IFIR Wizard
+│ │ │ │ │ │ │ │ │ └╴files.zip (2e1488d)
 </pre>
 <hr>
 

@@ -555,7 +555,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "0c7d6c357b0d115892d724efb78d2c5b"
+                        "checksum": "c0450d5a4bc519c80864b2ae09ae7e1a"
                     }
                 ]
             },
@@ -1307,7 +1307,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "b82c94fd73bf95f665ad23da2a13c229"
+                "checksum": "1c3042cebc09dfd73e7e617d934dd177"
             },
             {
                 "type": "directory",
@@ -1352,18 +1352,8 @@
                 "children": [
                     {
                         "type": "file",
-                        "name": "4emi.bmp",
-                        "checksum": "7159a83b8c1caf7fa44071c2993e29a7"
-                    },
-                    {
-                        "type": "file",
                         "name": "4mosphere.bmp",
-                        "checksum": "a1889361400982b51d9d157d2d3b5012"
-                    },
-                    {
-                        "type": "file",
-                        "name": "4tock.bmp",
-                        "checksum": "53b9c7e2a4add82700bb7c0af6849548"
+                        "checksum": "6c6a10fed091eea40247ec9346295e4e"
                     },
                     {
                         "type": "file",
@@ -4087,7 +4077,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "a3ce446b6c7cd4c454f02cd53a0282d9"
+                        "checksum": "5fa77b36bc5cdea1d76accc932ff311c"
                     },
                     {
                         "type": "file",
@@ -4194,7 +4184,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "743cd46bc7192a838e3b25c28757962d"
+                                "checksum": "52e1488d25c30b79e0f2b45496e3a2c2"
                             },
                             {
                                 "type": "file",
