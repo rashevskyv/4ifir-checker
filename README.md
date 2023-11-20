@@ -1,29 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 06:40<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 07:32<hr>
 
-<h3>Removed files/folders</h3>
-<pre>bootloader
-└╴res
-│ └╴4emi.bmp (159a83b)
-│ └╴bootloader
-│ │ └╴res
-│ │ │ └╴4tock.bmp (3b9c7e2)
-</pre>
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴kips
-│ └╴loader.kip (0450d5a)
-│ └╴bootloader
-│ │ └╴hekate_ipl.ini (c3042ce)
-│ │ └╴bootloader
-│ │ │ └╴res
-│ │ │ │ └╴4mosphere.bmp (c6a10fe)
-│ │ │ │ └╴switch
-│ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ └╴4IFIR.ovl (fa77b36)
-│ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ └╴.packages
-│ │ │ │ │ │ │ │ └╴4IFIR Wizard
-│ │ │ │ │ │ │ │ │ └╴files.zip (2e1488d)
+<pre>switch
+└╴.packages
+│ └╴4IFIR Wizard
+│ │ └╴files.zip (4aa24e2)
+│ │ └╴switch
+│ │ │ └╴aio-switch-updater
+│ │ │ │ └╴aio-switch-updater.nro (26db342)
 </pre>
 <hr>
 
@@ -71,12 +55,12 @@
 </pre>
 <hr>
 
-<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 12.11.2023 06:06<hr>
+<h2>Archive Comparison Report for <b>Refresh</b></h2><b>Last archive modification date:</b> 20.11.2023 07:32<hr>
 
 <h3>Modified files</h3>
-<pre>config
+<pre>switch
 └╴aio-switch-updater
-│ └╴custom_packs.json (fe6b64e)
+│ └╴aio-switch-updater.nro (26db342)
 </pre>
 <hr>
 

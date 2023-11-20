@@ -4184,7 +4184,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "52e1488d25c30b79e0f2b45496e3a2c2"
+                                "checksum": "d4aa24e299c88e8c4f8da07890619130"
                             },
                             {
                                 "type": "file",
@@ -4212,7 +4212,7 @@
                     {
                         "type": "file",
                         "name": "aio-switch-updater.nro",
-                        "checksum": "a48e24659d987f7e145c8a9dd61f57b7"
+                        "checksum": "f26db342d208432d416236b7315ccae4"
                     }
                 ]
             },
