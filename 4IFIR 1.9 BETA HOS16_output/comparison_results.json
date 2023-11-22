@@ -1,67 +1,16 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents/0100000000001000",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "fsmitm.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                },
-                {
-                    "type": "directory",
-                    "name": "romfs",
-                    "children": [
-                        {
-                            "type": "directory",
-                            "name": "message",
-                            "children": [
-                                {
-                                    "type": "directory",
-                                    "name": "EUru",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "qlaunch.msbt.szs",
-                                            "checksum": "8659c19f14a764d4ee1327e8665a46f7"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "atmosphere/kips/.bak",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "4IFIR D ST3.kip",
-                    "checksum": "f5e276a713b3a6c2e2a125bf6d8cc0d3"
-                },
-                {
-                    "type": "file",
-                    "name": "4IFIR E ST3.kip",
-                    "checksum": "f254dfd8908273fc42c3e5b5f9abb4ea"
-                }
-            ]
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "0ea8c2a25798c7ddf309cad46430f934"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "d99b74a18de49b43f613154a3801dfd2"
         },
         {
             "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "b51bcf71e8713f791299f3199a69e9cb"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "0175de313f46f79b29c444f6db0413af"
         }
     ]
 }
