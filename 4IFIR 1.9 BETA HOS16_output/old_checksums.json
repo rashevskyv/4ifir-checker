@@ -159,40 +159,6 @@
                     },
                     {
                         "type": "directory",
-                        "name": "0100000000001000",
-                        "children": [
-                            {
-                                "type": "file",
-                                "name": "fsmitm.flag",
-                                "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                            },
-                            {
-                                "type": "directory",
-                                "name": "romfs",
-                                "children": [
-                                    {
-                                        "type": "directory",
-                                        "name": "message",
-                                        "children": [
-                                            {
-                                                "type": "directory",
-                                                "name": "EUru",
-                                                "children": [
-                                                    {
-                                                        "type": "file",
-                                                        "name": "qlaunch.msbt.szs",
-                                                        "checksum": "8659c19f14a764d4ee1327e8665a46f7"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "directory",
                         "name": "420000000000000E",
                         "children": [
                             {
@@ -553,25 +519,9 @@
                 "name": "kips",
                 "children": [
                     {
-                        "type": "directory",
-                        "name": ".bak",
-                        "children": [
-                            {
-                                "type": "file",
-                                "name": "4IFIR D ST3.kip",
-                                "checksum": "f5e276a713b3a6c2e2a125bf6d8cc0d3"
-                            },
-                            {
-                                "type": "file",
-                                "name": "4IFIR E ST3.kip",
-                                "checksum": "f254dfd8908273fc42c3e5b5f9abb4ea"
-                            }
-                        ]
-                    },
-                    {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "c0450d5a4bc519c80864b2ae09ae7e1a"
+                        "checksum": "0ea8c2a25798c7ddf309cad46430f934"
                     }
                 ]
             },
@@ -1287,7 +1237,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "5bf950390d272144cc834180a8f5151c"
+                "checksum": "b51bcf71e8713f791299f3199a69e9cb"
             },
             {
                 "type": "file",
@@ -1368,13 +1318,13 @@
                 "children": [
                     {
                         "type": "file",
-                        "name": "4mosphere.bmp",
-                        "checksum": "531607e69db2e1627c8d7d680c81f0ed"
+                        "name": "4emi.bmp",
+                        "checksum": "fdaab712f256f45d1ef4a201e5bd9d7e"
                     },
                     {
                         "type": "file",
-                        "name": "4emi.bmp",
-                        "checksum": "fdaab712f256f45d1ef4a201e5bd9d7e"
+                        "name": "4mosphere.bmp",
+                        "checksum": "531607e69db2e1627c8d7d680c81f0ed"
                     },
                     {
                         "type": "file",

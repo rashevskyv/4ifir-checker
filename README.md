@@ -1,12 +1,26 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 20.11.2023 17:21<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 22.11.2023 09:36<hr>
 
+<h3>Removed files/folders</h3>
+<pre>atmosphere
+└╴contents
+│ └╴0100000000001000
+│ │ ├╴fsmitm.flag (41d8cd9)
+│ │ ├╴romfs
+│ │ │ └╴message
+│ │ │ │ └╴EUru
+│ │ │ │ │ └╴qlaunch.msbt.szs (659c19f)
+│ └╴atmosphere
+│ │ └╴kips
+│ │ │ └╴.bak
+│ │ │ │ └╴4IFIR D ST3.kip (5e276a7)
+│ │ │ │ └╴4IFIR E ST3.kip (254dfd8)
+</pre>
 <h3>Modified files</h3>
-<pre>bootloader
-└╴res
-│ └╴4mosphere.bmp (31607e6)
-│ └╴bootloader
-│ │ └╴res
-│ │ │ └╴4emi.bmp (daab712)
+<pre>atmosphere
+└╴kips
+│ └╴loader.kip (ea8c2a2)
+│ └╴atmosphere
+│ │ └╴package3 (51bcf71)
 </pre>
 <hr>
 
