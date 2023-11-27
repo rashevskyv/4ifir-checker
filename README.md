@@ -1,13 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 22.11.2023 10:15<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 27.11.2023 15:01<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴contents
-│ └╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (99b74a1)
-│ │ └╴switch
-│ │ │ └╴.overlays
-│ │ │ │ └╴4IFIR.ovl (175de31)
+└╴kips
+│ └╴loader.kip (b24d967)
 </pre>
 <hr>
 
