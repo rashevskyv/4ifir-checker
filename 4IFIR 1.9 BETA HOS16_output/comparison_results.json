@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "15df255688aac500ff3a2b7270ae9e61"
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "bb5e027e82077344f3e4e27ed30f2efb"
         }
     ]
 }
