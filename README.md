@@ -1,9 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 09.12.2023 18:02<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9 BETA HOS16</b></h2><b>Last archive modification date:</b> 09.12.2023 18:19<hr>
 
 <h3>Modified files</h3>
 <pre>bootloader
 └╴res
-│ └╴4mosphere.bmp (6184d94)
+│ └╴4mosphere.bmp (815a4b0)
 </pre>
 <hr>
 
