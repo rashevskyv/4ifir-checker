@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/aio-switch-updater/aio-switch-updater.nro",
-            "checksum": "f26db342d208432d416236b7315ccae4"
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "d1777fd9bf104f3528a04b079fdfadbc"
         }
     ]
 }

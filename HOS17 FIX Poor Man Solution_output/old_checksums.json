@@ -1,0 +1,80 @@
+[
+    {
+        "type": "directory",
+        "name": "atmosphere",
+        "children": [
+            {
+                "type": "directory",
+                "name": "contents",
+                "children": [
+                    {
+                        "type": "directory",
+                        "name": "00FF0000636C6BFF",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "exefs.nsp",
+                                "checksum": "a9f17d9bf62d494e4582d943b62b25f7"
+                            },
+                            {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "name": "config",
+        "children": [
+            {
+                "type": "directory",
+                "name": "sys-clk",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini.template",
+                        "checksum": "f5e64fd4bf4373084a2e2cb95ea7c41d"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "name": "switch",
+        "children": [
+            {
+                "type": "directory",
+                "name": ".overlays",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "4IFIR.ovl",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sys-clk-overlay.ovl",
+                        "checksum": "22a64185af1f798102869ee01ad6d8f3"
+                    }
+                ]
+            },
+            {
+                "type": "file",
+                "name": "sys-clk-manager.nro",
+                "checksum": "0317bf1e4250b5c2fc689ad265938833"
+            }
+        ]
+    }
+]
