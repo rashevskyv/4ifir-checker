@@ -1,13 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 13.01.2024 21:35<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 14.01.2024 21:38<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴kips
-│ └╴loader.kip (279e9e7)
-│ └╴switch
-│ │ └╴.packages
-│ │ │ └╴4IFIR Wizard
-│ │ │ │ └╴files.zip (d668df8)
+<pre>switch
+└╴.packages
+│ └╴4IFIR Wizard
+│ │ └╴files.zip (c192ff9)
 </pre>
 <hr>
 
