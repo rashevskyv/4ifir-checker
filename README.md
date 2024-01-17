@@ -1,10 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 14.01.2024 23:06<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 17.01.2024 22:02<hr>
 
 <h3>Modified files</h3>
 <pre>switch
 └╴.packages
 │ └╴4IFIR Wizard
-│ │ └╴files.zip (72e0bff)
+│ │ └╴files.zip (7e6eba8)
 </pre>
 <hr>
 
