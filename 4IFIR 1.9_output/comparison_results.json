@@ -4,8 +4,18 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "57e6eba8c61b6c62e93b6786c25144cd"
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "ceb3c7c57d8587e0e92573516ee9eaa9"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "016b6f555449f84ac42c4bf768927364"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "016b6f555449f84ac42c4bf768927364"
         }
     ]
 }

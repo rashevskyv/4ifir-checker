@@ -1,10 +1,12 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 17.01.2024 22:02<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 18.01.2024 23:12<hr>
 
 <h3>Modified files</h3>
-<pre>switch
-└╴.packages
-│ └╴4IFIR Wizard
-│ │ └╴files.zip (7e6eba8)
+<pre>bootloader
+└╴sys
+│ └╴nyx.bin (eb3c7c5)
+│ └╴bootloader
+│ │ └╴update.bin (16b6f55)
+│ │ └╴payload.bin (16b6f55)
 </pre>
 <hr>
 

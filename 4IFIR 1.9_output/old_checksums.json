@@ -1400,7 +1400,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "a55671421ae5eec54ded634d23ee77f6"
+                        "checksum": "ceb3c7c57d8587e0e92573516ee9eaa9"
                     },
                     {
                         "type": "file",
@@ -1417,7 +1417,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "800197006665631c91efbfb8ac1c3c5d"
+                "checksum": "016b6f555449f84ac42c4bf768927364"
             }
         ]
     },
@@ -1521,7 +1521,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "800197006665631c91efbfb8ac1c3c5d"
+        "checksum": "016b6f555449f84ac42c4bf768927364"
     },
     {
         "type": "directory",
