@@ -4,18 +4,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "ceb3c7c57d8587e0e92573516ee9eaa9"
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
         },
         {
             "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "016b6f555449f84ac42c4bf768927364"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "016b6f555449f84ac42c4bf768927364"
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "e45be74a43b1e7e2b073df197c50ac41"
         }
     ]
 }

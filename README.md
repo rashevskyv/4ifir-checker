@@ -1,12 +1,12 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 18.01.2024 23:12<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 20.01.2024 21:57<hr>
 
 <h3>Modified files</h3>
 <pre>bootloader
 └╴sys
-│ └╴nyx.bin (eb3c7c5)
+│ └╴libsys_lp0.bso (7fa5bf0)
 │ └╴bootloader
-│ │ └╴update.bin (16b6f55)
-│ │ └╴payload.bin (16b6f55)
+│ │ └╴sys
+│ │ │ └╴libsys_minerva.bso (45be74a)
 </pre>
 <hr>
 
