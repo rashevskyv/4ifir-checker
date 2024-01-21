@@ -1,12 +1,17 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 20.01.2024 21:57<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 21.01.2024 23:43<hr>
 
 <h3>Modified files</h3>
-<pre>bootloader
-└╴sys
-│ └╴libsys_lp0.bso (7fa5bf0)
-│ └╴bootloader
-│ │ └╴sys
-│ │ │ └╴libsys_minerva.bso (45be74a)
+<pre>atmosphere
+└╴reboot_payload.bin (52fc70f)
+└╴bootloader
+│ └╴sys
+│ │ └╴libsys_lp0.bso (5fa5c17)
+│ │ └╴bootloader
+│ │ │ └╴sys
+│ │ │ │ └╴libsys_minerva.bso (ae4cc82)
+│ │ │ │ └╴bootloader
+│ │ │ │ │ └╴update.bin (52fc70f)
+│ │ │ │ │ └╴payload.bin (52fc70f)
 </pre>
 <hr>
 
