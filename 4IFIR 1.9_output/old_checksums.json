@@ -519,6 +519,17 @@
                 "name": "kips",
                 "children": [
                     {
+                        "type": "directory",
+                        "name": ".bak",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "dev.unsafe.kip",
+                                "checksum": "0edbda2f258eb438e78fa5a6dd47f0f8"
+                            }
+                        ]
+                    },
+                    {
                         "type": "file",
                         "name": "loader.kip",
                         "checksum": "d279e9e7a915d3672f01aae7e67ad83a"
