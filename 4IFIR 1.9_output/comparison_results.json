@@ -1,23 +1,26 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "atmosphere/kips/.bak",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "dev.unsafe.kip",
-                    "checksum": "0edbda2f258eb438e78fa5a6dd47f0f8"
-                }
-            ]
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "cdca34beba966c661cb9f585d5d1c741"
+            "checksum": "44693325e4cec9bde53529d1d3026fe1"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "f61b706b737560db23f26b4adfe90b2a"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "3c36606dbccae36aa70031535ec9788a"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "5efdf84e288e03237af29009da398eff"
         }
     ]
 }
