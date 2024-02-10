@@ -1,10 +1,15 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 01.02.2024 16:07<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 10.02.2024 12:49<hr>
 
-<h3>Added files/folders</h3>
+<h3>Removed files/folders</h3>
 <pre>atmosphere
 └╴kips
 │ └╴.bak
 │ │ └╴dev.unsafe.kip (edbda2f)
+</pre>
+<h3>Modified files</h3>
+<pre>atmosphere
+└╴kips
+│ └╴loader.kip (dca34be)
 </pre>
 <hr>
 
