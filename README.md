@@ -1,17 +1,31 @@
-<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 10.02.2024 19:55<hr>
+<h2>Archive Comparison Report for <b>4IFIR 1.9</b></h2><b>Last archive modification date:</b> 11.02.2024 18:26<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴kips
-│ └╴loader.kip (4693325)
-│ └╴atmosphere
-│ │ └╴package3 (61b706b)
+└╴contents
+│ └╴00FF0000636C6BFF
+│ │ └╴exefs.nsp (d8557c6)
 │ │ └╴atmosphere
-│ │ │ └╴stratosphere.romfs (c36606d)
-│ │ │ └╴switch
-│ │ │ │ └╴.packages
-│ │ │ │ │ └╴4IFIR Wizard
-│ │ │ │ │ │ └╴files.zip (efdf84e)
+│ │ │ └╴kips
+│ │ │ │ └╴loader.kip (517660a)
+│ │ │ │ └╴atmosphere
+│ │ │ │ │ └╴package3 (9ea82ba)
+│ │ │ │ │ └╴bootloader
+│ │ │ │ │ │ └╴payloads
+│ │ │ │ │ │ │ └╴TegraExplorer.bin (30e88bb)
+│ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ └╴.overlays
+│ │ │ │ │ │ │ │ │ └╴4IFIR.ovl (b3e3630)
+│ │ │ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ │ │ └╴.packages
+│ │ │ │ │ │ │ │ │ │ │ └╴4IFIR Wizard
+│ │ │ │ │ │ │ │ │ │ │ │ └╴files.zip (575a130)
+│ │ │ │ │ │ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ │ │ │ │ │ └╴DBI
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴dbi.config (7110a85)
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴DBI
+│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴DBI.nro (befd879)
 </pre>
 <hr>
 
