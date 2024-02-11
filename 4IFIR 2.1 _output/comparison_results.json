@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "d77fc8d35bfb4a0f9bd8c8e4ee90a91b"
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "4d91670794d74f299cd7de5f3a7fd02a"
         }
     ]
 }
