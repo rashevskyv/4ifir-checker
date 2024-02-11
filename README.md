@@ -1,10 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.1 </b></h2><b>Last archive modification date:</b> 12.02.2024 00:01<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.1 </b></h2><b>Last archive modification date:</b> 12.02.2024 00:05<hr>
 
 <h3>Modified files</h3>
-<pre>switch
-└╴.packages
-│ └╴4IFIR Wizard
-│ │ └╴files.zip (8d58b50)
+<pre>config
+└╴aio-switch-updater
+│ └╴custom_packs.json (77fc8d3)
 </pre>
 <hr>
 
