@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "47a06ae6d3bf7f3814224eeecb220748"
+        }
+    ]
 }
