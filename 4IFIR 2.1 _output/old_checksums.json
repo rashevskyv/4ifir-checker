@@ -521,7 +521,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "8b5596e3e6161dc913b4e51166c5105d"
+                        "checksum": "ddc7c7085a5cc6b733911e5d9d8c0e84"
                     }
                 ]
             },
@@ -1237,7 +1237,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "0175c1227c3afa6e716b353667081788"
+                "checksum": "826980e3a26c46ff99b1e833c639c632"
             },
             {
                 "type": "file",
@@ -1668,7 +1668,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "4d91670794d74f299cd7de5f3a7fd02a"
+                                "checksum": "bfc95508d32aab56c56cf624b5aeeb25"
                             },
                             {
                                 "type": "file",
