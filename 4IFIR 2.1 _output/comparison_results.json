@@ -4,18 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "d4bcf1c59df702f1e7da385a18768872"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "3307b1d0b4d4573bea7544d5d8132a28"
-        },
-        {
-            "type": "file",
             "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "0708ac7df3ac4b840d7f96be1ebd65e6"
+            "checksum": "e5d383feb0837d28e5ac90ceedbd4c15"
         }
     ]
 }
