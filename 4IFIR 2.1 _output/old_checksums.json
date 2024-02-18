@@ -1385,12 +1385,12 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "35fa5c17f98d38c61de33cd8ab46a9c1"
+                        "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "d406dcee5ed0c8f4ba2b6acf4c939a78"
+                        "checksum": "e45be74a43b1e7e2b073df197c50ac41"
                     },
                     {
                         "type": "file",
