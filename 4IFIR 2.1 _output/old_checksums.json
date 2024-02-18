@@ -521,7 +521,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "d4bcf1c59df702f1e7da385a18768872"
+                        "checksum": "1e5e89a738a2cc9ed0a30fb0336bb28d"
                     }
                 ]
             },
@@ -1242,7 +1242,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "552fc70f1d92ac5c1868c1224ff00e0a"
+                "checksum": "bea7802c36cabb732deb43f2036ebd55"
             },
             {
                 "type": "file",
@@ -1390,17 +1390,17 @@
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "eae4cc827536067999ac39dd7e7a8b58"
+                        "checksum": "d406dcee5ed0c8f4ba2b6acf4c939a78"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "945b945f41a93ea735f75d28929f21e0"
+                        "checksum": "2b223ec447d0e61e84bee31ee5d31c7e"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "ceb3c7c57d8587e0e92573516ee9eaa9"
+                        "checksum": "7fef87db67dda40a0b1ef4152c12314c"
                     },
                     {
                         "type": "file",
@@ -1417,7 +1417,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "552fc70f1d92ac5c1868c1224ff00e0a"
+                "checksum": "bea7802c36cabb732deb43f2036ebd55"
             }
         ]
     },
@@ -1521,7 +1521,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "552fc70f1d92ac5c1868c1224ff00e0a"
+        "checksum": "bea7802c36cabb732deb43f2036ebd55"
     },
     {
         "type": "directory",

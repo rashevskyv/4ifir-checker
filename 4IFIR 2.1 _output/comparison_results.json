@@ -4,8 +4,38 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "e5d383feb0837d28e5ac90ceedbd4c15"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "1e5e89a738a2cc9ed0a30fb0336bb28d"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "bea7802c36cabb732deb43f2036ebd55"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "d406dcee5ed0c8f4ba2b6acf4c939a78"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "2b223ec447d0e61e84bee31ee5d31c7e"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "7fef87db67dda40a0b1ef4152c12314c"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "bea7802c36cabb732deb43f2036ebd55"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "bea7802c36cabb732deb43f2036ebd55"
         }
     ]
 }
