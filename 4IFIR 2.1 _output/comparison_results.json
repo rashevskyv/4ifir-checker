@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "e45be74a43b1e7e2b073df197c50ac41"
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "97eb0866279bde9e2310a8681da74fc5"
         }
     ]
 }
