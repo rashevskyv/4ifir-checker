@@ -4,8 +4,18 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "96cf0e6c6769155c1459e439fa6714d5"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "8e6fe0a1178016cb75f072a5036bca55"
+        },
+        {
+            "type": "file",
             "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "26af4ec016d3207ab8e871f7310d8a02"
+            "checksum": "0f0d1963871979ef9f5d2942175b5716"
         }
     ]
 }
