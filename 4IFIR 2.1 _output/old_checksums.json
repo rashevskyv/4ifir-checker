@@ -1530,23 +1530,12 @@
             {
                 "type": "file",
                 "name": "exceptions.txt",
-                "checksum": "16b439396a97b71052f598e5716ab0b5"
-            },
-            {
-                "type": "directory",
-                "name": "flags",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "log.flag",
-                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                    }
-                ]
+                "checksum": "0fe20066198fa3c6d47754ea098d9ac6"
             },
             {
                 "type": "file",
                 "name": "saltysd_core.elf",
-                "checksum": "157e7dcc95d6a697ccde2b5124461ec0"
+                "checksum": "e6b787d3bcc010db289ace4f2978d8d8"
             }
         ]
     },
@@ -1571,12 +1560,12 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "79acaddb4db4433004c9f2a6f180d3c0"
+                        "checksum": "ed584f9073ac892cd0dd06370013b018"
                     },
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "f29a30ea181bfd52e7c0d83423a0a8c0"
+                        "checksum": "f5c154862e2c91a9bb3e0e32ae8ef716"
                     },
                     {
                         "type": "directory",

@@ -1,21 +1,38 @@
 {
     "added": [],
-    "removed": [],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "SaltySD/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "96cf0e6c6769155c1459e439fa6714d5"
+            "name": "SaltySD/exceptions.txt",
+            "checksum": "0fe20066198fa3c6d47754ea098d9ac6"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "8e6fe0a1178016cb75f072a5036bca55"
+            "name": "SaltySD/saltysd_core.elf",
+            "checksum": "e6b787d3bcc010db289ace4f2978d8d8"
         },
         {
             "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "0f0d1963871979ef9f5d2942175b5716"
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "ed584f9073ac892cd0dd06370013b018"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "f5c154862e2c91a9bb3e0e32ae8ef716"
         }
     ]
 }
