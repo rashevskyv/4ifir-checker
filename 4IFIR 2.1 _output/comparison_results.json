@@ -1,38 +1,11 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "SaltySD/flags",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "log.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                }
-            ]
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "SaltySD/exceptions.txt",
-            "checksum": "0fe20066198fa3c6d47754ea098d9ac6"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_core.elf",
-            "checksum": "e6b787d3bcc010db289ace4f2978d8d8"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/FPSLocker.ovl",
-            "checksum": "ed584f9073ac892cd0dd06370013b018"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "f5c154862e2c91a9bb3e0e32ae8ef716"
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "20181cd545614958b28c68ccfd80fab9"
         }
     ]
 }
