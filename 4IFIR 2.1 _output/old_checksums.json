@@ -1242,7 +1242,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "bea7802c36cabb732deb43f2036ebd55"
+                "checksum": "1dfd76f9b999c532aa83434c1820550d"
             },
             {
                 "type": "file",
@@ -1385,22 +1385,22 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
+                        "checksum": "9089575d13e63b8f1d6c1627780eec8b"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "e45be74a43b1e7e2b073df197c50ac41"
+                        "checksum": "eb74646d153fe49973b8d2152a0d083c"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "2b223ec447d0e61e84bee31ee5d31c7e"
+                        "checksum": "801a986fbc4e3ed7f65d80136048ad4d"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "7fef87db67dda40a0b1ef4152c12314c"
+                        "checksum": "9fdd6bea426a144db68037603da1be79"
                     },
                     {
                         "type": "file",
@@ -1417,7 +1417,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "bea7802c36cabb732deb43f2036ebd55"
+                "checksum": "1dfd76f9b999c532aa83434c1820550d"
             }
         ]
     },
@@ -1521,7 +1521,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "bea7802c36cabb732deb43f2036ebd55"
+        "checksum": "1dfd76f9b999c532aa83434c1820550d"
     },
     {
         "type": "directory",
