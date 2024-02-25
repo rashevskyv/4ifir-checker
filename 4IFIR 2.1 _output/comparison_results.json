@@ -5,37 +5,17 @@
         {
             "type": "file",
             "name": "atmosphere/reboot_payload.bin",
-            "checksum": "1dfd76f9b999c532aa83434c1820550d"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "9089575d13e63b8f1d6c1627780eec8b"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "eb74646d153fe49973b8d2152a0d083c"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "801a986fbc4e3ed7f65d80136048ad4d"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "9fdd6bea426a144db68037603da1be79"
+            "checksum": "8c5d827ad3240188c6b7f38b224a6f10"
         },
         {
             "type": "file",
             "name": "bootloader/update.bin",
-            "checksum": "1dfd76f9b999c532aa83434c1820550d"
+            "checksum": "8c5d827ad3240188c6b7f38b224a6f10"
         },
         {
             "type": "file",
             "name": "payload.bin",
-            "checksum": "1dfd76f9b999c532aa83434c1820550d"
+            "checksum": "8c5d827ad3240188c6b7f38b224a6f10"
         }
     ]
 }
