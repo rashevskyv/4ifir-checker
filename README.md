@@ -1,9 +1,11 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 15.03.2024 21:32<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 16.03.2024 03:16<hr>
 
 <h3>Modified files</h3>
-<pre>bootloader
-└╴res
-│ └╴4mosphere.bmp (585c878)
+<pre>atmosphere
+└╴kips
+│ └╴loader.kip (fb5e0ea)
+│ └╴atmosphere
+│ │ └╴package3 (ab39272)
 </pre>
 <hr>
 

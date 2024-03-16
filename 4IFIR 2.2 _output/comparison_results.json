@@ -4,8 +4,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/res/4mosphere.bmp",
-            "checksum": "8585c878e501055c8da26d830b924ebe"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "dfb5e0eaab529952f1365ec0c19bb312"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "8ab3927244331d5f7030fa3bd04f60b3"
         }
     ]
 }
