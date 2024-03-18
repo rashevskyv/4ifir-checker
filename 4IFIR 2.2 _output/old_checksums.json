@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "7ea610a864d161ad92d0173aa82e71a3"
+                                "checksum": "6144ee45f95ba8a6a561e6b6bcbdf2dc"
                             },
                             {
                                 "type": "directory",
@@ -521,7 +521,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "dfb5e0eaab529952f1365ec0c19bb312"
+                        "checksum": "202a27ed6d2f1f080766e861ac321835"
                     }
                 ]
             },
@@ -1237,7 +1237,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "8ab3927244331d5f7030fa3bd04f60b3"
+                "checksum": "15926a6adbcdf717659c7ca9f5189bcd"
             },
             {
                 "type": "file",
@@ -1273,7 +1273,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "c0d8d8f50930fd864ec80dfc102c71bf"
+                "checksum": "93ee210c8f5558b2737fe1cb8126185d"
             },
             {
                 "type": "file",
@@ -1289,6 +1289,11 @@
                 "type": "directory",
                 "name": "payloads",
                 "children": [
+                    {
+                        "type": "file",
+                        "name": "fusee.bin",
+                        "checksum": "2d1fd12e2ccf81549537c32f7812db07"
+                    },
                     {
                         "type": "file",
                         "name": "Lockpick_RCM.bin",
@@ -1437,7 +1442,7 @@
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "f5c42fda186ebb98d1689ed401939787"
+                        "checksum": "3e2e6bb3a827894a6cc8c41c64cf3281"
                     },
                     {
                         "type": "file",
@@ -1475,7 +1480,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "2b8ce5db0739333053789409f3dd46c8"
+                        "checksum": "55dc184e104a75da50a3c5cbc6b743c9"
                     }
                 ]
             },
@@ -1550,7 +1555,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "49fb24859c956e52cf4b9d91b2fde7b2"
+                        "checksum": "87837a62046a8c6417697b865d4291c4"
                     },
                     {
                         "type": "file",
@@ -1602,7 +1607,7 @@
                     {
                         "type": "file",
                         "name": "ovlEdiZon.ovl",
-                        "checksum": "f56d79f8294d0dfc6d32c5ae0de1f896"
+                        "checksum": "07b4acc121b81133f925e0a27891abb8"
                     },
                     {
                         "type": "file",
@@ -1657,7 +1662,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "1a934f839b4d0b0c71e85757ca268aaf"
+                                "checksum": "bb940c8332592a45933000a0403bf6c6"
                             },
                             {
                                 "type": "file",
