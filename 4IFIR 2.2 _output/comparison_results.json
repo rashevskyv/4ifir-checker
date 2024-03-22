@@ -1,57 +1,26 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "2d1fd12e2ccf81549537c32f7812db07"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "6144ee45f95ba8a6a561e6b6bcbdf2dc"
+            "checksum": "8552998d0af8b842fc6fddcbdb45b9fd"
         },
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "202a27ed6d2f1f080766e861ac321835"
+            "checksum": "73e97b9ddfdf6677dcfcdb9682ec3fe0"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "15926a6adbcdf717659c7ca9f5189bcd"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "93ee210c8f5558b2737fe1cb8126185d"
-        },
-        {
-            "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "3e2e6bb3a827894a6cc8c41c64cf3281"
-        },
-        {
-            "type": "file",
-            "name": "config/sys-clk/config.ini",
-            "checksum": "55dc184e104a75da50a3c5cbc6b743c9"
+            "checksum": "e9ecc62eb79339287b655d83424efedb"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "87837a62046a8c6417697b865d4291c4"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlEdiZon.ovl",
-            "checksum": "07b4acc121b81133f925e0a27891abb8"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "bb940c8332592a45933000a0403bf6c6"
+            "checksum": "86fa48ce1dc4d0b52df746873d85bbb9"
         }
     ]
 }
