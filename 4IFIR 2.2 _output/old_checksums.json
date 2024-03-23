@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "8552998d0af8b842fc6fddcbdb45b9fd"
+                                "checksum": "faa805a05bd18c939bf195aec3bde6e9"
                             },
                             {
                                 "type": "directory",
@@ -521,7 +521,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "73e97b9ddfdf6677dcfcdb9682ec3fe0"
+                        "checksum": "b8568456e74b877e50fcc6311ec4f036"
                     }
                 ]
             },
@@ -1237,7 +1237,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "e9ecc62eb79339287b655d83424efedb"
+                "checksum": "c9bb9dfd6bf130369277dc20c9c2e490"
             },
             {
                 "type": "file",
@@ -1247,7 +1247,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "3c36606dbccae36aa70031535ec9788a"
+                "checksum": "527ea216a33cb468c96c32ea9c619782"
             }
         ]
     },
@@ -1268,7 +1268,7 @@
             {
                 "type": "file",
                 "name": "4IFIR.ini",
-                "checksum": "6a7a0dddf733c3fa58853f62de7519ef"
+                "checksum": "8703de399789d59f5b80a82c23676a52"
             },
             {
                 "type": "file",
@@ -1555,7 +1555,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "86fa48ce1dc4d0b52df746873d85bbb9"
+                        "checksum": "8b79a9b42b5ef563bdb973ada57d60b3"
                     },
                     {
                         "type": "file",
