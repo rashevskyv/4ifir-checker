@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "faa805a05bd18c939bf195aec3bde6e9"
+                                "checksum": "815d713af6e077c4ef3e63cc262d9b7e"
                             },
                             {
                                 "type": "directory",
@@ -521,7 +521,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "b8568456e74b877e50fcc6311ec4f036"
+                        "checksum": "19f377f03cc42d92ed83faee5868c601"
                     }
                 ]
             },
@@ -1268,7 +1268,7 @@
             {
                 "type": "file",
                 "name": "4IFIR.ini",
-                "checksum": "8703de399789d59f5b80a82c23676a52"
+                "checksum": "b5f271366cf02ca3abe669778868ffd0"
             },
             {
                 "type": "file",
@@ -1555,7 +1555,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "8b79a9b42b5ef563bdb973ada57d60b3"
+                        "checksum": "8163cf89dac31293042008b7458a9cf6"
                     },
                     {
                         "type": "file",
@@ -1570,7 +1570,7 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "682d160c884469a0a7b8d2be968a9ca5"
+                        "checksum": "05a5b4991db2b5380f64f7732891832c"
                     },
                     {
                         "type": "directory",
