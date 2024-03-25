@@ -1,21 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 25.03.2024 11:10<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 25.03.2024 13:41<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
 │ └╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (15d713a)
+│ │ └╴exefs.nsp (586d152)
 │ │ └╴atmosphere
 │ │ │ └╴kips
-│ │ │ │ └╴loader.kip (9f377f0)
-│ │ │ │ └╴bootloader
-│ │ │ │ │ └╴4IFIR.ini (5f27136)
-│ │ │ │ │ └╴switch
-│ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ └╴4IFIR.ovl (163cf89)
-│ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ └╴InfoNX-ovl.ovl (5a5b499)
+│ │ │ │ └╴loader.kip (259c1f3)
 </pre>
 <hr>
 
