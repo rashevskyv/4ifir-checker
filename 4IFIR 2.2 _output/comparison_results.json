@@ -1,16 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "0586d15245d9a88c527413b13270fd27"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "f259c1f3ac98ac1a0b15c89a3e9f6623"
-        }
-    ]
+    "modified": []
 }
