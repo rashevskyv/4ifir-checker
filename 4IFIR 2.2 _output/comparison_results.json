@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "4c8429a964d8bf60bd28723db67733a9"
+        }
+    ]
 }

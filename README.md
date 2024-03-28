@@ -1,4 +1,12 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 28.03.2024 08:16<hr>
+
+<h3>Modified files</h3>
+<pre>switch
+└╴.packages
+│ └╴4IFIR Wizard
+│ │ └╴files.zip (c8429a9)
+</pre>
+<hr>
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><b>Last archive modification date:</b> 18.03.2024 19:42<hr>
 
