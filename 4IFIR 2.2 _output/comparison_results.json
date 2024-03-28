@@ -5,22 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "f65f85290348fca0d79bbe4f70ec6ebc"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "7b7bb21ebb2dce50654ec6344db6793a"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "0650b38d43e6ff383be0466d4bab15c9"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "04c6895d512aa892911b22858b695c66"
+            "checksum": "8628cff485fe78b18adc56cbbb9cef4b"
         }
     ]
 }
