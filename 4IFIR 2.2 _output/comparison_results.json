@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "41a9c994c50c6cd672bf0556f20a3d01"
+        }
+    ]
 }
