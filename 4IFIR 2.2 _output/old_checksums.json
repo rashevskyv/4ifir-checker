@@ -1242,7 +1242,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "83e495c744f1903d80a9301b27e3fb89"
+                "checksum": "622b8b4df68f1dd71708eb00e82e4984"
             },
             {
                 "type": "file",
@@ -1422,7 +1422,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "83e495c744f1903d80a9301b27e3fb89"
+                "checksum": "622b8b4df68f1dd71708eb00e82e4984"
             }
         ]
     },
@@ -1526,7 +1526,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "83e495c744f1903d80a9301b27e3fb89"
+        "checksum": "622b8b4df68f1dd71708eb00e82e4984"
     },
     {
         "type": "directory",
