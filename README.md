@@ -1,9 +1,11 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 02.04.2024 20:44<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 02.04.2024 21:21<hr>
 
 <h3>Modified files</h3>
-<pre>switch
-└╴.overlays
-│ └╴InfoNX-ovl.ovl (1a9c994)
+<pre>atmosphere
+└╴reboot_payload.bin (3e495c7)
+└╴bootloader
+│ └╴update.bin (3e495c7)
+│ └╴payload.bin (3e495c7)
 </pre>
 <hr>
 
