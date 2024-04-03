@@ -4,8 +4,23 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "4e681d5e7836a08e8347f657ad987471"
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "459c604a966a0a8238206ec360888404"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "459c604a966a0a8238206ec360888404"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "459c604a966a0a8238206ec360888404"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "2ca2142251d52c97c3c4584264217cc8"
         }
     ]
 }
