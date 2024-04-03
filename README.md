@@ -1,11 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 02.04.2024 21:51<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 03.04.2024 05:17<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴reboot_payload.bin (22b8b4d)
-└╴bootloader
-│ └╴update.bin (22b8b4d)
-│ └╴payload.bin (22b8b4d)
+<pre>switch
+└╴.overlays
+│ └╴Status-Monitor-Overlay.ovl (e681d5e)
 </pre>
 <hr>
 

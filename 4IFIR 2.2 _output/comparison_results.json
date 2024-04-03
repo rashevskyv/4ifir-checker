@@ -4,18 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "622b8b4df68f1dd71708eb00e82e4984"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "622b8b4df68f1dd71708eb00e82e4984"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "622b8b4df68f1dd71708eb00e82e4984"
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "4e681d5e7836a08e8347f657ad987471"
         }
     ]
 }
