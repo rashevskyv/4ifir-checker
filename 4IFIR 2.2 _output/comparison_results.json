@@ -4,23 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "459c604a966a0a8238206ec360888404"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "459c604a966a0a8238206ec360888404"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "459c604a966a0a8238206ec360888404"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "2ca2142251d52c97c3c4584264217cc8"
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "e8ec749ab8f8e9956c67bd871a70c75e"
         }
     ]
 }
