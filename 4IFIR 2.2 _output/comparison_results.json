@@ -5,7 +5,12 @@
         {
             "type": "file",
             "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "e8ec749ab8f8e9956c67bd871a70c75e"
+            "checksum": "130a1690f8af9f705502ef9fb6ceb18d"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "78066bc6f8f1a6b3942223ca8ae36ec9"
         }
     ]
 }
