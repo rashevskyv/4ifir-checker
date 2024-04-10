@@ -1,13 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 09.04.2024 21:11<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 10.04.2024 06:07<hr>
 
 <h3>Modified files</h3>
 <pre>switch
 └╴.overlays
-│ └╴ovlmenu.ovl (30a1690)
-│ └╴switch
-│ │ └╴.packages
-│ │ │ └╴4IFIR Wizard
-│ │ │ │ └╴files.zip (8066bc6)
+│ └╴InfoNX-ovl.ovl (9329f26)
 </pre>
 <hr>
 

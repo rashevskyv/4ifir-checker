@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "130a1690f8af9f705502ef9fb6ceb18d"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "78066bc6f8f1a6b3942223ca8ae36ec9"
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "99329f26ef8332bff0d977adef0ad547"
         }
     ]
 }
