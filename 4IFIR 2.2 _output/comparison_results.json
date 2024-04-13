@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "config/uberhand/config.ini",
+            "checksum": "f1575cd7d0e1e1f22a0a5539f964e834"
+        }
+    ]
 }
