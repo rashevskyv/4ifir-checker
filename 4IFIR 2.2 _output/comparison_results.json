@@ -1,26 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "b53790aa6d0e8037e14899414e87b338"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "76acb1b5340bdcc49ec976c583780ade"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "c33925a7ad5332e9d3f28e7825130c5c"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "d5f8bc2151681348c1095e639e8cb256"
-        }
-    ]
+    "modified": []
 }
