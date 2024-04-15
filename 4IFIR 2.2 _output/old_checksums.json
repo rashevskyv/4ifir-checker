@@ -1475,6 +1475,17 @@
             },
             {
                 "type": "directory",
+                "name": "status-monitor",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "3ae0c63221b76ba05c5578a70125c70a"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "sys-clk",
                 "children": [
                     {
@@ -1570,7 +1581,7 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "d5f8bc2151681348c1095e639e8cb256"
+                        "checksum": "737dd0b5792ffba4499c8be57838894a"
                     },
                     {
                         "type": "directory",
@@ -1632,7 +1643,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "4e681d5e7836a08e8347f657ad987471"
+                        "checksum": "1a976f184ad800ca733d2faf692f8cc3"
                     },
                     {
                         "type": "file",

@@ -1,11 +1,28 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "config/status-monitor",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "3ae0c63221b76ba05c5578a70125c70a"
+                }
+            ]
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "config/uberhand/config.ini",
-            "checksum": "f1575cd7d0e1e1f22a0a5539f964e834"
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "737dd0b5792ffba4499c8be57838894a"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "1a976f184ad800ca733d2faf692f8cc3"
         }
     ]
 }
