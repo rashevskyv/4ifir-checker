@@ -1,28 +1,16 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "config/status-monitor",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "3ae0c63221b76ba05c5578a70125c70a"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "737dd0b5792ffba4499c8be57838894a"
+            "name": "config/status-monitor/config.ini",
+            "checksum": "d13dccd3563c7f253e685af49bd47e93"
         },
         {
             "type": "file",
             "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "1a976f184ad800ca733d2faf692f8cc3"
+            "checksum": "d5d7d8c17378111304f9d45783026830"
         }
     ]
 }
