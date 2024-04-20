@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "config/status-monitor/config.ini",
-            "checksum": "d13dccd3563c7f253e685af49bd47e93"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "d5d7d8c17378111304f9d45783026830"
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "314b930f24f7d4617614765c17e7a320"
         }
     ]
 }

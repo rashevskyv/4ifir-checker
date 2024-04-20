@@ -1,12 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 16.04.2024 08:30<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 20.04.2024 14:19<hr>
 
 <h3>Modified files</h3>
-<pre>config
-└╴status-monitor
-│ └╴config.ini (13dccd3)
-│ └╴switch
-│ │ └╴.overlays
-│ │ │ └╴Status-Monitor-Overlay.ovl (5d7d8c1)
+<pre>switch
+└╴.overlays
+│ └╴InfoNX-ovl.ovl (14b930f)
 </pre>
 <hr>
 
