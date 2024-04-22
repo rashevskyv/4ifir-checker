@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "06ab5d1b57566e36fb43dfe377890b57"
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "a01fb62239bbca56a0109fc7852126a5"
         }
     ]
 }
