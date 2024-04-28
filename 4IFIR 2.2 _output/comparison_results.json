@@ -1,11 +1,64 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/420000000000000B",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "exefs.nsp",
+                    "checksum": "f0e76563a76d98784a23f10255c23297"
+                },
+                {
+                    "type": "directory",
+                    "name": "flags",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "boot2.flag",
+                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                        }
+                    ]
+                },
+                {
+                    "type": "file",
+                    "name": "toolbox.json",
+                    "checksum": "6cf71189e80833516e0ff2cebbf49453"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/sys-patch-overlay.ovl",
+            "checksum": "36083de8c43a925adee756ede3db9652"
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "a01fb62239bbca56a0109fc7852126a5"
+            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
+            "checksum": "35c6e7bc425b3eda948ebfcd17342035"
+        },
+        {
+            "type": "file",
+            "name": "config/status-monitor/config.ini",
+            "checksum": "30256c02a68b14fbe690ca140585f453"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/saltysd_core.elf",
+            "checksum": "62d0e7c5199cc246f9c8b60bdf39ab91"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "f35374a79f985d5c8ecafef554f9de7d"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "6db4fd18ff4f57439b89dc343bc6f103"
         }
     ]
 }

@@ -56,7 +56,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "ab0a7c0462d817f644ac7117ef46eabe"
+                                "checksum": "35c6e7bc425b3eda948ebfcd17342035"
                             },
                             {
                                 "type": "directory",
@@ -154,6 +154,33 @@
                                 "type": "file",
                                 "name": "toolbox.json",
                                 "checksum": "c482f382b5aa21fca9ccbf3fea3ffb6b"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "directory",
+                        "name": "420000000000000B",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "exefs.nsp",
+                                "checksum": "f0e76563a76d98784a23f10255c23297"
+                            },
+                            {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "toolbox.json",
+                                "checksum": "6cf71189e80833516e0ff2cebbf49453"
                             }
                         ]
                     },
@@ -1480,7 +1507,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "d13dccd3563c7f253e685af49bd47e93"
+                        "checksum": "30256c02a68b14fbe690ca140585f453"
                     }
                 ]
             },
@@ -1551,7 +1578,7 @@
             {
                 "type": "file",
                 "name": "saltysd_core.elf",
-                "checksum": "e6b787d3bcc010db289ace4f2978d8d8"
+                "checksum": "62d0e7c5199cc246f9c8b60bdf39ab91"
             }
         ]
     },
@@ -1576,7 +1603,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "ed584f9073ac892cd0dd06370013b018"
+                        "checksum": "f35374a79f985d5c8ecafef554f9de7d"
                     },
                     {
                         "type": "file",
@@ -1623,7 +1650,7 @@
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "130a1690f8af9f705502ef9fb6ceb18d"
+                        "checksum": "6db4fd18ff4f57439b89dc343bc6f103"
                     },
                     {
                         "type": "file",
@@ -1649,6 +1676,11 @@
                         "type": "file",
                         "name": "sys-clk-overlay.ovl",
                         "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sys-patch-overlay.ovl",
+                        "checksum": "36083de8c43a925adee756ede3db9652"
                     },
                     {
                         "type": "file",
