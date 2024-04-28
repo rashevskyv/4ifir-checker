@@ -1,33 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 28.04.2024 12:43<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 28.04.2024 14:05<hr>
 
-<h3>Added files/folders</h3>
-<pre>atmosphere
-└╴contents
-│ └╴420000000000000B
-│ │ ├╴exefs.nsp (0e76563)
-│ │ ├╴flags
-│ │ │ ├╴boot2.flag (41d8cd9)
-│ │ ├╴toolbox.json (cf71189)
-│ └╴switch
-│ │ └╴.overlays
-│ │ │ └╴sys-patch-overlay.ovl (6083de8)
-</pre>
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-│ └╴0000000000534C56
-│ │ └╴exefs.nsp (5c6e7bc)
-│ │ └╴config
-│ │ │ └╴status-monitor
-│ │ │ │ └╴config.ini (0256c02)
-│ │ │ │ └╴SaltySD
-│ │ │ │ │ └╴saltysd_core.elf (2d0e7c5)
-│ │ │ │ │ └╴switch
-│ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ └╴FPSLocker.ovl (35374a7)
-│ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ └╴ovlmenu.ovl (db4fd18)
+<pre>switch
+└╴.overlays
+│ └╴ovlmenu.ovl (30a1690)
 </pre>
 <hr>
 
