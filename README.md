@@ -1,13 +1,25 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 30.04.2024 00:02<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 30.04.2024 00:31<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴contents
-│ └╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (6590581)
-│ │ └╴switch
-│ │ │ └╴.overlays
-│ │ │ │ └╴4IFIR.ovl (14274c9)
+└╴kips
+│ └╴loader.kip (e348a78)
+│ └╴switch
+│ │ └╴.overlays
+│ │ │ └╴Fizeau.ovl (b046c14)
+│ │ │ └╴switch
+│ │ │ │ └╴.overlays
+│ │ │ │ │ └╴lang
+│ │ │ │ │ │ └╴Fizeau
+│ │ │ │ │ │ │ └╴zh-Hans.json (bf392da)
+│ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ └╴.overlays
+│ │ │ │ │ │ │ │ │ └╴lang
+│ │ │ │ │ │ │ │ │ │ └╴Fizeau
+│ │ │ │ │ │ │ │ │ │ │ └╴zh-Hant.json (674c10e)
+│ │ │ │ │ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ │ │ │ │ └╴.overlays
+│ │ │ │ │ │ │ │ │ │ │ │ │ └╴sys-patch-overlay.ovl (6483289)
 </pre>
 <hr>
 

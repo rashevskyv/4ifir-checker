@@ -548,7 +548,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "1c956eb7e2b8af7d10c641c1577c94b6"
+                        "checksum": "1e348a78eb185b2ecc20d982a821358b"
                     }
                 ]
             },
@@ -1603,7 +1603,7 @@
                     {
                         "type": "file",
                         "name": "Fizeau.ovl",
-                        "checksum": "ed8d9414536b9944a2f6be7c9ac47e51"
+                        "checksum": "cb046c144a4adc9b73aee03960d64e15"
                     },
                     {
                         "type": "file",
@@ -1636,12 +1636,12 @@
                                     {
                                         "type": "file",
                                         "name": "zh-Hans.json",
-                                        "checksum": "fcef97a0fd81d9c80f720085cfe4f483"
+                                        "checksum": "7bf392da7aaa0f021564cef80d592f27"
                                     },
                                     {
                                         "type": "file",
                                         "name": "zh-Hant.json",
-                                        "checksum": "a3f23ce8f47d45968e31556495972836"
+                                        "checksum": "f674c10ec1e102db54ede7837a6bcddf"
                                     }
                                 ]
                             }
@@ -1685,7 +1685,7 @@
                     {
                         "type": "file",
                         "name": "sys-patch-overlay.ovl",
-                        "checksum": "36083de8c43a925adee756ede3db9652"
+                        "checksum": "664832897363436508f0dd68d50c315b"
                     },
                     {
                         "type": "file",
