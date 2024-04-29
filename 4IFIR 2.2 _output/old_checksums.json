@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "7e52aed3a9d81e14f70221e64543b251"
+                                "checksum": "cc4f60bae7d60fcb0fd3a5575bdd519d"
                             },
                             {
                                 "type": "directory",
@@ -548,7 +548,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "3cff8fcee99b60c42dc64cb423f13cd7"
+                        "checksum": "1c956eb7e2b8af7d10c641c1577c94b6"
                     }
                 ]
             },
@@ -1264,7 +1264,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "c9bb9dfd6bf130369277dc20c9c2e490"
+                "checksum": "cdab20374da7aaf695bd652bea456108"
             },
             {
                 "type": "file",
@@ -1274,7 +1274,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "527ea216a33cb468c96c32ea9c619782"
+                "checksum": "eac4795c1992330d1d3573b948e3fd9f"
             }
         ]
     },
@@ -1519,6 +1519,11 @@
                         "type": "file",
                         "name": "config.ini",
                         "checksum": "55dc184e104a75da50a3c5cbc6b743c9"
+                    },
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
                     }
                 ]
             },
@@ -1593,7 +1598,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "8fdbd1fdc19bc979d302dd5315c6a29f"
+                        "checksum": "da9460f4093f9aef13d74617ab6a7258"
                     },
                     {
                         "type": "file",
@@ -1608,7 +1613,7 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "a01fb62239bbca56a0109fc7852126a5"
+                        "checksum": "949117e65fc02e72f75ee309451b0365"
                     },
                     {
                         "type": "directory",
@@ -1705,7 +1710,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "06ab5d1b57566e36fb43dfe377890b57"
+                                "checksum": "0c7a51a4394d0ae1e9cf1208b258989e"
                             },
                             {
                                 "type": "file",

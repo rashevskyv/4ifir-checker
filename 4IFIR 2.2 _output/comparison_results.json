@@ -1,11 +1,47 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "config/sys-clk/log.flag",
+            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "130a1690f8af9f705502ef9fb6ceb18d"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "cc4f60bae7d60fcb0fd3a5575bdd519d"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "1c956eb7e2b8af7d10c641c1577c94b6"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "cdab20374da7aaf695bd652bea456108"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "eac4795c1992330d1d3573b948e3fd9f"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "da9460f4093f9aef13d74617ab6a7258"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "949117e65fc02e72f75ee309451b0365"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "0c7a51a4394d0ae1e9cf1208b258989e"
         }
     ]
 }
