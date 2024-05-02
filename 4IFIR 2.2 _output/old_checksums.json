@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "b6590581a1e6853197d9122632f12e99"
+                                "checksum": "4432fb87752f2d7e4a7bace2954568e8"
                             },
                             {
                                 "type": "directory",
@@ -548,7 +548,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "1e348a78eb185b2ecc20d982a821358b"
+                        "checksum": "8eb007772a597f349c0d5fd042d29a0f"
                     }
                 ]
             },
@@ -1300,7 +1300,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "93ee210c8f5558b2737fe1cb8126185d"
+                "checksum": "b3c83908148fc8b8ad9b272e0b539957"
             },
             {
                 "type": "file",
@@ -1518,7 +1518,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "55dc184e104a75da50a3c5cbc6b743c9"
+                        "checksum": "b505390b5ea870915267a3a49e1f342f"
                     },
                     {
                         "type": "file",
@@ -1598,7 +1598,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "314274c9b46331221c1f804204f7a564"
+                        "checksum": "ea80c47c2911dd8df3cb563b8ec629bb"
                     },
                     {
                         "type": "file",

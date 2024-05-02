@@ -4,28 +4,28 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "4432fb87752f2d7e4a7bace2954568e8"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "1e348a78eb185b2ecc20d982a821358b"
+            "checksum": "8eb007772a597f349c0d5fd042d29a0f"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/Fizeau.ovl",
-            "checksum": "cb046c144a4adc9b73aee03960d64e15"
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "b3c83908148fc8b8ad9b272e0b539957"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/lang/Fizeau/zh-Hans.json",
-            "checksum": "7bf392da7aaa0f021564cef80d592f27"
+            "name": "config/sys-clk/config.ini",
+            "checksum": "b505390b5ea870915267a3a49e1f342f"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/lang/Fizeau/zh-Hant.json",
-            "checksum": "f674c10ec1e102db54ede7837a6bcddf"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/sys-patch-overlay.ovl",
-            "checksum": "664832897363436508f0dd68d50c315b"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "ea80c47c2911dd8df3cb563b8ec629bb"
         }
     ]
 }

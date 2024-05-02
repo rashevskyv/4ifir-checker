@@ -1,25 +1,21 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 30.04.2024 00:31<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 02.05.2024 20:30<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴kips
-│ └╴loader.kip (e348a78)
-│ └╴switch
-│ │ └╴.overlays
-│ │ │ └╴Fizeau.ovl (b046c14)
-│ │ │ └╴switch
-│ │ │ │ └╴.overlays
-│ │ │ │ │ └╴lang
-│ │ │ │ │ │ └╴Fizeau
-│ │ │ │ │ │ │ └╴zh-Hans.json (bf392da)
+└╴contents
+│ └╴00FF0000636C6BFF
+│ │ └╴exefs.nsp (432fb87)
+│ │ └╴atmosphere
+│ │ │ └╴kips
+│ │ │ │ └╴loader.kip (eb00777)
+│ │ │ │ └╴bootloader
+│ │ │ │ │ └╴hekate_ipl.ini (3c83908)
+│ │ │ │ │ └╴config
+│ │ │ │ │ │ └╴sys-clk
+│ │ │ │ │ │ │ └╴config.ini (505390b)
 │ │ │ │ │ │ │ └╴switch
 │ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ └╴lang
-│ │ │ │ │ │ │ │ │ │ └╴Fizeau
-│ │ │ │ │ │ │ │ │ │ │ └╴zh-Hant.json (674c10e)
-│ │ │ │ │ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ │ │ │ │ └╴sys-patch-overlay.ovl (6483289)
+│ │ │ │ │ │ │ │ │ └╴4IFIR.ovl (a80c47c)
 </pre>
 <hr>
 
