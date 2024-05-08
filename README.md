@@ -1,16 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 06.05.2024 08:55<hr>
+<h2>Archive Comparison Report for <b>4IFIR 2.2 </b></h2><b>Last archive modification date:</b> 08.05.2024 05:45<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-│ └╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (8d50091)
-│ │ └╴atmosphere
-│ │ │ └╴kips
-│ │ │ │ └╴loader.kip (0b1cb19)
-│ │ │ │ └╴switch
-│ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ └╴4IFIR.ovl (b33b594)
+<pre>switch
+└╴.overlays
+│ └╴ovlmenu.ovl (2776f74)
 </pre>
 <hr>
 
