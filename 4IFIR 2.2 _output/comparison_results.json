@@ -4,8 +4,18 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "c2776f74476420da5cb594eb753533a6"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "b59990dbe66a2ee00e941ced09596f8f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "36cf9621c284ccf6d90be8f1cd4ba3e1"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "cf1bcee54b28d29fa7139c7f75252b15"
         }
     ]
 }
