@@ -1,47 +1,5 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "atmosphere/exefs_patches/es_patches/897C2CF2777B3A8845640C096933ACE61DD12272.ips",
-            "checksum": "ea6c87ef53c7a32cecf584865b8bdd15"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/exefs_patches/nfim_ctest/184A3F5734F456D0718FA35D15D8410A9BDFC537.ips",
-            "checksum": "883d61b2ad0b8d632530c68b8bc7e520"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kip_patches/loader_patches/9FC5E242572E90CA89F54D459FA8E87D7CC0317C74A7780AC0AD0132E3FC3E00.ips",
-            "checksum": "891811c76c3236a4a7ee9c64ad0011e9"
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "9302f250c01b47331d4798e01ca5b6eb"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/patches.ini",
-            "checksum": "bf4d53108f82c4d5fdef6ae5a5ad9fc2"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "bc2831db378a157651306c2ce6a38b79"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/Lockpick_RCM.bin",
-            "checksum": "f25adc0460730de9858539da09ce9ae9"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "fac963a97eeb7148a916079d1a8450c7"
-        }
-    ]
+    "modified": []
 }
