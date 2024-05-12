@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "b59990dbe66a2ee00e941ced09596f8f"
+                                "checksum": "9302f250c01b47331d4798e01ca5b6eb"
                             },
                             {
                                 "type": "directory",
@@ -310,6 +310,11 @@
                             },
                             {
                                 "type": "file",
+                                "name": "897C2CF2777B3A8845640C096933ACE61DD12272.ips",
+                                "checksum": "ea6c87ef53c7a32cecf584865b8bdd15"
+                            },
+                            {
+                                "type": "file",
                                 "name": "98BB737D9780E9FE3117981A77A09FF6756DBC2E.ips",
                                 "checksum": "12b533b67713fa9024c87daee53fa52d"
                             },
@@ -379,6 +384,11 @@
                         "type": "directory",
                         "name": "nfim_ctest",
                         "children": [
+                            {
+                                "type": "file",
+                                "name": "184A3F5734F456D0718FA35D15D8410A9BDFC537.ips",
+                                "checksum": "883d61b2ad0b8d632530c68b8bc7e520"
+                            },
                             {
                                 "type": "file",
                                 "name": "38774C42DFCB8B9D7AA61550D6AF7D335472556C.ips",
@@ -1184,6 +1194,11 @@
                             },
                             {
                                 "type": "file",
+                                "name": "9FC5E242572E90CA89F54D459FA8E87D7CC0317C74A7780AC0AD0132E3FC3E00.ips",
+                                "checksum": "891811c76c3236a4a7ee9c64ad0011e9"
+                            },
+                            {
+                                "type": "file",
                                 "name": "a03d932ddbf3512dda9878ce24aa42c11383b66d055670949e4744533d477e80.ips",
                                 "checksum": "9035f7f49918925e6dacbf3436101aeb"
                             },
@@ -1310,7 +1325,7 @@
             {
                 "type": "file",
                 "name": "patches.ini",
-                "checksum": "d10fbacc5d2b911a87b07b37fa8240db"
+                "checksum": "bf4d53108f82c4d5fdef6ae5a5ad9fc2"
             },
             {
                 "type": "directory",
@@ -1319,12 +1334,12 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "2d1fd12e2ccf81549537c32f7812db07"
+                        "checksum": "bc2831db378a157651306c2ce6a38b79"
                     },
                     {
                         "type": "file",
                         "name": "Lockpick_RCM.bin",
-                        "checksum": "d970a1cbf27d4b5777b9355e21f68648"
+                        "checksum": "f25adc0460730de9858539da09ce9ae9"
                     },
                     {
                         "type": "file",
@@ -1598,7 +1613,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "cf1bcee54b28d29fa7139c7f75252b15"
+                        "checksum": "fac963a97eeb7148a916079d1a8450c7"
                     },
                     {
                         "type": "file",
