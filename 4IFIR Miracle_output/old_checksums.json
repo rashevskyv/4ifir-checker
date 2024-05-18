@@ -1284,7 +1284,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "459c604a966a0a8238206ec360888404"
+                "checksum": "502e34d2e29aa84528e3821f352a30c7"
             },
             {
                 "type": "file",
@@ -1334,7 +1334,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "5235f5f2c0882cf331253885aa6330b6"
+                        "checksum": "97a6bc1e5188410e11065ed39a963020"
                     },
                     {
                         "type": "file",
@@ -1432,22 +1432,22 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "9089575d13e63b8f1d6c1627780eec8b"
+                        "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "eb74646d153fe49973b8d2152a0d083c"
+                        "checksum": "f83ac6245a1004da90c0372645174046"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "801a986fbc4e3ed7f65d80136048ad4d"
+                        "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "55b7433d3e5dff704522b94a0ca6b6d3"
+                        "checksum": "493a993e8506b59f8a8340539cc9827d"
                     },
                     {
                         "type": "file",
@@ -1464,7 +1464,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "459c604a966a0a8238206ec360888404"
+                "checksum": "502e34d2e29aa84528e3821f352a30c7"
             }
         ]
     },
@@ -1584,7 +1584,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "459c604a966a0a8238206ec360888404"
+        "checksum": "502e34d2e29aa84528e3821f352a30c7"
     },
     {
         "type": "directory",
