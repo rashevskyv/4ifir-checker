@@ -1,46 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "0a72bd0efa80b6abe6c677d3100cc890"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "82e22506935651082de8832583e44825"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "7e4839909680709440126cefdaba2eed"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "cf7800f6e0cd36f80f877b48b4861a11"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "baba6cc67ed7cea4263af631231d569d"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "97a6bc1e5188410e11065ed39a963020"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "0476e357f10b09669778bfe4b3d578ad"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "305633b1db056788876a4528bc61b292"
-        }
-    ]
+    "modified": []
 }
