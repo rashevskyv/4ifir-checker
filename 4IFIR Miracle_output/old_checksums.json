@@ -556,6 +556,17 @@
                 "name": "kips",
                 "children": [
                     {
+                        "type": "directory",
+                        "name": "kip-json",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "Default.json",
+                                "checksum": "f9c645882622a4b30819529862247502"
+                            }
+                        ]
+                    },
+                    {
                         "type": "file",
                         "name": "loader.kip",
                         "checksum": "82e22506935651082de8832583e44825"

@@ -1,26 +1,17 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "dea8e2a34311792b515f59e3894d9155"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "69b92384f39abb0a69fd2034e84782d3"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "dea8e2a34311792b515f59e3894d9155"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "dea8e2a34311792b515f59e3894d9155"
+            "type": "directory",
+            "name": "atmosphere/kips/kip-json",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "Default.json",
+                    "checksum": "f9c645882622a4b30819529862247502"
+                }
+            ]
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }
