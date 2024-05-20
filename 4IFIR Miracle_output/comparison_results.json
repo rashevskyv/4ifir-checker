@@ -2,16 +2,44 @@
     "added": [
         {
             "type": "directory",
-            "name": "atmosphere/kips/kip-json",
+            "name": "config/4IFIR",
             "children": [
                 {
                     "type": "file",
-                    "name": "Default.json",
-                    "checksum": "f9c645882622a4b30819529862247502"
+                    "name": "config.ini",
+                    "checksum": "b505390b5ea870915267a3a49e1f342f"
+                },
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
                 }
             ]
         }
     ],
-    "removed": [],
-    "modified": []
+    "removed": [
+        {
+            "type": "directory",
+            "name": "config/sys-clk",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "b505390b5ea870915267a3a49e1f342f"
+                },
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/kip-json/Default.json",
+            "checksum": "d218a22865771168219945f7326d3774"
+        }
+    ]
 }

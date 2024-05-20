@@ -562,7 +562,7 @@
                             {
                                 "type": "file",
                                 "name": "Default.json",
-                                "checksum": "f9c645882622a4b30819529862247502"
+                                "checksum": "d218a22865771168219945f7326d3774"
                             }
                         ]
                     },
@@ -1485,6 +1485,22 @@
         "children": [
             {
                 "type": "directory",
+                "name": "4IFIR",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "b505390b5ea870915267a3a49e1f342f"
+                    },
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "aio-switch-updater",
                 "children": [
                     {
@@ -1534,22 +1550,6 @@
                         "type": "file",
                         "name": "config.ini",
                         "checksum": "30256c02a68b14fbe690ca140585f453"
-                    }
-                ]
-            },
-            {
-                "type": "directory",
-                "name": "sys-clk",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "config.ini",
-                        "checksum": "b505390b5ea870915267a3a49e1f342f"
-                    },
-                    {
-                        "type": "file",
-                        "name": "log.flag",
-                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
                     }
                 ]
             },
