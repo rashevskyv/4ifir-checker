@@ -4,18 +4,18 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "f46a2e86799338a8f0138b8769c29d38"
+            "name": "atmosphere/kips/kip-json/Default.json",
+            "checksum": "c8305e08eb7bc8a2ff40288dc33b48ac"
         },
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "3133eb4448af3741e74ee2616370ca02"
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "ea4e644aa916c1b1f46db97c0100fe25"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "758831625a230c527b098c83bbd18300"
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "5d3e93e82cb36587398c4cdd9feac461"
         }
     ]
 }

@@ -562,7 +562,7 @@
                             {
                                 "type": "file",
                                 "name": "Default.json",
-                                "checksum": "d218a22865771168219945f7326d3774"
+                                "checksum": "c8305e08eb7bc8a2ff40288dc33b48ac"
                             }
                         ]
                     },
@@ -1326,7 +1326,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "9d3a66ceb13461b401daccf8b0da1b1b"
+                "checksum": "ea4e644aa916c1b1f46db97c0100fe25"
             },
             {
                 "type": "file",
@@ -1736,7 +1736,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "305633b1db056788876a4528bc61b292"
+                                "checksum": "5d3e93e82cb36587398c4cdd9feac461"
                             },
                             {
                                 "type": "file",
