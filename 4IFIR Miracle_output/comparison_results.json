@@ -1,36 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "22ecdafc4468f522e7512708433cdf9e"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "189b2c0567c1372a422b610df410852e"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "d1706e8f8f963386337fe156169bf00f"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "e6fefdbd30efd6657e6fe3604887e10f"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "beb9fdd55ca37ed2a3e8b9d455c2d44a"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "625e0aa9fe0decac087babcd08010161"
-        }
-    ]
+    "modified": []
 }
