@@ -4,18 +4,33 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/kip-json/Default.json",
-            "checksum": "c8305e08eb7bc8a2ff40288dc33b48ac"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "22ecdafc4468f522e7512708433cdf9e"
         },
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "ea4e644aa916c1b1f46db97c0100fe25"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "189b2c0567c1372a422b610df410852e"
         },
         {
             "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "5d3e93e82cb36587398c4cdd9feac461"
+            "name": "atmosphere/package3",
+            "checksum": "d1706e8f8f963386337fe156169bf00f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "e6fefdbd30efd6657e6fe3604887e10f"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "beb9fdd55ca37ed2a3e8b9d455c2d44a"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "625e0aa9fe0decac087babcd08010161"
         }
     ]
 }

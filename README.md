@@ -1,16 +1,23 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 20.05.2024 23:33<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 23.05.2024 05:33<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴kips
-│ └╴kip-json
-│ │ └╴Default.json (8305e08)
-│ │ └╴bootloader
-│ │ │ └╴hekate_ipl.ini (a4e644a)
-│ │ │ └╴switch
-│ │ │ │ └╴.packages
-│ │ │ │ │ └╴4IFIR Wizard
-│ │ │ │ │ │ └╴files.zip (d3e93e8)
+└╴contents
+│ └╴00FF0000636C6BFF
+│ │ └╴exefs.nsp (2ecdafc)
+│ │ └╴atmosphere
+│ │ │ └╴kips
+│ │ │ │ └╴loader.kip (89b2c05)
+│ │ │ │ └╴atmosphere
+│ │ │ │ │ └╴package3 (1706e8f)
+│ │ │ │ │ └╴atmosphere
+│ │ │ │ │ │ └╴stratosphere.romfs (6fefdbd)
+│ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ └╴.overlays
+│ │ │ │ │ │ │ │ └╴4IFIR.ovl (eb9fdd5)
+│ │ │ │ │ │ │ │ └╴switch
+│ │ │ │ │ │ │ │ │ └╴.overlays
+│ │ │ │ │ │ │ │ │ │ └╴InfoNX-ovl.ovl (25e0aa9)
 </pre>
 <hr>
 

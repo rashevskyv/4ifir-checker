@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "f46a2e86799338a8f0138b8769c29d38"
+                                "checksum": "22ecdafc4468f522e7512708433cdf9e"
                             },
                             {
                                 "type": "directory",
@@ -569,7 +569,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "3133eb4448af3741e74ee2616370ca02"
+                        "checksum": "189b2c0567c1372a422b610df410852e"
                     }
                 ]
             },
@@ -1290,7 +1290,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "7e4839909680709440126cefdaba2eed"
+                "checksum": "d1706e8f8f963386337fe156169bf00f"
             },
             {
                 "type": "file",
@@ -1300,7 +1300,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "cf7800f6e0cd36f80f877b48b4861a11"
+                "checksum": "e6fefdbd30efd6657e6fe3604887e10f"
             }
         ]
     },
@@ -1624,7 +1624,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "758831625a230c527b098c83bbd18300"
+                        "checksum": "beb9fdd55ca37ed2a3e8b9d455c2d44a"
                     },
                     {
                         "type": "file",
@@ -1639,7 +1639,7 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "949117e65fc02e72f75ee309451b0365"
+                        "checksum": "625e0aa9fe0decac087babcd08010161"
                     },
                     {
                         "type": "directory",
