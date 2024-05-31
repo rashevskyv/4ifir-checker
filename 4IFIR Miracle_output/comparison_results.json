@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "492e095d375f579c7257a9e97a8396aa"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "5fce09109e92ddae16bc9afa4c9daac4"
         }
     ]
 }
