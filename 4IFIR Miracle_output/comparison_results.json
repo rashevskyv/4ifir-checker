@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "5fce09109e92ddae16bc9afa4c9daac4"
+            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
+            "checksum": "d34eb72d1b3493a74271f2020b91bbcd"
         }
     ]
 }
