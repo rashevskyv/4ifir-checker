@@ -1,9 +1,8 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 01.06.2024 15:18<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 02.06.2024 02:59<hr>
 
-<h3>Modified files</h3>
+<h3>Added files/folders</h3>
 <pre>switch
-└╴.overlays
-│ └╴ReverseNX-RT-ovl.ovl (34eb72d)
+└╴ClkrstQuery.nro (e88ae3d)
 </pre>
 <hr>
 

@@ -1780,6 +1780,11 @@
                 ]
             },
             {
+                "type": "file",
+                "name": "ClkrstQuery.nro",
+                "checksum": "4e88ae3d08f125d51aee372dd6d1c86f"
+            },
+            {
                 "type": "directory",
                 "name": "daybreak",
                 "children": [

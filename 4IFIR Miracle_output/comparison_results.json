@@ -1,11 +1,11 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
             "type": "file",
-            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
-            "checksum": "d34eb72d1b3493a74271f2020b91bbcd"
+            "name": "switch/ClkrstQuery.nro",
+            "checksum": "4e88ae3d08f125d51aee372dd6d1c86f"
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }
