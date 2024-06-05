@@ -1,11 +1,28 @@
 {
     "added": [
         {
-            "type": "file",
-            "name": "switch/ClkrstQuery.nro",
-            "checksum": "4e88ae3d08f125d51aee372dd6d1c86f"
+            "type": "directory",
+            "name": "config/tesla",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "a317f1e839793ea08a0dc8509ecfc90d"
+                }
+            ]
         }
     ],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "c8e3bc9d452e62d1269ec735942090b1"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "c52c51a3f9c8c95e677017a318c0c346"
+        }
+    ]
 }

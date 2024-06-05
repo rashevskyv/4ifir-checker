@@ -218,7 +218,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "96cf0e6c6769155c1459e439fa6714d5"
+                                "checksum": "c8e3bc9d452e62d1269ec735942090b1"
                             },
                             {
                                 "type": "directory",
@@ -516,7 +516,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "0bc0a3a35903842c077af91eace0c567"
+                "checksum": "c52c51a3f9c8c95e677017a318c0c346"
             },
             {
                 "type": "directory",
@@ -1561,6 +1561,17 @@
                         "type": "file",
                         "name": "config.ini",
                         "checksum": "aeff38ff371abd9d67468b5801b4b64c"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "tesla",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "a317f1e839793ea08a0dc8509ecfc90d"
                     }
                 ]
             },
