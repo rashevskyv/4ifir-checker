@@ -4,23 +4,33 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "7f961eb72334bbb017741582e328aa08"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "ac913a7fc9b7fab313ba503881d9250f"
+            "checksum": "613e99d8abb8aad3da4c07327d247ac4"
         },
         {
             "type": "file",
             "name": "atmosphere/hbl.nsp",
-            "checksum": "c31ab0a7c0561401c592b0ad72e302ff"
+            "checksum": "c5b8c7071cdf6b9ae107903c7aabc263"
         },
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "aa622f392e3f5eeeab61a01d38db1a84"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "adc9f01fe47592d3ac7efb935a07ad4e"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/sysdvr-overlay.ovl",
-            "checksum": "5ef337126b247089306c0ad2f239fd03"
+            "name": "switch/.overlays/Fizeau.ovl",
+            "checksum": "c437738221ea237a19e8298a9c7d8ed8"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "2d0f1148535e8e70e14c0e591c6391e3"
         }
     ]
 }
