@@ -516,7 +516,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "c5b8c7071cdf6b9ae107903c7aabc263"
+                "checksum": "6d94172dbd1fa2c4e8d03df168312edc"
             },
             {
                 "type": "directory",
@@ -1511,7 +1511,7 @@
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "7da366a310a141f37710fcc85cf30923"
+                        "checksum": "1577971175fbdc4f329fa90d4d0e6a0d"
                     },
                     {
                         "type": "file",
@@ -1635,7 +1635,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "a61eb4b903ac0c6b89af9ca5266ea5ee"
+                        "checksum": "2b6ea0fc28c8dd5709ab2a4a2fbe9475"
                     },
                     {
                         "type": "file",
@@ -1793,7 +1793,7 @@
             {
                 "type": "file",
                 "name": "ClkrstQuery.nro",
-                "checksum": "4e88ae3d08f125d51aee372dd6d1c86f"
+                "checksum": "548caa786f432ad102f723fbde9a31b6"
             },
             {
                 "type": "directory",

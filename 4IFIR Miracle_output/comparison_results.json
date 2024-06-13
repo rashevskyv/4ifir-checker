@@ -4,8 +4,23 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "6d94172dbd1fa2c4e8d03df168312edc"
+        },
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "1577971175fbdc4f329fa90d4d0e6a0d"
+        },
+        {
+            "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "a61eb4b903ac0c6b89af9ca5266ea5ee"
+            "checksum": "2b6ea0fc28c8dd5709ab2a4a2fbe9475"
+        },
+        {
+            "type": "file",
+            "name": "switch/ClkrstQuery.nro",
+            "checksum": "548caa786f432ad102f723fbde9a31b6"
         }
     ]
 }
