@@ -16,7 +16,23 @@
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><hr>
 
-<h2>Archive Comparison Report for <b>4ekate</b></h2><code>New archive was added.</code><hr>
+<h2>Archive Comparison Report for <b>4ekate</b></h2><b>Last archive modification date:</b> 13.06.2024 05:58<hr>
+
+<h3>Added files/folders</h3>
+<pre>atmosphere
+├╴reboot_payload.bin (a1a50d0)
+bootloader
+├╴payloads
+│ ├╴fusee.bin (235f5f2)
+├╴sys
+│ ├╴libsys_lp0.bso (44f57d8)
+│ ├╴libsys_minerva.bso (83ac624)
+│ ├╴module_sample.bso (14622f0)
+│ ├╴nyx.bin (9b92384)
+├╴update.bin (a1a50d0)
+payload.bin (a1a50d0)
+</pre>
+<hr>
 
 <h2>Archive Comparison Report for <b>Refresh</b></h2><hr>
 
