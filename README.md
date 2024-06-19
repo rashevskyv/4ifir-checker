@@ -1,16 +1,28 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 13.06.2024 05:58<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 19.06.2024 07:55<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴hbl.nsp (d94172d)
-└╴config
-│ └╴aio-switch-updater
-│ │ └╴custom_packs.json (5779711)
-│ │ └╴switch
-│ │ │ └╴.overlays
-│ │ │ │ └╴4IFIR.ovl (b6ea0fc)
-│ │ │ │ └╴switch
-│ │ │ │ │ └╴ClkrstQuery.nro (48caa78)
+└╴kips
+│ └╴kip-json
+│ │ └╴Default.json (058c678)
+│ │ └╴atmosphere
+│ │ │ └╴kips
+│ │ │ │ └╴loader.kip (3391d47)
+│ │ │ │ └╴atmosphere
+│ │ │ │ │ └╴package3 (f4f0d45)
+│ │ │ │ │ └╴atmosphere
+│ │ │ │ │ │ └╴reboot_payload.bin (0ea66d6)
+│ │ │ │ │ │ └╴atmosphere
+│ │ │ │ │ │ │ └╴stratosphere.romfs (163e9dd)
+│ │ │ │ │ │ │ └╴bootloader
+│ │ │ │ │ │ │ │ └╴payloads
+│ │ │ │ │ │ │ │ │ └╴fusee.bin (ed67377)
+│ │ │ │ │ │ │ │ │ └╴bootloader
+│ │ │ │ │ │ │ │ │ │ └╴sys
+│ │ │ │ │ │ │ │ │ │ │ └╴nyx.bin (257fd65)
+│ │ │ │ │ │ │ │ │ │ │ └╴bootloader
+│ │ │ │ │ │ │ │ │ │ │ │ └╴update.bin (0ea66d6)
+│ │ │ │ │ │ │ │ │ │ │ │ └╴payload.bin (0ea66d6)
 </pre>
 <hr>
 

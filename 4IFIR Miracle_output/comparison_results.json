@@ -4,23 +4,48 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/hbl.nsp",
-            "checksum": "6d94172dbd1fa2c4e8d03df168312edc"
+            "name": "atmosphere/kips/kip-json/Default.json",
+            "checksum": "5058c678a18b1a7a46ed389473d090c4"
         },
         {
             "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "1577971175fbdc4f329fa90d4d0e6a0d"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "e3391d4765462c6e4330eaaf90e54492"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "2b6ea0fc28c8dd5709ab2a4a2fbe9475"
+            "name": "atmosphere/package3",
+            "checksum": "0f4f0d45ab5eca8c8549612ede0e3cb2"
         },
         {
             "type": "file",
-            "name": "switch/ClkrstQuery.nro",
-            "checksum": "548caa786f432ad102f723fbde9a31b6"
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "30ea66d619914578249808165080da80"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "c163e9dd2f0bcfb148d00c25737dc952"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "5ed67377b94f26502872e66f45912fa4"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "a257fd6581f536510669917951acc9f6"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "30ea66d619914578249808165080da80"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "30ea66d619914578249808165080da80"
         }
     ]
 }

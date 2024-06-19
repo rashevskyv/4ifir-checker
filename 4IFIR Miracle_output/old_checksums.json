@@ -562,14 +562,14 @@
                             {
                                 "type": "file",
                                 "name": "Default.json",
-                                "checksum": "c8305e08eb7bc8a2ff40288dc33b48ac"
+                                "checksum": "5058c678a18b1a7a46ed389473d090c4"
                             }
                         ]
                     },
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "57d042028b606224285977f7b8ab6e8b"
+                        "checksum": "e3391d4765462c6e4330eaaf90e54492"
                     }
                 ]
             },
@@ -1290,17 +1290,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "d1706e8f8f963386337fe156169bf00f"
+                "checksum": "0f4f0d45ab5eca8c8549612ede0e3cb2"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "dea8e2a34311792b515f59e3894d9155"
+                "checksum": "30ea66d619914578249808165080da80"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "e6fefdbd30efd6657e6fe3604887e10f"
+                "checksum": "c163e9dd2f0bcfb148d00c25737dc952"
             }
         ]
     },
@@ -1345,7 +1345,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "97a6bc1e5188410e11065ed39a963020"
+                        "checksum": "5ed67377b94f26502872e66f45912fa4"
                     },
                     {
                         "type": "file",
@@ -1458,7 +1458,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "69b92384f39abb0a69fd2034e84782d3"
+                        "checksum": "a257fd6581f536510669917951acc9f6"
                     },
                     {
                         "type": "file",
@@ -1475,7 +1475,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "dea8e2a34311792b515f59e3894d9155"
+                "checksum": "30ea66d619914578249808165080da80"
             }
         ]
     },
@@ -1606,7 +1606,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "dea8e2a34311792b515f59e3894d9155"
+        "checksum": "30ea66d619914578249808165080da80"
     },
     {
         "type": "directory",
