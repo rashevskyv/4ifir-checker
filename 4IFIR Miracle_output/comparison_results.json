@@ -4,48 +4,43 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/kip-json/Default.json",
-            "checksum": "5058c678a18b1a7a46ed389473d090c4"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "6c4965a1449f9648726d577232469e6c"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "8f55a89a171625c7fa6c237840783de7"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "00f4ec6acd3e34dc1a80231e5306227b"
         },
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "e3391d4765462c6e4330eaaf90e54492"
+            "checksum": "1b9ff62440d72817f3921cfc4417869b"
         },
         {
             "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "0f4f0d45ab5eca8c8549612ede0e3cb2"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "fe9a2a757c21b0f50582f21e5dbfd9fe"
         },
         {
             "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "30ea66d619914578249808165080da80"
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "0d26fc2f33a81b32eead8d7602f1f873"
         },
         {
             "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "c163e9dd2f0bcfb148d00c25737dc952"
+            "name": "switch/.overlays/ovlSysmodules.ovl",
+            "checksum": "9d1d7cf4ecc4ea6e8e54cba9609e28b9"
         },
         {
             "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "5ed67377b94f26502872e66f45912fa4"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "a257fd6581f536510669917951acc9f6"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "30ea66d619914578249808165080da80"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "30ea66d619914578249808165080da80"
+            "name": "switch/ClkrstQuery.nro",
+            "checksum": "6aabc0ea2d7ca52385e7ccc1f19aaed0"
         }
     ]
 }
