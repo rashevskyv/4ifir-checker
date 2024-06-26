@@ -5,42 +5,12 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "6c4965a1449f9648726d577232469e6c"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "8f55a89a171625c7fa6c237840783de7"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/hbl.nsp",
-            "checksum": "00f4ec6acd3e34dc1a80231e5306227b"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "1b9ff62440d72817f3921cfc4417869b"
+            "checksum": "4a33443541d2e1bad040c31ef9f0b8f6"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "fe9a2a757c21b0f50582f21e5dbfd9fe"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "0d26fc2f33a81b32eead8d7602f1f873"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlSysmodules.ovl",
-            "checksum": "9d1d7cf4ecc4ea6e8e54cba9609e28b9"
-        },
-        {
-            "type": "file",
-            "name": "switch/ClkrstQuery.nro",
-            "checksum": "6aabc0ea2d7ca52385e7ccc1f19aaed0"
+            "checksum": "d10c886ba3c6626ef2b535820b96a4ae"
         }
     ]
 }

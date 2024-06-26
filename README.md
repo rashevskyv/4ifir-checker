@@ -1,30 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 24.06.2024 16:24<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 26.06.2024 06:57<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
 │ └╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (c4965a1)
-│ │ └╴atmosphere
-│ │ │ └╴contents
-│ │ │ │ └╴420000000007E51A
-│ │ │ │ │ └╴exefs.nsp (f55a89a)
-│ │ │ │ │ └╴atmosphere
-│ │ │ │ │ │ └╴hbl.nsp (0f4ec6a)
-│ │ │ │ │ │ └╴atmosphere
-│ │ │ │ │ │ │ └╴kips
-│ │ │ │ │ │ │ │ └╴loader.kip (b9ff624)
-│ │ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ │ └╴4IFIR.ovl (e9a2a75)
-│ │ │ │ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ │ │ │ └╴InfoNX-ovl.ovl (d26fc2f)
-│ │ │ │ │ │ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ │ │ │ │ │ └╴.overlays
-│ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴ovlSysmodules.ovl (d1d7cf4)
-│ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴switch
-│ │ │ │ │ │ │ │ │ │ │ │ │ │ │ └╴ClkrstQuery.nro (aabc0ea)
+│ │ └╴exefs.nsp (a334435)
+│ │ └╴switch
+│ │ │ └╴.overlays
+│ │ │ │ └╴4IFIR.ovl (10c886b)
 </pre>
 <hr>
 
