@@ -5,22 +5,12 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "0f68b6808e161dc85486b1ec8b72c940"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "8a971a56554e7a358297c9166845f17c"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "66c86f1fcbb73c55b1658a3d3d67b22f"
+            "checksum": "75c10ccab9909094b1088a4ea98133cf"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "4561d8b8af3ca035b632649578d33823"
+            "checksum": "fbeab89c6bd36a9c28d86aa047de023c"
         }
     ]
 }
