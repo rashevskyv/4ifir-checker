@@ -99,28 +99,29 @@ def save_comparison_results(results, output_file):
 
 
 def process_items(input_items):
-    def parse(value, folder):
-        for item in value:
-            path_parts = item["name"].split('/')
+    def parse(item, folder):
+        path_parts = item["name"].split('/')
+        current = folder
 
-            for part in path_parts[:-1]:
-                if part not in folder:
-                    folder[part] = {}
-                folder = folder[part]
+        for part in path_parts[:-1]:
+            if part not in current:
+                current[part] = {}
+            current = current[part]
 
-            folder_name = path_parts[-1]
-            if "children" in item:
-                folder[folder_name] = process_items(item["children"])
-            else:
-                file_name = folder_name
-                folder[file_name] = file_name + " (" + item["checksum"] + ")" if "checksum" in item else file_name
-
-        return folder
+        file_name = path_parts[-1]
+        if "children" in item:
+            current[file_name] = {}
+            for child in item["children"]:
+                parse(child, current[file_name])
+        else:
+            current[file_name] = file_name + " (" + item["checksum"] + ")" if "checksum" in item else file_name
 
     final_folder = {}
     if isinstance(input_items, dict):
         for key, value in input_items.items():
-            parse(value, final_folder)
+            for item in value:
+                parse(item, final_folder)
     else:
-        parse(input_items, final_folder)
+        for item in input_items:
+            parse(item, final_folder)
     return final_folder

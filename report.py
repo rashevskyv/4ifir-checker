@@ -32,55 +32,35 @@ def create_html_report(results, last_modified):
             # print(str(report_content))
     return report_content
 
-def render_tree(tree, level=1, last_child=False):
+def render_tree(tree, level=0, prefix=''):
     tree_str = ""
-    prefix = '  ' * (level - 1)
-
-    if level > 1:
-        prefix = '│ ' * (level - 2)
-        if last_child:
-            prefix += '└╴'
+    items = list(tree.items())
+    
+    for i, (key, value) in enumerate(items):
+        is_last = i == len(items) - 1
+        current_prefix = prefix
+        
+        if level > 0:
+            current_prefix += '└╴' if is_last else '├╴'
+        
+        if isinstance(value, dict):
+            tree_str += f"{current_prefix}{key}\n"
+            new_prefix = prefix
+            if level > 0:
+                new_prefix += '  ' if is_last else '│ '
+            tree_str += render_tree(value, level + 1, new_prefix)
         else:
-            prefix += '├╴'
-
-    items_list = list(tree.items())
-    should_truncate = len(items_list) > 15
-
-    for index, (key, value) in enumerate(items_list[:7] if should_truncate else items_list):
-        is_last_child = index == len(tree) - 1
-
-        if isinstance(value, str) and "(" in value and ")" in value:
-            file_name, checksum = value.split('(')
-            checksum_short = checksum[1:8]
-            
-            # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
-            if len(file_name) > 30:
-                file_name = file_name[:15] + "..." + file_name[-15:]
-            
-            tree_str += f"{prefix}{file_name}({checksum_short})\n"
-
-        elif isinstance(value, dict):
-            tree_str += f"{prefix}{key}\n"
-            tree_str += render_tree(value, level + 1, is_last_child)
-
-    if should_truncate:
-        tree_str += f"{prefix}...\n"
-        for index, (key, value) in enumerate(items_list[-7:]):
-            is_last_child = index == len(items_list[-7:]) - 1
-
-            if isinstance(value, str) and "(" in value and ")" in value:
+            if "(" in value and ")" in value:
                 file_name, checksum = value.split('(')
                 checksum_short = checksum[1:8]
                 
-                # Якщо назва файлу довша за 42 символи, тоді обрізаємо її
-                if len(file_name) > 42:
-                    file_name = file_name[:10] + "..." + file_name[-10:]
+                if len(file_name) > 30:
+                    file_name = file_name[:15] + "..." + file_name[-15:]
                 
-                tree_str += f"{prefix}{file_name}({checksum_short})\n"
-            elif isinstance(value, dict):
-                tree_str += f"{prefix}{key}\n"
-                tree_str += render_tree(value, level + 1, is_last_child)
-
+                tree_str += f"{current_prefix}{file_name}({checksum_short})\n"
+            else:
+                tree_str += f"{current_prefix}{value}\n"
+    
     return tree_str
 
 def split_html_content(content, max_length=4096, tag='<pre>', delimiter='-------------------------------'):
