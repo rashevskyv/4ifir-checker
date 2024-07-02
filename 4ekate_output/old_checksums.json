@@ -1,0 +1,66 @@
+[
+    {
+        "type": "directory",
+        "name": "atmosphere",
+        "children": [
+            {
+                "type": "file",
+                "name": "reboot_payload.bin",
+                "checksum": "6a1a50d09d94d48faddfe39ecbde4f4c"
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "name": "bootloader",
+        "children": [
+            {
+                "type": "directory",
+                "name": "payloads",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "fusee.bin",
+                        "checksum": "5235f5f2c0882cf331253885aa6330b6"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "sys",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "libsys_lp0.bso",
+                        "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
+                    },
+                    {
+                        "type": "file",
+                        "name": "libsys_minerva.bso",
+                        "checksum": "f83ac6245a1004da90c0372645174046"
+                    },
+                    {
+                        "type": "file",
+                        "name": "module_sample.bso",
+                        "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
+                    },
+                    {
+                        "type": "file",
+                        "name": "nyx.bin",
+                        "checksum": "69b92384f39abb0a69fd2034e84782d3"
+                    }
+                ]
+            },
+            {
+                "type": "file",
+                "name": "update.bin",
+                "checksum": "6a1a50d09d94d48faddfe39ecbde4f4c"
+            }
+        ]
+    },
+    {
+        "type": "file",
+        "name": "payload.bin",
+        "checksum": "6a1a50d09d94d48faddfe39ecbde4f4c"
+    }
+]

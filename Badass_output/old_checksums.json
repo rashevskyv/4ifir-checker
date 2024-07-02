@@ -1,0 +1,51 @@
+[
+    {
+        "type": "directory",
+        "name": "config",
+        "children": [
+            {
+                "type": "directory",
+                "name": "aio-switch-updater",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": ".aio-switch-updater",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "type": "file",
+                        "name": "custom_packs.json",
+                        "checksum": "1577971175fbdc4f329fa90d4d0e6a0d"
+                    },
+                    {
+                        "type": "file",
+                        "name": "hide_tabs.json",
+                        "checksum": "1e6f9c206da36a4cb1b49612311367e9"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "name": "switch",
+        "children": [
+            {
+                "type": "directory",
+                "name": "aio-switch-updater",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": ".aio-switch-updater.nro.star",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "type": "file",
+                        "name": "aio-switch-updater.nro",
+                        "checksum": "f26db342d208432d416236b7315ccae4"
+                    }
+                ]
+            }
+        ]
+    }
+]
