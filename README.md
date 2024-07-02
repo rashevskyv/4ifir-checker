@@ -3,8 +3,8 @@
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
-│ └╴420000000007E51A
-│ │ └╴exefs.nsp (ba3abde)
+  └╴420000000007E51A
+    └╴exefs.nsp (ba3abde)
 </pre>
 <hr>
 
@@ -14,16 +14,16 @@
 
 <h3>Added files/folders</h3>
 <pre>atmosphere
-├╴reboot_payload.bin (a1a50d0)
+└╴reboot_payload.bin (a1a50d0)
 bootloader
 ├╴payloads
-│ ├╴fusee.bin (235f5f2)
+│ └╴fusee.bin (235f5f2)
 ├╴sys
 │ ├╴libsys_lp0.bso (44f57d8)
 │ ├╴libsys_minerva.bso (83ac624)
 │ ├╴module_sample.bso (14622f0)
-│ ├╴nyx.bin (9b92384)
-├╴update.bin (a1a50d0)
+│ └╴nyx.bin (9b92384)
+└╴update.bin (a1a50d0)
 payload.bin (a1a50d0)
 </pre>
 <hr>
@@ -39,7 +39,7 @@ payload.bin (a1a50d0)
 <h3>Modified files</h3>
 <pre>config
 └╴aio-switch-updater
-│ └╴custom_packs.json (5779711)
+  └╴custom_packs.json (5779711)
 </pre>
 <hr>
 
