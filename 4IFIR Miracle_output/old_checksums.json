@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "75c10ccab9909094b1088a4ea98133cf"
+                                "checksum": "e4a57889abd6500f0d2de606d9d3e40c"
                             },
                             {
                                 "type": "directory",
@@ -137,7 +137,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "c0169b3b7893ccac4373a02b62e0afcc"
+                                "checksum": "b6572fcbbcc94cace9b7dbf574a27fcd"
                             },
                             {
                                 "type": "directory",
@@ -1522,6 +1522,17 @@
             },
             {
                 "type": "directory",
+                "name": "Fizeau",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "4167571789eb379513fc33aa269f6830"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "nx-hbmenu",
                 "children": [
                     {
@@ -1635,12 +1646,12 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "fbeab89c6bd36a9c28d86aa047de023c"
+                        "checksum": "aa97af4666b734098f9cf6c47698c058"
                     },
                     {
                         "type": "file",
                         "name": "Fizeau.ovl",
-                        "checksum": "c437738221ea237a19e8298a9c7d8ed8"
+                        "checksum": "0a8654a92c350f6e12df1d48824d03b0"
                     },
                     {
                         "type": "file",
@@ -1829,7 +1840,7 @@
                     {
                         "type": "file",
                         "name": "Fizeau.nro",
-                        "checksum": "8b90c7bdacf6ef08e0267d94243d759f"
+                        "checksum": "bc4356f5334156dd7648d05e327f59c4"
                     }
                 ]
             },

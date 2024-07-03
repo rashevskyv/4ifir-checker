@@ -1,11 +1,43 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "config/Fizeau",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "config.ini",
+                    "checksum": "4167571789eb379513fc33aa269f6830"
+                }
+            ]
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "fba3abdea8fc86a90443ab300215c611"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "e4a57889abd6500f0d2de606d9d3e40c"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0100000000000F12/exefs.nsp",
+            "checksum": "b6572fcbbcc94cace9b7dbf574a27fcd"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "aa97af4666b734098f9cf6c47698c058"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Fizeau.ovl",
+            "checksum": "0a8654a92c350f6e12df1d48824d03b0"
+        },
+        {
+            "type": "file",
+            "name": "switch/Fizeau/Fizeau.nro",
+            "checksum": "bc4356f5334156dd7648d05e327f59c4"
         }
     ]
 }
