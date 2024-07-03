@@ -1,23 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 03.07.2024 07:01<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 03.07.2024 07:07<hr>
 
-<h3>Added files/folders</h3>
-<pre>config
-└╴Fizeau
-  └╴config.ini (1675717)
-</pre>
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
-  ├╴00FF0000636C6BFF
-  │ └╴exefs.nsp (4a57889)
-  └╴0100000000000F12
-    └╴exefs.nsp (6572fcb)
-switch
-├╴.overlays
-│ ├╴4IFIR.ovl (a97af46)
-│ └╴Fizeau.ovl (a8654a9)
-└╴Fizeau
-  └╴Fizeau.nro (c4356f5)
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (0f3ebf9)
 </pre>
 <hr>
 
