@@ -1,10 +1,22 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 03.07.2024 23:54<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 04.07.2024 12:22<hr>
 
+<h3>Removed files/folders</h3>
+<pre>atmosphere
+└╴contents
+  └╴0100000000000F12
+    └╴flags
+      └╴boot2.flag (41d8cd9)
+</pre>
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
+  ├╴00FF0000636C6BFF
+  │ └╴exefs.nsp (a88774b)
   └╴420000000007E51A
-    └╴exefs.nsp (e82fefc)
+    └╴exefs.nsp (8978d2f)
+switch
+└╴.overlays
+  └╴4IFIR.ovl (c5e596b)
 </pre>
 <hr>
 
