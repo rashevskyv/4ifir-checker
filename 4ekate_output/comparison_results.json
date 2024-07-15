@@ -1,70 +1,31 @@
 {
-    "added": [
+    "added": [],
+    "removed": [],
+    "modified": [
         {
-            "type": "directory",
-            "name": "atmosphere",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "reboot_payload.bin",
-                    "checksum": "6a1a50d09d94d48faddfe39ecbde4f4c"
-                }
-            ]
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "9e1c51918e9088611c2d9719b240bdf7"
         },
         {
-            "type": "directory",
-            "name": "bootloader",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "payloads",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "fusee.bin",
-                            "checksum": "5235f5f2c0882cf331253885aa6330b6"
-                        }
-                    ]
-                },
-                {
-                    "type": "directory",
-                    "name": "sys",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "libsys_lp0.bso",
-                            "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
-                        },
-                        {
-                            "type": "file",
-                            "name": "libsys_minerva.bso",
-                            "checksum": "f83ac6245a1004da90c0372645174046"
-                        },
-                        {
-                            "type": "file",
-                            "name": "module_sample.bso",
-                            "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
-                        },
-                        {
-                            "type": "file",
-                            "name": "nyx.bin",
-                            "checksum": "69b92384f39abb0a69fd2034e84782d3"
-                        }
-                    ]
-                },
-                {
-                    "type": "file",
-                    "name": "update.bin",
-                    "checksum": "6a1a50d09d94d48faddfe39ecbde4f4c"
-                }
-            ]
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "cf26792666cde546faf926c15db7a910"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "bfbfeadbecea6f72b9a867c62f50a006"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "9e1c51918e9088611c2d9719b240bdf7"
         },
         {
             "type": "file",
             "name": "payload.bin",
-            "checksum": "6a1a50d09d94d48faddfe39ecbde4f4c"
+            "checksum": "9e1c51918e9088611c2d9719b240bdf7"
         }
-    ],
-    "removed": [],
-    "modified": []
+    ]
 }
