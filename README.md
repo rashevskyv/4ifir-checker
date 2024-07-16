@@ -1,10 +1,16 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 11:20<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 11:49<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
+├╴contents
+│ └╴420000000007E51A
+│   └╴exefs.nsp (cecab62)
 ├╴kips
-│ └╴loader.kip (31f239a)
-└╴package3 (ff31abc)
+│ └╴loader.kip (50a7b05)
+└╴package3 (a47cc13)
+bootloader
+└╴payloads
+  └╴TegraExplorer.bin (a8456b6)
 </pre>
 <hr>
 

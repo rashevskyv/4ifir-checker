@@ -4,13 +4,23 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "4cecab62c504aadccb86175e5f54913f"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "531f239a6c8c26019aac55bf61e0eaf0"
+            "checksum": "d50a7b05d627d5aa0acc0822770c1175"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "4ff31abc6921008d7da187ecf2611a9d"
+            "checksum": "fa47cc131b8e3668fe6d9c18815252ba"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/TegraExplorer.bin",
+            "checksum": "4a8456b68f44d040ba0def03b2de1b78"
         }
     ]
 }
