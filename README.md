@@ -1,8 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 10:40<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 11:20<hr>
 
 <h3>Modified files</h3>
-<pre>bootloader
-└╴hekate_ipl.ini (baeebdc)
+<pre>atmosphere
+├╴kips
+│ └╴loader.kip (31f239a)
+└╴package3 (ff31abc)
 </pre>
 <hr>
 

@@ -4,8 +4,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "cbaeebdcc2d4b3fc8e796c5940aae77f"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "531f239a6c8c26019aac55bf61e0eaf0"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "4ff31abc6921008d7da187ecf2611a9d"
         }
     ]
 }
