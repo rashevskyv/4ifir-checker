@@ -1,16 +1,11 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 11:49<hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 12:24<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-├╴contents
-│ └╴420000000007E51A
-│   └╴exefs.nsp (cecab62)
-├╴kips
-│ └╴loader.kip (50a7b05)
-└╴package3 (a47cc13)
-bootloader
-└╴payloads
-  └╴TegraExplorer.bin (a8456b6)
+<pre>bootloader
+└╴hekate_ipl.ini (76a81e7)
+config
+└╴4IFIR
+  └╴config.ini (337fd1d)
 </pre>
 <hr>
 

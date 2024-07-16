@@ -1582,7 +1582,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "cbaeebdcc2d4b3fc8e796c5940aae77f"
+                "checksum": "376a81e7345221f9b5ae5f3920cac535"
             },
             {
                 "type": "file",
@@ -1746,7 +1746,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "b505390b5ea870915267a3a49e1f342f"
+                        "checksum": "7337fd1d4a7e5e79fc137dd0010e8771"
                     },
                     {
                         "type": "file",
