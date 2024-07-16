@@ -1,4 +1,18 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><hr>
+<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 06:20<hr>
+
+<h3>Modified files</h3>
+<pre>atmosphere
+├╴contents
+│ └╴00FF0000636C6BFF
+│   └╴exefs.nsp (9bbfebb)
+├╴kips
+│ └╴loader.kip (fb830e0)
+└╴package3 (80607fc)
+switch
+└╴.overlays
+  └╴4IFIR.ovl (ab03fb9)
+</pre>
+<hr>
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><hr>
 
