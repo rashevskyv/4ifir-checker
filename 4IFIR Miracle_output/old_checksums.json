@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "75c10ccab9909094b1088a4ea98133cf"
+                                "checksum": "19bbfebb756088a0b8f8cfeeef573ccd"
                             },
                             {
                                 "type": "directory",
@@ -137,18 +137,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "c0169b3b7893ccac4373a02b62e0afcc"
-                            },
-                            {
-                                "type": "directory",
-                                "name": "flags",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "boot2.flag",
-                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                    }
-                                ]
+                                "checksum": "b6572fcbbcc94cace9b7dbf574a27fcd"
                             },
                             {
                                 "type": "file",
@@ -164,7 +153,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "f0e76563a76d98784a23f10255c23297"
+                                "checksum": "aab36dd5b176e33f308d164f8fa3fa5b"
                             },
                             {
                                 "type": "directory",
@@ -218,7 +207,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "fba3abdea8fc86a90443ab300215c611"
+                                "checksum": "4cecab62c504aadccb86175e5f54913f"
                             },
                             {
                                 "type": "directory",
@@ -244,6 +233,273 @@
                 "type": "directory",
                 "name": "exefs_patches",
                 "children": [
+                    {
+                        "type": "directory",
+                        "name": "bluetooth_patches",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "08601CC4C629F981F92CE3A53C2633FB46DDEA00.ips",
+                                "checksum": "26624ef4bb4c78b79a1a620de9ff7081"
+                            },
+                            {
+                                "type": "file",
+                                "name": "144B678306269E3D5245497373C09866D2BB8997.ips",
+                                "checksum": "ca3dc031193a9b6ef89272671541720d"
+                            },
+                            {
+                                "type": "file",
+                                "name": "1494B3B0E7AA4234ED20F6A5EEA60620522C68DD.ips",
+                                "checksum": "7b6afa886b3bd2681e2d31525c856c1a"
+                            },
+                            {
+                                "type": "file",
+                                "name": "1F66DEC82762261430EE292541FB42F5C4E10AA5.ips",
+                                "checksum": "ee7964bc8d76001f84b3f19f826ee5a2"
+                            },
+                            {
+                                "type": "file",
+                                "name": "2C0A323887EF342C448A72DDCC4CD737A298CD46.ips",
+                                "checksum": "78b6bb233336a4227a05fb984130dd55"
+                            },
+                            {
+                                "type": "file",
+                                "name": "2CAAD3898B7B2F01DF66480EDD919C6A26735EC9.ips",
+                                "checksum": "da70d85d057363e8be60f0588f592721"
+                            },
+                            {
+                                "type": "file",
+                                "name": "2FB16085E21E54B90E88ED2F98CCC850334E128E.ips",
+                                "checksum": "d27fb9e750af5ea320c0254949d7bda1"
+                            },
+                            {
+                                "type": "file",
+                                "name": "3714A43B8F9608D08E15067AB1D9CE8E68FE56BC.ips",
+                                "checksum": "a5e3383829fbbbb11bc963f15587bc14"
+                            },
+                            {
+                                "type": "file",
+                                "name": "4F57845D1DC166A46C42D5AF45164196DC7CD198.ips",
+                                "checksum": "ee7964bc8d76001f84b3f19f826ee5a2"
+                            },
+                            {
+                                "type": "file",
+                                "name": "63C4312A5D74B29DFC3DA25B6E3E4825575D23C9.ips",
+                                "checksum": "cbe89680c4f24339af0c66ff1e72cd35"
+                            },
+                            {
+                                "type": "file",
+                                "name": "6FCF8BF53C10AA346555D74EC602FE53BF3BD88E.ips",
+                                "checksum": "721ff09a13027e0c7d1a821c465c7eba"
+                            },
+                            {
+                                "type": "file",
+                                "name": "874B8CD62BF6715648382BBADB70790558FB3F35.ips",
+                                "checksum": "f9c5dbf62a9b8bac5bb3a062518ff0fb"
+                            },
+                            {
+                                "type": "file",
+                                "name": "9480B34033289645E7924E99F467CCB9B4632A5D.ips",
+                                "checksum": "0f7b717b8b8e03454749ec9db0ebf1b9"
+                            },
+                            {
+                                "type": "file",
+                                "name": "9E95C91568327AD850AC0C2246F1078DE72B28F9.ips",
+                                "checksum": "627b2048651fad059300f61f8a43058c"
+                            },
+                            {
+                                "type": "file",
+                                "name": "A3278455B3EC297F0CE6CD629183EC86376EE0DC.ips",
+                                "checksum": "576613aea340e59f5c17f9e37608e6d5"
+                            },
+                            {
+                                "type": "file",
+                                "name": "A5E6C2D20334CC787617A15BFB9F53F2DABA3E41.ips",
+                                "checksum": "e8665678e894dd2d04290a3cb178fc33"
+                            },
+                            {
+                                "type": "file",
+                                "name": "B58A6445D7C724D6285EB3922FE6BBAACDA33EB3.ips",
+                                "checksum": "5d46ed402306ab01b84e99fe05f5b4d3"
+                            },
+                            {
+                                "type": "file",
+                                "name": "BF43446888D1182FF37420B6762EB1136DE45947.ips",
+                                "checksum": "61db8899101af8801a90fadb94f43cc5"
+                            },
+                            {
+                                "type": "file",
+                                "name": "CCE16D29FE9BCB44AC40BB1703D586FE467496CE.ips",
+                                "checksum": "6768445462541c7ad688337744a340e8"
+                            },
+                            {
+                                "type": "file",
+                                "name": "CF0C34FC10F75EB2DAFB302FAA3E0C188621B2AD.ips",
+                                "checksum": "2a8155e49993c003df70b6f944d806a8"
+                            },
+                            {
+                                "type": "file",
+                                "name": "DBCA0074043CA7E74E9C58A84ACD7A3058968528.ips",
+                                "checksum": "7397e05bf8e8e07d9cdc0dddfb180efa"
+                            },
+                            {
+                                "type": "file",
+                                "name": "DE1AC63A4A0B77CCEA606CF15B62AA587EB9CACC.ips",
+                                "checksum": "15a9026c38019f609435d8b07e205ed2"
+                            },
+                            {
+                                "type": "file",
+                                "name": "E9A6DBF13FE4A6833606A834C7BA1B44F4DDD60F.ips",
+                                "checksum": "b58573fcbb00a7a30248bc11999a36ef"
+                            },
+                            {
+                                "type": "file",
+                                "name": "F013FF4FC88A8376A6F3C401485C0718E1B5E148.ips",
+                                "checksum": "60ab8c26302a382c4cda0c8ee186e4b0"
+                            },
+                            {
+                                "type": "file",
+                                "name": "F3DCA5480F0523699683C0D16B7C51C6394897AF.ips",
+                                "checksum": "e5d39fcb712f402ff2ac39969ca44c77"
+                            },
+                            {
+                                "type": "file",
+                                "name": "FEE47E024FC9C62838FF1A476DE243DCE673DA7E.ips",
+                                "checksum": "d210e78981863765309a13d98495f3e3"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "directory",
+                        "name": "btm_patches",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "0A2E87DB96AC17AC6260A878D215A20D9EDF0917.ips",
+                                "checksum": "5f0fd9929f24174550199f0642d53de8"
+                            },
+                            {
+                                "type": "file",
+                                "name": "18D29F36EFBD14C6187F1E337749326DBC6BB205.ips",
+                                "checksum": "fa337dd8d0babffad8b7f13d75601ad5"
+                            },
+                            {
+                                "type": "file",
+                                "name": "1D460F761919B94522A10B3EB98F4EC75FBDBC4F.ips",
+                                "checksum": "89da9f9e60bd3f7dba8e3df206121752"
+                            },
+                            {
+                                "type": "file",
+                                "name": "29B9122754BCEE48E4225933979F233939A49CF2.ips",
+                                "checksum": "ea5923695085e0729646449f5de6e3ec"
+                            },
+                            {
+                                "type": "file",
+                                "name": "344A9B35C77BF85392AFE04B38701D1EB0BD41CF.ips",
+                                "checksum": "100a00af4ad6c59a0e8eac1060e5348e"
+                            },
+                            {
+                                "type": "file",
+                                "name": "37B45CA18B0D5E1768119971677690857A185AAB.ips",
+                                "checksum": "26ecd7a971d526f41816c0d42277ec11"
+                            },
+                            {
+                                "type": "file",
+                                "name": "38FD02642C00EB3EDD3625728EA308C3B3CDF4B4.ips",
+                                "checksum": "ed610ecd891b7060c599fc8318b1c3f7"
+                            },
+                            {
+                                "type": "file",
+                                "name": "3B03D2FF7700627216F3562340991844C957F457.ips",
+                                "checksum": "8c3f230e6f6060bd9bb7c7f877d4d059"
+                            },
+                            {
+                                "type": "file",
+                                "name": "479F51DAD54016A7F68CFCB521F5D3E37B2855B2.ips",
+                                "checksum": "5a5696a78ebd258b01a9bc93bc0fdf64"
+                            },
+                            {
+                                "type": "file",
+                                "name": "4B92BF76660CCD6DE63528EFDE37147BA5997B09.ips",
+                                "checksum": "3f160754cad34f9b43a65fdb74c473a4"
+                            },
+                            {
+                                "type": "file",
+                                "name": "52E5D19BDDF49586901BA4CF869723BCA222AAEC.ips",
+                                "checksum": "e7dffd0c7b9d2dce6d593f13dfa4a2d4"
+                            },
+                            {
+                                "type": "file",
+                                "name": "5B1ED394A7DD3910E5B375F3C90B13505347AB0A.ips",
+                                "checksum": "3366dec69eaf99e5c2256571dd968374"
+                            },
+                            {
+                                "type": "file",
+                                "name": "5C60D97B9800074FE755847EE2380477A751BDAE.ips",
+                                "checksum": "51ad61d0aa152c69c4f7bcb44efcc0b9"
+                            },
+                            {
+                                "type": "file",
+                                "name": "65AFEE4DCE1AB795540D204AF5D20AAF83C68A82.ips",
+                                "checksum": "9f1660dc10a7944e8dfc49264f4af4fc"
+                            },
+                            {
+                                "type": "file",
+                                "name": "6DC55293131192B617564C62732CC2CF445BD248.ips",
+                                "checksum": "90281f284e2d76043247fa8bfb1f344c"
+                            },
+                            {
+                                "type": "file",
+                                "name": "702DADCB98BF9D965F570BCB6A6480C00AC536FB.ips",
+                                "checksum": "a96dbba9be84f50bf560348648446db0"
+                            },
+                            {
+                                "type": "file",
+                                "name": "A0542C24E727081A6A63208700C9CE2952B6914C.ips",
+                                "checksum": "73dbc43f588c996fc6cecf063e521852"
+                            },
+                            {
+                                "type": "file",
+                                "name": "A27AE05114E0A17160A8C74BE8472F8EE6ABB273.ips",
+                                "checksum": "ce2ab7f23b71e9ebfb71ddf24bbd2bcc"
+                            },
+                            {
+                                "type": "file",
+                                "name": "ADB4B59EFF92BC8D10F28F87FD9C13666213EE53.ips",
+                                "checksum": "d3d3bcffd78f75cbb141ca49cb48daff"
+                            },
+                            {
+                                "type": "file",
+                                "name": "B517E72EBBE1EB0223C3DF26E0017F727F9AD776.ips",
+                                "checksum": "e00b74b6c0274987fbb554d944da8a00"
+                            },
+                            {
+                                "type": "file",
+                                "name": "BEB8B07DA484E04B326001799DBE53D53D0B5D52.ips",
+                                "checksum": "3781ce754f5b5eed7cf8c081006ef8db"
+                            },
+                            {
+                                "type": "file",
+                                "name": "C35EF7937BD7C91FDC66F2E983D39388988364AF.ips",
+                                "checksum": "4c866c11739f6b8916a70961a8107c18"
+                            },
+                            {
+                                "type": "file",
+                                "name": "F5FC951E3AB69B6FBE6250B7B73D22B3F75EDE28.ips",
+                                "checksum": "a96dbba9be84f50bf560348648446db0"
+                            },
+                            {
+                                "type": "file",
+                                "name": "F9A63D3E811CAE0F06495124042CE7F951CE505B.ips",
+                                "checksum": "4553724f99e4807326ec78622746c543"
+                            },
+                            {
+                                "type": "file",
+                                "name": "FE1CFC6CE0B8F5A3C779ED67C9EF8C08DE959AE9.ips",
+                                "checksum": "7f7dfd4e5dd4438d34233451115bf6b8"
+                            }
+                        ]
+                    },
                     {
                         "type": "directory",
                         "name": "es_patches",
@@ -516,7 +772,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "00f4ec6acd3e34dc1a80231e5306227b"
+                "checksum": "1866a10c346f5a4ec134469ae81ea09e"
             },
             {
                 "type": "directory",
@@ -569,7 +825,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "1b9ff62440d72817f3921cfc4417869b"
+                        "checksum": "d50a7b05d627d5aa0acc0822770c1175"
                     }
                 ]
             },
@@ -1290,17 +1546,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "0f4f0d45ab5eca8c8549612ede0e3cb2"
+                "checksum": "fa47cc131b8e3668fe6d9c18815252ba"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "30ea66d619914578249808165080da80"
+                "checksum": "1dbe5e283c5170a99c9d08780d1c7042"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "c163e9dd2f0bcfb148d00c25737dc952"
+                "checksum": "be3bab9e5f058e5f190730a6b43a977d"
             }
         ]
     },
@@ -1326,7 +1582,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "66c86f1fcbb73c55b1658a3d3d67b22f"
+                "checksum": "376a81e7345221f9b5ae5f3920cac535"
             },
             {
                 "type": "file",
@@ -1345,7 +1601,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "5ed67377b94f26502872e66f45912fa4"
+                        "checksum": "4371f5ee86494a2f02acbdc189336407"
                     },
                     {
                         "type": "file",
@@ -1355,7 +1611,7 @@
                     {
                         "type": "file",
                         "name": "TegraExplorer.bin",
-                        "checksum": "130e88bb90adab772a2836412160cd13"
+                        "checksum": "4a8456b68f44d040ba0def03b2de1b78"
                     }
                 ]
             },
@@ -1458,7 +1714,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "a257fd6581f536510669917951acc9f6"
+                        "checksum": "bfbfeadbecea6f72b9a867c62f50a006"
                     },
                     {
                         "type": "file",
@@ -1475,7 +1731,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "30ea66d619914578249808165080da80"
+                "checksum": "1dbe5e283c5170a99c9d08780d1c7042"
             }
         ]
     },
@@ -1490,7 +1746,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "b505390b5ea870915267a3a49e1f342f"
+                        "checksum": "7337fd1d4a7e5e79fc137dd0010e8771"
                     },
                     {
                         "type": "file",
@@ -1517,6 +1773,17 @@
                         "type": "file",
                         "name": "hide_tabs.json",
                         "checksum": "1e6f9c206da36a4cb1b49612311367e9"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "Fizeau",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "4167571789eb379513fc33aa269f6830"
                     }
                 ]
             },
@@ -1606,7 +1873,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "30ea66d619914578249808165080da80"
+        "checksum": "1dbe5e283c5170a99c9d08780d1c7042"
     },
     {
         "type": "directory",
@@ -1635,12 +1902,12 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "fbeab89c6bd36a9c28d86aa047de023c"
+                        "checksum": "8ab03fb9f4bb11a8e12d26a7e10c7c8e"
                     },
                     {
                         "type": "file",
                         "name": "Fizeau.ovl",
-                        "checksum": "c437738221ea237a19e8298a9c7d8ed8"
+                        "checksum": "0a8654a92c350f6e12df1d48824d03b0"
                     },
                     {
                         "type": "file",
@@ -1650,7 +1917,7 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "0d26fc2f33a81b32eead8d7602f1f873"
+                        "checksum": "f1d1756f62de1137f1e3b563a5f17f29"
                     },
                     {
                         "type": "directory",
@@ -1722,7 +1989,7 @@
                     {
                         "type": "file",
                         "name": "sys-patch-overlay.ovl",
-                        "checksum": "664832897363436508f0dd68d50c315b"
+                        "checksum": "d8b49d344ee8c9144497d03e5c65ef55"
                     },
                     {
                         "type": "file",
@@ -1829,7 +2096,7 @@
                     {
                         "type": "file",
                         "name": "Fizeau.nro",
-                        "checksum": "8b90c7bdacf6ef08e0267d94243d759f"
+                        "checksum": "bc4356f5334156dd7648d05e327f59c4"
                     }
                 ]
             },
