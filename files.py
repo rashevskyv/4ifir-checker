@@ -27,11 +27,13 @@ def download_file(url, output_path):
         print(f'Error downloading archive. {e}')
         with open("serverresponse.txt", 'r') as server_response:
             if server_response.read() == '1':
-                asyncio.run(send_tg_message("""Нагадую, що в репозіторії чекера на гітхаб лежать версії зі зміненим джерелом оновлень. То ж коли і якщо в вас не працює аіо, або сервер Кулера лежить, використовуйте ті версії. Ще раз - нічого не змінено, окрім сервера оновлень. Версії відповідні версіям з пульса https://github.com/rashevskyv/4ifir-checker/tree/main/github
+                asyncio.run(send_tg_message("""<b>Server is down</b>                                            
+                                            
+Нагадую, що в репозіторії чекера на гітхаб лежать версії зі зміненим джерелом оновлень. То ж коли і якщо в вас не працює аіо, або сервер Кулера лежить, використовуйте ці версії. Ще раз - нічого не змінено, окрім сервера оновлень. Версії відповідні версіям з пульса https://github.com/rashevskyv/4ifir-checker/tree/main/github
 
-Reminder: versions with a changed update source are available in the checker repository on GitHub. So if AIO doesn't work for you or Cooler's server is down, use those versions. Once again - nothing has been changed except the update server. The versions correspond to those from Pulse https://github.com/rashevskyv/4ifir-checker/tree/main/github
+Reminder: versions with a changed update source are available in the checker repository on GitHub. So if AIO doesn't work for you or Cooler's server is down, use thise versions. Once again - nothing has been changed except the update server. The versions correspond to those from Pulse https://github.com/rashevskyv/4ifir-checker/tree/main/github
 
-Напоминаю, что в репозитории чекера на гитхаб лежат версии с измененным источником обновлений. Так что если у вас не работает аио, или сервер Кулера лежит, используйте те версии. Еще раз - ничего не изменено, кроме сервера обновлений. Версии соответствуют версиям с пульса https://github.com/rashevskyv/4ifir-checker/tree/main/github"""))
+Напоминаю, что в репозитории чекера на гитхаб лежат версии с измененным источником обновлений. Так что если у вас не работает аио, или сервер Кулера лежит, используйте эти версии. Еще раз - ничего не изменено, кроме сервера обновлений. Версии соответствуют версиям с пульса https://github.com/rashevskyv/4ifir-checker/tree/main/github"""))
                 with open("serverresponse.txt", 'w') as server_response:
                     server_response.write('0')
         sys.exit(0)

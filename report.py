@@ -198,6 +198,6 @@ async def send_to_tg(report_content, file, archivename):
 async def send_tg_message(message):
     bot = Bot(token=bot_token)
     print("Sending message to Telegram...")
-    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=message)
+    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=message, parse_mode=types.ParseMode.HTML)
     print("Message sent to Telegram.")
     await bot.close()
