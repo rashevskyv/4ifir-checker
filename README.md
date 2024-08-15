@@ -1,30 +1,8 @@
-<h2>Archive Comparison Report for <b>4IFIR Miracle</b></h2><b>Last archive modification date:</b> 16.07.2024 12:24<hr>
-
-<h3>Modified files</h3>
-<pre>bootloader
-└╴hekate_ipl.ini (76a81e7)
-config
-└╴4IFIR
-  └╴config.ini (337fd1d)
-</pre>
-<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><code>New archive was added.</code><hr>
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><hr>
 
-<h2>Archive Comparison Report for <b>4ekate</b></h2><b>Last archive modification date:</b> 16.07.2024 02:10<hr>
-
-<h3>Modified files</h3>
-<pre>atmosphere
-└╴reboot_payload.bin (e1c5191)
-bootloader
-├╴payloads
-│ └╴fusee.bin (f267926)
-├╴sys
-│ └╴nyx.bin (fbfeadb)
-└╴update.bin (e1c5191)
-payload.bin (e1c5191)
-</pre>
-<hr>
+<h2>Archive Comparison Report for <b>4ekate</b></h2><hr>
 
 <h2>Archive Comparison Report for <b>Refresh</b></h2><hr>
 
@@ -32,12 +10,12 @@ payload.bin (e1c5191)
 
 <h2>Archive Comparison Report for <b>ST9+ ECO (MGCL)</b></h2><hr>
 
-<h2>Archive Comparison Report for <b>Badass</b></h2><b>Last archive modification date:</b> 13.06.2024 05:58<hr>
+<h2>Archive Comparison Report for <b>Badass</b></h2><b>Last archive modification date:</b> 15.08.2024 21:06<hr>
 
 <h3>Modified files</h3>
 <pre>config
 └╴aio-switch-updater
-  └╴custom_packs.json (5779711)
+  └╴custom_packs.json (f87b7d2)
 </pre>
 <hr>
 
