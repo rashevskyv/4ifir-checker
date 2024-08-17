@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "cc93503240cd3589181f08814c756ff3"
+                                "checksum": "af81bbd95e65250b118ff288282bc863"
                             },
                             {
                                 "type": "directory",
@@ -1774,7 +1774,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "9a19c5fdf6e0ac6890d4fce6cd35c1eb"
+                        "checksum": "c37bc3b8d0058eef0b7bb9d65b813972"
                     },
                     {
                         "type": "file",
@@ -5429,7 +5429,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "d503cc437e78c403ffc00576dbcca340"
+                        "checksum": "706c5c959d4300bca024a47a0569ac28"
                     },
                     {
                         "type": "file",
