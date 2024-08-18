@@ -5,17 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "af81bbd95e65250b118ff288282bc863"
-        },
-        {
-            "type": "file",
-            "name": "config/4IFIR/config.ini",
-            "checksum": "c37bc3b8d0058eef0b7bb9d65b813972"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "706c5c959d4300bca024a47a0569ac28"
+            "checksum": "44f99660bb8128667046f529d8b2ce3b"
         }
     ]
 }
