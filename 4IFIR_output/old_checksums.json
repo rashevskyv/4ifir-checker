@@ -1633,6 +1633,11 @@
                     },
                     {
                         "type": "file",
+                        "name": "KipTool.bin",
+                        "checksum": "f6d839d0c08e172e209b265e4a058604"
+                    },
+                    {
+                        "type": "file",
                         "name": "Lockpick_RCM.bin",
                         "checksum": "f25adc0460730de9858539da09ce9ae9"
                     },

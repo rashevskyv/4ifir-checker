@@ -1,11 +1,11 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "44f99660bb8128667046f529d8b2ce3b"
+            "name": "bootloader/payloads/KipTool.bin",
+            "checksum": "f6d839d0c08e172e209b265e4a058604"
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }

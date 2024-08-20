@@ -1,10 +1,9 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 18.08.2024 21:23<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 20.08.2024 22:49<hr>
 
-<h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-  └╴00FF0000636C6BFF
-    └╴exefs.nsp (4f99660)
+<h3>Added files/folders</h3>
+<pre>bootloader
+└╴payloads
+  └╴KipTool.bin (6d839d0)
 </pre>
 <hr>
 
