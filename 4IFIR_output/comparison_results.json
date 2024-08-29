@@ -1,11 +1,41 @@
 {
-    "added": [
+    "added": [],
+    "removed": [],
+    "modified": [
         {
             "type": "file",
-            "name": "bootloader/payloads/KipTool.bin",
-            "checksum": "f6d839d0c08e172e209b265e4a058604"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "687e2eea7479d30c1b603b9dc0ab1b93"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "b64486d6132f55ec8525e4c4e1b444b9"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "dea0dc4d11afe15f45c2c972cce7452f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "57b5c2c7ce62c29bd022ef4c9703937f"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "a5bdc01cc66e15fe08aa19902c016825"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "169bba8f7f662c50bffc69aa08712133"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "43eb5dbe2d566ecb85dc668ef14cba0b"
         }
-    ],
-    "removed": [],
-    "modified": []
+    ]
 }

@@ -1,9 +1,21 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 20.08.2024 22:49<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 29.08.2024 02:46<hr>
 
-<h3>Added files/folders</h3>
-<pre>bootloader
-└╴payloads
-  └╴KipTool.bin (6d839d0)
+<h3>Modified files</h3>
+<pre>atmosphere
+├╴contents
+│ └╴00FF0000636C6BFF
+│   └╴exefs.nsp (87e2eea)
+├╴kips
+│ └╴loader.kip (64486d6)
+├╴package3 (ea0dc4d)
+└╴stratosphere.romfs (7b5c2c7)
+config
+└╴4IFIR
+  └╴config.ini (5bdc01c)
+switch
+└╴.overlays
+  ├╴4IFIR.ovl (69bba8f)
+  └╴Status-Monitor-Overlay.ovl (3eb5dbe)
 </pre>
 <hr>
 

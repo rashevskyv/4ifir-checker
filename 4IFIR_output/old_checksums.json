@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "44f99660bb8128667046f529d8b2ce3b"
+                                "checksum": "687e2eea7479d30c1b603b9dc0ab1b93"
                             },
                             {
                                 "type": "directory",
@@ -853,7 +853,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "93c00f050b2d5fc079b6149723f990ad"
+                        "checksum": "b64486d6132f55ec8525e4c4e1b444b9"
                     }
                 ]
             },
@@ -1574,7 +1574,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "25f609c3499f3355d9b503624731e87d"
+                "checksum": "dea0dc4d11afe15f45c2c972cce7452f"
             },
             {
                 "type": "file",
@@ -1584,7 +1584,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "135ddb705a24fe7adad3d1bb4e74f67f"
+                "checksum": "57b5c2c7ce62c29bd022ef4c9703937f"
             }
         ]
     },
@@ -1779,7 +1779,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "c37bc3b8d0058eef0b7bb9d65b813972"
+                        "checksum": "a5bdc01cc66e15fe08aa19902c016825"
                     },
                     {
                         "type": "file",
@@ -5434,7 +5434,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "706c5c959d4300bca024a47a0569ac28"
+                        "checksum": "169bba8f7f662c50bffc69aa08712133"
                     },
                     {
                         "type": "file",
@@ -5479,7 +5479,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "7667da059b1477c47968702a95526474"
+                        "checksum": "43eb5dbe2d566ecb85dc668ef14cba0b"
                     },
                     {
                         "type": "file",
