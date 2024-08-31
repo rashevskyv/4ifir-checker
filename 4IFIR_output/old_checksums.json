@@ -853,14 +853,14 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "b64486d6132f55ec8525e4c4e1b444b9"
+                        "checksum": "9b2ac52ae27e8a05bc909b2daba8b122"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "dea0dc4d11afe15f45c2c972cce7452f"
+                "checksum": "1ad2b48255b7cd124c6c69a028e84225"
             },
             {
                 "type": "file",
