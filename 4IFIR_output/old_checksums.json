@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "687e2eea7479d30c1b603b9dc0ab1b93"
+                                "checksum": "478918239a539ed7ed0ff701355136ee"
                             },
                             {
                                 "type": "directory",
@@ -853,14 +853,14 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "9b2ac52ae27e8a05bc909b2daba8b122"
+                        "checksum": "b8c578ef220bcf14b12b623f9fcb8767"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "1ad2b48255b7cd124c6c69a028e84225"
+                "checksum": "a65375d61be222fe8bd76976f1747418"
             },
             {
                 "type": "file",
