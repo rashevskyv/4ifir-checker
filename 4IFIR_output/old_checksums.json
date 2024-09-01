@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "57efe48303bb0db740869b0aa4153173"
+                                "checksum": "ec36ed1335f4af13303598bb79db540e"
                             },
                             {
                                 "type": "directory",
@@ -853,7 +853,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "b8c578ef220bcf14b12b623f9fcb8767"
+                        "checksum": "d96bd011a9b97a34aa0a75ec5742092d"
                     }
                 ]
             },
