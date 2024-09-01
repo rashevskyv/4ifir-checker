@@ -5,17 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "478918239a539ed7ed0ff701355136ee"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "b8c578ef220bcf14b12b623f9fcb8767"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "a65375d61be222fe8bd76976f1747418"
+            "checksum": "57efe48303bb0db740869b0aa4153173"
         }
     ]
 }
