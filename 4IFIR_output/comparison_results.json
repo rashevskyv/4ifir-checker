@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
-            "checksum": "334c8561a56dbdf6aa727ca9b3c83620"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "ead4e5f3f4662bea1497667a733a9c1e"
         }
     ]
 }

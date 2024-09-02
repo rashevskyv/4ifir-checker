@@ -1,9 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 02.09.2024 10:57<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 02.09.2024 11:03<hr>
 
 <h3>Modified files</h3>
-<pre>switch
-└╴.overlays
-  └╴ReverseNX-RT-ovl.ovl (34c8561)
+<pre>atmosphere
+└╴contents
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (ad4e5f3)
 </pre>
 <hr>
 
