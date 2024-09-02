@@ -4,13 +4,63 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "ec36ed1335f4af13303598bb79db540e"
+            "name": "bootloader/sys/emummc.kipm",
+            "checksum": "3f2155d6735458f06e4352c02c07ac98"
         },
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "d96bd011a9b97a34aa0a75ec5742092d"
+            "name": "bootloader/sys/l4t/bpmpfw.bin",
+            "checksum": "5c05feb3f3349dab1c9b23ce5bd22c11"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/l4t/bpmpfw_b01.bin",
+            "checksum": "f7b6a82bfabcdbe3b7fcad1894f009dc"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/l4t/mtc_tbl_b01.bin",
+            "checksum": "ad9fe0da0789eecab7fc25cff2936ab8"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/l4t/sc7entry.bin",
+            "checksum": "f29d4c5330e4b10a4d5047ac0f08dc86"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/l4t/sc7exit.bin",
+            "checksum": "e1696c2f7533ae3188ca898d30ba05f0"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/l4t/sc7exit_b01.bin",
+            "checksum": "b6defb609354ea94dbc451c5aebfdc6d"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "4060602e4a3ee6b5ea5a619035e80c7e"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "3c3df52b35aad35e9c8167afc3d00599"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "68ad2a5ec9fe270f110e49ba08e3ad7f"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/res.pak",
+            "checksum": "7c193e52c2ad521dc19dfab8609c273b"
         }
     ]
 }

@@ -972,7 +972,7 @@
                     {
                         "type": "file",
                         "name": "emummc.kipm",
-                        "checksum": "65bc50fb0ea25d898140151562104ff7"
+                        "checksum": "3f2155d6735458f06e4352c02c07ac98"
                     },
                     {
                         "type": "directory",
@@ -981,59 +981,59 @@
                             {
                                 "type": "file",
                                 "name": "bpmpfw.bin",
-                                "checksum": "ef84082c7992b1c16c90ae4765245ee8"
+                                "checksum": "5c05feb3f3349dab1c9b23ce5bd22c11"
                             },
                             {
                                 "type": "file",
                                 "name": "bpmpfw_b01.bin",
-                                "checksum": "7ffe16e78cfc97238ab0cc01c8c9aa7b"
+                                "checksum": "f7b6a82bfabcdbe3b7fcad1894f009dc"
                             },
                             {
                                 "type": "file",
                                 "name": "mtc_tbl_b01.bin",
-                                "checksum": "1f806ad24c3120bd80a1b838ba575b84"
+                                "checksum": "ad9fe0da0789eecab7fc25cff2936ab8"
                             },
                             {
                                 "type": "file",
                                 "name": "sc7entry.bin",
-                                "checksum": "16ff9395e0440934d5a794fa13984fb8"
+                                "checksum": "f29d4c5330e4b10a4d5047ac0f08dc86"
                             },
                             {
                                 "type": "file",
                                 "name": "sc7exit.bin",
-                                "checksum": "2ed4c02aa25be0e45098e6de7e1d6718"
+                                "checksum": "e1696c2f7533ae3188ca898d30ba05f0"
                             },
                             {
                                 "type": "file",
                                 "name": "sc7exit_b01.bin",
-                                "checksum": "ad1a55dacdd36bfedb54657c16c5592c"
+                                "checksum": "b6defb609354ea94dbc451c5aebfdc6d"
                             }
                         ]
                     },
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
+                        "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "f83ac6245a1004da90c0372645174046"
+                        "checksum": "4060602e4a3ee6b5ea5a619035e80c7e"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
+                        "checksum": "3c3df52b35aad35e9c8167afc3d00599"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "bfbfeadbecea6f72b9a867c62f50a006"
+                        "checksum": "68ad2a5ec9fe270f110e49ba08e3ad7f"
                     },
                     {
                         "type": "file",
                         "name": "res.pak",
-                        "checksum": "51f8b1ce7b749b49c0944255dd25af23"
+                        "checksum": "7c193e52c2ad521dc19dfab8609c273b"
                     },
                     {
                         "type": "file",
