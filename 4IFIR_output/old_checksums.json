@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "ceb7739bce030e79185ddc24272712d1"
+                                "checksum": "660db9a3903c1790306525eeff3c417b"
                             },
                             {
                                 "type": "directory",
@@ -845,22 +845,27 @@
                         "children": [
                             {
                                 "type": "file",
-                                "name": "default.json",
-                                "checksum": "a70da7fd6b7a184fe35dfa84eb8f0e64"
+                                "name": "Default.json",
+                                "checksum": "6ccdf5bf546327948ca5067e3f5eecb9"
+                            },
+                            {
+                                "type": "file",
+                                "name": "Eclipse.json",
+                                "checksum": "98c2f403bb400e46606caaf8a8cffa27"
                             }
                         ]
                     },
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "d96bd011a9b97a34aa0a75ec5742092d"
+                        "checksum": "d10d946075ad578a500aebbec30e614e"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "a65375d61be222fe8bd76976f1747418"
+                "checksum": "cf331977733cd732dd8926c6a4fbca57"
             },
             {
                 "type": "file",
@@ -4766,12 +4771,12 @@
                     {
                         "type": "file",
                         "name": "ReverseNX-RT-ovl.ovl",
-                        "checksum": "334c8561a56dbdf6aa727ca9b3c83620"
+                        "checksum": "e95b1d56c4c437c51eb76bfaa4c37737"
                     },
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "43eb5dbe2d566ecb85dc668ef14cba0b"
+                        "checksum": "e5cd2ccd38580b1446d7b3a59a97464b"
                     },
                     {
                         "type": "file",
