@@ -1,48 +1,93 @@
 {
     "added": [
         {
-            "type": "file",
-            "name": "atmosphere/kips/kip-json/Default.json",
-            "checksum": "6ccdf5bf546327948ca5067e3f5eecb9"
+            "type": "directory",
+            "name": "atmosphere/atmosphere",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "contents",
+                    "children": [
+                        {
+                            "type": "directory",
+                            "name": "00FF0000636C6BFF",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "exefs.nsp",
+                                    "checksum": "e944ac5530569fa1714f1ab35114fc95"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "flags",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "boot2.flag",
+                                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "type": "file",
-            "name": "atmosphere/kips/kip-json/Eclipse.json",
-            "checksum": "98c2f403bb400e46606caaf8a8cffa27"
+            "type": "directory",
+            "name": "atmosphere/switch",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": ".overlays",
+                    "children": [
+                        {
+                            "type": "file",
+                            "name": "4IFIR.ovl",
+                            "checksum": "37eba522ead5d73eb08e2bc38ad0d259"
+                        }
+                    ]
+                }
+            ]
         }
     ],
-    "removed": [
-        {
-            "type": "file",
-            "name": "atmosphere/kips/kip-json/default.json",
-            "checksum": "a70da7fd6b7a184fe35dfa84eb8f0e64"
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "660db9a3903c1790306525eeff3c417b"
+            "checksum": "4844a8e485f791981cbbc3dc28373a62"
         },
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "d10d946075ad578a500aebbec30e614e"
+            "checksum": "85da4d9bbf2249379cf950d0ea54d94b"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "cf331977733cd732dd8926c6a4fbca57"
+            "checksum": "e853e593486d45f581ee993e4282a87b"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
-            "checksum": "e95b1d56c4c437c51eb76bfaa4c37737"
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "bb180e6ae38bedbabae1d47705c06675"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "e5cd2ccd38580b1446d7b3a59a97464b"
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "bb180e6ae38bedbabae1d47705c06675"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "bb180e6ae38bedbabae1d47705c06675"
         }
     ]
 }
