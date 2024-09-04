@@ -1,9 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 04.09.2024 16:18<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 04.09.2024 16:58<hr>
 
 <h3>Modified files</h3>
-<pre>bootloader
-└╴payloads
-  └╴KipTool.bin (3d196de)
+<pre>atmosphere
+└╴kips
+  └╴kip-json
+    └╴Eclipse.json (52a3d97)
 </pre>
 <hr>
 

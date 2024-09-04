@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/payloads/KipTool.bin",
-            "checksum": "b3d196de45c56f4164ff1a542dc4dc5c"
+            "name": "atmosphere/kips/kip-json/Eclipse.json",
+            "checksum": "552a3d97c4010153f43198f76e7f8023"
         }
     ]
 }
