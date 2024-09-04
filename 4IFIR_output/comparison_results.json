@@ -1,93 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere/atmosphere",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": "contents",
-                    "children": [
-                        {
-                            "type": "directory",
-                            "name": "00FF0000636C6BFF",
-                            "children": [
-                                {
-                                    "type": "file",
-                                    "name": "exefs.nsp",
-                                    "checksum": "e944ac5530569fa1714f1ab35114fc95"
-                                },
-                                {
-                                    "type": "directory",
-                                    "name": "flags",
-                                    "children": [
-                                        {
-                                            "type": "file",
-                                            "name": "boot2.flag",
-                                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "atmosphere/switch",
-            "children": [
-                {
-                    "type": "directory",
-                    "name": ".overlays",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "4IFIR.ovl",
-                            "checksum": "37eba522ead5d73eb08e2bc38ad0d259"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "4844a8e485f791981cbbc3dc28373a62"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "85da4d9bbf2249379cf950d0ea54d94b"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "e853e593486d45f581ee993e4282a87b"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "bb180e6ae38bedbabae1d47705c06675"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "bb180e6ae38bedbabae1d47705c06675"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "bb180e6ae38bedbabae1d47705c06675"
+            "name": "bootloader/payloads/KipTool.bin",
+            "checksum": "b3d196de45c56f4164ff1a542dc4dc5c"
         }
     ]
 }
