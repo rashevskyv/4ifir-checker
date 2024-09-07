@@ -1,19 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 07.09.2024 03:14<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 07.09.2024 03:55<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-├╴contents
-│ └╴00FF0000636C6BFF
-│   └╴exefs.nsp (3cbe7f2)
-└╴kips
-  ├╴kip-json
-  │ └╴Eclipse.json (21bea29)
-  └╴loader.kip (79e613a)
-switch
-└╴.overlays
-  ├╴4IFIR.ovl (a44bbae)
-  ├╴QuickNTP.ovl (2002a25)
-  └╴ReverseNX-RT-ovl.ovl (358a32a)
+└╴contents
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (c5e2a03)
 </pre>
 <hr>
 

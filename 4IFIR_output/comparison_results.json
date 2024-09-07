@@ -5,32 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "43cbe7f2fa7ca7688c66f5a1e0f80899"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/kip-json/Eclipse.json",
-            "checksum": "921bea29de7c322ed7e0d7c94d961d75"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "779e613ab252bc66f73d1102eb27627d"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "fa44bbaeb1ca2dd08839f38945f352e6"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/QuickNTP.ovl",
-            "checksum": "12002a257e1f611c74b88eec23f9f25f"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
-            "checksum": "4358a32a05f12bb1cc250576cae725c0"
+            "checksum": "3c5e2a03ee09ee94887214f3d26f89e5"
         }
     ]
 }
