@@ -4,8 +4,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/kip-json/Eclipse.json",
-            "checksum": "a452093e29b8ab50b159570322e9bde0"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "0ab50256ff62a8603131d1da6ae64041"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "89bf770f3cd387308ad4bb748b3c3200"
         }
     ]
 }
