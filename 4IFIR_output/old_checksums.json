@@ -5,40 +5,6 @@
         "children": [
             {
                 "type": "directory",
-                "name": "atmosphere",
-                "children": [
-                    {
-                        "type": "directory",
-                        "name": "contents",
-                        "children": [
-                            {
-                                "type": "directory",
-                                "name": "00FF0000636C6BFF",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "exefs.nsp",
-                                        "checksum": "e944ac5530569fa1714f1ab35114fc95"
-                                    },
-                                    {
-                                        "type": "directory",
-                                        "name": "flags",
-                                        "children": [
-                                            {
-                                                "type": "file",
-                                                "name": "boot2.flag",
-                                                "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "directory",
                 "name": "config",
                 "children": [
                     {
@@ -117,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "0ab50256ff62a8603131d1da6ae64041"
+                                "checksum": "e9871bbf6b65797d75490363f9229383"
                             },
                             {
                                 "type": "directory",
@@ -147,17 +113,6 @@
                                 "checksum": "acbd9dee1eb6c886ed11e45bf1b0098f"
                             },
                             {
-                                "type": "directory",
-                                "name": "flags",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "boot2.flag",
-                                        "checksum": "8cf8463b34caa8ac871a52d5dd7ad1ef"
-                                    }
-                                ]
-                            },
-                            {
                                 "type": "file",
                                 "name": "toolbox.json",
                                 "checksum": "c3e97416e007ea1a2329dce80d4f11e2"
@@ -172,17 +127,6 @@
                                 "type": "file",
                                 "name": "exefs.nsp",
                                 "checksum": "b9f3746b1ff3e9097d25b53da1837cb6"
-                            },
-                            {
-                                "type": "directory",
-                                "name": "flags",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "boot2.flag",
-                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                    }
-                                ]
                             },
                             {
                                 "type": "file",
@@ -215,7 +159,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "aab36dd5b176e33f308d164f8fa3fa5b"
+                                "checksum": "24a89ac73b3eb8c0c4a19a978d770fe1"
                             },
                             {
                                 "type": "directory",
@@ -269,7 +213,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "61143a36cd6784b2332c2964a863bbd3"
+                                "checksum": "b18444ef862d75a690dc939792436326"
                             },
                             {
                                 "type": "directory",
@@ -880,36 +824,36 @@
                             {
                                 "type": "file",
                                 "name": "Default.json",
-                                "checksum": "6ccdf5bf546327948ca5067e3f5eecb9"
+                                "checksum": "1ef8559a6752f41cb9c5108cf4922d02"
                             },
                             {
                                 "type": "file",
                                 "name": "Eclipse.json",
-                                "checksum": "a452093e29b8ab50b159570322e9bde0"
+                                "checksum": "c8489c625a8b5203fdcc6f059f585808"
                             }
                         ]
                     },
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "779e613ab252bc66f73d1102eb27627d"
+                        "checksum": "1b640293bf69735d635056af75bf9209"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "e853e593486d45f581ee993e4282a87b"
+                "checksum": "ae300c7d2c306e9738a4638105d7c93b"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "bb180e6ae38bedbabae1d47705c06675"
+                "checksum": "4171b4a66e9b1b86f120f0e4645ca2ef"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "57b5c2c7ce62c29bd022ef4c9703937f"
+                "checksum": "4be0d30b656d5b009308de851a80f612"
             },
             {
                 "type": "directory",
@@ -952,7 +896,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "376a81e7345221f9b5ae5f3920cac535"
+                "checksum": "8177a1e1f0b28fc2b65cd19345187c17"
             },
             {
                 "type": "file",
@@ -966,7 +910,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "4371f5ee86494a2f02acbdc189336407"
+                        "checksum": "23b4fd9447303da8196b68b492cf0398"
                     },
                     {
                         "type": "file",
@@ -1069,12 +1013,12 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
+                        "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "4060602e4a3ee6b5ea5a619035e80c7e"
+                        "checksum": "f83ac6245a1004da90c0372645174046"
                     },
                     {
                         "type": "file",
@@ -1084,7 +1028,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "68ad2a5ec9fe270f110e49ba08e3ad7f"
+                        "checksum": "c7b20c6e31d67e9d2120ce414af20c09"
                     },
                     {
                         "type": "file",
@@ -1101,7 +1045,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "bb180e6ae38bedbabae1d47705c06675"
+                "checksum": "4171b4a66e9b1b86f120f0e4645ca2ef"
             }
         ]
     },
@@ -1254,7 +1198,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "bb180e6ae38bedbabae1d47705c06675"
+        "checksum": "4171b4a66e9b1b86f120f0e4645ca2ef"
     },
     {
         "type": "directory",
@@ -4782,7 +4726,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "89bf770f3cd387308ad4bb748b3c3200"
+                        "checksum": "2f749d4ba6f1c7b8ab814e56d00e079e"
                     },
                     {
                         "type": "file",
@@ -4837,7 +4781,7 @@
                     {
                         "type": "file",
                         "name": "sys-patch-overlay.ovl",
-                        "checksum": "d8b49d344ee8c9144497d03e5c65ef55"
+                        "checksum": "11ae7ae90a7882f1d6ab8c486062be82"
                     },
                     {
                         "type": "file",

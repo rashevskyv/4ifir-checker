@@ -1,16 +1,153 @@
 {
     "added": [],
-    "removed": [],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/00FF0000A53BB665/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "8cf8463b34caa8ac871a52d5dd7ad1ef"
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/0100000000000F12/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "atmosphere/atmosphere",
+            "children": [
+                {
+                    "type": "directory",
+                    "name": "contents",
+                    "children": [
+                        {
+                            "type": "directory",
+                            "name": "00FF0000636C6BFF",
+                            "children": [
+                                {
+                                    "type": "file",
+                                    "name": "exefs.nsp",
+                                    "checksum": "e944ac5530569fa1714f1ab35114fc95"
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "flags",
+                                    "children": [
+                                        {
+                                            "type": "file",
+                                            "name": "boot2.flag",
+                                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "0ab50256ff62a8603131d1da6ae64041"
+            "checksum": "e9871bbf6b65797d75490363f9229383"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000000000B/exefs.nsp",
+            "checksum": "24a89ac73b3eb8c0c4a19a978d770fe1"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "b18444ef862d75a690dc939792436326"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/kip-json/Default.json",
+            "checksum": "1ef8559a6752f41cb9c5108cf4922d02"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/kip-json/Eclipse.json",
+            "checksum": "c8489c625a8b5203fdcc6f059f585808"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "1b640293bf69735d635056af75bf9209"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "ae300c7d2c306e9738a4638105d7c93b"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "4171b4a66e9b1b86f120f0e4645ca2ef"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "4be0d30b656d5b009308de851a80f612"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "8177a1e1f0b28fc2b65cd19345187c17"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "23b4fd9447303da8196b68b492cf0398"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "f83ac6245a1004da90c0372645174046"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "c7b20c6e31d67e9d2120ce414af20c09"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "4171b4a66e9b1b86f120f0e4645ca2ef"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "4171b4a66e9b1b86f120f0e4645ca2ef"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "89bf770f3cd387308ad4bb748b3c3200"
+            "checksum": "2f749d4ba6f1c7b8ab814e56d00e079e"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/sys-patch-overlay.ovl",
+            "checksum": "11ae7ae90a7882f1d6ab8c486062be82"
         }
     ]
 }
