@@ -1,8 +1,8 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 20.09.2024 05:47<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 20.09.2024 17:07<hr>
 
 <h3>Modified files</h3>
 <pre>bootloader
-└╴hekate_ipl.ini (ee2cdd1)
+└╴hekate_ipl.ini (76a81e7)
 </pre>
 <hr>
 

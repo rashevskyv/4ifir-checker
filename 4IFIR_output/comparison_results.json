@@ -5,7 +5,7 @@
         {
             "type": "file",
             "name": "bootloader/hekate_ipl.ini",
-            "checksum": "bee2cdd146c689ceb14e90063309c24c"
+            "checksum": "376a81e7345221f9b5ae5f3920cac535"
         }
     ]
 }
