@@ -1,9 +1,15 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 21.09.2024 11:28<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 21.09.2024 23:02<hr>
 
 <h3>Modified files</h3>
-<pre>switch
-└╴.overlays
-  └╴4IFIR.ovl (f86621b)
+<pre>atmosphere
+├╴contents
+│ └╴00FF0000636C6BFF
+│   └╴exefs.nsp (5e48dd9)
+├╴kips
+│ └╴loader.kip (fc5fe9f)
+└╴package3 (ef57d1e)
+bootloader
+└╴hekate_ipl.ini (3b4471e)
 </pre>
 <hr>
 

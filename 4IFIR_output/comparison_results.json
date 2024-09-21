@@ -4,8 +4,23 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "0f86621b26a60681d2da33ff3f66c972"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "25e48dd9b63a8cf7e62d746674d10bf5"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "1fc5fe9fd5e4b9227220946e0ca1eef6"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "6ef57d1e45b2cbb6fc36fd50ab5a59b8"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "83b4471e241fede2e8427eaa9fd0a022"
         }
     ]
 }
