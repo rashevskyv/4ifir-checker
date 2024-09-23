@@ -5,7 +5,22 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "f2ce3999682cae8c637008aa1fc7f0c7"
+            "checksum": "f79af3034d5105181a07945a2421ad46"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/toolbox.json",
+            "checksum": "68ece3a0bb1ebfbea58ccdccce4d404b"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "03139aa6753eb5f1d0165338dcd0dc74"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "aa11ddfc6accab12dc408159026012c9"
         }
     ]
 }
