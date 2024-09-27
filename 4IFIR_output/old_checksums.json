@@ -83,7 +83,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "f79af3034d5105181a07945a2421ad46"
+                                "checksum": "0fbf55d770758740bb233e708149c3ea"
                             },
                             {
                                 "type": "directory",
@@ -829,21 +829,21 @@
                             {
                                 "type": "file",
                                 "name": "Eclipse.json",
-                                "checksum": "c8489c625a8b5203fdcc6f059f585808"
+                                "checksum": "2f004e6a93371db719a79bb2ea6d49e5"
                             }
                         ]
                     },
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "03139aa6753eb5f1d0165338dcd0dc74"
+                        "checksum": "bef9ff4c1d51740622f906125cac219e"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "6ef57d1e45b2cbb6fc36fd50ab5a59b8"
+                "checksum": "ae000f9a1d68f22cfdbcb1de37a5b5d5"
             },
             {
                 "type": "file",
@@ -853,7 +853,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "4be0d30b656d5b009308de851a80f612"
+                "checksum": "0acfaa5c30b1fc99b2d7768e9b3ac653"
             },
             {
                 "type": "directory",
@@ -896,7 +896,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "83b4471e241fede2e8427eaa9fd0a022"
+                "checksum": "10c6a937be4e1a8da004b9fe2e422dcf"
             },
             {
                 "type": "file",
@@ -910,7 +910,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "23b4fd9447303da8196b68b492cf0398"
+                        "checksum": "7c4c14b396d0d91fe4e03320966df598"
                     },
                     {
                         "type": "file",
@@ -4726,7 +4726,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "542523931d5211626ade999e2886f658"
+                        "checksum": "afc03e4f6d7815108553f27fc6171f29"
                     },
                     {
                         "type": "file",
@@ -4806,7 +4806,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "fce9edc7dbd90adbb65a3b9aa9119968"
+                                "checksum": "9f035be0bb0d2d5b8a37f8468674ccb0"
                             },
                             {
                                 "type": "file",
@@ -4872,12 +4872,17 @@
                     {
                         "type": "file",
                         "name": "dbi.config",
-                        "checksum": "27110a85ff13e7e4d1d1271faa05f2a9"
+                        "checksum": "eeeedcbb3e6262cbf9b4e16b1a90fa22"
                     },
                     {
                         "type": "file",
                         "name": "DBI.nro",
-                        "checksum": "2befd879b53e214bf948a003d4140ebc"
+                        "checksum": "3b0dd736fb2aff21744632c26cf4065d"
+                    },
+                    {
+                        "type": "file",
+                        "name": "dbibackend",
+                        "checksum": "923ee72521526c7db2a071425fdaa725"
                     }
                 ]
             },
@@ -4906,6 +4911,11 @@
                 "type": "file",
                 "name": "MicroMemTest.nro",
                 "checksum": "95d4098a7870a1f0e5d7148aa5c7f212"
+            },
+            {
+                "type": "file",
+                "name": "ModCD.nro",
+                "checksum": "bd99c0c94f2854a0a9b3919221520767"
             },
             {
                 "type": "file",
