@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/payloads/KipTool.bin",
-            "checksum": "af386380a30fa4bf538e9701b032e4ca"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "965ed648b987832c03ee6705fccf1081"
         }
     ]
 }
