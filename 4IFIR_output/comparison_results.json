@@ -1,72 +1,11 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "switch/DBI/dbibackend",
-            "checksum": "923ee72521526c7db2a071425fdaa725"
-        },
-        {
-            "type": "file",
-            "name": "switch/ModCD.nro",
-            "checksum": "bd99c0c94f2854a0a9b3919221520767"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "0fbf55d770758740bb233e708149c3ea"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/kip-json/Eclipse.json",
-            "checksum": "2f004e6a93371db719a79bb2ea6d49e5"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "bef9ff4c1d51740622f906125cac219e"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "ae000f9a1d68f22cfdbcb1de37a5b5d5"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "0acfaa5c30b1fc99b2d7768e9b3ac653"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "10c6a937be4e1a8da004b9fe2e422dcf"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "7c4c14b396d0d91fe4e03320966df598"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "afc03e4f6d7815108553f27fc6171f29"
-        },
-        {
-            "type": "file",
-            "name": "switch/.packages/4IFIR Wizard/files.zip",
-            "checksum": "9f035be0bb0d2d5b8a37f8468674ccb0"
-        },
-        {
-            "type": "file",
-            "name": "switch/DBI/dbi.config",
-            "checksum": "eeeedcbb3e6262cbf9b4e16b1a90fa22"
-        },
-        {
-            "type": "file",
-            "name": "switch/DBI/DBI.nro",
-            "checksum": "3b0dd736fb2aff21744632c26cf4065d"
+            "name": "bootloader/payloads/KipTool.bin",
+            "checksum": "af386380a30fa4bf538e9701b032e4ca"
         }
     ]
 }
