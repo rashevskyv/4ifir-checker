@@ -5,12 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "eadfa7c498f950fc1531f4d6a0bc2654"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "e99d551b58211a8ea2eb2353d3dc4502"
+            "checksum": "2ac1a0ef0f6744be271863cffbdcf37c"
         }
     ]
 }
