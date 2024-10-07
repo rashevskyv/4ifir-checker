@@ -1,11 +1,199 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/0100000000000F12/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "atmosphere/exefs_patches/nvnflinger_cmu",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "08b4cba0de0157faa5b05e114cd44a5a2a7faf4a.ips",
+                    "checksum": "96412cdcdfee62ea13c39751d9545ba1"
+                },
+                {
+                    "type": "file",
+                    "name": "120d46563db1260c55974432e3e166c51652db4d.ips",
+                    "checksum": "e13829fee878140bea67ca305ce86c82"
+                },
+                {
+                    "type": "file",
+                    "name": "327bea76ed384cc403e82e53bca29bc201d33a35.ips",
+                    "checksum": "b8bd887bb1a89b3f10bd9b9362ba6681"
+                },
+                {
+                    "type": "file",
+                    "name": "3efdbab0fcae7bbfa6fa08e9ff1f2a7ac4f38a28.ips",
+                    "checksum": "5334f21d16f8c7bfd942c00a12e51b81"
+                },
+                {
+                    "type": "file",
+                    "name": "5134d71aa6c82f222e58abfeabf4d4833041e1d8.ips",
+                    "checksum": "4cc38c47c0e9de6952865feb293f0a66"
+                },
+                {
+                    "type": "file",
+                    "name": "6142225e9c1fe3bf6a5bdae3ef1b46892d2cc222.ips",
+                    "checksum": "e5a4e6d0f7e39a1df60720267e7d7166"
+                },
+                {
+                    "type": "file",
+                    "name": "66ef1a7b999ce2a9e36a91285e6ef991c139bed3.ips",
+                    "checksum": "f89ee24e99af1eefeb74b70e8c2063b4"
+                },
+                {
+                    "type": "file",
+                    "name": "69ce0180dfde03849829898665827a800ee68333.ips",
+                    "checksum": "08da4e722df172ad717e5df532dc44a8"
+                },
+                {
+                    "type": "file",
+                    "name": "6b76285bf1e6c66b426ce953282112eeb65a1ab0.ips",
+                    "checksum": "8c5d063296ec41540a0b3019b4e9cf88"
+                },
+                {
+                    "type": "file",
+                    "name": "74fc488c86fde06e08f1f805bedcb3b40124f3f5.ips",
+                    "checksum": "6d11abbb4363092b25b9fc4b9ad81b4f"
+                },
+                {
+                    "type": "file",
+                    "name": "824e653f7c84b2835618f035482da3678a8c8c5f.ips",
+                    "checksum": "8a85c54451caa795143df127403a5054"
+                },
+                {
+                    "type": "file",
+                    "name": "83c900bebb87f1a7c7a4610ad1ec34eefc897ad0.ips",
+                    "checksum": "0115f743dd5052f7f8214f8a65e7489b"
+                },
+                {
+                    "type": "file",
+                    "name": "86837caec5c0b071d5e07c65ec45f54615cae721.ips",
+                    "checksum": "4cc38c47c0e9de6952865feb293f0a66"
+                },
+                {
+                    "type": "file",
+                    "name": "9059ee5061a3c0b9c98c705216a7d21dd2cbf6aa.ips",
+                    "checksum": "789699d744e2c5638cd4855e9b2b2e69"
+                },
+                {
+                    "type": "file",
+                    "name": "91bc34d3bd1bcdf6cfe8778e98ae3e62492ba36f.ips",
+                    "checksum": "95209e163c2ccbe24da400746ec5a25c"
+                },
+                {
+                    "type": "file",
+                    "name": "b0fe9cb6bfc859454f186167cc3426fe627fe76e.ips",
+                    "checksum": "37fb9082e6b42d8b7e8d32f98fdbbba8"
+                },
+                {
+                    "type": "file",
+                    "name": "ba73011c3f81954c142a802ddfac4551d80f97a8.ips",
+                    "checksum": "62797cbe2189860c7fb6e693f4de241e"
+                },
+                {
+                    "type": "file",
+                    "name": "bcd23ead031f4d02b4869cc1adea70bf70edfd7b.ips",
+                    "checksum": "3f420ba3c04b674f9d6cc917b1198af8"
+                },
+                {
+                    "type": "file",
+                    "name": "c9f5f57618273f6e747e171df5b5d967bc0ead1b.ips",
+                    "checksum": "8c5d063296ec41540a0b3019b4e9cf88"
+                },
+                {
+                    "type": "file",
+                    "name": "cb812afaef6a42954c60315499afcffbca5f15f4.ips",
+                    "checksum": "62797cbe2189860c7fb6e693f4de241e"
+                },
+                {
+                    "type": "file",
+                    "name": "d469053b05ebd7b256b849577cba015bdafb0201.ips",
+                    "checksum": "e7986beacfbaf000d11fd98c567cef85"
+                },
+                {
+                    "type": "file",
+                    "name": "d66198db9847cc77e8f04c0d473d4a66431c1fe3.ips",
+                    "checksum": "045cf621a8d23b09ab9c38cb32a40d89"
+                },
+                {
+                    "type": "file",
+                    "name": "fc6f19d9a9fbe252916fc5bc4d769432bfba7236.ips",
+                    "checksum": "532f679120cd60b99523d3a1bbe00a28"
+                },
+                {
+                    "type": "file",
+                    "name": "ffe29428924ce91f77c3705eb7d7e32eeb7c45ac.ips",
+                    "checksum": "68ffd2ee2e36511e419d9e34a4bd8b98"
+                }
+            ]
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/config/system_settings.ini",
+            "checksum": "1710fc999d3ffc1e389ff44e5b1cbc89"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "2ac1a0ef0f6744be271863cffbdcf37c"
+            "checksum": "5e33bc1b17255675c9d18834d49a2579"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0100000000000F12/exefs.nsp",
+            "checksum": "debd7da3312852ad17ab0d926d59ffe6"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "cb30f6470941554190a369536a3ea383"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "386645481f27da0f61a9496e98e69c1a"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "f4e5b9cab68f74c66bdc85a7f8af01e9"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "83b4471e241fede2e8427eaa9fd0a022"
+        },
+        {
+            "type": "file",
+            "name": "config/Fizeau/config.ini",
+            "checksum": "1ffcf0809bf0fa90f2dc8caedd1552b0"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "12a410b9c73f0d3eb8bd954abf987216"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Fizeau.ovl",
+            "checksum": "f8345255507eef5d1a3f20ddde00c63c"
+        },
+        {
+            "type": "file",
+            "name": "switch/Fizeau/Fizeau.nro",
+            "checksum": "1ae2e364cfaf9e62b0d6eb700f7aae59"
         }
     ]
 }
