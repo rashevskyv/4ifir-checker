@@ -1,63 +1,130 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 07.10.2024 13:19<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 10.10.2024 00:32<hr>
 
 <h3>Added files/folders</h3>
-<pre>atmosphere
-├╴contents
-│ └╴0100000000000F12
-│   └╴flags
-│     └╴boot2.flag (41d8cd9)
-└╴exefs_patches
-  └╴nvnflinger_cmu
-    ├╴08b4cba0de0157f...5a2a7faf4a.ips (6412cdc)
-    ├╴120d46563db1260...c51652db4d.ips (13829fe)
-    ├╴327bea76ed384cc...c201d33a35.ips (8bd887b)
-    ├╴3efdbab0fcae7bb...7ac4f38a28.ips (334f21d)
-    ├╴5134d71aa6c82f2...833041e1d8.ips (cc38c47)
-    ├╴6142225e9c1fe3b...892d2cc222.ips (5a4e6d0)
-    ├╴66ef1a7b999ce2a...91c139bed3.ips (89ee24e)
-    ├╴69ce0180dfde038...800ee68333.ips (8da4e72)
-    ├╴6b76285bf1e6c66...eeb65a1ab0.ips (c5d0632)
-    ├╴74fc488c86fde06...b40124f3f5.ips (d11abbb)
-    ├╴824e653f7c84b28...678a8c8c5f.ips (a85c544)
-    ├╴83c900bebb87f1a...eefc897ad0.ips (115f743)
-    ├╴86837caec5c0b07...4615cae721.ips (cc38c47)
-    ├╴9059ee5061a3c0b...1dd2cbf6aa.ips (89699d7)
-    ├╴91bc34d3bd1bcdf...62492ba36f.ips (5209e16)
-    ├╴b0fe9cb6bfc8594...fe627fe76e.ips (7fb9082)
-    ├╴ba73011c3f81954...51d80f97a8.ips (2797cbe)
-    ├╴bcd23ead031f4d0...bf70edfd7b.ips (f420ba3)
-    ├╴c9f5f57618273f6...67bc0ead1b.ips (c5d0632)
-    ├╴cb812afaef6a429...fbca5f15f4.ips (2797cbe)
-    ├╴d469053b05ebd7b...5bdafb0201.ips (7986bea)
-    ├╴d66198db9847cc7...66431c1fe3.ips (45cf621)
-    ├╴fc6f19d9a9fbe25...32bfba7236.ips (32f6791)
-    └╴ffe29428924ce91...2eeb7c45ac.ips (8ffd2ee)
+<pre>SaltySD
+└╴plugins
+  └╴FPSLocker
+    └╴patches
+      ├╴0100001019F6E000
+      │ └╴D60A7F43A98034BE.yaml (0c08f2c)
+      ├╴010000A017F96000
+      │ └╴EEE598377C0A5966.yaml (2cd922f)
+      ├╴010000B01A452000
+      │ ├╴2E7487767D0CA0EE.yaml (17ce4b1)
+      │ └╴2F33996FD9C81253.yaml (cd79daa)
+      ├╴010009D018A06000
+      │ └╴3AAA28C9CB8367B9.yaml (0b3b071)
+      ├╴01000CE002072000
+      │ └╴346959B36CD9F14D.yaml (86996aa)
+      ├╴01001CC01B2D4000
+      │ ├╴0DE3020411F4232B.yaml (da5b5ad)
+      │ └╴26AB1CB54DD4508D.yaml (60db188)
+      ├╴01001D00186E8000
+      │ └╴E2AFE5A73F5C0803.yaml (ca264de)
+      ├╴010025C0145D4000
+      │ ├╴0FCB7D1E6E4D1836.yaml (3a7ec30)
+      │ └╴F898CCE9C3A291AF.yaml (bb89f2d)
+      ├╴01002C101C1AA000
+      │ ├╴A995EDA18F71EA37.yaml (749a336)
+      │ └╴E1426CF1C30E7CC7.yaml (0a9250c)
+      ├╴01002FC012548000
+      │ └╴2E7487767D0CA0EE.yaml (c0c4dca)
+      ├╴01003AE01AA76000
+      │ └╴6C46135714ABB870.yaml (8b1a6b7)
+      ├╴01003EB01C2F0000
+      │ └╴FF46A0C56BAD0A32.yaml (f2e3295)
+      ├╴010050F01DF9C000
+      │ └╴456F89F80D657095.yaml (b5967c6)
+      ├╴010054E01D878000
+      │ ├╴668645A62391CDDE.yaml (c1735d1)
+      │ ├╴A2932DA7A96EC054.yaml (d39014c)
+      │ └╴C3A7D284DA741DBC.yaml (22d3e9c)
+      ├╴010069C01AB82000
+      │ └╴E1BD1040BFBDDAFF.yaml (3b5573c)
+      ├╴01006F301AE9C000
+      │ ├╴E9A887A36762C526.yaml (8903196)
+      │ └╴F5ECD5701434461C.yaml (2e5aa5b)
+      ├╴01006F401D934000
+      │ └╴D71970AAA5D34DD0.yaml (adb652f)
+      ├╴01006FE016FB2000
+      │ └╴191B397CA0310A18.yaml (f9279d8)
+      ├╴010072E01CE0E000
+      │ ├╴A245DABD986CBC85.yaml (88836ec)
+      │ └╴CA23556FE5EF2EB1.yaml (a21e66b)
+      ├╴010079C017F5E001
+      │ └╴F47C697C2B59443B.yaml (e161f46)
+      ├╴010079C017F5E002
+      │ └╴BD5CD5189BC90093.yaml (e3c462b)
+      ├╴0100853015E86000
+      │ ├╴351B77A43CF31BF4.yaml (c144917)
+      │ ├╴C534121E724B33A1.yaml (ae05526)
+      │ └╴E9DA1530FB30E130.yaml (c5bda9c)
+      ├╴010085401A454000
+      │ └╴2E7487767D0CA0EE.yaml (60fc5e1)
+      ├╴01008AF01AD22000
+      │ └╴8F3E77E1322E9F6F.yaml (40366e3)
+      ├╴01008CD0172D6000
+      │ ├╴2B1C8B24F6744644.yaml (a177744)
+      │ ├╴E711B99C30E041F7.yaml (fdb3f82)
+      │ └╴F716D367A6D7F5BA.yaml (df96b43)
+      ├╴010097F018538000
+      │ ├╴4983F1C36957B7E5.yaml (dd06772)
+      │ └╴741C1E11C3A1FD02.yaml (2a141f8)
+      ├╴0100B7A01386E000
+      │ └╴3AEEE2266CD84B1E.yaml (6732575)
+      ├╴0100CE101B698000
+      │ ├╴820B3E993D6FE8E1.yaml (3a51a81)
+      │ ├╴9035B7A14BADF977.yaml (5860248)
+      │ └╴AFE59FDFAC191EBD.yaml (505348a)
+      ├╴0100D1501ABAE000
+      │ ├╴C58AA3A366F82F70.yaml (4c4fe2a)
+      │ └╴DCBE53FDF98752AF.yaml (9c2bc24)
+      ├╴0100DA201EBF8000
+      │ └╴21F90AA03BED43F0.yaml (e3225ba)
+      ├╴0100E1C0148F8000
+      │ └╴5EABF05A814EBB1B.yaml (415e1a5)
+      └╴0100FBD013AB6000
+        └╴EA6728F9AE46C055.yaml (980c44b)
 </pre>
 <h3>Modified files</h3>
 <pre>atmosphere
-├╴config
-│ └╴system_settings.ini (710fc99)
 ├╴contents
 │ ├╴00FF0000636C6BFF
-│ │ └╴exefs.nsp (e33bc1b)
-│ ├╴0100000000000F12
-│ │ └╴exefs.nsp (ebd7da3)
+│ │ └╴exefs.nsp (958a637)
+│ ├╴420000000000000B
+│ │ └╴exefs.nsp (5376fed)
 │ └╴420000000007E51A
-│   └╴exefs.nsp (b30f647)
+│   └╴exefs.nsp (fc9f646)
 ├╴kips
-│ └╴loader.kip (8664548)
-└╴package3 (4e5b9ca)
+│ └╴loader.kip (0d3b0c5)
+├╴package3 (ac5a9d5)
+├╴reboot_payload.bin (cc21f22)
+└╴stratosphere.romfs (e13a711)
 bootloader
-└╴hekate_ipl.ini (3b4471e)
-config
-└╴Fizeau
-  └╴config.ini (ffcf080)
+├╴4IFIR.ini (f67809e)
+├╴payloads
+│ └╴fusee.bin (a605cb5)
+├╴sys
+│ ├╴libsys_lp0.bso (4afa552)
+│ ├╴libsys_minerva.bso (3dcb375)
+│ └╴module_sample.bso (2345615)
+└╴update.bin (cc21f22)
+payload.bin (cc21f22)
+SaltySD
+└╴plugins
+  └╴FPSLocker
+    └╴patches
+      ├╴01006CB010840000
+      │ └╴9F2F187D1C6E44EC.yaml (f3054fd)
+      └╴01008CB0156BC000
+        └╴7735C8DD89D145F2.yaml (ef70fbb)
 switch
 ├╴.overlays
-│ ├╴4IFIR.ovl (2a410b9)
-│ └╴Fizeau.ovl (8345255)
-└╴Fizeau
-  └╴Fizeau.nro (ae2e364)
+│ ├╴4IFIR.ovl (73f7508)
+│ ├╴InfoNX-ovl.ovl (8a0dcaa)
+│ └╴sys-patch-overlay.ovl (2cc8dfe)
+├╴ClkrstQuery.nro (4c25a81)
+└╴ModCD.nro (8a96632)
 </pre>
 <hr>
 
