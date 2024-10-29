@@ -1,10 +1,4 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 29.10.2024 15:23<hr>
-
-<h3>Modified files</h3>
-<pre>switch
-└╴MicroMemBench.nro (81c512a)
-</pre>
-<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><hr>
 
 <h2>Archive Comparison Report for <b>4IFIR 1.7</b></h2><hr>
 
