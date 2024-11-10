@@ -1,5 +1,31 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "ea163261593eb8044e38e34bf7f5de2f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "7898e8dfee49f9b48cae325f808f053c"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "1f52ea033361a1a9d26ced32f08d2b72"
+        },
+        {
+            "type": "file",
+            "name": "switch/MicroMemBench.nro",
+            "checksum": "1b26597144e3412b5c68e01ac471dfb7"
+        },
+        {
+            "type": "file",
+            "name": "switch/MicroMemTest.nro",
+            "checksum": "144a74835a4a8becef1ac49cd368bb33"
+        }
+    ]
 }
