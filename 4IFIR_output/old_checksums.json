@@ -5388,5 +5388,21 @@
                 "checksum": "e16784c7ecc4b2eb66d2fc9f87b9fcc3"
             }
         ]
+    },
+    {
+        "type": "directory",
+        "name": "warmboot_mariko",
+        "children": [
+            {
+                "type": "file",
+                "name": "wb_13.bin",
+                "checksum": "6c96df533e64fb28e27626520d924d05"
+            },
+            {
+                "type": "file",
+                "name": "wb_14.bin",
+                "checksum": "0531b5ef5520e481104979fbcc9c24e1"
+            }
+        ]
     }
 ]
