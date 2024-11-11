@@ -1,9 +1,20 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 10.11.2024 21:45<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 11.11.2024 18:24<hr>
 
-<h3>Added files/folders</h3>
-<pre>warmboot_mariko
-├╴wb_13.bin (c96df53)
-└╴wb_14.bin (531b5ef)
+<h3>Modified files</h3>
+<pre>atmosphere
+└╴contents
+  └╴0100000000000F12
+    └╴exefs.nsp (c9bf829)
+config
+├╴Fizeau
+│ └╴config.ini (0b6578b)
+└╴status-monitor
+  └╴config.ini (eab90f1)
+switch
+├╴.overlays
+│ └╴Fizeau.ovl (132fae5)
+└╴Fizeau
+  └╴Fizeau.nro (d3aa44d)
 </pre>
 <hr>
 

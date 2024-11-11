@@ -126,7 +126,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "debd7da3312852ad17ab0d926d59ffe6"
+                                "checksum": "2c9bf8291fd26a527709be60d9350cb8"
                             },
                             {
                                 "type": "directory",
@@ -1234,7 +1234,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "1ffcf0809bf0fa90f2dc8caedd1552b0"
+                        "checksum": "f0b6578b87d4a457985efccc43145bd1"
                     }
                 ]
             },
@@ -1267,7 +1267,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "e91f3b8c206ce47a412a49f4c985cc20"
+                        "checksum": "1eab90f198507772eeebabeacd56ee57"
                     }
                 ]
             },
@@ -5186,7 +5186,7 @@
                     {
                         "type": "file",
                         "name": "Fizeau.ovl",
-                        "checksum": "f8345255507eef5d1a3f20ddde00c63c"
+                        "checksum": "1132fae54ea84f9cee50e28a7b9de3e8"
                     },
                     {
                         "type": "file",
@@ -5348,7 +5348,7 @@
                     {
                         "type": "file",
                         "name": "Fizeau.nro",
-                        "checksum": "1ae2e364cfaf9e62b0d6eb700f7aae59"
+                        "checksum": "ed3aa44d9da7f18da1e654392f698101"
                     }
                 ]
             },
