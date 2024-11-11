@@ -4,28 +4,13 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/0100000000000F12/exefs.nsp",
-            "checksum": "2c9bf8291fd26a527709be60d9350cb8"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "ecf086a96a3bc3139670cb90521b89dd"
         },
         {
             "type": "file",
-            "name": "config/Fizeau/config.ini",
-            "checksum": "f0b6578b87d4a457985efccc43145bd1"
-        },
-        {
-            "type": "file",
-            "name": "config/status-monitor/config.ini",
-            "checksum": "1eab90f198507772eeebabeacd56ee57"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/Fizeau.ovl",
-            "checksum": "1132fae54ea84f9cee50e28a7b9de3e8"
-        },
-        {
-            "type": "file",
-            "name": "switch/Fizeau/Fizeau.nro",
-            "checksum": "ed3aa44d9da7f18da1e654392f698101"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "9cac5dba8af36a9abbcf9396e26c7481"
         }
     ]
 }
