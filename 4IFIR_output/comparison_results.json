@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "ecf086a96a3bc3139670cb90521b89dd"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "9cac5dba8af36a9abbcf9396e26c7481"
+            "name": "switch/MicroMemBench.nro",
+            "checksum": "175442c1babb6f3831901cea445d459b"
         }
     ]
 }

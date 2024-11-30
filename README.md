@@ -1,13 +1,8 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 12.11.2024 02:18<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 30.11.2024 17:20<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-  └╴00FF0000636C6BFF
-    └╴exefs.nsp (cf086a9)
-switch
-└╴.overlays
-  └╴4IFIR.ovl (cac5dba)
+<pre>switch
+└╴MicroMemBench.nro (75442c1)
 </pre>
 <hr>
 
