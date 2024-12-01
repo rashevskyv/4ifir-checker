@@ -1,8 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 30.11.2024 17:20<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 01.12.2024 09:14<hr>
 
 <h3>Modified files</h3>
-<pre>switch
-└╴MicroMemBench.nro (75442c1)
+<pre>atmosphere
+└╴contents
+  └╴420000000007E51A
+    └╴exefs.nsp (7ff71f0)
 </pre>
 <hr>
 
