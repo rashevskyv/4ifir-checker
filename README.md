@@ -1,10 +1,27 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 01.12.2024 09:14<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 07.12.2024 23:33<hr>
 
+<h3>Added files/folders</h3>
+<pre>games
+└╴hbmenu.nsp (58643f4)
+</pre>
+<h3>Removed files/folders</h3>
+<pre>games
+└╴hbmenu_[0104444444440000].nsp (58643f4)
+</pre>
 <h3>Modified files</h3>
 <pre>atmosphere
-└╴contents
-  └╴420000000007E51A
-    └╴exefs.nsp (7ff71f0)
+├╴contents
+│ └╴00FF0000636C6BFF
+│   └╴exefs.nsp (daa0330)
+├╴hbl.nsp (905e54a)
+└╴kips
+  └╴loader.kip (6049806)
+config
+└╴4IFIR
+  └╴config.ini (34e68fc)
+switch
+└╴.overlays
+  └╴4IFIR.ovl (03125c7)
 </pre>
 <hr>
 

@@ -1,11 +1,43 @@
 {
-    "added": [],
-    "removed": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "games/hbmenu.nsp",
+            "checksum": "a58643f499a46bc9545d81dea94f4cd2"
+        }
+    ],
+    "removed": [
+        {
+            "type": "file",
+            "name": "games/hbmenu_[0104444444440000].nsp",
+            "checksum": "a58643f499a46bc9545d81dea94f4cd2"
+        }
+    ],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "77ff71f08fe11ea43411a925fcddbd08"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "8daa03308e1861654b97932383010d15"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "7905e54a2e73df8646bfc011bc5f4a00"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "46049806eaaa37f6b0dae995fced50de"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "b34e68fc06a92e8f16f453eb3173f14b"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "003125c75a0cf8d6c5a46e1c727aacf7"
         }
     ]
 }
