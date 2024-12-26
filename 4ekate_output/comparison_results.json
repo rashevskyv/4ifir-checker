@@ -1,5 +1,98 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "bootloader/sys/emummc.kipm",
+            "checksum": "9b49282ef505d232349cf7f5870ae781"
+        },
+        {
+            "type": "directory",
+            "name": "bootloader/sys/l4t",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "bpmpfw.bin",
+                    "checksum": "d084cd613cc506022a5b4b31c9d87ad4"
+                },
+                {
+                    "type": "file",
+                    "name": "bpmpfw_b01.bin",
+                    "checksum": "c8fd097cf03fa5ea7045a6005a23ea5a"
+                },
+                {
+                    "type": "file",
+                    "name": "mtc_tbl_b01.bin",
+                    "checksum": "6c1c61a3ae35af9f755665d084ef1075"
+                },
+                {
+                    "type": "file",
+                    "name": "sc7entry.bin",
+                    "checksum": "a5749bbff780e8acf9aa13bc791d023b"
+                },
+                {
+                    "type": "file",
+                    "name": "sc7exit.bin",
+                    "checksum": "1996fdb3710e586a86c5d4a0c7b62a28"
+                },
+                {
+                    "type": "file",
+                    "name": "sc7exit_b01.bin",
+                    "checksum": "f9b7669480aae8995378c984b91c0db9"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/res.pak",
+            "checksum": "c46c1b1551bf9f4b2b9240a5fac0005a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/thk.bin",
+            "checksum": "ca100bbaa4abcd77aeaf4dbce1eabd63"
+        }
+    ],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "3b64530c63f11cdabe93f3e7dfea3bc4"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "d4afa5524a0ee0fb58d7017c255370c4"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "b3dcb37523d6d82417a71719b5f0dc7c"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "b2345615a198e54c4fafa71a965f0141"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "ec5d623c9ce9e6a154955d7432caea51"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
+        }
+    ]
 }

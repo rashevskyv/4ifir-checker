@@ -6,7 +6,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "9e1c51918e9088611c2d9719b240bdf7"
+                "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
             }
         ]
     },
@@ -21,7 +21,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "cf26792666cde546faf926c15db7a910"
+                        "checksum": "3b64530c63f11cdabe93f3e7dfea3bc4"
                     }
                 ]
             },
@@ -31,36 +31,87 @@
                 "children": [
                     {
                         "type": "file",
+                        "name": "emummc.kipm",
+                        "checksum": "9b49282ef505d232349cf7f5870ae781"
+                    },
+                    {
+                        "type": "directory",
+                        "name": "l4t",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "bpmpfw.bin",
+                                "checksum": "d084cd613cc506022a5b4b31c9d87ad4"
+                            },
+                            {
+                                "type": "file",
+                                "name": "bpmpfw_b01.bin",
+                                "checksum": "c8fd097cf03fa5ea7045a6005a23ea5a"
+                            },
+                            {
+                                "type": "file",
+                                "name": "mtc_tbl_b01.bin",
+                                "checksum": "6c1c61a3ae35af9f755665d084ef1075"
+                            },
+                            {
+                                "type": "file",
+                                "name": "sc7entry.bin",
+                                "checksum": "a5749bbff780e8acf9aa13bc791d023b"
+                            },
+                            {
+                                "type": "file",
+                                "name": "sc7exit.bin",
+                                "checksum": "1996fdb3710e586a86c5d4a0c7b62a28"
+                            },
+                            {
+                                "type": "file",
+                                "name": "sc7exit_b01.bin",
+                                "checksum": "f9b7669480aae8995378c984b91c0db9"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "044f57d8160a933cfe5fc5c6a32b701a"
+                        "checksum": "d4afa5524a0ee0fb58d7017c255370c4"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "f83ac6245a1004da90c0372645174046"
+                        "checksum": "b3dcb37523d6d82417a71719b5f0dc7c"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "114622f0c46ab15ccbf215c8b125e8ad"
+                        "checksum": "b2345615a198e54c4fafa71a965f0141"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "bfbfeadbecea6f72b9a867c62f50a006"
+                        "checksum": "ec5d623c9ce9e6a154955d7432caea51"
+                    },
+                    {
+                        "type": "file",
+                        "name": "res.pak",
+                        "checksum": "c46c1b1551bf9f4b2b9240a5fac0005a"
+                    },
+                    {
+                        "type": "file",
+                        "name": "thk.bin",
+                        "checksum": "ca100bbaa4abcd77aeaf4dbce1eabd63"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "9e1c51918e9088611c2d9719b240bdf7"
+                "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
             }
         ]
     },
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "9e1c51918e9088611c2d9719b240bdf7"
+        "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
     }
 ]
