@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "3e4be78deb0f193b8c3b4c7718d02179"
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "3766d8d6448d7022493c385ff230f873"
         }
     ]
 }

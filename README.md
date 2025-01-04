@@ -1,10 +1,8 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 04.01.2025 01:41<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 04.01.2025 03:02<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-  └╴420000000007E51A
-    └╴exefs.nsp (e4be78d)
+<pre>bootloader
+└╴hekate_ipl.ini (766d8d6)
 </pre>
 <hr>
 
