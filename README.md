@@ -1,8 +1,36 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 04.01.2025 03:02<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 04.01.2025 03:33<hr>
 
+<h3>Added files/folders</h3>
+<pre>SaltySD
+└╴plugins
+  └╴FPSLocker
+    └╴patches
+      ├╴01003B90136DA000
+      │ └╴1F936E043FB8C349.yaml (597b43b)
+      └╴01003EB01C2F0000
+        └╴D152798E91A87AE7.yaml (a1a58c6)
+</pre>
+<h3>Removed files/folders</h3>
+<pre>SaltySD
+└╴flags
+  └╴log.flag (41d8cd9)
+</pre>
 <h3>Modified files</h3>
-<pre>bootloader
-└╴hekate_ipl.ini (766d8d6)
+<pre>SaltySD
+└╴plugins
+  └╴FPSLocker
+    └╴patches
+      ├╴0100500012AB4000
+      │ └╴118AA7B71E824B3B.yaml (2c0583f)
+      ├╴01007EF00011E000
+      │ └╴8E9978D50BDD20B4.yaml (b649587)
+      ├╴0100CC80140F8000
+      │ └╴9CB4490E8A718BAE.yaml (269feed)
+      └╴0100FD101186C000
+        └╴BF0088C59D7E97C0.yaml (ebcd9b0)
+switch
+└╴.overlays
+  └╴FPSLocker.ovl (2e91d98)
 </pre>
 <hr>
 

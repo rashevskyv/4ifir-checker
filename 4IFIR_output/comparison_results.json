@@ -1,11 +1,60 @@
 {
-    "added": [],
-    "removed": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "SaltySD/plugins/FPSLocker/patches/01003B90136DA000",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "1F936E043FB8C349.yaml",
+                    "checksum": "6597b43b9729ba37e2d7e393d42e3670"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/01003EB01C2F0000/D152798E91A87AE7.yaml",
+            "checksum": "2a1a58c6d201ffc6c04dea6e34aaa822"
+        }
+    ],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "SaltySD/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "3766d8d6448d7022493c385ff230f873"
+            "name": "SaltySD/plugins/FPSLocker/patches/0100500012AB4000/118AA7B71E824B3B.yaml",
+            "checksum": "62c0583fd007dd376eeb827cd11f94c3"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/01007EF00011E000/8E9978D50BDD20B4.yaml",
+            "checksum": "bb649587eca8b88511a111ccff32eb1f"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/0100CC80140F8000/9CB4490E8A718BAE.yaml",
+            "checksum": "2269feed0f865feb2966ccb5483ff1ab"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/0100FD101186C000/BF0088C59D7E97C0.yaml",
+            "checksum": "aebcd9b077c38d943f2e9b9d1d7c1ddd"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "92e91d9834dfcc224338c01ac4fd2bc2"
         }
     ]
 }
