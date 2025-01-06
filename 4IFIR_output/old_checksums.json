@@ -61,7 +61,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "d57c0dc0cb371ef20c8fb33cbbde997f"
+                                "checksum": "8be5de1f46a08d9378bb0fd9d5e057ea"
                             },
                             {
                                 "type": "directory",
@@ -672,7 +672,18 @@
             {
                 "type": "file",
                 "name": "exceptions.txt",
-                "checksum": "414069d9f78a033eefdac371cbcead75"
+                "checksum": "104c2919ffcda6e5db71038493f05f94"
+            },
+            {
+                "type": "directory",
+                "name": "flags",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    }
+                ]
             },
             {
                 "type": "directory",
@@ -5465,7 +5476,7 @@
             {
                 "type": "file",
                 "name": "saltysd_core.elf",
-                "checksum": "b8b3c57de2a07f5f60b40f3a19123ede"
+                "checksum": "ba4d2ac40fdd496dcaa26b20e2491c87"
             },
             {
                 "type": "file",
