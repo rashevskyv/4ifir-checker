@@ -5460,28 +5460,8 @@
             },
             {
                 "type": "file",
-                "name": "saltysd_bootstrap.elf",
-                "checksum": "4a33ecb5012a016ab349bdb2997dc195"
-            },
-            {
-                "type": "file",
-                "name": "saltysd_bootstrap32_3k.elf",
-                "checksum": "6e151cde062b0baa2b46e3f4a327fb7c"
-            },
-            {
-                "type": "file",
-                "name": "saltysd_bootstrap32_5k.elf",
-                "checksum": "825446a3cd88d44269edf109b1f60ab0"
-            },
-            {
-                "type": "file",
                 "name": "saltysd_core.elf",
                 "checksum": "ba4d2ac40fdd496dcaa26b20e2491c87"
-            },
-            {
-                "type": "file",
-                "name": "saltysd_core32.elf",
-                "checksum": "23ad60b4bcf77dd56949412f66b2de07"
             }
         ]
     },
@@ -5506,7 +5486,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "92e91d9834dfcc224338c01ac4fd2bc2"
+                        "checksum": "923b05568548bb26d793296024fab85b"
                     },
                     {
                         "type": "file",
