@@ -1,13 +1,16 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 14.01.2025 12:28<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 14.01.2025 20:37<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
   └╴00FF0000636C6BFF
-    └╴exefs.nsp (d2d5424)
+    └╴exefs.nsp (00bb56f)
+config
+└╴Fizeau
+  └╴config.ini (2c6dbbe)
 switch
 └╴.overlays
-  └╴4IFIR.ovl (93539ff)
+  └╴4IFIR.ovl (6fafd51)
 </pre>
 <hr>
 
