@@ -5,17 +5,7 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "300bb56f9a9d39fead9becbe6403ee0d"
-        },
-        {
-            "type": "file",
-            "name": "config/Fizeau/config.ini",
-            "checksum": "e2c6dbbe018957ee6f9675cbaca5a4a0"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "96fafd5101fba3205f2cf9d4ef92a1f7"
+            "checksum": "4d6b5b034f71b9566f7b956ade23b693"
         }
     ]
 }
