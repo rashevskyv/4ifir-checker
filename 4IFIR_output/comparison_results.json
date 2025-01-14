@@ -1,32 +1,16 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_bootstrap.elf",
-            "checksum": "4a33ecb5012a016ab349bdb2997dc195"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_bootstrap32_3k.elf",
-            "checksum": "6e151cde062b0baa2b46e3f4a327fb7c"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_bootstrap32_5k.elf",
-            "checksum": "825446a3cd88d44269edf109b1f60ab0"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_core32.elf",
-            "checksum": "23ad60b4bcf77dd56949412f66b2de07"
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "switch/.overlays/FPSLocker.ovl",
-            "checksum": "923b05568548bb26d793296024fab85b"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "dd2d542473e19d0b998a75013a690656"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "493539ffbb310f0714b4b9565a4abbfd"
         }
     ]
 }

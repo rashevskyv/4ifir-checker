@@ -1,16 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 12.01.2025 09:57<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 14.01.2025 12:28<hr>
 
-<h3>Removed files/folders</h3>
-<pre>SaltySD
-├╴saltysd_bootstrap.elf (a33ecb5)
-├╴saltysd_bootstrap32_3k.elf (e151cde)
-├╴saltysd_bootstrap32_5k.elf (25446a3)
-└╴saltysd_core32.elf (3ad60b4)
-</pre>
 <h3>Modified files</h3>
-<pre>switch
+<pre>atmosphere
+└╴contents
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (d2d5424)
+switch
 └╴.overlays
-  └╴FPSLocker.ovl (23b0556)
+  └╴4IFIR.ovl (93539ff)
 </pre>
 <hr>
 
