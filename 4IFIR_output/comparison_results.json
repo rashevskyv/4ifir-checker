@@ -1,16 +1,43 @@
 {
     "added": [],
-    "removed": [],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "SaltySD/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
+            "checksum": "35c6e7bc425b3eda948ebfcd17342035"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "973e29c70b5860c7d36393d48a0971dd"
+            "checksum": "f7dc49c507162384a7ef5f65a87ef418"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/exceptions.txt",
+            "checksum": "0fe20066198fa3c6d47754ea098d9ac6"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/saltysd_core.elf",
+            "checksum": "bf216f88a39535a3813cdef2818ad3ae"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "89f6b9e8688b0c5f782a3eaea3fc4275"
+            "checksum": "ef3ba348111b94ac97a207f0ac75dd85"
         }
     ]
 }
