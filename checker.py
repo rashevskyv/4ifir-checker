@@ -4,14 +4,13 @@ import asyncio
 from archives import process_archive
 from settings import report_file
 from report import create_html_report, send_to_tg
-from files import remove_unlisted_directories
 from settings import aio_zip_url
-from files import download_extract_merge_json, download_file
+from files import download_extract_merge_json, download_file, remove_unlisted_directories
 from archives import process_archives_from_json
-from settings import file_to_extract, output_json_path
+from settings import file_to_extract, output_json_path, report_file
 from archive_handler import handle_archive
 
-def main():
+async def main():  # Додаємо async до функції main
     html_report_content = ''
 
     custom_packs_path = download_extract_merge_json(aio_zip_url, file_to_extract, output_json_path)
@@ -56,24 +55,19 @@ def main():
             last_modified = status["last_archive_modification"]
 
             if (is_folder_exist):
-                # If the archive filename is found, continue to create the report
-                print(f"{archive_output_dir} was exist")
                 result = create_html_report(comparison_results, last_modified)
             else:
-                # If not found, print a message and you may continue with the next iteration or assign a placeholder to result
-                print(f"{archive_output_dir} was NOT exist")
                 result = "<code>New archive was added.</code>"
 
             if telegram:
                 if all(keyword not in archive_name for keyword in ["4BRICK", "AIO", "AIOB", "Refresh", "Placebo"]) and result:
-                    asyncio.run(send_to_tg(result, archive_file, archive_name_for_tg))
+                    await send_to_tg(result, archive_file, archive_name_for_tg)  # Використовуємо await
                     print("Report sent to Telegram.")
 
             html_report_content += f'<h2>Archive Comparison Report for <b>{archive["filename"]}</b></h2>'
             html_report_content += result
             html_report_content += '<hr>\n\n'
 
-    # Write the report to a README.md file
     with open(report_file, 'w', encoding='utf-8') as f:
         f.write(html_report_content)
 
@@ -82,4 +76,8 @@ def main():
     remove_unlisted_directories(custom_packs_dict, ".")
 
 if __name__ == "__main__":
-    main()
+    loop = asyncio.get_event_loop()
+    try:
+        loop.run_until_complete(main())  # Запускаємо асинхронну функцію
+    finally:
+        loop.close()  # Закриваємо цикл подій після завершення
