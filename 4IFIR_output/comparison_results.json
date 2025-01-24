@@ -1,43 +1,135 @@
 {
-    "added": [],
-    "removed": [
+    "added": [
+        {
+            "type": "file",
+            "name": "atmosphere/hosts/emummc.txt",
+            "checksum": "0a78b9206b0f40c4966291988d962d52"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/patches.ini",
+            "checksum": "bf4d53108f82c4d5fdef6ae5a5ad9fc2"
+        },
+        {
+            "type": "file",
+            "name": "games/MicroMemBench.nsp",
+            "checksum": "7357f94cbba0fe2348aeae214665c9de"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/010009D018A06000/46094C03E2EC668B.yaml",
+            "checksum": "0ceaefcb4646b23e28555fd791a8c7c4"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/010054E01D878000/AF76EBEDE6A89F89.yaml",
+            "checksum": "39fb266e6985f6ba01e4fb89e3343d4f"
+        },
         {
             "type": "directory",
-            "name": "SaltySD/flags",
+            "name": "SaltySD/plugins/FPSLocker/patches/0100B7C01D480000",
             "children": [
                 {
                     "type": "file",
-                    "name": "log.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    "name": "CCBDDB69038F76FC.yaml",
+                    "checksum": "4714e688950edefc3024f2ae694d74f4"
                 }
             ]
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/0100EE00205BA000/F2D03CFFB8DE5E4C.yaml",
+            "checksum": "522ea8c01cf2360e5b16e0152ff5921d"
+        }
+    ],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "SaltySD/plugins/FPSLocker/patches/010000B01A452000/010085401A454000",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "2F33996FD9C81253.yaml",
+                    "checksum": "fcd79daa952d6933ec4ff2dd46139811"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/01000BB00E9D2000/D27FD8A515077F34.yaml",
+            "checksum": "7293625e4692d9b20f71a6540e9102d2"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/010019C00E9CC000/D27FD8A515077F34.yaml",
+            "checksum": "7293625e4692d9b20f71a6540e9102d2"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/010070A00E9CE000/D27FD8A515077F34.yaml",
+            "checksum": "7293625e4692d9b20f71a6540e9102d2"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/010076F00E9C8000/D27FD8A515077F34.yaml",
+            "checksum": "7293625e4692d9b20f71a6540e9102d2"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/0100BFE00E9CA000/D27FD8A515077F34.yaml",
+            "checksum": "7293625e4692d9b20f71a6540e9102d2"
         }
     ],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
-            "checksum": "35c6e7bc425b3eda948ebfcd17342035"
+            "name": "atmosphere/contents/0000000000534C56/toolbox.json",
+            "checksum": "e8beb5693ea268ce60d3a93aa91bd2ae"
         },
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "f7dc49c507162384a7ef5f65a87ef418"
+            "checksum": "e64e8bf09c7093e5288dbb410e9a6281"
         },
         {
             "type": "file",
-            "name": "SaltySD/exceptions.txt",
-            "checksum": "0fe20066198fa3c6d47754ea098d9ac6"
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "7ca48692341c1d78d18812ff4cc19d82"
         },
         {
             "type": "file",
-            "name": "SaltySD/saltysd_core.elf",
-            "checksum": "bf216f88a39535a3813cdef2818ad3ae"
+            "name": "config/4IFIR/config.ini",
+            "checksum": "c52313ecbddb0448bc0fa02eff243631"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "ef3ba348111b94ac97a207f0ac75dd85"
+            "name": "config/Fizeau/config.ini",
+            "checksum": "e60eee2160983b1bfc9f5a5172bf4f64"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/01008C8012920000/8C93B930348C9787.yaml",
+            "checksum": "ebe0281663681f818653bfc153ec3422"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/plugins/FPSLocker/patches/0100F2C0115B6000/9B4E43650501A4D4.yaml",
+            "checksum": "86764bdc58a7fcac806c1e82bb0f0c01"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "fc2791d5b50b5a69f5cb2966d9ef66e5"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "f8c7e4f25a6481d02575b49881dffade"
+        },
+        {
+            "type": "file",
+            "name": "switch/MicroMemBench.nro",
+            "checksum": "20c0b1a6612e3489dae1057ff7bf2acc"
         }
     ]
 }

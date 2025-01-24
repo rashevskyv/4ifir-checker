@@ -25,9 +25,9 @@ settings = load_config('settings.json')
 # settings = load_config('test_settings.json')
 
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN'] if settings['TELEGRAM_BOT_TOKEN'] == "os.environ['TELEGRAM_BOT_TOKEN']" else settings['TELEGRAM_BOT_TOKEN']
-YOUR_CHAT_ID = settings['YOUR_CHAT_ID']
-TOPIC_ID = settings['TOPIC_ID']
-TELEGRAM_API_ID = settings['TELEGRAM_API_ID']
-TELEGRAM_API_HASH = settings['TELEGRAM_API_HASH']
-TELEGRAM_USERNAME = settings['TELEGRAM_USERNAME']
+YOUR_CHAT_ID = os.environ['YOUR_CHAT_ID'] if settings['YOUR_CHAT_ID'] == "os.environ['YOUR_CHAT_ID']" else settings['YOUR_CHAT_ID']
+TOPIC_ID = os.environ['TOPIC_ID'] if settings['TOPIC_ID'] == "os.environ['TOPIC_ID']" else settings['TOPIC_ID']
+TELEGRAM_API_ID = os.environ['TELEGRAM_API_ID'] if settings['TELEGRAM_API_ID'] == "os.environ['TELEGRAM_API_ID']" else settings['TELEGRAM_API_ID']
+TELEGRAM_API_HASH = os.environ['TELEGRAM_API_HASH'] if settings['TELEGRAM_API_HASH'] == "os.environ['TELEGRAM_API_HASH']" else settings['TELEGRAM_API_HASH']
+TELEGRAM_USERNAME = os.environ['TELEGRAM_USERNAME'] if settings['TELEGRAM_USERNAME'] == "os.environ['TELEGRAM_USERNAME']" else settings['TELEGRAM_USERNAME']
 report_file = 'README.md'

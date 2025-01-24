@@ -77,7 +77,7 @@
                             {
                                 "type": "file",
                                 "name": "toolbox.json",
-                                "checksum": "3ad67477a292a53a4e2b389f6c546618"
+                                "checksum": "e8beb5693ea268ce60d3a93aa91bd2ae"
                             }
                         ]
                     },
@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "f7dc49c507162384a7ef5f65a87ef418"
+                                "checksum": "e64e8bf09c7093e5288dbb410e9a6281"
                             },
                             {
                                 "type": "directory",
@@ -229,7 +229,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "3e4be78deb0f193b8c3b4c7718d02179"
+                                "checksum": "7ca48692341c1d78d18812ff4cc19d82"
                             },
                             {
                                 "type": "directory",
@@ -286,6 +286,11 @@
                         "type": "file",
                         "name": "domains.txt",
                         "checksum": "8cc7bf9e7e6b210872e591f25bc7d54b"
+                    },
+                    {
+                        "type": "file",
+                        "name": "emummc.txt",
+                        "checksum": "0a78b9206b0f40c4966291988d962d52"
                     }
                 ]
             },
@@ -361,6 +366,11 @@
                 "type": "file",
                 "name": "nyx.ini",
                 "checksum": "74c7e9366fcc7fc80aa092f47af9426a"
+            },
+            {
+                "type": "file",
+                "name": "patches.ini",
+                "checksum": "bf4d53108f82c4d5fdef6ae5a5ad9fc2"
             },
             {
                 "type": "directory",
@@ -519,7 +529,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "13e4b48d3a577f2598fd1053029ceb87"
+                        "checksum": "c52313ecbddb0448bc0fa02eff243631"
                     }
                 ]
             },
@@ -551,7 +561,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "e2c6dbbe018957ee6f9675cbaca5a4a0"
+                        "checksum": "e60eee2160983b1bfc9f5a5172bf4f64"
                     }
                 ]
             },
@@ -652,6 +662,11 @@
                 "type": "file",
                 "name": "hbmenu.nsp",
                 "checksum": "a58643f499a46bc9545d81dea94f4cd2"
+            },
+            {
+                "type": "file",
+                "name": "MicroMemBench.nsp",
+                "checksum": "7357f94cbba0fe2348aeae214665c9de"
             }
         ]
     },
@@ -749,17 +764,6 @@
                                         "type": "directory",
                                         "name": "010000B01A452000",
                                         "children": [
-                                            {
-                                                "type": "directory",
-                                                "name": "010085401A454000",
-                                                "children": [
-                                                    {
-                                                        "type": "file",
-                                                        "name": "2F33996FD9C81253.yaml",
-                                                        "checksum": "fcd79daa952d6933ec4ff2dd46139811"
-                                                    }
-                                                ]
-                                            },
                                             {
                                                 "type": "file",
                                                 "name": "2E7487767D0CA0EE.yaml",
@@ -880,6 +884,11 @@
                                             },
                                             {
                                                 "type": "file",
+                                                "name": "46094C03E2EC668B.yaml",
+                                                "checksum": "0ceaefcb4646b23e28555fd791a8c7c4"
+                                            },
+                                            {
+                                                "type": "file",
                                                 "name": "520620FBA0B196A3.yaml",
                                                 "checksum": "8d4f36e4d6c39fb3b96199d62aacf591"
                                             }
@@ -915,11 +924,6 @@
                                                 "type": "file",
                                                 "name": "4BC4A8A814FD46A4.yaml",
                                                 "checksum": "3af45693fcda99a0ff961914757767be"
-                                            },
-                                            {
-                                                "type": "file",
-                                                "name": "D27FD8A515077F34.yaml",
-                                                "checksum": "7293625e4692d9b20f71a6540e9102d2"
                                             }
                                         ]
                                     },
@@ -1139,11 +1143,6 @@
                                                 "type": "file",
                                                 "name": "4BC4A8A814FD46A4.yaml",
                                                 "checksum": "3af45693fcda99a0ff961914757767be"
-                                            },
-                                            {
-                                                "type": "file",
-                                                "name": "D27FD8A515077F34.yaml",
-                                                "checksum": "7293625e4692d9b20f71a6540e9102d2"
                                             }
                                         ]
                                     },
@@ -2287,6 +2286,11 @@
                                             },
                                             {
                                                 "type": "file",
+                                                "name": "AF76EBEDE6A89F89.yaml",
+                                                "checksum": "39fb266e6985f6ba01e4fb89e3343d4f"
+                                            },
+                                            {
+                                                "type": "file",
                                                 "name": "C3A7D284DA741DBC.yaml",
                                                 "checksum": "822d3e9c916802727a005a655b85a1e6"
                                             },
@@ -2909,11 +2913,6 @@
                                                 "type": "file",
                                                 "name": "4BC4A8A814FD46A4.yaml",
                                                 "checksum": "3af45693fcda99a0ff961914757767be"
-                                            },
-                                            {
-                                                "type": "file",
-                                                "name": "D27FD8A515077F34.yaml",
-                                                "checksum": "7293625e4692d9b20f71a6540e9102d2"
                                             }
                                         ]
                                     },
@@ -3108,11 +3107,6 @@
                                                 "type": "file",
                                                 "name": "4BC4A8A814FD46A4.yaml",
                                                 "checksum": "3af45693fcda99a0ff961914757767be"
-                                            },
-                                            {
-                                                "type": "file",
-                                                "name": "D27FD8A515077F34.yaml",
-                                                "checksum": "7293625e4692d9b20f71a6540e9102d2"
                                             }
                                         ]
                                     },
@@ -3506,7 +3500,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "8C93B930348C9787.yaml",
-                                                "checksum": "866e8a6a7a3ca10ebc5dc84175e4ce21"
+                                                "checksum": "ebe0281663681f818653bfc153ec3422"
                                             }
                                         ]
                                     },
@@ -4250,6 +4244,17 @@
                                     },
                                     {
                                         "type": "directory",
+                                        "name": "0100B7C01D480000",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "CCBDDB69038F76FC.yaml",
+                                                "checksum": "4714e688950edefc3024f2ae694d74f4"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "directory",
                                         "name": "0100B8501771A000",
                                         "children": [
                                             {
@@ -4423,11 +4428,6 @@
                                                 "type": "file",
                                                 "name": "4BC4A8A814FD46A4.yaml",
                                                 "checksum": "3af45693fcda99a0ff961914757767be"
-                                            },
-                                            {
-                                                "type": "file",
-                                                "name": "D27FD8A515077F34.yaml",
-                                                "checksum": "7293625e4692d9b20f71a6540e9102d2"
                                             }
                                         ]
                                     },
@@ -5210,6 +5210,11 @@
                                                 "type": "file",
                                                 "name": "E7011BF08747297B.yaml",
                                                 "checksum": "796d3eb3fa4bdec14ced63b209799bf1"
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "F2D03CFFB8DE5E4C.yaml",
+                                                "checksum": "522ea8c01cf2360e5b16e0152ff5921d"
                                             }
                                         ]
                                     },
@@ -5253,7 +5258,7 @@
                                             {
                                                 "type": "file",
                                                 "name": "9B4E43650501A4D4.yaml",
-                                                "checksum": "2f34ae7cb637f90522dac3e5b2c6420c"
+                                                "checksum": "86764bdc58a7fcac806c1e82bb0f0c01"
                                             }
                                         ]
                                     },
@@ -5475,7 +5480,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "923b05568548bb26d793296024fab85b"
+                        "checksum": "fc2791d5b50b5a69f5cb2966d9ef66e5"
                     },
                     {
                         "type": "file",
@@ -5616,7 +5621,7 @@
                     {
                         "type": "file",
                         "name": "DBI.nro",
-                        "checksum": "3b0dd736fb2aff21744632c26cf4065d"
+                        "checksum": "f8c7e4f25a6481d02575b49881dffade"
                     },
                     {
                         "type": "file",
@@ -5644,7 +5649,7 @@
             {
                 "type": "file",
                 "name": "MicroMemBench.nro",
-                "checksum": "175442c1babb6f3831901cea445d459b"
+                "checksum": "20c0b1a6612e3489dae1057ff7bf2acc"
             },
             {
                 "type": "file",
