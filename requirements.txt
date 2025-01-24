@@ -1,3 +1,5 @@
 aiogram==2.25.1
 python-telegram-bot==20.2
 requests==2.28.2
+tqdm
+telethon
