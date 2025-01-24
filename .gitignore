@@ -22,3 +22,8 @@ tmp/
 /__pycache__
 
 diff.txt
+venv/
+cron.log
+run_checker.py
+run_checker.sh
+session_name.session
