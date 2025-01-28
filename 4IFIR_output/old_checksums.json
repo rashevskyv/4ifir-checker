@@ -384,7 +384,7 @@
                     {
                         "type": "file",
                         "name": "KipTool.bin",
-                        "checksum": "af386380a30fa4bf538e9701b032e4ca"
+                        "checksum": "b438c3d30263ddfb850c63bb090cf015"
                     },
                     {
                         "type": "file",
@@ -660,13 +660,18 @@
         "children": [
             {
                 "type": "file",
-                "name": "hbmenu.nsp",
+                "name": "HBMenu.nsp",
                 "checksum": "a58643f499a46bc9545d81dea94f4cd2"
             },
             {
                 "type": "file",
                 "name": "MicroMemBench.nsp",
                 "checksum": "7357f94cbba0fe2348aeae214665c9de"
+            },
+            {
+                "type": "file",
+                "name": "ModCD.nsp",
+                "checksum": "e9804fa090dac3156ca35f4e669e33bf"
             }
         ]
     },
@@ -5659,7 +5664,7 @@
             {
                 "type": "file",
                 "name": "ModCD.nro",
-                "checksum": "38a966320acf59309e53dbd21d1664b0"
+                "checksum": "72fc8482710df13535d58bd5e884f996"
             },
             {
                 "type": "file",
