@@ -1,20 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 28.01.2025 08:18<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 29.01.2025 17:31<hr>
 
-<h3>Added files/folders</h3>
-<pre>games
-├╴HBMenu.nsp (58643f4)
-└╴ModCD.nsp (9804fa0)
-</pre>
-<h3>Removed files/folders</h3>
-<pre>games
-└╴hbmenu.nsp (58643f4)
-</pre>
 <h3>Modified files</h3>
-<pre>bootloader
-└╴payloads
-  └╴KipTool.bin (438c3d3)
+<pre>atmosphere
+└╴contents
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (1b87c35)
 switch
-└╴ModCD.nro (2fc8482)
+└╴.overlays
+  └╴4IFIR.ovl (c7327c7)
 </pre>
 <hr>
 

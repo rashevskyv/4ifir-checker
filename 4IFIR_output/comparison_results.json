@@ -1,33 +1,16 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "games/HBMenu.nsp",
-            "checksum": "a58643f499a46bc9545d81dea94f4cd2"
-        },
-        {
-            "type": "file",
-            "name": "games/ModCD.nsp",
-            "checksum": "e9804fa090dac3156ca35f4e669e33bf"
-        }
-    ],
-    "removed": [
-        {
-            "type": "file",
-            "name": "games/hbmenu.nsp",
-            "checksum": "a58643f499a46bc9545d81dea94f4cd2"
-        }
-    ],
+    "added": [],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "bootloader/payloads/KipTool.bin",
-            "checksum": "b438c3d30263ddfb850c63bb090cf015"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "71b87c358543a15ea2d69d21b5ccde0a"
         },
         {
             "type": "file",
-            "name": "switch/ModCD.nro",
-            "checksum": "72fc8482710df13535d58bd5e884f996"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "cc7327c73220dad2bcb22c028c3fcb0d"
         }
     ]
 }
