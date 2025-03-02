@@ -1,8 +1,11 @@
 import os
 import json
 import asyncio
+from datetime import datetime
+from pytz import timezone
+import requests
 from archives import process_archive
-from settings import report_file, archives_output_dir
+from settings import report_file, archives_output_dir, github_api_url
 from report import create_html_report, send_to_tg
 from settings import aio_zip_url
 from files import download_extract_merge_json, download_file, remove_unlisted_directories
@@ -10,7 +13,67 @@ from archives import process_archives_from_json
 from settings import file_to_extract, output_json_path
 from archive_handler import handle_archive
 
+# Перевірка дати останнього релізу на GitHub
+def check_last_github_release():
+    try:
+        # Отримати інформацію про останній реліз
+        response = requests.get(github_api_url)
+        if response.status_code == 200:
+            release_data = response.json()
+            # Отримати дату публікації останнього релізу
+            published_at_utc = datetime.strptime(release_data['published_at'], '%Y-%m-%dT%H:%M:%SZ')
+            # Перетворення в UTC часовий пояс
+            published_at_utc = published_at_utc.replace(tzinfo=timezone('UTC'))
+            # Перетворення в GMT+3
+            published_at_gmt3 = published_at_utc.astimezone(timezone('Etc/GMT-3'))
+            return published_at_gmt3.isoformat()
+        else:
+            print('Error getting release info from GitHub API:', response.status_code)
+            print('Response:', response.text)
+            return None
+    except Exception as e:
+        print('Error checking GitHub release date:', e)
+        return None
+
+# Завантаження і збереження дати останньої перевірки
+def load_last_check_date():
+    try:
+        if os.path.exists('last_check.json'):
+            with open('last_check.json', 'r') as f:
+                data = json.load(f)
+                return data.get('last_check_date')
+        return None
+    except Exception as e:
+        print('Error loading last check date:', e)
+        return None
+
+def save_last_check_date(date_str):
+    try:
+        with open('last_check.json', 'w') as f:
+            json.dump({'last_check_date': date_str}, f)
+    except Exception as e:
+        print('Error saving last check date:', e)
+
 async def main():
+    # Отримати дату останнього релізу
+    last_release_date = check_last_github_release()
+    if not last_release_date:
+        print("Cannot get the latest release date. Exiting.")
+        return
+    
+    # Отримати дату останньої перевірки
+    last_check_date = load_last_check_date()
+    
+    # Якщо дата останньої перевірки існує і дорівнює даті останнього релізу,
+    # завершити роботу скрипта
+    if last_check_date and last_check_date == last_release_date:
+        print(f"No new releases since last check (Last release: {last_release_date}). Exiting.")
+        return
+    
+    print(f"New release detected! Last release date: {last_release_date}")
+    print(f"Previous check date: {last_check_date or 'None (first run)'}")
+    
+    # Продовжуємо за старим алгоритмом, якщо є новий реліз
     html_report_content = ''
 
     # Переконатися, що директорія для архівів існує
@@ -80,6 +143,10 @@ async def main():
     print("All archives processed.")
 
     remove_unlisted_directories(custom_packs_dict, ".")
+    
+    # Зберегти поточну дату релізу як дату останньої перевірки
+    save_last_check_date(last_release_date)
+    print(f"Updated last check date to {last_release_date}")
 
 if __name__ == "__main__":
     # Використовуємо asyncio.run замість циклу подій вручну

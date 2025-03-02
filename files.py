@@ -58,11 +58,18 @@ def remove_unlisted_directories(custom_packs_dict, output_parent_dir):
         os.remove(output_json_path)
         print(f"Removed file: {output_json_path}")
 
-# Updated function to get the last modified date from the GitHub API
+# Get the last modified date from the GitHub API
 def get_last_modified(url):
     try:
         # Instead of checking the URL's last-modified header,
-        # we'll get the latest release date from GitHub API
+        # we'll reuse the date from checker.py through a file
+        if os.path.exists('last_check.json'):
+            with open('last_check.json', 'r') as f:
+                data = json.load(f)
+                if 'last_check_date' in data:
+                    return data['last_check_date']
+        
+        # If no cached date exists, fetch from GitHub API directly
         response = requests.get(github_api_url)
         if response.status_code == 200:
             release_data = response.json()
