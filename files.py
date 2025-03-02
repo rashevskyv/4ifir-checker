@@ -8,7 +8,7 @@ from report import send_tg_message
 import asyncio
 import json
 import zipfile
-from settings import output_json_path
+from settings import output_json_path, github_api_url
 
 # Download a file from a URL
 def download_file(url, output_path):
@@ -29,7 +29,7 @@ def download_file(url, output_path):
             if server_response.read() == '1':
                 asyncio.run(send_tg_message("""<b>Server is down</b>                                            
                                             
-Нагадую, що в репозіторії чекера на гітхаб лежать версії зі зміненим джерелом оновлень. То ж коли і якщо в вас не працює аіо, або сервер Кулера лежить, використовуйте ці версії. Ще раз - нічого не змінено, окрім сервера оновлень. Версії відповідні версіям з пульса https://github.com/rashevskyv/4ifir-checker/tree/main/github
+Нагадую, що в репозиторії чекера на гітхаб лежать версії зі зміненим джерелом оновлень. То ж коли і якщо в вас не працює аіо, або сервер Кулера лежить, використовуйте ці версії. Ще раз - нічого не змінено, окрім сервера оновлень. Версії відповідні версіям з пульса https://github.com/rashevskyv/4ifir-checker/tree/main/github
 
 Reminder: versions with a changed update source are available in the checker repository on GitHub. So if AIO doesn't work for you or Cooler's server is down, use thise versions. Once again - nothing has been changed except the update server. The versions correspond to those from Pulse https://github.com/rashevskyv/4ifir-checker/tree/main/github
 
@@ -58,22 +58,31 @@ def remove_unlisted_directories(custom_packs_dict, output_parent_dir):
         os.remove(output_json_path)
         print(f"Removed file: {output_json_path}")
 
-# Get the last modified date of the file from the URL
+# Updated function to get the last modified date from the GitHub API
 def get_last_modified(url):
     try:
-        head_response = requests.head(url)
-        if head_response.status_code == 200:
-            last_modified_utc = datetime.strptime(head_response.headers.get('Last-Modified'), '%a, %d %b %Y %H:%M:%S %Z')
+        # Instead of checking the URL's last-modified header,
+        # we'll get the latest release date from GitHub API
+        response = requests.get(github_api_url)
+        if response.status_code == 200:
+            release_data = response.json()
+            # Get the published_at date of the latest release
+            published_at_utc = datetime.strptime(release_data['published_at'], '%Y-%m-%dT%H:%M:%SZ')
             # Convert to UTC timezone
-            last_modified_utc = last_modified_utc.replace(tzinfo=timezone('UTC'))
+            published_at_utc = published_at_utc.replace(tzinfo=timezone('UTC'))
             # Convert to GMT+3
-            last_modified_gmt3 = last_modified_utc.astimezone(timezone('Etc/GMT-3'))
-            return last_modified_gmt3.isoformat()
+            published_at_gmt3 = published_at_utc.astimezone(timezone('Etc/GMT-3'))
+            return published_at_gmt3.isoformat()
         else:
-            print('Error getting Last-Modified:', head_response.status_code)
+            print('Error getting release info from GitHub API:', response.status_code)
+            print('Response:', response.text)
             sys.exit(1)
     except requests.exceptions.RequestException as e:
         print('Error:', e)
+        sys.exit(1)
+    except KeyError as e:
+        print('Error parsing GitHub API response:', e)
+        print('Response content:', response.text)
         sys.exit(1)
 
 def extract_file_from_zip(zip_path, file_to_extract, output_path):

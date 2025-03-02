@@ -1,3 +1,4 @@
+import asyncio
 from aiogram import Bot, types
 import os
 from status_result import process_items
@@ -7,7 +8,7 @@ from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TE
 from telethon import TelegramClient
 from telethon.tl.functions.messages import SendMediaRequest
 from telethon.tl.types import InputMediaUploadedDocument
-from tqdm import tqdm  # Імпортуємо tqdm для прогрес бару
+from tqdm import tqdm
 
 bot_token, chat_id, message_thread_id = TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID
 
@@ -105,10 +106,11 @@ def split_html_content(content, max_length=4096, tag='<pre>', delimiter='-------
 
 async def send_large_file_with_telethon(file_path, reply_to_message_id):
     """Функція для відправки великих файлів за допомогою Telethon з прогрес баром."""
-    client = TelegramClient('session_name', TELEGRAM_API_ID, TELEGRAM_API_HASH)
-    await client.start()
-
+    client = None
     try:
+        client = TelegramClient('session_name', TELEGRAM_API_ID, TELEGRAM_API_HASH)
+        await client.start()
+
         # Спроба отримати об'єкт чату через chat_id
         try:
             chat = await client.get_input_entity(chat_id)
@@ -144,131 +146,295 @@ async def send_large_file_with_telethon(file_path, reply_to_message_id):
     except Exception as e:
         print(f"\nПомилка при відправці файлу через Telethon: {e}")
     finally:
-        await client.disconnect()
+        if client:
+            await client.disconnect()
 
 async def send_to_tg(report_content, file, archivename):
-    def process_report_content(report_content):
-        report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
-        header, blocks = split_html_content(report_content)
-        delimiter="-------------------------------"
-        split_index = header.rfind(delimiter)
-        small_caption = header[:split_index]
-        headless_header=header[split_index+len(delimiter):]
-        return header, blocks, small_caption, headless_header
+    bot = None
+    file_obj = None
+    
+    try:
+        def process_report_content(report_content):
+            report_content = report_content.replace("<h2>", "<b>").replace("</h2>", "</b>\n").replace("<h3>", "<b>").replace("</h3>", "</b>\n").replace("<br>", "\n").replace("<hr>", "\n-------------------------------")
+            header, blocks = split_html_content(report_content)
+            delimiter="-------------------------------"
+            split_index = header.rfind(delimiter)
+            small_caption = header[:split_index] if split_index != -1 else header
+            headless_header = header[split_index+len(delimiter):] if split_index != -1 else ""
+            return header, blocks, small_caption, headless_header
 
-    def prepare_file(file, archivename):
+        def prepare_file(file, archivename):
+            desired_filename = archivename + '.zip'
+            if file != desired_filename:
+                shutil.copy2(file, desired_filename)
+            return open(desired_filename, 'rb')
+
+        header, blocks, small_caption, headless_header = process_report_content(report_content)
+        
+        bot = Bot(token=bot_token)
+
         desired_filename = archivename + '.zip'
         if file != desired_filename:
             shutil.copy2(file, desired_filename)
         file_obj = open(desired_filename, 'rb')
-        return file_obj
 
-    header, blocks, small_caption, headless_header = process_report_content(report_content)
-    file_obj = prepare_file(file, archivename)
+        # Перевірка розміру файла
+        file_size = os.path.getsize(desired_filename)
+        max_file_size = 49 * 1024 * 1024  # 49 МБ у байтах
 
-    bot = Bot(token=bot_token)
+        first_message_id = None  # Змінна для збереження ID першого повідомлення
+        
+        # Перевірка, чи потрібно використовувати thread_id
+        use_thread_id = message_thread_id is not None and message_thread_id != "None" and message_thread_id != ""
+        msg_thread_id = message_thread_id if use_thread_id else None
+        
+        print(f"Using message thread ID: {msg_thread_id}")
 
-    desired_filename = archivename + '.zip'
-    if file != desired_filename:
-        shutil.copy2(file, desired_filename)
-    file_obj = open(desired_filename, 'rb')
+        if file_size > max_file_size:
+            print(f"File {desired_filename} is too large ({file_size} bytes). Sending message without file.")
+            if len(header) > 900:
+                split_index = header.rfind("</pre>") + len("</pre>")
+                first_part = header[:split_index]
+                second_part = header[split_index:]
 
-    # Перевірка розміру файла
-    file_size = os.path.getsize(desired_filename)
-    max_file_size = 49 * 1024 * 1024  # 49 МБ у байтах
+                if len(first_part) < 1024:
+                    try:
+                        sent_message = await bot.send_message(
+                            chat_id=chat_id, 
+                            message_thread_id=msg_thread_id, 
+                            text=first_part, 
+                            parse_mode=types.ParseMode.HTML
+                        )
+                        first_message_id = sent_message.message_id
+                    except Exception as e:
+                        print(f"Error sending message: {e}")
+                        # Спробуємо без thread_id, якщо помилка пов'язана з thread
+                        if "thread" in str(e).lower():
+                            print("Trying to send without thread ID...")
+                            sent_message = await bot.send_message(
+                                chat_id=chat_id, 
+                                text=first_part, 
+                                parse_mode=types.ParseMode.HTML
+                            )
+                            first_message_id = sent_message.message_id
+                            use_thread_id = False
+                            msg_thread_id = None
+                        
+                    if len(second_part) > 4000:
+                        parts = []
+                        start = 0
+                        while start < len(second_part):
+                            end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
+                            if end == -1 + len('</pre>'):
+                                end = len(second_part)
+                            parts.append(second_part[start:end])
+                            start = end
 
-    first_message_id = None  # Змінна для збереження ID першого повідомлення
-
-    if file_size > max_file_size:
-        print(f"File {desired_filename} is too large ({file_size} bytes). Sending message without file.")
-        if len(header) > 900:
-            split_index = header.rfind("</pre>") + len("</pre>")
-            first_part = header[:split_index]
-            second_part = header[split_index:]
-
-            if len(first_part) < 1024:
-                sent_message = await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=first_part, parse_mode=types.ParseMode.HTML)
-                if first_message_id is None:  # Зберігаємо ID першого повідомлення
-                    first_message_id = sent_message.message_id
-                if len(second_part) > 4000:
-                    parts = []
-                    start = 0
-                    while start < len(second_part):
-                        end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
-                        if end == -1 + len('</pre>'):
-                            end = len(second_part)
-                        parts.append(second_part[start:end])
-                        start = end
-
-                    for part in parts:
-                        await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+                        for part in parts:
+                            await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+                    else:
+                        await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
                 else:
-                    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
+                    try:
+                        sent_message = await bot.send_message(
+                            chat_id=chat_id, 
+                            message_thread_id=msg_thread_id, 
+                            text=small_caption, 
+                            parse_mode=types.ParseMode.HTML
+                        )
+                        first_message_id = sent_message.message_id
+                    except Exception as e:
+                        print(f"Error sending message: {e}")
+                        # Спробуємо без thread_id
+                        if "thread" in str(e).lower():
+                            print("Trying to send without thread ID...")
+                            sent_message = await bot.send_message(
+                                chat_id=chat_id, 
+                                text=small_caption, 
+                                parse_mode=types.ParseMode.HTML
+                            )
+                            first_message_id = sent_message.message_id
+                            use_thread_id = False
+                            msg_thread_id = None
+                            
+                    await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
             else:
-                sent_message = await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=small_caption, parse_mode=types.ParseMode.HTML)
-                if first_message_id is None:  # Зберігаємо ID першого повідомлення
+                try:
+                    sent_message = await bot.send_message(
+                        chat_id=chat_id, 
+                        message_thread_id=msg_thread_id, 
+                        text=header, 
+                        parse_mode=types.ParseMode.HTML
+                    )
                     first_message_id = sent_message.message_id
-                await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
+                except Exception as e:
+                    print(f"Error sending message: {e}")
+                    # Спробуємо без thread_id
+                    if "thread" in str(e).lower():
+                        print("Trying to send without thread ID...")
+                        sent_message = await bot.send_message(
+                            chat_id=chat_id, 
+                            text=header, 
+                            parse_mode=types.ParseMode.HTML
+                        )
+                        first_message_id = sent_message.message_id
+                        use_thread_id = False
+                        msg_thread_id = None
+
+            for part in blocks:
+                await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+
+            # Відправка великого файлу через Telethon
+            if first_message_id is not None:
+                await send_large_file_with_telethon(desired_filename, first_message_id)
         else:
-            sent_message = await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=header, parse_mode=types.ParseMode.HTML)
-            if first_message_id is None:  # Зберігаємо ID першого повідомлення
-                first_message_id = sent_message.message_id
+            if len(header) > 900:
+                split_index = header.rfind("</pre>") + len("</pre>")
+                first_part = header[:split_index]
+                second_part = header[split_index:]
 
-        for part in blocks:
-            await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+                if len(first_part) < 1024:
+                    try:
+                        sent_message = await bot.send_document(
+                            chat_id=chat_id, 
+                            message_thread_id=msg_thread_id, 
+                            document=file_obj, 
+                            caption=first_part, 
+                            parse_mode=types.ParseMode.HTML
+                        )
+                        first_message_id = sent_message.message_id
+                    except Exception as e:
+                        print(f"Error sending document: {e}")
+                        # Спробуємо без thread_id
+                        if "thread" in str(e).lower():
+                            print("Trying to send without thread ID...")
+                            file_obj.seek(0)  # Reset file position
+                            sent_message = await bot.send_document(
+                                chat_id=chat_id, 
+                                document=file_obj, 
+                                caption=first_part, 
+                                parse_mode=types.ParseMode.HTML
+                            )
+                            first_message_id = sent_message.message_id
+                            use_thread_id = False
+                            msg_thread_id = None
+                        
+                    if len(second_part) > 4000:
+                        parts = []
+                        start = 0
+                        while start < len(second_part):
+                            end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
+                            if end == -1 + len('</pre>'):
+                                end = len(second_part)
+                            parts.append(second_part[start:end])
+                            start = end
 
-        # Відправка великого файлу через Telethon
+                        for part in parts:
+                            await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+                    else:
+                        await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
+                else:
+                    try:
+                        sent_message = await bot.send_document(
+                            chat_id=chat_id, 
+                            message_thread_id=msg_thread_id, 
+                            document=file_obj, 
+                            caption=small_caption, 
+                            parse_mode=types.ParseMode.HTML
+                        )
+                        first_message_id = sent_message.message_id
+                    except Exception as e:
+                        print(f"Error sending document: {e}")
+                        # Спробуємо без thread_id
+                        if "thread" in str(e).lower():
+                            print("Trying to send without thread ID...")
+                            file_obj.seek(0)  # Reset file position
+                            sent_message = await bot.send_document(
+                                chat_id=chat_id, 
+                                document=file_obj, 
+                                caption=small_caption, 
+                                parse_mode=types.ParseMode.HTML
+                            )
+                            first_message_id = sent_message.message_id
+                            use_thread_id = False
+                            msg_thread_id = None
+                            
+                    await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
+            else:
+                try:
+                    sent_message = await bot.send_document(
+                        chat_id=chat_id, 
+                        message_thread_id=msg_thread_id, 
+                        document=file_obj, 
+                        caption=header, 
+                        parse_mode=types.ParseMode.HTML
+                    )
+                    first_message_id = sent_message.message_id
+                except Exception as e:
+                    print(f"Error sending document: {e}")
+                    # Спробуємо без thread_id
+                    if "thread" in str(e).lower():
+                        print("Trying to send without thread ID...")
+                        file_obj.seek(0)  # Reset file position
+                        sent_message = await bot.send_document(
+                            chat_id=chat_id, 
+                            document=file_obj, 
+                            caption=header, 
+                            parse_mode=types.ParseMode.HTML
+                        )
+                        first_message_id = sent_message.message_id
+                        use_thread_id = False
+                        msg_thread_id = None
+
+            for part in blocks:
+                await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+
+        # Виведення ID першого повідомлення
         if first_message_id is not None:
-            await send_large_file_with_telethon(desired_filename, first_message_id)
-    else:
-        if len(header) > 900:
-            split_index = header.rfind("</pre>") + len("</pre>")
-            first_part = header[:split_index]
-            second_part = header[split_index:]
-
-            if len(first_part) < 1024:
-                sent_message = await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=first_part, parse_mode=types.ParseMode.HTML)
-                if first_message_id is None:  # Зберігаємо ID першого повідомлення
-                    first_message_id = sent_message.message_id
-                if len(second_part) > 4000:
-                    parts = []
-                    start = 0
-                    while start < len(second_part):
-                        end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
-                        if end == -1 + len('</pre>'):
-                            end = len(second_part)
-                        parts.append(second_part[start:end])
-                        start = end
-
-                    for part in parts:
-                        await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-                else:
-                    await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
-            else:
-                sent_message = await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=small_caption, parse_mode=types.ParseMode.HTML)
-                if first_message_id is None:  # Зберігаємо ID першого повідомлення
-                    first_message_id = sent_message.message_id
-                await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
-        else:
-            sent_message = await bot.send_document(chat_id=chat_id, message_thread_id=message_thread_id, document=file_obj, caption=header, parse_mode=types.ParseMode.HTML)
-            if first_message_id is None:  # Зберігаємо ID першого повідомлення
-                first_message_id = sent_message.message_id
-
-        for part in blocks:
-            await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-
-    file_obj.close()    
-    session = await bot.get_session()  # Отримуємо сесію через get_session()
-    await session.close()  # Закриваємо сесію
-
-    # Виведення ID першого повідомлення
-    if first_message_id is not None:
-        print(f"ID першого повідомлення: {first_message_id}")
+            print(f"ID першого повідомлення: {first_message_id}")
+            
+    except Exception as e:
+        print(f"Помилка під час відправки повідомлення: {e}")
+    finally:
+        # Clean up
+        if file_obj:
+            file_obj.close()
+        if bot:
+            session = await bot.get_session()
+            await session.close()
 
 async def send_tg_message(message):
-    bot = Bot(token=bot_token)
-    print("Sending message to Telegram...")
-    sent_message = await bot.send_message(chat_id=chat_id, message_thread_id=message_thread_id, text=message, parse_mode=types.ParseMode.HTML)
-    print(f"Message sent to Telegram. ID повідомлення: {sent_message.message_id}")
-    session = await bot.get_session()  # Отримуємо сесію через get_session()
-    await session.close()  # Закриваємо сесію
+    bot = None
+    try:
+        bot = Bot(token=bot_token)
+        print("Sending message to Telegram...")
+        
+        # Перевірка, чи потрібно використовувати thread_id
+        use_thread_id = message_thread_id is not None and message_thread_id != "None" and message_thread_id != ""
+        msg_thread_id = message_thread_id if use_thread_id else None
+        
+        try:
+            sent_message = await bot.send_message(
+                chat_id=chat_id, 
+                message_thread_id=msg_thread_id, 
+                text=message, 
+                parse_mode=types.ParseMode.HTML
+            )
+            print(f"Message sent to Telegram. ID повідомлення: {sent_message.message_id}")
+        except Exception as e:
+            print(f"Error sending message: {e}")
+            # Спробуємо без thread_id
+            if "thread" in str(e).lower():
+                print("Trying to send without thread ID...")
+                sent_message = await bot.send_message(
+                    chat_id=chat_id, 
+                    text=message, 
+                    parse_mode=types.ParseMode.HTML
+                )
+                print(f"Message sent to Telegram without thread ID. ID повідомлення: {sent_message.message_id}")
+    except Exception as e:
+        print(f"Помилка під час відправки повідомлення: {e}")
+    finally:
+        if bot:
+            session = await bot.get_session()
+            await session.close()
