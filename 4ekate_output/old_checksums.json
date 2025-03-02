@@ -1,19 +1,18 @@
 [
     {
-        "type": "directory",
-        "name": "atmosphere",
-        "children": [
-            {
-                "type": "file",
-                "name": "reboot_payload.bin",
-                "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
-            }
-        ]
+        "type": "file",
+        "name": "payload.bin",
+        "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
     },
     {
         "type": "directory",
         "name": "bootloader",
         "children": [
+            {
+                "type": "file",
+                "name": "update.bin",
+                "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
+            },
             {
                 "type": "directory",
                 "name": "payloads",
@@ -31,6 +30,36 @@
                 "children": [
                     {
                         "type": "file",
+                        "name": "libsys_lp0.bso",
+                        "checksum": "d4afa5524a0ee0fb58d7017c255370c4"
+                    },
+                    {
+                        "type": "file",
+                        "name": "thk.bin",
+                        "checksum": "ca100bbaa4abcd77aeaf4dbce1eabd63"
+                    },
+                    {
+                        "type": "file",
+                        "name": "nyx.bin",
+                        "checksum": "ec5d623c9ce9e6a154955d7432caea51"
+                    },
+                    {
+                        "type": "file",
+                        "name": "module_sample.bso",
+                        "checksum": "b2345615a198e54c4fafa71a965f0141"
+                    },
+                    {
+                        "type": "file",
+                        "name": "libsys_minerva.bso",
+                        "checksum": "b3dcb37523d6d82417a71719b5f0dc7c"
+                    },
+                    {
+                        "type": "file",
+                        "name": "res.pak",
+                        "checksum": "c46c1b1551bf9f4b2b9240a5fac0005a"
+                    },
+                    {
+                        "type": "file",
                         "name": "emummc.kipm",
                         "checksum": "9b49282ef505d232349cf7f5870ae781"
                     },
@@ -40,13 +69,8 @@
                         "children": [
                             {
                                 "type": "file",
-                                "name": "bpmpfw.bin",
-                                "checksum": "d084cd613cc506022a5b4b31c9d87ad4"
-                            },
-                            {
-                                "type": "file",
-                                "name": "bpmpfw_b01.bin",
-                                "checksum": "c8fd097cf03fa5ea7045a6005a23ea5a"
+                                "name": "sc7entry.bin",
+                                "checksum": "a5749bbff780e8acf9aa13bc791d023b"
                             },
                             {
                                 "type": "file",
@@ -55,8 +79,13 @@
                             },
                             {
                                 "type": "file",
-                                "name": "sc7entry.bin",
-                                "checksum": "a5749bbff780e8acf9aa13bc791d023b"
+                                "name": "sc7exit_b01.bin",
+                                "checksum": "f9b7669480aae8995378c984b91c0db9"
+                            },
+                            {
+                                "type": "file",
+                                "name": "bpmpfw.bin",
+                                "checksum": "d084cd613cc506022a5b4b31c9d87ad4"
                             },
                             {
                                 "type": "file",
@@ -65,53 +94,24 @@
                             },
                             {
                                 "type": "file",
-                                "name": "sc7exit_b01.bin",
-                                "checksum": "f9b7669480aae8995378c984b91c0db9"
+                                "name": "bpmpfw_b01.bin",
+                                "checksum": "c8fd097cf03fa5ea7045a6005a23ea5a"
                             }
                         ]
-                    },
-                    {
-                        "type": "file",
-                        "name": "libsys_lp0.bso",
-                        "checksum": "d4afa5524a0ee0fb58d7017c255370c4"
-                    },
-                    {
-                        "type": "file",
-                        "name": "libsys_minerva.bso",
-                        "checksum": "b3dcb37523d6d82417a71719b5f0dc7c"
-                    },
-                    {
-                        "type": "file",
-                        "name": "module_sample.bso",
-                        "checksum": "b2345615a198e54c4fafa71a965f0141"
-                    },
-                    {
-                        "type": "file",
-                        "name": "nyx.bin",
-                        "checksum": "ec5d623c9ce9e6a154955d7432caea51"
-                    },
-                    {
-                        "type": "file",
-                        "name": "res.pak",
-                        "checksum": "c46c1b1551bf9f4b2b9240a5fac0005a"
-                    },
-                    {
-                        "type": "file",
-                        "name": "thk.bin",
-                        "checksum": "ca100bbaa4abcd77aeaf4dbce1eabd63"
                     }
                 ]
-            },
-            {
-                "type": "file",
-                "name": "update.bin",
-                "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
             }
         ]
     },
     {
-        "type": "file",
-        "name": "payload.bin",
-        "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
+        "type": "directory",
+        "name": "atmosphere",
+        "children": [
+            {
+                "type": "file",
+                "name": "reboot_payload.bin",
+                "checksum": "455e2470bfdf09cf08d5783c8ca70df5"
+            }
+        ]
     }
 ]

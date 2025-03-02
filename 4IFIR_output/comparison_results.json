@@ -1,16 +1,78 @@
 {
     "added": [],
-    "removed": [],
+    "removed": [
+        {
+            "type": "file",
+            "name": "switch/.overlays/Fizeau.ovl",
+            "checksum": "1132fae54ea84f9cee50e28a7b9de3e8"
+        },
+        {
+            "type": "directory",
+            "name": "switch/Fizeau",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "Fizeau.nro",
+                    "checksum": "ed3aa44d9da7f18da1e654392f698101"
+                }
+            ]
+        }
+    ],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "71b87c358543a15ea2d69d21b5ccde0a"
+            "checksum": "da8d7e7e56892636c12efa39d110e5b1"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0100000000000F12/exefs.nsp",
+            "checksum": "180b1763e3ec4b1b66f69c7d00e52add"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0100000000000F12/toolbox.json",
+            "checksum": "7cd5783f42032e86292a37041c147252"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "f8854d67768a430db8f58c458e66af76"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "d05573e5b70002a171d3b9eaf4051e17"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "0fc4c95632ab8f64ebe004f04b5ead50"
+        },
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "d8d1a955dcaedcabf9013adf3621e1f9"
+        },
+        {
+            "type": "file",
+            "name": "config/Fizeau/config.ini",
+            "checksum": "2b49a27960aebdae2f4e0e942bb7234c"
+        },
+        {
+            "type": "file",
+            "name": "config/status-monitor/config.ini",
+            "checksum": "5b236568914ae3e991d0a9321ed38923"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "cc7327c73220dad2bcb22c028c3fcb0d"
+            "checksum": "4f8ba3d2535186577caa53ea1737a2d6"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "a031de4c994e0accaf9be7fb28abe0ae"
         }
     ]
 }

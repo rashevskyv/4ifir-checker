@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "71b87c358543a15ea2d69d21b5ccde0a"
+                                "checksum": "da8d7e7e56892636c12efa39d110e5b1"
                             },
                             {
                                 "type": "directory",
@@ -131,7 +131,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "2c9bf8291fd26a527709be60d9350cb8"
+                                "checksum": "180b1763e3ec4b1b66f69c7d00e52add"
                             },
                             {
                                 "type": "directory",
@@ -147,7 +147,7 @@
                             {
                                 "type": "file",
                                 "name": "toolbox.json",
-                                "checksum": "c482f382b5aa21fca9ccbf3fea3ffb6b"
+                                "checksum": "7cd5783f42032e86292a37041c147252"
                             }
                         ]
                     },
@@ -229,7 +229,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "7ca48692341c1d78d18812ff4cc19d82"
+                                "checksum": "f8854d67768a430db8f58c458e66af76"
                             },
                             {
                                 "type": "directory",
@@ -317,7 +317,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "b61fa8c1112b05b034c11e957428dfbd"
+                        "checksum": "d05573e5b70002a171d3b9eaf4051e17"
                     }
                 ]
             },
@@ -529,7 +529,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "c52313ecbddb0448bc0fa02eff243631"
+                        "checksum": "0fc4c95632ab8f64ebe004f04b5ead50"
                     }
                 ]
             },
@@ -545,7 +545,7 @@
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "5f87b7d28143bb7b0e29e8e61c1c2884"
+                        "checksum": "d8d1a955dcaedcabf9013adf3621e1f9"
                     },
                     {
                         "type": "file",
@@ -561,7 +561,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "e60eee2160983b1bfc9f5a5172bf4f64"
+                        "checksum": "2b49a27960aebdae2f4e0e942bb7234c"
                     }
                 ]
             },
@@ -594,7 +594,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "1eab90f198507772eeebabeacd56ee57"
+                        "checksum": "5b236568914ae3e991d0a9321ed38923"
                     }
                 ]
             },
@@ -5475,12 +5475,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "cc7327c73220dad2bcb22c028c3fcb0d"
-                    },
-                    {
-                        "type": "file",
-                        "name": "Fizeau.ovl",
-                        "checksum": "1132fae54ea84f9cee50e28a7b9de3e8"
+                        "checksum": "4f8ba3d2535186577caa53ea1737a2d6"
                     },
                     {
                         "type": "file",
@@ -5520,7 +5515,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "e5cd2ccd38580b1446d7b3a59a97464b"
+                        "checksum": "a031de4c994e0accaf9be7fb28abe0ae"
                     },
                     {
                         "type": "file",
@@ -5632,17 +5627,6 @@
                         "type": "file",
                         "name": "dbibackend",
                         "checksum": "923ee72521526c7db2a071425fdaa725"
-                    }
-                ]
-            },
-            {
-                "type": "directory",
-                "name": "Fizeau",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "Fizeau.nro",
-                        "checksum": "ed3aa44d9da7f18da1e654392f698101"
                     }
                 ]
             },
