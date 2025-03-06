@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "da8d7e7e56892636c12efa39d110e5b1"
+                                "checksum": "9bf15c7415ec64895fe90b9183a3f081"
                             },
                             {
                                 "type": "directory",
@@ -529,7 +529,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "0fc4c95632ab8f64ebe004f04b5ead50"
+                        "checksum": "9bcc32c3db9a9c5ddd6cb2b2d7a51675"
                     }
                 ]
             },
@@ -545,7 +545,7 @@
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "d8d1a955dcaedcabf9013adf3621e1f9"
+                        "checksum": "f9a044ebd15cb5eb390a452967eca786"
                     },
                     {
                         "type": "file",
@@ -5475,7 +5475,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "4f8ba3d2535186577caa53ea1737a2d6"
+                        "checksum": "fce1efa242cca71d399cff475bf203de"
                     },
                     {
                         "type": "file",
@@ -5621,7 +5621,7 @@
                     {
                         "type": "file",
                         "name": "DBI.nro",
-                        "checksum": "f8c7e4f25a6481d02575b49881dffade"
+                        "checksum": "78dca6dd632ce7fee0ca988f0cf26950"
                     },
                     {
                         "type": "file",

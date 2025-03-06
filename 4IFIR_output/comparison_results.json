@@ -1,5 +1,31 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "9bf15c7415ec64895fe90b9183a3f081"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "9bcc32c3db9a9c5ddd6cb2b2d7a51675"
+        },
+        {
+            "type": "file",
+            "name": "config/aio-switch-updater/custom_packs.json",
+            "checksum": "f9a044ebd15cb5eb390a452967eca786"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "fce1efa242cca71d399cff475bf203de"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "78dca6dd632ce7fee0ca988f0cf26950"
+        }
+    ]
 }
