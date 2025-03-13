@@ -1,38 +1,16 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents/00FF0000A53BB665/flags",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "boot2.flag",
-                    "checksum": "8cf8463b34caa8ac871a52d5dd7ad1ef"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000A53BB665/exefs.nsp",
-            "checksum": "dbb31a7e3beb1f52ad3fd0957bba9abd"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "199850fbf419fbc889d6dfa1d9389abc"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "bddb7091a6777f99c5c18c798e889086"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/sysdvr-overlay.ovl",
-            "checksum": "da7dfa2138be65c854436bdd33e0d4d1"
-        },
-        {
-            "type": "file",
-            "name": "switch/SysDVR-conf.nro",
-            "checksum": "0004bae928e449d4d4b3a21f4bf79433"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "2e52b01f4a341024bf33c4d11169b22c"
         }
     ]
 }

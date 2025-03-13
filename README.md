@@ -1,22 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 08.03.2025 00:11<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 09.03.2025 17:00<hr>
 
-<h3>Added files/folders</h3>
-<pre>atmosphere
-└╴contents
-  └╴00FF0000A53BB665
-    └╴flags
-      └╴boot2.flag (cf8463b)
-</pre>
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
-  └╴00FF0000A53BB665
-    └╴exefs.nsp (bb31a7e)
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (99850fb)
 switch
-├╴.overlays
-│ ├╴Status-Monitor-Overlay.ovl (ddb7091)
-│ └╴sysdvr-overlay.ovl (a7dfa21)
-└╴SysDVR-conf.nro (004bae9)
+└╴.overlays
+  └╴4IFIR.ovl (e52b01f)
 </pre>
 <hr>
 
