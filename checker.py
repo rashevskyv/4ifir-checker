@@ -4,6 +4,7 @@ import asyncio
 from datetime import datetime
 from pytz import timezone
 import requests
+import sys
 from archives import process_archive
 from settings import report_file, archives_output_dir, github_api_url
 from report import create_html_report, send_to_tg
@@ -12,6 +13,25 @@ from files import download_extract_merge_json, download_file, remove_unlisted_di
 from archives import process_archives_from_json
 from settings import file_to_extract, output_json_path
 from archive_handler import handle_archive
+
+# Додати функцію для отримання ID повідомлення з командного рядка або з середовища
+def get_reply_message_id():
+    # Спочатку перевіряємо аргументи командного рядка
+    if len(sys.argv) > 1:
+        try:
+            return int(sys.argv[1])
+        except (ValueError, IndexError):
+            pass
+    
+    # Якщо немає в аргументах командного рядка, перевіряємо змінні середовища
+    reply_id = os.environ.get('REPLY_MESSAGE_ID')
+    if reply_id:
+        try:
+            return int(reply_id)
+        except ValueError:
+            pass
+    
+    return None
 
 # Перевірка дати останнього релізу на GitHub
 def check_last_github_release():
@@ -55,6 +75,10 @@ def save_last_check_date(date_str):
         print('Error saving last check date:', e)
 
 async def main():
+    # Отримати ID повідомлення для відповіді
+    reply_message_id = get_reply_message_id()
+    print(f"Got reply_message_id: {reply_message_id}")
+    
     # Отримати дату останнього релізу
     last_release_date = check_last_github_release()
     if not last_release_date:
@@ -128,8 +152,9 @@ async def main():
             if telegram:
                 if all(keyword not in archive_name for keyword in ["4BRICK", "AIO", "AIOB", "Refresh", "Placebo"]) and result:
                     try:
-                        await send_to_tg(result, archive_file, archive_name_for_tg)
-                        print("Report sent to Telegram.")
+                        # Передаємо ID повідомлення для відповіді
+                        await send_to_tg(result, archive_file, archive_name_for_tg, reply_message_id)
+                        print("Report sent to Telegram as a reply to message ID:", reply_message_id)
                     except Exception as e:
                         print(f"Error sending report to Telegram: {e}")
 
