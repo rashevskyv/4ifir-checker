@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "da8d7e7e56892636c12efa39d110e5b1"
+                                "checksum": "a165c8986cd99de542f027df5993ff55"
                             },
                             {
                                 "type": "directory",
@@ -115,7 +115,18 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "acbd9dee1eb6c886ed11e45bf1b0098f"
+                                "checksum": "dbb31a7e3beb1f52ad3fd0957bba9abd"
+                            },
+                            {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "8cf8463b34caa8ac871a52d5dd7ad1ef"
+                                    }
+                                ]
                             },
                             {
                                 "type": "file",
@@ -317,7 +328,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "d05573e5b70002a171d3b9eaf4051e17"
+                        "checksum": "af595346e3f2c1288ce5d97796d3db4c"
                     }
                 ]
             },
@@ -529,7 +540,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "0fc4c95632ab8f64ebe004f04b5ead50"
+                        "checksum": "9bcc32c3db9a9c5ddd6cb2b2d7a51675"
                     }
                 ]
             },
@@ -545,7 +556,7 @@
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "d8d1a955dcaedcabf9013adf3621e1f9"
+                        "checksum": "f9a044ebd15cb5eb390a452967eca786"
                     },
                     {
                         "type": "file",
@@ -5475,7 +5486,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "4f8ba3d2535186577caa53ea1737a2d6"
+                        "checksum": "02bcae2be7348fd5009597b567a9c994"
                     },
                     {
                         "type": "file",
@@ -5515,7 +5526,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "a031de4c994e0accaf9be7fb28abe0ae"
+                        "checksum": "bddb7091a6777f99c5c18c798e889086"
                     },
                     {
                         "type": "file",
@@ -5530,7 +5541,7 @@
                     {
                         "type": "file",
                         "name": "sysdvr-overlay.ovl",
-                        "checksum": "5ef337126b247089306c0ad2f239fd03"
+                        "checksum": "da7dfa2138be65c854436bdd33e0d4d1"
                     }
                 ]
             },
@@ -5550,7 +5561,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "9f035be0bb0d2d5b8a37f8468674ccb0"
+                                "checksum": "97bbc7e10552581c1f3c78341eca4aa7"
                             },
                             {
                                 "type": "file",
@@ -5621,7 +5632,7 @@
                     {
                         "type": "file",
                         "name": "DBI.nro",
-                        "checksum": "f8c7e4f25a6481d02575b49881dffade"
+                        "checksum": "78dca6dd632ce7fee0ca988f0cf26950"
                     },
                     {
                         "type": "file",
@@ -5663,7 +5674,7 @@
             {
                 "type": "file",
                 "name": "SysDVR-conf.nro",
-                "checksum": "e16784c7ecc4b2eb66d2fc9f87b9fcc3"
+                "checksum": "0004bae928e449d4d4b3a21f4bf79433"
             }
         ]
     },
