@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "a165c8986cd99de542f027df5993ff55"
+            "name": "bootloader/res/4mosphere.bmp",
+            "checksum": "08be0aed3fb17dc8b79f485129447108"
         }
     ]
 }
