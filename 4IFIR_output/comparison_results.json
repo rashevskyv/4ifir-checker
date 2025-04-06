@@ -1,11 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "bootloader/res/4mosphere.bmp",
-            "checksum": "08be0aed3fb17dc8b79f485129447108"
-        }
-    ]
+    "modified": []
 }
