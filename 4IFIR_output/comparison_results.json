@@ -1,5 +1,23 @@
 {
     "added": [],
-    "removed": [],
-    "modified": []
+    "removed": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/420000000000000E/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "27c78e50bf9eda89db0d850fc980745a"
+        }
+    ]
 }
