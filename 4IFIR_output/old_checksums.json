@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "fd9ac1fd49481a79348f64235ec456c1"
+                                "checksum": "f8f27a747d106bbcb5de1c6c541aea46"
                             },
                             {
                                 "type": "directory",
@@ -324,17 +324,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "ff743973714147f63e986465ad3eaffc"
+                "checksum": "c269067381e0148ae14bfb09401e842a"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "0610eeefcf8c6dfa53f800b4c0238aba"
+                "checksum": "52fb1f3183158618d5cb3cf5718db2aa"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "9ef345a37f2d96da837fdc3b78467be2"
+                "checksum": "d423dc632c68709ae8d83f73f730bb09"
             }
         ]
     },
@@ -360,7 +360,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "d5ba640be8d64c2d6b085e744d7fdf75"
+                "checksum": "cd81e9b8a889a9fe674599c0cfa887a4"
             },
             {
                 "type": "file",
@@ -379,7 +379,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "077586864fb18256f74d6911302ab41c"
+                        "checksum": "af42ac479c3d1993d9379febeac7b2a5"
                     },
                     {
                         "type": "file",
@@ -410,7 +410,7 @@
                     {
                         "type": "file",
                         "name": "4mosphere.bmp",
-                        "checksum": "08be0aed3fb17dc8b79f485129447108"
+                        "checksum": "8585c878e501055c8da26d830b924ebe"
                     },
                     {
                         "type": "file",
@@ -482,12 +482,12 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "d4afa5524a0ee0fb58d7017c255370c4"
+                        "checksum": "17fa5bf0e04ffbabdf50265dba18b62a"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "b3dcb37523d6d82417a71719b5f0dc7c"
+                        "checksum": "4060602e4a3ee6b5ea5a619035e80c7e"
                     },
                     {
                         "type": "file",
@@ -497,7 +497,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "ec5d623c9ce9e6a154955d7432caea51"
+                        "checksum": "ed7676a4d2e8d4127b6fc8bf8c4d983e"
                     },
                     {
                         "type": "file",
@@ -514,7 +514,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "0610eeefcf8c6dfa53f800b4c0238aba"
+                "checksum": "52fb1f3183158618d5cb3cf5718db2aa"
             }
         ]
     },
@@ -683,7 +683,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "0610eeefcf8c6dfa53f800b4c0238aba"
+        "checksum": "52fb1f3183158618d5cb3cf5718db2aa"
     },
     {
         "type": "directory",
@@ -5475,7 +5475,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "02bcae2be7348fd5009597b567a9c994"
+                        "checksum": "2d533eeaacc7a7f95ead0c1453ef309d"
                     },
                     {
                         "type": "file",
@@ -5647,6 +5647,11 @@
             },
             {
                 "type": "file",
+                "name": "MicroVramTest.nro",
+                "checksum": "d2ee091d33a2931062145dbc78272479"
+            },
+            {
+                "type": "file",
                 "name": "ModCD.nro",
                 "checksum": "72fc8482710df13535d58bd5e884f996"
             },
@@ -5675,6 +5680,11 @@
                 "type": "file",
                 "name": "wb_14.bin",
                 "checksum": "0531b5ef5520e481104979fbcc9c24e1"
+            },
+            {
+                "type": "file",
+                "name": "wb_15.bin",
+                "checksum": "0da1925b09dd305daf0a8936ef3ebbbf"
             }
         ]
     }
