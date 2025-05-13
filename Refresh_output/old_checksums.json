@@ -9,18 +9,18 @@
                 "children": [
                     {
                         "type": "file",
-                        "name": "hide_tabs.json",
-                        "checksum": "1e6f9c206da36a4cb1b49612311367e9"
-                    },
-                    {
-                        "type": "file",
                         "name": ".aio-switch-updater",
                         "checksum": "d41d8cd98f00b204e9800998ecf8427e"
                     },
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "d8d1a955dcaedcabf9013adf3621e1f9"
+                        "checksum": "b682a3ddd1cd8b154c0972ed11e7ea52"
+                    },
+                    {
+                        "type": "file",
+                        "name": "hide_tabs.json",
+                        "checksum": "1e6f9c206da36a4cb1b49612311367e9"
                     }
                 ]
             }
