@@ -1,0 +1,10 @@
+{
+    "ams": {
+        "4IFIR": "https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIR.zip",
+        "4IFIR Beta": "https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIB.zip"
+    },
+    "misc": {
+        "4ekate": "https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIX.zip",
+        "Refresh": "https://github.com/rashevskyv/4ifir-checker/releases/latest/download/AIO.zip"
+    }
+}
