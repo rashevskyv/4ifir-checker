@@ -1,87 +1,11 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "file",
-            "name": "switch/MicroVramTest.nro",
-            "checksum": "d2ee091d33a2931062145dbc78272479"
-        },
-        {
-            "type": "file",
-            "name": "warmboot_mariko/wb_15.bin",
-            "checksum": "0da1925b09dd305daf0a8936ef3ebbbf"
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "fd9ac1fd49481a79348f64235ec456c1"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "ff743973714147f63e986465ad3eaffc"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "0610eeefcf8c6dfa53f800b4c0238aba"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "9ef345a37f2d96da837fdc3b78467be2"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "d5ba640be8d64c2d6b085e744d7fdf75"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "077586864fb18256f74d6911302ab41c"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/res/4mosphere.bmp",
-            "checksum": "08be0aed3fb17dc8b79f485129447108"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "d4afa5524a0ee0fb58d7017c255370c4"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "b3dcb37523d6d82417a71719b5f0dc7c"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "ec5d623c9ce9e6a154955d7432caea51"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "0610eeefcf8c6dfa53f800b4c0238aba"
-        },
-        {
-            "type": "file",
-            "name": "config/aio-switch-updater/custom_packs.json",
-            "checksum": "b682a3ddd1cd8b154c0972ed11e7ea52"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "0610eeefcf8c6dfa53f800b4c0238aba"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "02bcae2be7348fd5009597b567a9c994"
+            "name": "config/uberhand/config.ini",
+            "checksum": "fb2adf16e7aff8242532bf36ac6435c4"
         }
     ]
 }
