@@ -1,33 +1,5 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "SaltySD/flags",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "log.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                }
-            ]
-        }
-    ],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "54501f863b5f68e2a5f61b3d1987965d"
-        },
-        {
-            "type": "file",
-            "name": "config/Fizeau/config.ini",
-            "checksum": "8e2e8068ea9c6d98be6b5ce078075ae9"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "685e6ee015d69d0e4e1df0a9150557b8"
-        }
-    ]
+    "removed": [],
+    "modified": []
 }
