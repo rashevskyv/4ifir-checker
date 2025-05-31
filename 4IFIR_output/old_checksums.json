@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "54501f863b5f68e2a5f61b3d1987965d"
+                                "checksum": "6e1959b618a6c4eb3fdcabdbad7d8b11"
                             },
                             {
                                 "type": "directory",
@@ -169,7 +169,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "8af03dcebb5778609cb2a7a2c61db9a7"
+                                "checksum": "e411fc42507015dda56317f0c1b70843"
                             },
                             {
                                 "type": "directory",
@@ -218,7 +218,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "38cba664b712bf9c7325415361e3a597"
+                                "checksum": "5fae694ef65aa94bac75fdf707232691"
                             },
                             {
                                 "type": "directory",
@@ -261,7 +261,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "c5d21a77232375eaf8361b4acde6bf85"
+                                "checksum": "93b6bb2fe7998f7957f9e3647c8ab7ea"
                             },
                             {
                                 "type": "directory",
@@ -335,6 +335,11 @@
                                 "type": "file",
                                 "name": "4F57845D1DC166A46C42D5AF45164196DC7CD198.ips",
                                 "checksum": "ee7964bc8d76001f84b3f19f826ee5a2"
+                            },
+                            {
+                                "type": "file",
+                                "name": "532B667232B3992A0A3D007AA85E4944C4138D15.ips",
+                                "checksum": "5f778c454d357a014387b9fd0d7f646f"
                             },
                             {
                                 "type": "file",
@@ -559,6 +564,11 @@
                             },
                             {
                                 "type": "file",
+                                "name": "F4D4976A1E1E6F498F6824151C11C6AA9EF81375.ips",
+                                "checksum": "b036731e1da91cbc09c7b9e6208dc4bf"
+                            },
+                            {
+                                "type": "file",
                                 "name": "F5FC951E3AB69B6FBE6250B7B73D22B3F75EDE28.ips",
                                 "checksum": "a96dbba9be84f50bf560348648446db0"
                             },
@@ -592,6 +602,11 @@
                                 "type": "file",
                                 "name": "296FB63B038723955A5EEE4720C3E17BF49B5ECC.ips",
                                 "checksum": "8932925042e7a5037c2b9c2934d36cca"
+                            },
+                            {
+                                "type": "file",
+                                "name": "2ABBA006E9E162C1EF0A28E6477725F2836FFEC9.ips",
+                                "checksum": "59a780265edd8b427f48e29047654589"
                             },
                             {
                                 "type": "file",
@@ -748,14 +763,14 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "af595346e3f2c1288ce5d97796d3db4c"
+                        "checksum": "f03a11efc14793a2b8bbb5aea1d4c3ea"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "ff743973714147f63e986465ad3eaffc"
+                "checksum": "dc7931b6b2dfeffba937bb199bbfbf97"
             },
             {
                 "type": "file",
@@ -765,7 +780,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "9ef345a37f2d96da837fdc3b78467be2"
+                "checksum": "2b9a46f590ab66c6fc2101b112b3a312"
             }
         ]
     },
@@ -810,7 +825,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "077586864fb18256f74d6911302ab41c"
+                        "checksum": "4134f1eedffe07ba61c5c8de0ee41ee7"
                     },
                     {
                         "type": "file",
@@ -820,12 +835,12 @@
                     {
                         "type": "file",
                         "name": "Lockpick_RCM.bin",
-                        "checksum": "ad5645c67fec2d59fcb7844e203769ee"
+                        "checksum": "37460a42c341a0df004b8262fc098fa0"
                     },
                     {
                         "type": "file",
                         "name": "TegraExplorer.bin",
-                        "checksum": "71803152ea38b0febc8650aedc431e3c"
+                        "checksum": "4a8456b68f44d040ba0def03b2de1b78"
                     }
                 ]
             },
@@ -976,7 +991,7 @@
                     {
                         "type": "file",
                         "name": "custom_packs.json",
-                        "checksum": "b682a3ddd1cd8b154c0972ed11e7ea52"
+                        "checksum": "f9a044ebd15cb5eb390a452967eca786"
                     },
                     {
                         "type": "file",
@@ -992,7 +1007,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "8e2e8068ea9c6d98be6b5ce078075ae9"
+                        "checksum": "fe4731f4b8fd32bed2bc2cfc07af11b0"
                     }
                 ]
             },
@@ -1064,12 +1079,23 @@
             },
             {
                 "type": "directory",
+                "name": "sysdvr",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "rtsp",
+                        "checksum": "8cf8463b34caa8ac871a52d5dd7ad1ef"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "tesla",
                 "children": [
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "a317f1e839793ea08a0dc8509ecfc90d"
+                        "checksum": "c3d1227c36563d478e7606f9bf3f1910"
                     }
                 ]
             },
@@ -1135,6 +1161,17 @@
                 "type": "file",
                 "name": "exceptions.txt",
                 "checksum": "2678af810bdaa6b28eebe62b74b59928"
+            },
+            {
+                "type": "directory",
+                "name": "flags",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    }
+                ]
             },
             {
                 "type": "directory",
@@ -10029,7 +10066,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "bddb7091a6777f99c5c18c798e889086"
+                        "checksum": "300e7e8f299129772176b15088bd8688"
                     },
                     {
                         "type": "file",
@@ -10039,7 +10076,7 @@
                     {
                         "type": "file",
                         "name": "sys-patch-overlay.ovl",
-                        "checksum": "fb6441f6a075d961cb7174ee4afd79b6"
+                        "checksum": "910872c8e2209d56bc10f8295605257e"
                     },
                     {
                         "type": "file",
