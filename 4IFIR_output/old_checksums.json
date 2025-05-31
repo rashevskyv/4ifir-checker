@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "a4394aa5cf0dd5b80a2d177732c63a1a"
+                                "checksum": "54501f863b5f68e2a5f61b3d1987965d"
                             },
                             {
                                 "type": "directory",
@@ -992,7 +992,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "4ca4ad9c8bdbcba67afcb3b95e5e915b"
+                        "checksum": "8e2e8068ea9c6d98be6b5ce078075ae9"
                     }
                 ]
             },
@@ -1135,17 +1135,6 @@
                 "type": "file",
                 "name": "exceptions.txt",
                 "checksum": "2678af810bdaa6b28eebe62b74b59928"
-            },
-            {
-                "type": "directory",
-                "name": "flags",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "log.flag",
-                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                    }
-                ]
             },
             {
                 "type": "directory",
@@ -10000,7 +9989,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "4b5ffa7e45aadda5317bc0d01b4119a3"
+                        "checksum": "685e6ee015d69d0e4e1df0a9150557b8"
                     },
                     {
                         "type": "file",
