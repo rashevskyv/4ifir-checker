@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "d97f15481e496760838998362b28116c"
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "4e363063cc32a2d79b4d945d567db936"
         }
     ]
 }
