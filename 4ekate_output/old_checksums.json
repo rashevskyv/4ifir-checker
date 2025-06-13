@@ -6,7 +6,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "f451cde3e76e7019b47eeab9ca010179"
+                "checksum": "9a54869a85ae7accff13a81b46b6b9ec"
             }
         ]
     },
@@ -21,20 +21,46 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "3b64530c63f11cdabe93f3e7dfea3bc4"
+                        "checksum": "f657d7af791e70e043551bae88902d6f"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "sys",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "libsys_lp0.bso",
+                        "checksum": "1d4acf82bbfbe8d16cc3fb863b90d1cf"
+                    },
+                    {
+                        "type": "file",
+                        "name": "libsys_minerva.bso",
+                        "checksum": "203ae503072c731601c3ba9f7275edcb"
+                    },
+                    {
+                        "type": "file",
+                        "name": "module_sample.bso",
+                        "checksum": "864ff43647922e5061b32b25cd993231"
+                    },
+                    {
+                        "type": "file",
+                        "name": "nyx.bin",
+                        "checksum": "ab06ebfd068c85aa1637cb16b5916678"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "f451cde3e76e7019b47eeab9ca010179"
+                "checksum": "9a54869a85ae7accff13a81b46b6b9ec"
             }
         ]
     },
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "f451cde3e76e7019b47eeab9ca010179"
+        "checksum": "9a54869a85ae7accff13a81b46b6b9ec"
     }
 ]
