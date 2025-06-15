@@ -1,5 +1,26 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "89665952e6e17d9f6095f1c0f282ffeb"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "f1d49e9f5fb25c29a09f2811104064ab"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "89665952e6e17d9f6095f1c0f282ffeb"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "89665952e6e17d9f6095f1c0f282ffeb"
+        }
+    ]
 }
