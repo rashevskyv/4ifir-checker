@@ -1,5 +1,42 @@
 {
     "added": [],
-    "removed": [],
-    "modified": []
+    "removed": [
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini.template",
+            "checksum": "60cac70735e72abd390947bd656d1171"
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "c9e7874a641594874b9c04774474dc3d"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "fc840497b1dd43c376560aa3b2010714"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "aee54beed487c57c7a9381a3cf6cf527"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "0b703d1b40a6f1f0602926fb18db2be7"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/KipTool.bin",
+            "checksum": "5b3985b215b5b0347a6bf80aeebb020f"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "dc0f9bba8539eb32992a31836257fc21"
+        }
+    ]
 }

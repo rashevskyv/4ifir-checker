@@ -625,7 +625,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "6fe2a12802b43e8013cd4d789b375e1e"
+                        "checksum": "c9e7874a641594874b9c04774474dc3d"
                     }
                 ]
             },
@@ -1255,7 +1255,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "9581eccca16552678fbad3d0c95bc511"
+                "checksum": "fc840497b1dd43c376560aa3b2010714"
             },
             {
                 "type": "file",
@@ -1265,7 +1265,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "2dfe3391bdf1ccbde4b09e26b788fe91"
+                "checksum": "aee54beed487c57c7a9381a3cf6cf527"
             }
         ]
     },
@@ -1291,12 +1291,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "d5ba640be8d64c2d6b085e744d7fdf75"
-            },
-            {
-                "type": "file",
-                "name": "hekate_ipl.ini.template",
-                "checksum": "60cac70735e72abd390947bd656d1171"
+                "checksum": "0b703d1b40a6f1f0602926fb18db2be7"
             },
             {
                 "type": "file",
@@ -1320,7 +1315,7 @@
                     {
                         "type": "file",
                         "name": "KipTool.bin",
-                        "checksum": "b438c3d30263ddfb850c63bb090cf015"
+                        "checksum": "5b3985b215b5b0347a6bf80aeebb020f"
                     },
                     {
                         "type": "file",
@@ -10588,7 +10583,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "0d2c3fc13c822458a0b55acac5384d81"
+                                "checksum": "dc0f9bba8539eb32992a31836257fc21"
                             },
                             {
                                 "type": "file",
