@@ -1,23 +1,5 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "bootloader/payloads",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "fusee.bin",
-                    "checksum": "f657d7af791e70e043551bae88902d6f"
-                }
-            ]
-        }
-    ],
-    "modified": [
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "9c6f994054dd35b0821bf0d73e434244"
-        }
-    ]
+    "removed": [],
+    "modified": []
 }

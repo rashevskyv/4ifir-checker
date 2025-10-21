@@ -1,21 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "907b957fda4b494cb44f944501375971"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "9ab6ee9aaeed186d785c428f04587e9e"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "139db1014bb30cc1886572f820708a6f"
-        }
-    ]
+    "modified": []
 }
