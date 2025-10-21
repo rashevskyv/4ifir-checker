@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "946c266d0d7ff9df36ded16865499cae"
+                                "checksum": "1f29a1a905f2694171d4a06e4ac74727"
                             },
                             {
                                 "type": "directory",
@@ -625,7 +625,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "e38b4f6021598e36885a5ae7f524a20c"
+                        "checksum": "b3873d76f057c90cd772b3770460f3af"
                     }
                 ]
             },
@@ -1255,7 +1255,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "104aa0c751e0af4d4250670721ba3ab3"
+                "checksum": "c479d3504e20288d99b1890f26f14b81"
             },
             {
                 "type": "file",
@@ -1265,7 +1265,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "aee54beed487c57c7a9381a3cf6cf527"
+                "checksum": "4e16bad4101355943ecfba48fccef27b"
             }
         ]
     },
@@ -1428,7 +1428,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "f1d49e9f5fb25c29a09f2811104064ab"
+                        "checksum": "9c6f994054dd35b0821bf0d73e434244"
                     },
                     {
                         "type": "file",
@@ -10508,7 +10508,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "18972cae87df7ff8bcc29929ecb19f7b"
+                        "checksum": "cd96f4c1aedfb42254131a840144fbbe"
                     },
                     {
                         "type": "file",
