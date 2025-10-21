@@ -1,36 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "1f29a1a905f2694171d4a06e4ac74727"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "b3873d76f057c90cd772b3770460f3af"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "c479d3504e20288d99b1890f26f14b81"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "4e16bad4101355943ecfba48fccef27b"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "9c6f994054dd35b0821bf0d73e434244"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "cd96f4c1aedfb42254131a840144fbbe"
-        }
-    ]
+    "modified": []
 }
