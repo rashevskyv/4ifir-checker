@@ -16,17 +16,6 @@
         "children": [
             {
                 "type": "directory",
-                "name": "payloads",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "fusee.bin",
-                        "checksum": "f657d7af791e70e043551bae88902d6f"
-                    }
-                ]
-            },
-            {
-                "type": "directory",
                 "name": "sys",
                 "children": [
                     {
@@ -47,7 +36,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "f1d49e9f5fb25c29a09f2811104064ab"
+                        "checksum": "9c6f994054dd35b0821bf0d73e434244"
                     }
                 ]
             },
