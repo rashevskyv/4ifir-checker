@@ -16,6 +16,17 @@
         "children": [
             {
                 "type": "directory",
+                "name": "payloads",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "fusee.bin",
+                        "checksum": "f657d7af791e70e043551bae88902d6f"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "sys",
                 "children": [
                     {
