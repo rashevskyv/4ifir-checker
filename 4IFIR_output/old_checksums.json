@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "907b957fda4b494cb44f944501375971"
+                                "checksum": "7e446c30bad1bf23b905b3230098c836"
                             },
                             {
                                 "type": "directory",
@@ -1428,7 +1428,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "9c6f994054dd35b0821bf0d73e434244"
+                        "checksum": "23589f31166c500fd20c229e80f6002b"
                     },
                     {
                         "type": "file",
@@ -10518,7 +10518,7 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "63f0621d27a06fa7dc0cdef63f134cad"
+                        "checksum": "1bee395715c5664cd6992cd448d9490a"
                     },
                     {
                         "type": "file",

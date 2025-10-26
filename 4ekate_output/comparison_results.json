@@ -1,17 +1,5 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "bootloader/payloads",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "fusee.bin",
-                    "checksum": "f657d7af791e70e043551bae88902d6f"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": []
 }

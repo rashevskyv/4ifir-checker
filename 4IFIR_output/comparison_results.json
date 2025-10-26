@@ -1,5 +1,21 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "7e446c30bad1bf23b905b3230098c836"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "23589f31166c500fd20c229e80f6002b"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/InfoNX-ovl.ovl",
+            "checksum": "1bee395715c5664cd6992cd448d9490a"
+        }
+    ]
 }
