@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "23589f31166c500fd20c229e80f6002b"
+        }
+    ]
 }
