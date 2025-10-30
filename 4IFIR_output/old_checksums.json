@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "7e446c30bad1bf23b905b3230098c836"
+                                "checksum": "2bd4dda4e540db48816c37d97551cc05"
                             },
                             {
                                 "type": "directory",
@@ -625,7 +625,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "06d5cd85ae28827228ae46fa40455322"
+                        "checksum": "d6c5ec268a7afe79ceeb9a796276c1b0"
                     }
                 ]
             },
@@ -1255,7 +1255,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "c479d3504e20288d99b1890f26f14b81"
+                "checksum": "2d533af8d49d668265ccd4efb19a6bdb"
             },
             {
                 "type": "file",
@@ -1265,7 +1265,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "4e16bad4101355943ecfba48fccef27b"
+                "checksum": "2678f4ad1c5389e39756703d7bb780d1"
             }
         ]
     },
