@@ -4,23 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "2bd4dda4e540db48816c37d97551cc05"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "d6c5ec268a7afe79ceeb9a796276c1b0"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "2d533af8d49d668265ccd4efb19a6bdb"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "2678f4ad1c5389e39756703d7bb780d1"
+            "name": "switch/MicroMemBench.nro",
+            "checksum": "2de54f18c37ccf0af941bf7619c69d25"
         }
     ]
 }
