@@ -1,11 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "switch/MicroMemBench.nro",
-            "checksum": "2de54f18c37ccf0af941bf7619c69d25"
-        }
-    ]
+    "modified": []
 }
