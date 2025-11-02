@@ -1,10 +1,8 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 01.11.2025 07:40<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 01.11.2025 09:48<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-  └╴00FF0000636C6BFF
-    └╴exefs.nsp (e41ee7f)
+<pre>SaltySD
+└╴exceptions.txt (c6ae021)
 </pre>
 <hr>
 
