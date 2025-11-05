@@ -5,7 +5,17 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "7c76da2ce4920c98655615b298121f05"
+            "checksum": "f6886a420b23781f89432ba300d96513"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "cd1c04606dc685a74cd9599151f0b67c"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "85fdf5ddea1de81d16da324769cfc0fb"
         }
     ]
 }
