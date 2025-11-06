@@ -1,11 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "bf0ae9bb49f8d407cbbd0aa762bc69c7"
-        }
-    ]
+    "modified": []
 }
