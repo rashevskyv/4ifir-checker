@@ -1,13 +1,224 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 06.11.2025 03:50<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 07.11.2025 22:01<hr>
 
-<h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-  └╴00FF0000636C6BFF
-    └╴exefs.nsp (c103553)
-switch
-└╴.overlays
-  └╴4IFIR.ovl (6fa7ab9)
+<h3>Added files/folders</h3>
+<pre>SaltySD
+└╴plugins
+  └╴FPSLocker
+    └╴patches
+      ├╴010008301AA96000
+      │ └╴5BCA5C20C8F8A9B4.yaml (e7065d1)
+      ├╴010009D018A06000
+      │ ├╴2EEE840599DC7021.yaml (59e153d)
+      │ ├╴33614E4F6B3267B3.yaml (0db37a0)
+      │ └╴CA61076D0CE6670D.yaml (0a9edd5)
+      ├╴01000AD01F94A000
+      │ ├╴505069EBC0B82A6F.yaml (1e82601)
+      │ ├╴52DA46C0166A8643.yaml (99483f0)
+      │ ├╴65A9705A4BB35AA2.yaml (962cd5a)
+      │ └╴A31FE9B8AF1156D4.yaml (4257940)
+      ├╴01000E200DC58000
+      │ └╴9E6B0D0023F9DB3B.yaml (95b2fa2)
+      ├╴01000F9020CD4000
+      │ ├╴6ACDAEE7DDC5E503.yaml (8af2cd9)
+      │ └╴F140F141FDC4C331.yaml (5610877)
+      ├╴01001040220E8000
+      │ └╴336E56D09501A52E.yaml (a08f1ae)
+      ├╴01001CC01B2D4000
+      │ └╴A45BCB8A63C50DC8.yaml (361b914)
+      ├╴010021601C496000
+      │ └╴7A450848CFDEC18E.yaml (97c7b13)
+      ├╴0100217014266000
+      │ └╴2F81A2EC9B298B37.yaml (4a4d13a)
+      ├╴0100276019E96000
+      │ └╴EC983B9153629AC8.yaml (b7d1ed0)
+      ├╴01002B9012E28000
+      │ └╴6C3F685C62070885.yaml (8bc8290)
+      ├╴010033801EF3A000
+      │ └╴503ACC27B3F97603.yaml (04de6c7)
+      ├╴01003990220BE000
+      │ └╴820EF220126FF10A.yaml (9930ac7)
+      ├╴01003AF0200B0000
+      │ ├╴5F96AEDEA20AE78F.yaml (c3d6034)
+      │ ├╴742CA53262A767AE.yaml (54c5c42)
+      │ ├╴7F731AAE7DDCAF66.yaml (3be36b6)
+      │ ├╴E43BBBBFACE60867.yaml (b363db2)
+      │ └╴F678FD2BB197125B.yaml (2a0d483)
+      ├╴01003E601E324000
+      │ └╴A6BD61CFB142E663.yaml (0367e62)
+      ├╴010040601A9B8000
+      │ └╴9ACE779510EC93C9.yaml (bf6fe84)
+      ├╴010040A0209DC000
+      │ └╴A4A3B5A20B03B2A7.yaml (1fd783f)
+      ├╴010045301B86C000
+      │ └╴D7A32C718E9D6363.yaml (449d1d5)
+      ├╴010047E01EA24000
+      │ └╴6D05923E7005E182.yaml (ce87f77)
+      ├╴01004D300C5AE000
+      │ └╴A6CE40DC3AEDB1BE.yaml (6da324e)
+      ├╴01004FF021942000
+      │ ├╴4EAC4BED64458C8C.yaml (ebf4575)
+      │ ├╴5D738626CE19A40F.yaml (c318a9a)
+      │ └╴DF48D885EB914AC7.yaml (3bf79dc)
+      ├╴010051C0134F8000
+      │ └╴BC99D4D0A9474360.yaml (56e5e1b)
+      ├╴0100535014D76000
+      │ └╴8CCC67A5A75CB8E5.yaml (59ad1d3)
+      ├╴010053D014C44000
+      │ └╴086367BD573D1899.yaml (9659e6b)
+      ├╴0100544020572000
+      │ └╴3B2CB1C8865E7B1E.yaml (aade8da)
+      ├╴010054A0085CA000
+      │ └╴325E49E94A030B7E.yaml (4abbf2c)
+      ├╴010054E01D878000
+      │ ├╴39296BB1FD4A3F20.yaml (2924d41)
+      │ ├╴8AB0BBEBB5F628E6.yaml (7edb362)
+      │ ├╴DF4B53A8F7EA6FB6.yaml (86ad573)
+      │ └╴E60B4F857609BD49.yaml (ea89907)
+      ├╴010058F01DF8C000
+      │ ├╴1670D126B5E8EE66.yaml (e2677db)
+      │ └╴F5E599C889DF733A.yaml (ef6bd63)
+      ├╴0100592005164000
+      │ └╴83A6B710A3F3F4F9.yaml (b5293e4)
+      ├╴01005BD010872000
+      │ └╴496A2F5A9CE4FBEB.yaml (150e2b5)
+      ├╴01005D10128D2000
+      │ └╴1A876E8881CEFBE3.yaml (907fa1e)
+      ├╴010064C01A9BA000
+      │ ├╴1BA8D8FD3897F22F.yaml (dc58164)
+      │ └╴FB852EECDE7A745D.yaml (fa0070c)
+      ├╴010065D012FA0000
+      │ └╴C403B87FCDAD7604.yaml (a4228e4)
+      ├╴010066101A55A000
+      │ ├╴338C569A607B7C30.yaml (110bcc5)
+      │ └╴F3FFA17B5E56809F.yaml (78d735f)
+      ├╴010066F01A0E0000
+      │ └╴768428355C994280.yaml (56f5fab)
+      ├╴0100690020FBE000
+      │ ├╴2735E564A9BD3DA3.yaml (287eebe)
+      │ ├╴8FDB10262446CB3D.yaml (84b9314)
+      │ └╴CC93EA5C0A2F96FE.yaml (7f906b6)
+      ├╴01006C10131F6000
+      │ └╴0F73F1D52820F90B.yaml (601c784)
+      ├╴01006C7021024000
+      │ ├╴03DBE839CAA0632B.yaml (6233c4d)
+      │ └╴499A85D046C70186.yaml (fdd958f)
+      ├╴0100711022E24000
+      │ ├╴15AFE82282E0EF30.yaml (c39e5d7)
+      │ ├╴9646E1065A7E897B.yaml (3c04868)
+      │ └╴BCEB97447A39F9FE.yaml (30f1e5b)
+      ├╴010073B010F6E000
+      │ └╴2619FF1E39C93BAE.yaml (042190e)
+      ├╴0100755017EE0000
+      │ ├╴061A7341077C0974.yaml (0659976)
+      │ ├╴546820C12D88850D.yaml (18afa26)
+      │ ├╴74BCAC96835DB9AE.yaml (d3468b2)
+      │ └╴9DBA6AA32721CAB9.yaml (d879467)
+      ├╴0100781020710000
+      │ ├╴1FF44387A22D39F8.yaml (f988d85)
+      │ ├╴48D35EF3C7EFBF5F.yaml (20339f3)
+      │ ├╴C7BD9BFC5F202073.yaml (f588842)
+      │ └╴CEDA530B146C0260.yaml (208a2ad)
+      ├╴010078D000F88000
+      │ ├╴81E15238E2B6AABD.yaml (99b15bd)
+      │ └╴82C912DDD4663022.yaml (87c9815)
+      ├╴01007EF00011E000
+      │ └╴A12F75F49B36F4B8.yaml (a66922b)
+      ├╴0100853015E86000
+      │ ├╴22D0D857A4DAEBBC.yaml (2e56ae8)
+      │ └╴CF94B485A949F8D1.yaml (3fde9df)
+      ├╴010088B017734000
+      │ └╴288908CE7F6177CC.yaml (9b3b863)
+      ├╴01008E101E868000
+      │ └╴CE6953FB28A66265.yaml (2c597f4)
+      ├╴0100926016012000
+      │ └╴561B0F485E699E4E.yaml (149e9cb)
+      ├╴010093C01F256000
+      │ └╴CABB3B5447C2F79F.yaml (80bebfc)
+      ├╴010093C0215B4000
+      │ ├╴5AF690F4A8BFCC67.yaml (9b2c524)
+      │ ├╴D1D3FFB94AB458B4.yaml (e61ba4c)
+      │ └╴EAADF33F510C5853.yaml (236acec)
+      ├╴010095D012E5E000
+      │ └╴929D9160BA57A570.yaml (18d1c78)
+      ├╴010097F018538000
+      │ ├╴682B1552A9C571C9.yaml (e6cac19)
+      │ └╴8ACF8D236ADAB16F.yaml (97d9795)
+      ├╴010098A02288A000
+      │ └╴7E610F688F92412B.yaml (b459707)
+      ├╴01009BC00B872000
+      │ └╴53116900DC7BBE11.yaml (c772907)
+      ├╴01009EE01EB02000
+      │ └╴63A4CF08E30A56B1.yaml (00e949f)
+      ├╴0100A0C01BED8000
+      │ └╴7E06539B5874B9C4.yaml (c432b30)
+      ├╴0100A2902051A000
+      │ ├╴05ADD0D5FD677639.yaml (4bd1504)
+      │ ├╴3D6E4BDE905836BC.yaml (b4cf61a)
+      │ └╴779FC981128BA290.yaml (3953939)
+      ├╴0100A5A020D5E000
+      │ └╴8B3609ECB49DBBED.yaml (66d31f3)
+      ├╴0100A5E014196000
+      │ ├╴0E9D849EF47198D8.yaml (e90b398)
+      │ └╴D24A46A2618C9E38.yaml (9296d92)
+      ├╴0100A88012504000
+      │ └╴BCAA04FAF88EEA4A.yaml (123a070)
+      ├╴0100B2002330E000
+      │ ├╴637F8C946F7C512D.yaml (cfc33aa)
+      │ └╴AF42903B754D4859.yaml (09d7236)
+      ├╴0100B69017120000
+      │ └╴02D54DEBD40AF215.yaml (53d8e82)
+      ├╴0100B7C01D480000
+      │ └╴E8EA74BE6221F2E4.yaml (553f590)
+      ├╴0100BD601EC3E000
+      │ └╴3F1843C4FE400063.yaml (507c016)
+      ├╴0100BDF0197C8000
+      │ └╴FF53171B18C7701A.yaml (1044996)
+      ├╴0100BED01E6EE000
+      │ └╴87F1CEF6D52392AE.yaml (2534a8f)
+      ├╴0100C56010FD8000
+      │ └╴5AD255D6667B6EB5.yaml (062c771)
+      ├╴0100C5A013B7A000
+      │ └╴1B98D227021142B1.yaml (975c28c)
+      ├╴0100CC401A16C000
+      │ └╴ACF8E5931E38EAA0.yaml (11c256a)
+      ├╴0100CF5010FEC000
+      │ └╴A1CE2940D813ACAB.yaml (cb32ef3)
+      ├╴0100D09016C6A000
+      │ └╴4710B51EB3A3C05C.yaml (f707192)
+      ├╴0100D1202322A000
+      │ ├╴89E4C9599C96D7DE.yaml (1fbdc3e)
+      │ └╴E04F5D58727DDE13.yaml (78335bc)
+      ├╴0100D3801E6CE000
+      │ └╴ACCFF102CED838CE.yaml (535e940)
+      ├╴0100D4A00B284000
+      │ └╴2B70B1A7B478FCA3.yaml (6d239b9)
+      ├╴0100D5801E904000
+      │ └╴89349071D2B0BFF7.yaml (f34e574)
+      ├╴0100D7700AF88000
+      │ └╴F5AC009011277359.yaml (0904423)
+      ├╴0100D7C01F254000
+      │ └╴94B4FA4F36E01BE3.yaml (5748ae4)
+      ├╴0100D7C021496000
+      │ ├╴23E85FEDEC96439C.yaml (8e64623)
+      │ ├╴6D560144F6B09A98.yaml (42dece4)
+      │ ├╴7926A67119144CFD.yaml (2db57b0)
+      │ └╴E9A189C0CA87A30C.yaml (b48eecb)
+      ├╴0100E8500AD58000
+      │ └╴07650FD5E5E2B82C.yaml (c4f311b)
+      ├╴0100E9400FE34000
+      │ └╴33DBE39C8A83F1E6.yaml (913e837)
+      ├╴0100EE00205BA000
+      │ └╴135595BF76F46B1B.yaml (36fbde0)
+      ├╴0100EF401D9B2000
+      │ ├╴2F723E9FD78D184B.yaml (402736b)
+      │ ├╴35FAA72E03DDE0D1.yaml (3ce490d)
+      │ └╴F9248820D4E4406B.yaml (734f260)
+      ├╴0100F2C0115B6000
+      │ └╴965EAB9CEB8EB867.yaml (6cf0305)
+      ├╴0100F6701FED4000
+      │ └╴EBB5459731354538.yaml (a3a5208)
+      └╴0100FD70134FA000
+        └╴4246AC9E465556D6.yaml (1882907)
 </pre>
 <hr>
 
