@@ -1,16 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "13c7051fc6df970a5358cd955228023a"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "787e61adf2402946dfb141a5657b4816"
-        }
-    ]
+    "modified": []
 }
