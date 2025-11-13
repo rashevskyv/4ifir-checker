@@ -1,11 +1,11 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "ce83a88161ac85469e492e2d9061306d"
+            "name": "warmboot_mariko/wb_16.bin",
+            "checksum": "7eb092f0668d8b484365a10d6bb15102"
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }
