@@ -1,11 +1,5 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "warmboot_mariko/wb_16.bin",
-            "checksum": "7eb092f0668d8b484365a10d6bb15102"
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": []
 }
