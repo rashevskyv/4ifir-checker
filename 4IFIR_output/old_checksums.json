@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "ce83a88161ac85469e492e2d9061306d"
+                                "checksum": "36cc62fa1efd18ee3370e73e43756b03"
                             },
                             {
                                 "type": "directory",
@@ -1260,7 +1260,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "1fdd8e431ce4733c6db3f7fea034fae5"
+                "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
             },
             {
                 "type": "file",
@@ -1291,7 +1291,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "9ab6ee9aaeed186d785c428f04587e9e"
+                "checksum": "101834016ea472b6d4f05c66dac7c465"
             },
             {
                 "type": "file",
@@ -1310,7 +1310,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "4134f1eedffe07ba61c5c8de0ee41ee7"
+                        "checksum": "9b572da73da73278f5aa14f82e684ed6"
                     },
                     {
                         "type": "file",
@@ -1428,7 +1428,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "23589f31166c500fd20c229e80f6002b"
+                        "checksum": "7340e67e29823beacad8a25f1a7b0e3c"
                     },
                     {
                         "type": "file",
@@ -1445,7 +1445,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "1fdd8e431ce4733c6db3f7fea034fae5"
+                "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
             }
         ]
     },
@@ -1614,7 +1614,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "1fdd8e431ce4733c6db3f7fea034fae5"
+        "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
     },
     {
         "type": "directory",
@@ -11465,7 +11465,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "787e61adf2402946dfb141a5657b4816"
+                        "checksum": "2c2eaaa9c728299cd21819362d7e8b93"
                     },
                     {
                         "type": "file",
