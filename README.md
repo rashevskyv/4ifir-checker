@@ -1,22 +1,20 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 22.11.2025 22:13<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 24.11.2025 19:23<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-├╴contents
-│ └╴00FF0000636C6BFF
-│   └╴exefs.nsp (6cc62fa)
-└╴reboot_payload.bin (edbff1c)
+├╴kips
+│ └╴loader.kip (0e08cec)
+├╴package3 (f1b56ef)
+├╴reboot_payload.bin (54bce12)
+└╴stratosphere.romfs (9d6edc8)
 bootloader
-├╴hekate_ipl.ini (0183401)
 ├╴payloads
-│ └╴fusee.bin (b572da7)
-├╴sys
-│ └╴nyx.bin (340e67e)
-└╴update.bin (edbff1c)
-payload.bin (edbff1c)
+│ └╴fusee.bin (a525a3f)
+└╴update.bin (54bce12)
+payload.bin (54bce12)
 switch
 └╴.overlays
-  └╴4IFIR.ovl (c2eaaa9)
+  └╴Status-Monitor-Overlay.ovl (bd9ff5b)
 </pre>
 <hr>
 

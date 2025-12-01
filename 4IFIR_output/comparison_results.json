@@ -4,43 +4,43 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "36cc62fa1efd18ee3370e73e43756b03"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "40e08cec1df533567f5ac8d77bd972ce"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "cf1b56ef5ca52c9154bbb885127446a4"
         },
         {
             "type": "file",
             "name": "atmosphere/reboot_payload.bin",
-            "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
+            "checksum": "554bce1204a93ecb0859304fb58ccda0"
         },
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "101834016ea472b6d4f05c66dac7c465"
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "69d6edc8ff5328ac18ebf5cf07d40477"
         },
         {
             "type": "file",
             "name": "bootloader/payloads/fusee.bin",
-            "checksum": "9b572da73da73278f5aa14f82e684ed6"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "7340e67e29823beacad8a25f1a7b0e3c"
+            "checksum": "aa525a3f9227d41a970c978322832a7b"
         },
         {
             "type": "file",
             "name": "bootloader/update.bin",
-            "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
+            "checksum": "554bce1204a93ecb0859304fb58ccda0"
         },
         {
             "type": "file",
             "name": "payload.bin",
-            "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
+            "checksum": "554bce1204a93ecb0859304fb58ccda0"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "2c2eaaa9c728299cd21819362d7e8b93"
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "6bd9ff5b7a57934379a220c795aa9f4f"
         }
     ]
 }

@@ -625,7 +625,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "d6c5ec268a7afe79ceeb9a796276c1b0"
+                        "checksum": "40e08cec1df533567f5ac8d77bd972ce"
                     }
                 ]
             },
@@ -1255,17 +1255,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "2d533af8d49d668265ccd4efb19a6bdb"
+                "checksum": "cf1b56ef5ca52c9154bbb885127446a4"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
+                "checksum": "554bce1204a93ecb0859304fb58ccda0"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "2678f4ad1c5389e39756703d7bb780d1"
+                "checksum": "69d6edc8ff5328ac18ebf5cf07d40477"
             }
         ]
     },
@@ -1310,7 +1310,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "9b572da73da73278f5aa14f82e684ed6"
+                        "checksum": "aa525a3f9227d41a970c978322832a7b"
                     },
                     {
                         "type": "file",
@@ -1445,7 +1445,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
+                "checksum": "554bce1204a93ecb0859304fb58ccda0"
             }
         ]
     },
@@ -1614,7 +1614,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "5edbff1c4581d7cb9aea7619cd846b9f"
+        "checksum": "554bce1204a93ecb0859304fb58ccda0"
     },
     {
         "type": "directory",
@@ -11505,7 +11505,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "85fdf5ddea1de81d16da324769cfc0fb"
+                        "checksum": "6bd9ff5b7a57934379a220c795aa9f4f"
                     },
                     {
                         "type": "file",
