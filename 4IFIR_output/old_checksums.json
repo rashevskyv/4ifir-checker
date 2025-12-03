@@ -1602,7 +1602,7 @@
             {
                 "type": "file",
                 "name": "ModCD.nsp",
-                "checksum": "e9804fa090dac3156ca35f4e669e33bf"
+                "checksum": "41e3c333639b96c7fa252bdb0f12073b"
             }
         ]
     },
@@ -11540,7 +11540,7 @@
                             {
                                 "type": "file",
                                 "name": "files.zip",
-                                "checksum": "b784fddc31a5a2fa783b3b64175a0a3f"
+                                "checksum": "63250934a86b022a4164c999f2be746c"
                             },
                             {
                                 "type": "file",
@@ -11601,7 +11601,7 @@
                     {
                         "type": "file",
                         "name": "dbi.config",
-                        "checksum": "eeeedcbb3e6262cbf9b4e16b1a90fa22"
+                        "checksum": "f69e905d0105f9e9bb4b21bbb67efe95"
                     },
                     {
                         "type": "file",
@@ -11611,7 +11611,7 @@
                     {
                         "type": "file",
                         "name": "DBI.nro",
-                        "checksum": "5001711b015dd83416259dd1093f8ad7"
+                        "checksum": "fb6b89ee97e57f9420e8b62c76434b52"
                     },
                     {
                         "type": "file",
@@ -11638,7 +11638,7 @@
             {
                 "type": "file",
                 "name": "ModCD.nro",
-                "checksum": "72fc8482710df13535d58bd5e884f996"
+                "checksum": "b97fe129ccb9dd451b9a8f2ef45fa45b"
             },
             {
                 "type": "file",

@@ -1,5 +1,31 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "games/ModCD.nsp",
+            "checksum": "41e3c333639b96c7fa252bdb0f12073b"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "63250934a86b022a4164c999f2be746c"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/dbi.config",
+            "checksum": "f69e905d0105f9e9bb4b21bbb67efe95"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "fb6b89ee97e57f9420e8b62c76434b52"
+        },
+        {
+            "type": "file",
+            "name": "switch/ModCD.nro",
+            "checksum": "b97fe129ccb9dd451b9a8f2ef45fa45b"
+        }
+    ]
 }
