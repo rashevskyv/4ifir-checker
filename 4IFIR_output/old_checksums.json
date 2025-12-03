@@ -1525,7 +1525,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "4484fef9f97f9bed0e8b19c145ad0665"
+                        "checksum": "c60554a71ffa13a41f2b18dcf2997970"
                     }
                 ]
             },
@@ -11505,7 +11505,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "d4fa855f5d6b99a3c9c1815b4f0f478b"
+                        "checksum": "47120d9d39c66874c205b906be971e37"
                     },
                     {
                         "type": "file",
