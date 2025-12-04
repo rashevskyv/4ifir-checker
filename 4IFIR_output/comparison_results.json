@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "config/status-monitor/config.ini",
-            "checksum": "c60554a71ffa13a41f2b18dcf2997970"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "47120d9d39c66874c205b906be971e37"
+            "name": "config/4IFIR/config.ini",
+            "checksum": "790bbe120ed8f00938d247921cea138a"
         }
     ]
 }
