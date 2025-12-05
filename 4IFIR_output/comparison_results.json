@@ -1,5 +1,26 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "d07e5ab0bebfe39834d2a400c81e8dd8"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "cdcbd42cedc701a371c238a110a4e402"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "18360174351b1279f2f5493512b7498b"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "2a6feac8938b9cb4f9130933a5bd5ebd"
+        }
+    ]
 }
