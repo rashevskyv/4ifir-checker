@@ -1,5 +1,31 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "71034def048c11b0bab92670bccb5f28"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "e5014d8dafbfdec7d987e815cc0c218d"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "72cd07aafe6ceffc4eeca0d45ac40176"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "71034def048c11b0bab92670bccb5f28"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "71034def048c11b0bab92670bccb5f28"
+        }
+    ]
 }
