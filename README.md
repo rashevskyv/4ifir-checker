@@ -1,10 +1,10 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 06.12.2025 02:28<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 06.12.2025 03:54<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
-├╴kips
-│ └╴loader.kip (f0d55ef)
-└╴package3 (debfc74)
+└╴contents
+  └╴00FF0000636C6BFF
+    └╴exefs.nsp (42425e6)
 </pre>
 <hr>
 

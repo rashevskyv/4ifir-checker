@@ -4,13 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "bf0d55ef3bc91abb0a3ffed2f459afe5"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "1debfc74cd014eda2251bb71be3741c0"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "442425e67490b2d9719969211dee6a99"
         }
     ]
 }
