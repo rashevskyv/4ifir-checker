@@ -5,12 +5,17 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "3c393aff34188dee5dd124367d3d9c54"
+            "checksum": "3d10765299b428d6d8f38c57edee2adb"
+        },
+        {
+            "type": "file",
+            "name": "exosphere.ini",
+            "checksum": "04c8fd547a54887dac0812fe8fe26637"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "f7f8ee1efc755916e74af0d12ef6c050"
+            "checksum": "07fe947a20410a1094410e41c63e74fd"
         }
     ]
 }
