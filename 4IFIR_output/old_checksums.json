@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "028bcae9240e65f3f219b3b32a5aed50"
+                                "checksum": "1c3b08dc834fd8b19edab44764df7d62"
                             },
                             {
                                 "type": "directory",
@@ -1393,6 +1393,11 @@
                         "type": "file",
                         "name": "icon_switch.bmp",
                         "checksum": "a336749f763701ada9806eb889817c5b"
+                    },
+                    {
+                        "type": "file",
+                        "name": "pezdaz.pcm",
+                        "checksum": "54dce3022d1d04fee5224c79cc3fe398"
                     },
                     {
                         "type": "file",
@@ -15236,7 +15241,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "e10a8f2ff4c24ce973390476ec30c241"
+                        "checksum": "be95881cac548ee5636f7424783d4d73"
                     },
                     {
                         "type": "file",

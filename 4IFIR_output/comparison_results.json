@@ -1,5 +1,22 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "bootloader/res/pezdaz.pcm",
+            "checksum": "54dce3022d1d04fee5224c79cc3fe398"
+        }
+    ],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "1c3b08dc834fd8b19edab44764df7d62"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "be95881cac548ee5636f7424783d4d73"
+        }
+    ]
 }
