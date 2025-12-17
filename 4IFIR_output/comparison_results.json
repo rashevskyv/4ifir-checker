@@ -1,5 +1,48 @@
 {
     "added": [],
-    "removed": [],
-    "modified": []
+    "removed": [
+        {
+            "type": "directory",
+            "name": "SaltySD/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
+            "checksum": "52edf592a2d51b83a7e3bf5460227a5e"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/0000000000534C56/toolbox.json",
+            "checksum": "e51e14b593eaf464525cd23e116ebfaa"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "31509e7b7c336e93a7603f1bd850f564"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/saltysd_core.elf",
+            "checksum": "84e1f84dc8e6a87eaada212aecbb3137"
+        },
+        {
+            "type": "file",
+            "name": "SaltySD/saltysd_core32.elf",
+            "checksum": "0244f2db61c1d7828dc08e40cb38fa20"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/FPSLocker.ovl",
+            "checksum": "a3d036e8c7bed587446418268532d1a6"
+        }
+    ]
 }
