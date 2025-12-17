@@ -61,7 +61,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "52edf592a2d51b83a7e3bf5460227a5e"
+                                "checksum": "427eb356c5f1251952e8b286ab67f69e"
                             },
                             {
                                 "type": "directory",
@@ -77,7 +77,7 @@
                             {
                                 "type": "file",
                                 "name": "toolbox.json",
-                                "checksum": "e51e14b593eaf464525cd23e116ebfaa"
+                                "checksum": "139b20e706ebd49bfadce9029fa0b91d"
                             }
                         ]
                     },
@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "31509e7b7c336e93a7603f1bd850f564"
+                                "checksum": "a1b7302c25959cdd6e59aeabb3b51fc5"
                             },
                             {
                                 "type": "directory",
@@ -1665,6 +1665,17 @@
                 "type": "file",
                 "name": "exceptions.txt",
                 "checksum": "ff3ff5de60a8db43197dcd9df6b2ca95"
+            },
+            {
+                "type": "directory",
+                "name": "flags",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    }
+                ]
             },
             {
                 "type": "directory",
@@ -15210,12 +15221,12 @@
             {
                 "type": "file",
                 "name": "saltysd_core.elf",
-                "checksum": "84e1f84dc8e6a87eaada212aecbb3137"
+                "checksum": "adf2d8f1a91373f73f43a79f02ec3179"
             },
             {
                 "type": "file",
                 "name": "saltysd_core32.elf",
-                "checksum": "0244f2db61c1d7828dc08e40cb38fa20"
+                "checksum": "a6108dee627a108254424778ef719555"
             }
         ]
     },
@@ -15235,7 +15246,7 @@
                     {
                         "type": "file",
                         "name": "FPSLocker.ovl",
-                        "checksum": "a3d036e8c7bed587446418268532d1a6"
+                        "checksum": "4ab1fe8ba01f06d622254f67a057a437"
                     },
                     {
                         "type": "file",
