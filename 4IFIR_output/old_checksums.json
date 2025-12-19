@@ -15221,6 +15221,17 @@
     },
     {
         "type": "directory",
+        "name": "Scripts",
+        "children": [
+            {
+                "type": "file",
+                "name": "SystemWipe.te",
+                "checksum": "2dc56b3ef346c5ff5d78dc086edfcb2b"
+            }
+        ]
+    },
+    {
+        "type": "directory",
         "name": "switch",
         "children": [
             {
@@ -15230,7 +15241,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "9d608fa63e778a4504ace4dc24e4da2e"
+                        "checksum": "a875f1ea79e299a75904e4cce4142f8c"
                     },
                     {
                         "type": "file",
