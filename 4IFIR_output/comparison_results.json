@@ -1,23 +1,5 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "Scripts",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "SystemWipe.te",
-                    "checksum": "2dc56b3ef346c5ff5d78dc086edfcb2b"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "a875f1ea79e299a75904e4cce4142f8c"
-        }
-    ]
+    "modified": []
 }
