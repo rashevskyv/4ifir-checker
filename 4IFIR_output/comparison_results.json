@@ -1,21 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "ad428804654fae3b34664f0f78cccaa0"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "0f03cde77565c6aa451ea0597056a7c9"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
-            "checksum": "0edc7588b911ba16103e0ed55c4e82e9"
-        }
-    ]
+    "modified": []
 }
