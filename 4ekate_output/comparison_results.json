@@ -1,21 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "cd16b04b2964b25444b404e5b067b0b0"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "cd16b04b2964b25444b404e5b067b0b0"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "cd16b04b2964b25444b404e5b067b0b0"
-        }
-    ]
+    "modified": []
 }

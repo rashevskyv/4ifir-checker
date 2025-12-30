@@ -1,5 +1,56 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "66354cf4d0afa45401992f2be9217977"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "f760361b81170d63574b5ae8507540e6"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "7bdfb47277fc3a311eeefc3e8432a93f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "b0d12d9b6cc672c9c249cdcf13f37cd7"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "40e2f792bc3640b6511110c5dee65e2a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "00959001ddf215faeb1e16fcd2d2e6c2"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "40e2f792bc3640b6511110c5dee65e2a"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "72b769a3a0e3c3c7b27152d74d6cf293"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "40e2f792bc3640b6511110c5dee65e2a"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "f5868d65f1c52b56dddd9254e72424df"
+        }
+    ]
 }
