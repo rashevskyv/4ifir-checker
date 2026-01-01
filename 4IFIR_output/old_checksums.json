@@ -15398,6 +15398,11 @@
             },
             {
                 "type": "file",
+                "name": "HanaCalendar.nro",
+                "checksum": "8bbccf832fd118413f11a327d85db406"
+            },
+            {
+                "type": "file",
                 "name": "MicroMemBench.nro",
                 "checksum": "2de54f18c37ccf0af941bf7619c69d25"
             },
