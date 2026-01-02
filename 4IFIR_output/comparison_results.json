@@ -1,11 +1,26 @@
 {
-    "added": [
+    "added": [],
+    "removed": [],
+    "modified": [
         {
             "type": "file",
-            "name": "switch/HanaCalendar.nro",
-            "checksum": "8bbccf832fd118413f11a327d85db406"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "6c19cf89f49bc2647525052bf6844775"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "69b2db6ce79127ad8882b5d2a3c04e53"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "abd9f355b42770fd970d360a83d0c7fc"
+        },
+        {
+            "type": "file",
+            "name": "switch/MicroVramTest.nro",
+            "checksum": "6564edd512ba82bcd02337f20d6acab2"
         }
-    ],
-    "removed": [],
-    "modified": []
+    ]
 }

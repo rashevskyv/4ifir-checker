@@ -661,7 +661,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "7bdfb47277fc3a311eeefc3e8432a93f"
+                        "checksum": "6c19cf89f49bc2647525052bf6844775"
                     }
                 ]
             },
@@ -1291,7 +1291,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "b0d12d9b6cc672c9c249cdcf13f37cd7"
+                "checksum": "69b2db6ce79127ad8882b5d2a3c04e53"
             },
             {
                 "type": "file",
@@ -15281,7 +15281,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "48fc8dad596c7264c5c117c0c4135679"
+                        "checksum": "abd9f355b42770fd970d360a83d0c7fc"
                     },
                     {
                         "type": "file",
@@ -15414,7 +15414,7 @@
             {
                 "type": "file",
                 "name": "MicroVramTest.nro",
-                "checksum": "d2ee091d33a2931062145dbc78272479"
+                "checksum": "6564edd512ba82bcd02337f20d6acab2"
             },
             {
                 "type": "file",
