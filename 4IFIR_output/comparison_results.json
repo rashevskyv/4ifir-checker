@@ -1,26 +1,34 @@
 {
-    "added": [],
-    "removed": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "switch/HanaCalendar",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "HanaCalendar.nro",
+                    "checksum": "8bbccf832fd118413f11a327d85db406"
+                }
+            ]
+        }
+    ],
+    "removed": [
+        {
+            "type": "file",
+            "name": "switch/HanaCalendar.nro",
+            "checksum": "8bbccf832fd118413f11a327d85db406"
+        }
+    ],
     "modified": [
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "6c19cf89f49bc2647525052bf6844775"
+            "checksum": "41899ff349a5c303893088bf7d5f2b9f"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "69b2db6ce79127ad8882b5d2a3c04e53"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "abd9f355b42770fd970d360a83d0c7fc"
-        },
-        {
-            "type": "file",
-            "name": "switch/MicroVramTest.nro",
-            "checksum": "6564edd512ba82bcd02337f20d6acab2"
+            "checksum": "6f83bd98e7e5e9e681f3a2b0e9bc8699"
         }
     ]
 }

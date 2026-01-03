@@ -661,7 +661,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "6c19cf89f49bc2647525052bf6844775"
+                        "checksum": "41899ff349a5c303893088bf7d5f2b9f"
                     }
                 ]
             },
@@ -1291,7 +1291,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "69b2db6ce79127ad8882b5d2a3c04e53"
+                "checksum": "6f83bd98e7e5e9e681f3a2b0e9bc8699"
             },
             {
                 "type": "file",
@@ -15397,9 +15397,15 @@
                 ]
             },
             {
-                "type": "file",
-                "name": "HanaCalendar.nro",
-                "checksum": "8bbccf832fd118413f11a327d85db406"
+                "type": "directory",
+                "name": "HanaCalendar",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "HanaCalendar.nro",
+                        "checksum": "8bbccf832fd118413f11a327d85db406"
+                    }
+                ]
             },
             {
                 "type": "file",
