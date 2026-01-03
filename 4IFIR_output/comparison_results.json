@@ -1,34 +1,5 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "switch/HanaCalendar",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "HanaCalendar.nro",
-                    "checksum": "8bbccf832fd118413f11a327d85db406"
-                }
-            ]
-        }
-    ],
-    "removed": [
-        {
-            "type": "file",
-            "name": "switch/HanaCalendar.nro",
-            "checksum": "8bbccf832fd118413f11a327d85db406"
-        }
-    ],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "41899ff349a5c303893088bf7d5f2b9f"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "6f83bd98e7e5e9e681f3a2b0e9bc8699"
-        }
-    ]
+    "added": [],
+    "removed": [],
+    "modified": []
 }
