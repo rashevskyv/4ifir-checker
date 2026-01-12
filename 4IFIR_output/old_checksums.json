@@ -661,7 +661,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "41899ff349a5c303893088bf7d5f2b9f"
+                        "checksum": "7a21264de85ac4f9dd86039694796e82"
                     }
                 ]
             },
@@ -1291,7 +1291,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "6f83bd98e7e5e9e681f3a2b0e9bc8699"
+                "checksum": "e8ac7099a6680548f99cb2169e6948f3"
             },
             {
                 "type": "file",
