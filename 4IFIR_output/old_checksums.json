@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "66354cf4d0afa45401992f2be9217977"
+                                "checksum": "c1cac348e5f20c6bc9813b52d5dd93c1"
                             },
                             {
                                 "type": "directory",
@@ -1351,7 +1351,7 @@
                     {
                         "type": "file",
                         "name": "KipTool.bin",
-                        "checksum": "5b3985b215b5b0347a6bf80aeebb020f"
+                        "checksum": "e29b196e07545db7915f149656e21ef1"
                     },
                     {
                         "type": "file",
@@ -1393,11 +1393,6 @@
                         "type": "file",
                         "name": "icon_switch.bmp",
                         "checksum": "a336749f763701ada9806eb889817c5b"
-                    },
-                    {
-                        "type": "file",
-                        "name": "pezdaz.pcm",
-                        "checksum": "54dce3022d1d04fee5224c79cc3fe398"
                     },
                     {
                         "type": "file",
@@ -15241,7 +15236,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "f5868d65f1c52b56dddd9254e72424df"
+                        "checksum": "5d6d7a9ef4133a854860d815829f8b07"
                     },
                     {
                         "type": "file",
