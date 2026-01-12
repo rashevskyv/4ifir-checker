@@ -1,27 +1,5 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "file",
-            "name": "bootloader/res/pezdaz.pcm",
-            "checksum": "54dce3022d1d04fee5224c79cc3fe398"
-        }
-    ],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "c1cac348e5f20c6bc9813b52d5dd93c1"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/KipTool.bin",
-            "checksum": "e29b196e07545db7915f149656e21ef1"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "5d6d7a9ef4133a854860d815829f8b07"
-        }
-    ]
+    "removed": [],
+    "modified": []
 }
