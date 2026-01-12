@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "switch/DBI/dbi.config",
+            "checksum": "edc9dfbf833786538dad2c0023cae50e"
+        }
+    ]
 }
