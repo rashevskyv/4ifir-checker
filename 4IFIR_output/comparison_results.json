@@ -1,102 +1,11 @@
 {
     "added": [],
-    "removed": [
-        {
-            "type": "file",
-            "name": "switch/.overlays/sys-patch-overlay.ovl",
-            "checksum": "910872c8e2209d56bc10f8295605257e"
-        }
-    ],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/420000000000000B/exefs.nsp",
-            "checksum": "204ae14a9fff962d6ee4fc22ef67c08e"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
-            "checksum": "5d20149cbb7156d41b81d375f51748f8"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "a973f3adc5542412fa031f1f6bd5c820"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "8a2372fb48153bb22b3d1e108d35fce9"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "776202e52cb0df197b8d03e090ade5a5"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "7cb6165e5b1f178da649f4a4598b2dd4"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "f389b6a20831bf3597ab13d0e82c8a25"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/Lockpick_RCM.bin",
-            "checksum": "2af800cc78841fd0663150f094ecda27"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "76284cab0f370e968690d2023ed9f1cc"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "776202e52cb0df197b8d03e090ade5a5"
-        },
-        {
-            "type": "file",
-            "name": "config/4IFIR/config.ini",
-            "checksum": "8770e2a72159720f0f43dcffbf0a909f"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "776202e52cb0df197b8d03e090ade5a5"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/InfoNX-ovl.ovl",
-            "checksum": "0b70b834bd2cde0d7d379742936e639c"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlEdiZon.ovl",
-            "checksum": "98314c6a97bded34f576e60a5c7d8b36"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "e47149c16a1be1c3860f022bd642cf37"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlSysmodules.ovl",
-            "checksum": "48c480d912a933709d1ff67cd6172de7"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/QuickNTP.ovl",
-            "checksum": "902e86d759b8618400d812a7e978a543"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/sysdvr-overlay.ovl",
-            "checksum": "d859acf1565c27e470fbc17a52bf0304"
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "adcd813e8ffc3e0eedfd021dbe01245c"
         }
     ]
 }
