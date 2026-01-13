@@ -207,7 +207,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "5fae694ef65aa94bac75fdf707232691"
+                                "checksum": "204ae14a9fff962d6ee4fc22ef67c08e"
                             },
                             {
                                 "type": "directory",
@@ -250,7 +250,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "f760361b81170d63574b5ae8507540e6"
+                                "checksum": "5d20149cbb7156d41b81d375f51748f8"
                             },
                             {
                                 "type": "directory",
@@ -1121,7 +1121,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "7a21264de85ac4f9dd86039694796e82"
+                        "checksum": "a973f3adc5542412fa031f1f6bd5c820"
                     }
                 ]
             },
@@ -1751,17 +1751,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "e8ac7099a6680548f99cb2169e6948f3"
+                "checksum": "8a2372fb48153bb22b3d1e108d35fce9"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "40e2f792bc3640b6511110c5dee65e2a"
+                "checksum": "776202e52cb0df197b8d03e090ade5a5"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "c64d8516daef738d11a9804f521a4114"
+                "checksum": "7cb6165e5b1f178da649f4a4598b2dd4"
             }
         ]
     },
@@ -1806,7 +1806,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "00959001ddf215faeb1e16fcd2d2e6c2"
+                        "checksum": "f389b6a20831bf3597ab13d0e82c8a25"
                     },
                     {
                         "type": "file",
@@ -1816,7 +1816,7 @@
                     {
                         "type": "file",
                         "name": "Lockpick_RCM.bin",
-                        "checksum": "37460a42c341a0df004b8262fc098fa0"
+                        "checksum": "2af800cc78841fd0663150f094ecda27"
                     },
                     {
                         "type": "file",
@@ -1924,7 +1924,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "72cd07aafe6ceffc4eeca0d45ac40176"
+                        "checksum": "76284cab0f370e968690d2023ed9f1cc"
                     },
                     {
                         "type": "file",
@@ -1941,7 +1941,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "40e2f792bc3640b6511110c5dee65e2a"
+                "checksum": "776202e52cb0df197b8d03e090ade5a5"
             }
         ]
     },
@@ -1956,7 +1956,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "72b769a3a0e3c3c7b27152d74d6cf293"
+                        "checksum": "8770e2a72159720f0f43dcffbf0a909f"
                     }
                 ]
             },
@@ -2121,7 +2121,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "40e2f792bc3640b6511110c5dee65e2a"
+        "checksum": "776202e52cb0df197b8d03e090ade5a5"
     },
     {
         "type": "directory",
@@ -15717,27 +15717,27 @@
                     {
                         "type": "file",
                         "name": "InfoNX-ovl.ovl",
-                        "checksum": "1bee395715c5664cd6992cd448d9490a"
+                        "checksum": "0b70b834bd2cde0d7d379742936e639c"
                     },
                     {
                         "type": "file",
                         "name": "ovlEdiZon.ovl",
-                        "checksum": "07b4acc121b81133f925e0a27891abb8"
+                        "checksum": "98314c6a97bded34f576e60a5c7d8b36"
                     },
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "c2776f74476420da5cb594eb753533a6"
+                        "checksum": "e47149c16a1be1c3860f022bd642cf37"
                     },
                     {
                         "type": "file",
                         "name": "ovlSysmodules.ovl",
-                        "checksum": "9f4c75a760fbc1353351e70c9eebd87c"
+                        "checksum": "48c480d912a933709d1ff67cd6172de7"
                     },
                     {
                         "type": "file",
                         "name": "QuickNTP.ovl",
-                        "checksum": "12002a257e1f611c74b88eec23f9f25f"
+                        "checksum": "902e86d759b8618400d812a7e978a543"
                     },
                     {
                         "type": "file",
@@ -15756,13 +15756,8 @@
                     },
                     {
                         "type": "file",
-                        "name": "sys-patch-overlay.ovl",
-                        "checksum": "910872c8e2209d56bc10f8295605257e"
-                    },
-                    {
-                        "type": "file",
                         "name": "sysdvr-overlay.ovl",
-                        "checksum": "91eeac8e218db8c1507e0045781bf848"
+                        "checksum": "d859acf1565c27e470fbc17a52bf0304"
                     }
                 ]
             },

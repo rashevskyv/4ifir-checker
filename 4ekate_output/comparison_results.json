@@ -1,5 +1,31 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "530cdcaec7a2dbe7abf4fe529da86e7a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "4a1b06fb0501f4761bd180e932a3ffce"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "76284cab0f370e968690d2023ed9f1cc"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "530cdcaec7a2dbe7abf4fe529da86e7a"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "530cdcaec7a2dbe7abf4fe529da86e7a"
+        }
+    ]
 }
