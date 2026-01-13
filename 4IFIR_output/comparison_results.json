@@ -4,8 +4,18 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/aio-switch-updater/aio-switch-updater.nro",
-            "checksum": "37d153f1d33414b5052631f3925a1bb0"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "937b9686effa25c4fdd46992d8773934"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/420000000007E51A/exefs.nsp",
+            "checksum": "bd4188be555494fd39abbe152d9b4136"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "0c22abd8b51d589d1dcf8b8d26eb91d0"
         }
     ]
 }
