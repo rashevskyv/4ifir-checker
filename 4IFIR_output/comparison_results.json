@@ -4,23 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "48c62fe399a28d9605c9b649fd67ab7c"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "9232d847fd1d1ea3ea6ceac8f4a93b2e"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "ce77f415acad4400cb577dfdb340e661"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "6ccc18c5e2089ead0aac6d1845a62b24"
+            "name": "switch/ModCD.nro",
+            "checksum": "afd7d161a8e5068fa223c20b93e577bd"
         }
     ]
 }
