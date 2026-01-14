@@ -1121,7 +1121,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "a973f3adc5542412fa031f1f6bd5c820"
+                        "checksum": "48c62fe399a28d9605c9b649fd67ab7c"
                     }
                 ]
             },
@@ -1751,7 +1751,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "8a2372fb48153bb22b3d1e108d35fce9"
+                "checksum": "9232d847fd1d1ea3ea6ceac8f4a93b2e"
             },
             {
                 "type": "file",
@@ -1761,7 +1761,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "7cb6165e5b1f178da649f4a4598b2dd4"
+                "checksum": "ce77f415acad4400cb577dfdb340e661"
             }
         ]
     },
@@ -1806,7 +1806,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "f389b6a20831bf3597ab13d0e82c8a25"
+                        "checksum": "6ccc18c5e2089ead0aac6d1845a62b24"
                     },
                     {
                         "type": "file",
