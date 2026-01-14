@@ -4,8 +4,8 @@
     "modified": [
         {
             "type": "file",
-            "name": "switch/ModCD.nro",
-            "checksum": "afd7d161a8e5068fa223c20b93e577bd"
+            "name": "bootloader/hekate_ipl.ini",
+            "checksum": "9abc90593bdce0456764e5b5062899ca"
         }
     ]
 }
