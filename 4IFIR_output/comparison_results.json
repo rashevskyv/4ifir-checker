@@ -1,11 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "9abc90593bdce0456764e5b5062899ca"
-        }
-    ]
+    "modified": []
 }
