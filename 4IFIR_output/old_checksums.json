@@ -1756,7 +1756,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "776202e52cb0df197b8d03e090ade5a5"
+                "checksum": "b42167ba95be1250a555546b93104814"
             },
             {
                 "type": "file",
@@ -1909,22 +1909,22 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "1d4acf82bbfbe8d16cc3fb863b90d1cf"
+                        "checksum": "c3d4359b824720cf11776a014f958605"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "e5014d8dafbfdec7d987e815cc0c218d"
+                        "checksum": "f6d19ec7dfa39796b166c9855b6881c8"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "864ff43647922e5061b32b25cd993231"
+                        "checksum": "e775e11287f531a9da4165be43914364"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "76284cab0f370e968690d2023ed9f1cc"
+                        "checksum": "012307dc922aa56e341567c31497f668"
                     },
                     {
                         "type": "file",
@@ -1941,7 +1941,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "776202e52cb0df197b8d03e090ade5a5"
+                "checksum": "b42167ba95be1250a555546b93104814"
             }
         ]
     },
@@ -2121,7 +2121,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "776202e52cb0df197b8d03e090ade5a5"
+        "checksum": "b42167ba95be1250a555546b93104814"
     },
     {
         "type": "directory",
@@ -15871,7 +15871,7 @@
             {
                 "type": "file",
                 "name": "MicroMemBench.nro",
-                "checksum": "2de54f18c37ccf0af941bf7619c69d25"
+                "checksum": "cbf650889c5059e7017fb5e3a5a96aef"
             },
             {
                 "type": "file",
