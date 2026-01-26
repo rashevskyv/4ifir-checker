@@ -1,11 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "5ea58fd5ef855927b734cddcfdd32d17"
-        }
-    ]
+    "modified": []
 }
