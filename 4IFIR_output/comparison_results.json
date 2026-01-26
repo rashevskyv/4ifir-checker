@@ -1,5 +1,76 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "a81172fa150e43a1f5cb0910fe1eb941"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/kip-json/Default.json",
+            "checksum": "e5179cd8b9725bc8654564194e8a9911"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "b696a7604f71319f1e8bb8a5f63e3e2e"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "04f5f7716e783d20428ddcd225f3230a"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "beb91a8b83c0bbd8e7895139523061ad"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "c662391c9bff9ce02116c7ade10bcccb"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "d99bf196decd98be38c704934cf2c3a8"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_lp0.bso",
+            "checksum": "34f3f5983ab6b75ed4adbb5ba98a4dac"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "0b42cd0cc924098272069b1f105c8922"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "0cbc47da9e824c089b0ad657c5530b9f"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "716ab2e41c7fe5982c30d329b1408eab"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "beb91a8b83c0bbd8e7895139523061ad"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "beb91a8b83c0bbd8e7895139523061ad"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "bebc3bd59a5cd90302f9d2f966b2e061"
+        }
+    ]
 }

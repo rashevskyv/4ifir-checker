@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "d31239908d738f6c8618dbe5ce20a7c2"
+                                "checksum": "a81172fa150e43a1f5cb0910fe1eb941"
                             },
                             {
                                 "type": "directory",
@@ -1109,7 +1109,7 @@
                             {
                                 "type": "file",
                                 "name": "Default.json",
-                                "checksum": "1ef8559a6752f41cb9c5108cf4922d02"
+                                "checksum": "e5179cd8b9725bc8654564194e8a9911"
                             },
                             {
                                 "type": "file",
@@ -1121,7 +1121,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "48c62fe399a28d9605c9b649fd67ab7c"
+                        "checksum": "b696a7604f71319f1e8bb8a5f63e3e2e"
                     }
                 ]
             },
@@ -1751,17 +1751,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "9232d847fd1d1ea3ea6ceac8f4a93b2e"
+                "checksum": "04f5f7716e783d20428ddcd225f3230a"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "b42167ba95be1250a555546b93104814"
+                "checksum": "beb91a8b83c0bbd8e7895139523061ad"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "ce77f415acad4400cb577dfdb340e661"
+                "checksum": "c662391c9bff9ce02116c7ade10bcccb"
             }
         ]
     },
@@ -1806,7 +1806,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "6ccc18c5e2089ead0aac6d1845a62b24"
+                        "checksum": "d99bf196decd98be38c704934cf2c3a8"
                     },
                     {
                         "type": "file",
@@ -1909,22 +1909,22 @@
                     {
                         "type": "file",
                         "name": "libsys_lp0.bso",
-                        "checksum": "c3d4359b824720cf11776a014f958605"
+                        "checksum": "34f3f5983ab6b75ed4adbb5ba98a4dac"
                     },
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "f6d19ec7dfa39796b166c9855b6881c8"
+                        "checksum": "0b42cd0cc924098272069b1f105c8922"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "e775e11287f531a9da4165be43914364"
+                        "checksum": "0cbc47da9e824c089b0ad657c5530b9f"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "012307dc922aa56e341567c31497f668"
+                        "checksum": "716ab2e41c7fe5982c30d329b1408eab"
                     },
                     {
                         "type": "file",
@@ -1941,7 +1941,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "b42167ba95be1250a555546b93104814"
+                "checksum": "beb91a8b83c0bbd8e7895139523061ad"
             }
         ]
     },
@@ -2121,7 +2121,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "b42167ba95be1250a555546b93104814"
+        "checksum": "beb91a8b83c0bbd8e7895139523061ad"
     },
     {
         "type": "directory",
@@ -15707,7 +15707,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "09e70a8ee4bda6db735ad29b8203bbf9"
+                        "checksum": "bebc3bd59a5cd90302f9d2f966b2e061"
                     },
                     {
                         "type": "file",
