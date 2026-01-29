@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "a81172fa150e43a1f5cb0910fe1eb941"
+                                "checksum": "03af68c661f27bbf2435ccbd3bf070ae"
                             },
                             {
                                 "type": "directory",
@@ -1751,7 +1751,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "5ea58fd5ef855927b734cddcfdd32d17"
+                "checksum": "6064bd8632baf3b3b0f8447d8360f481"
             },
             {
                 "type": "file",
@@ -1806,7 +1806,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "d99bf196decd98be38c704934cf2c3a8"
+                        "checksum": "fdb3522f62fbceca50bf359590e1fc92"
                     },
                     {
                         "type": "file",
@@ -15707,7 +15707,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "bebc3bd59a5cd90302f9d2f966b2e061"
+                        "checksum": "e6f87a0d55423750b241523651c1cb12"
                     },
                     {
                         "type": "file",

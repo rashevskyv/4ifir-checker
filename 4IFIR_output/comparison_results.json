@@ -1,5 +1,26 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "03af68c661f27bbf2435ccbd3bf070ae"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "6064bd8632baf3b3b0f8447d8360f481"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "fdb3522f62fbceca50bf359590e1fc92"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "e6f87a0d55423750b241523651c1cb12"
+        }
+    ]
 }
