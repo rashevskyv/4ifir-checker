@@ -1,11 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "684331f4c14702bca010370cecfaae3e"
-        }
-    ]
+    "modified": []
 }
