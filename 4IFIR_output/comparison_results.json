@@ -1,5 +1,36 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "8120c2543223a72c95d0a146585d15b6"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/hbl.nsp",
+            "checksum": "a3d9985f2ac2695d223260b6c0a6ec9f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "8b649e781da417ad5828546bc9df4116"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "4c350373b9db8ae49c932b1f7f7464c2"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "ce5cf2a5b6ff264daaa5c09b31b64425"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "cb5e9ffbdaf1d4e428242066002ffe8f"
+        }
+    ]
 }

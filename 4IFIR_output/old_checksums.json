@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "6eb6cf6fca2135e403cb0ddeeb7b0eef"
+                                "checksum": "8120c2543223a72c95d0a146585d15b6"
                             },
                             {
                                 "type": "directory",
@@ -1058,7 +1058,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "86b203a7844c342cb92a60b8ed275136"
+                "checksum": "a3d9985f2ac2695d223260b6c0a6ec9f"
             },
             {
                 "type": "directory",
@@ -1121,7 +1121,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "45cdacf07f0668aba43e2aea027814e4"
+                        "checksum": "8b649e781da417ad5828546bc9df4116"
                     }
                 ]
             },
@@ -1751,7 +1751,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "ba3a62eedd7c1a3277790cf22a71c839"
+                "checksum": "4c350373b9db8ae49c932b1f7f7464c2"
             },
             {
                 "type": "file",
@@ -1761,7 +1761,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "c662391c9bff9ce02116c7ade10bcccb"
+                "checksum": "ce5cf2a5b6ff264daaa5c09b31b64425"
             }
         ]
     },
@@ -15707,7 +15707,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "2d4752225e228078e2bdf694688982ee"
+                        "checksum": "cb5e9ffbdaf1d4e428242066002ffe8f"
                     },
                     {
                         "type": "file",
