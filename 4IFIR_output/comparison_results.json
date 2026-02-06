@@ -1,46 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "03af68c661f27bbf2435ccbd3bf070ae"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/hbl.nsp",
-            "checksum": "86b203a7844c342cb92a60b8ed275136"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "b696a7604f71319f1e8bb8a5f63e3e2e"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "6064bd8632baf3b3b0f8447d8360f481"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "c662391c9bff9ce02116c7ade10bcccb"
-        },
-        {
-            "type": "file",
-            "name": "config/4IFIR/config.ini",
-            "checksum": "8770e2a72159720f0f43dcffbf0a909f"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "e6f87a0d55423750b241523651c1cb12"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
-            "checksum": "abd9f355b42770fd970d360a83d0c7fc"
-        }
-    ]
+    "modified": []
 }
