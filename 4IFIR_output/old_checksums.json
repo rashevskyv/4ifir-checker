@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "03af68c661f27bbf2435ccbd3bf070ae"
+                                "checksum": "8120c2543223a72c95d0a146585d15b6"
                             },
                             {
                                 "type": "directory",
@@ -1058,7 +1058,7 @@
             {
                 "type": "file",
                 "name": "hbl.nsp",
-                "checksum": "86b203a7844c342cb92a60b8ed275136"
+                "checksum": "a3d9985f2ac2695d223260b6c0a6ec9f"
             },
             {
                 "type": "directory",
@@ -1121,7 +1121,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "b696a7604f71319f1e8bb8a5f63e3e2e"
+                        "checksum": "8b649e781da417ad5828546bc9df4116"
                     }
                 ]
             },
@@ -1751,17 +1751,17 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "6064bd8632baf3b3b0f8447d8360f481"
+                "checksum": "c6702d29d198e6bfb0594d5e6679e21c"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "beb91a8b83c0bbd8e7895139523061ad"
+                "checksum": "f6466341dfc2bcf4fe944e0ee4555173"
             },
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "c662391c9bff9ce02116c7ade10bcccb"
+                "checksum": "ce5cf2a5b6ff264daaa5c09b31b64425"
             }
         ]
     },
@@ -1924,7 +1924,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "716ab2e41c7fe5982c30d329b1408eab"
+                        "checksum": "57874d1154755f3d5e7d67fe3689ab79"
                     },
                     {
                         "type": "file",
@@ -1941,7 +1941,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "beb91a8b83c0bbd8e7895139523061ad"
+                "checksum": "f6466341dfc2bcf4fe944e0ee4555173"
             }
         ]
     },
@@ -1956,7 +1956,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "8770e2a72159720f0f43dcffbf0a909f"
+                        "checksum": "2304c809f93d235d2b335cb7309b9a47"
                     }
                 ]
             },
@@ -2121,7 +2121,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "beb91a8b83c0bbd8e7895139523061ad"
+        "checksum": "f6466341dfc2bcf4fe944e0ee4555173"
     },
     {
         "type": "directory",
@@ -15707,7 +15707,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "e6f87a0d55423750b241523651c1cb12"
+                        "checksum": "cb5e9ffbdaf1d4e428242066002ffe8f"
                     },
                     {
                         "type": "file",
@@ -15747,7 +15747,7 @@
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "abd9f355b42770fd970d360a83d0c7fc"
+                        "checksum": "5388a76a2680642d1bb9894fca578f0a"
                     },
                     {
                         "type": "file",
