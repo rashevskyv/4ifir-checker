@@ -15799,11 +15799,6 @@
                 "children": [
                     {
                         "type": "file",
-                        "name": ".aio-switch-updater.nro.star",
-                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                    },
-                    {
-                        "type": "file",
                         "name": "aio-switch-updater.nro",
                         "checksum": "37d153f1d33414b5052631f3925a1bb0"
                     }
@@ -15861,6 +15856,11 @@
                 "type": "directory",
                 "name": "HanaCalendar",
                 "children": [
+                    {
+                        "type": "file",
+                        "name": ".HanaCalendar.nro.star",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
                     {
                         "type": "file",
                         "name": "HanaCalendar.nro",
