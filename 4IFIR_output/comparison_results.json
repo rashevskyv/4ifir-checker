@@ -1,17 +1,5 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "switch/HanaCalendar/.HanaCalendar.nro.star",
-            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-        }
-    ],
-    "removed": [
-        {
-            "type": "file",
-            "name": "switch/aio-switch-updater/.aio-switch-updater.nro.star",
-            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-        }
-    ],
+    "added": [],
+    "removed": [],
     "modified": []
 }
