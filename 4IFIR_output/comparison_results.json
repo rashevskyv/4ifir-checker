@@ -5,17 +5,17 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "b49e702e3da129b3966b7f3dbb4f2078"
+            "checksum": "9ae6cbebf79281206bafefd7e182e243"
         },
         {
             "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "698f54490c5ddf19d876aac91224b7b1"
+            "name": "config/4IFIR/config.ini",
+            "checksum": "97a8026d9db3eddb224ccf6be14a54a6"
         },
         {
             "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "ce52f222cf5a840539a5604da22bb981"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "4708a0b8b50becaae9e2b47339fc217c"
         }
     ]
 }
