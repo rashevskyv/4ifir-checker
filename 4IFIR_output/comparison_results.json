@@ -1,21 +1,33 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/00FF0000A53BB665/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "1e46da32865ad1ab68aef98c7a2fef74"
+            "name": "atmosphere/config/system_settings.ini",
+            "checksum": "bcd4359d972a553308de206fe0b29421"
         },
         {
             "type": "file",
-            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
-            "checksum": "6f606a5235b5ca5cdaeb13f12247369c"
+            "name": "atmosphere/contents/00FF0000A53BB665/exefs.nsp",
+            "checksum": "75c97d1efe56f6540892db9a0c2f0a1b"
         },
         {
             "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "0eb8cdd23d392d3d180e5481e9a61fac"
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "8de4475c94fa0ad8b8e75744a4a42531"
         }
     ]
 }

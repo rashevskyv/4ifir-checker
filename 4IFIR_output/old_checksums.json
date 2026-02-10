@@ -20,7 +20,7 @@
                     {
                         "type": "file",
                         "name": "system_settings.ini",
-                        "checksum": "a584a0fd7d735951bd8c300bd4739675"
+                        "checksum": "bcd4359d972a553308de206fe0b29421"
                     }
                 ]
             },
@@ -115,7 +115,18 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "e13d6f720e9e5a9edbcd4b65aa45b542"
+                                "checksum": "75c97d1efe56f6540892db9a0c2f0a1b"
+                            },
+                            {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                    }
+                                ]
                             },
                             {
                                 "type": "file",
@@ -15727,7 +15738,7 @@
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "e47149c16a1be1c3860f022bd642cf37"
+                        "checksum": "8de4475c94fa0ad8b8e75744a4a42531"
                     },
                     {
                         "type": "file",
