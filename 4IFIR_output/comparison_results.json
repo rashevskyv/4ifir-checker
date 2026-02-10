@@ -5,12 +5,17 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "5f636ae586bf6e1fd15d014d5391732f"
+            "checksum": "1e46da32865ad1ab68aef98c7a2fef74"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
+            "checksum": "6f606a5235b5ca5cdaeb13f12247369c"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "d20cd4d6bb4452963f163684d9595ef5"
+            "checksum": "0eb8cdd23d392d3d180e5481e9a61fac"
         }
     ]
 }
