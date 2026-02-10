@@ -1,33 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents/00FF0000A53BB665/flags",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "boot2.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/config/system_settings.ini",
-            "checksum": "bcd4359d972a553308de206fe0b29421"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000A53BB665/exefs.nsp",
-            "checksum": "75c97d1efe56f6540892db9a0c2f0a1b"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/ovlmenu.ovl",
-            "checksum": "8de4475c94fa0ad8b8e75744a4a42531"
+            "name": "switch/.overlays/sysdvr-overlay.ovl",
+            "checksum": "42560b88d083de769c450f663fd5f603"
         }
     ]
 }
