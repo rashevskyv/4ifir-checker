@@ -1,11 +1,17 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": [
+    "added": [
         {
-            "type": "file",
-            "name": "switch/.overlays/sysdvr-overlay.ovl",
-            "checksum": "42560b88d083de769c450f663fd5f603"
+            "type": "directory",
+            "name": "switch/SysDVR",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "SysDVR-conf.nro",
+                    "checksum": "de29c4f01e9411f6665a85031bcf6bc0"
+                }
+            ]
         }
-    ]
+    ],
+    "removed": [],
+    "modified": []
 }
