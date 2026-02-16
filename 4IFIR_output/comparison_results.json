@@ -1,5 +1,90 @@
 {
-    "added": [],
-    "removed": [],
-    "modified": []
+    "added": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/00FF0000A53BB665/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        },
+        {
+            "type": "directory",
+            "name": "switch/SysDVR",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "SysDVR-conf.nro",
+                    "checksum": "de29c4f01e9411f6665a85031bcf6bc0"
+                }
+            ]
+        }
+    ],
+    "removed": [
+        {
+            "type": "file",
+            "name": "switch/SysDVR-conf.nro",
+            "checksum": "2a8c1b9da0a6a54365e15f292239be84"
+        }
+    ],
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/config/system_settings.ini",
+            "checksum": "a9a8961747e7f934f25bee76ad96facc"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "743afe793a75f0b94ef93b64589bd275"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000A53BB665/exefs.nsp",
+            "checksum": "75c97d1efe56f6540892db9a0c2f0a1b"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
+            "checksum": "6f606a5235b5ca5cdaeb13f12247369c"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "353a35cbcdaeadef512262c574e5ae23"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "ce52f222cf5a840539a5604da22bb981"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "97a8026d9db3eddb224ccf6be14a54a6"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "6a98d44ac7a2704923f215f418427c77"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "8de4475c94fa0ad8b8e75744a4a42531"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/sysdvr-overlay.ovl",
+            "checksum": "42560b88d083de769c450f663fd5f603"
+        },
+        {
+            "type": "file",
+            "name": "switch/aio-switch-updater/aio-switch-updater.nro",
+            "checksum": "7ee302ec306856f84ad247b42390365c"
+        }
+    ]
 }
