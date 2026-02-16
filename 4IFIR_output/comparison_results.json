@@ -1,5 +1,17 @@
 {
-    "added": [
+    "added": [],
+    "removed": [
+        {
+            "type": "directory",
+            "name": "atmosphere/contents/00FF0000A53BB665/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "boot2.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
+        },
         {
             "type": "directory",
             "name": "switch/SysDVR",
@@ -12,6 +24,56 @@
             ]
         }
     ],
-    "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/config/system_settings.ini",
+            "checksum": "a584a0fd7d735951bd8c300bd4739675"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "499481b10f0c2c356830307e6cb13f2d"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000A53BB665/exefs.nsp",
+            "checksum": "e13d6f720e9e5a9edbcd4b65aa45b542"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
+            "checksum": "7fdbc54cf1b03b9ec635dfade4018244"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "c6702d29d198e6bfb0594d5e6679e21c"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "ce5cf2a5b6ff264daaa5c09b31b64425"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "2304c809f93d235d2b335cb7309b9a47"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "b8f34db492d1683b8b614cd9ef653d9f"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ovlmenu.ovl",
+            "checksum": "e47149c16a1be1c3860f022bd642cf37"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/sysdvr-overlay.ovl",
+            "checksum": "d859acf1565c27e470fbc17a52bf0304"
+        }
+    ]
 }

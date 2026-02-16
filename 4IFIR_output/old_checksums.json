@@ -20,7 +20,7 @@
                     {
                         "type": "file",
                         "name": "system_settings.ini",
-                        "checksum": "bcd4359d972a553308de206fe0b29421"
+                        "checksum": "a584a0fd7d735951bd8c300bd4739675"
                     }
                 ]
             },
@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "1e46da32865ad1ab68aef98c7a2fef74"
+                                "checksum": "499481b10f0c2c356830307e6cb13f2d"
                             },
                             {
                                 "type": "directory",
@@ -115,18 +115,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "75c97d1efe56f6540892db9a0c2f0a1b"
-                            },
-                            {
-                                "type": "directory",
-                                "name": "flags",
-                                "children": [
-                                    {
-                                        "type": "file",
-                                        "name": "boot2.flag",
-                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                                    }
-                                ]
+                                "checksum": "e13d6f720e9e5a9edbcd4b65aa45b542"
                             },
                             {
                                 "type": "file",
@@ -169,7 +158,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "6f606a5235b5ca5cdaeb13f12247369c"
+                                "checksum": "7fdbc54cf1b03b9ec635dfade4018244"
                             },
                             {
                                 "type": "directory",
@@ -1762,7 +1751,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "353a35cbcdaeadef512262c574e5ae23"
+                "checksum": "c6702d29d198e6bfb0594d5e6679e21c"
             },
             {
                 "type": "file",
@@ -1772,7 +1761,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "ce52f222cf5a840539a5604da22bb981"
+                "checksum": "ce5cf2a5b6ff264daaa5c09b31b64425"
             }
         ]
     },
@@ -1967,7 +1956,7 @@
                     {
                         "type": "file",
                         "name": "config.ini",
-                        "checksum": "97a8026d9db3eddb224ccf6be14a54a6"
+                        "checksum": "2304c809f93d235d2b335cb7309b9a47"
                     }
                 ]
             },
@@ -15718,7 +15707,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "0eb8cdd23d392d3d180e5481e9a61fac"
+                        "checksum": "b8f34db492d1683b8b614cd9ef653d9f"
                     },
                     {
                         "type": "file",
@@ -15738,7 +15727,7 @@
                     {
                         "type": "file",
                         "name": "ovlmenu.ovl",
-                        "checksum": "8de4475c94fa0ad8b8e75744a4a42531"
+                        "checksum": "e47149c16a1be1c3860f022bd642cf37"
                     },
                     {
                         "type": "file",
@@ -15768,7 +15757,7 @@
                     {
                         "type": "file",
                         "name": "sysdvr-overlay.ovl",
-                        "checksum": "42560b88d083de769c450f663fd5f603"
+                        "checksum": "d859acf1565c27e470fbc17a52bf0304"
                     }
                 ]
             },
@@ -15913,17 +15902,6 @@
                 "type": "file",
                 "name": "SysDVR-conf.nro",
                 "checksum": "2a8c1b9da0a6a54365e15f292239be84"
-            },
-            {
-                "type": "directory",
-                "name": "SysDVR",
-                "children": [
-                    {
-                        "type": "file",
-                        "name": "SysDVR-conf.nro",
-                        "checksum": "de29c4f01e9411f6665a85031bcf6bc0"
-                    }
-                ]
             }
         ]
     },
