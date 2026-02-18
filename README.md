@@ -1,10 +1,13 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 17.02.2026 11:11<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 18.02.2026 09:55<hr>
 
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
   └╴00FF0000636C6BFF
-    └╴exefs.nsp (0c14302)
+    └╴exefs.nsp (de00a31)
+switch
+└╴.overlays
+  └╴4IFIR.ovl (c65abc1)
 </pre>
 <hr>
 
