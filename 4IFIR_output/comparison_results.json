@@ -1,28 +1,21 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "switch/Moonlight-Switch",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "Moonlight.nro",
-                    "checksum": "74eed31a7ffb510046006a656d720b2f"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
-            "checksum": "6f606a5235b5ca5cdaeb13f12247369c"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "526b4960e2cd3afdc31e12127ff09efe"
         },
         {
             "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "3b4bf30381c7b5f030c58d63191e4417"
+            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
+            "checksum": "d1c3fa428edb445ef48f983b6aaad0bf"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "97d76bceed9a0ea1deb87f411360175f"
         }
     ]
 }
