@@ -1,13 +1,17 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 18.02.2026 09:55<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 18.02.2026 17:43<hr>
 
+<h3>Added files/folders</h3>
+<pre>switch
+└╴Moonlight-Switch
+  └╴Moonlight.nro (4eed31a)
+</pre>
 <h3>Modified files</h3>
 <pre>atmosphere
 └╴contents
-  └╴00FF0000636C6BFF
-    └╴exefs.nsp (de00a31)
-switch
-└╴.overlays
-  └╴4IFIR.ovl (c65abc1)
+  └╴010000000000bd00
+    └╴exefs.nsp (f606a52)
+bootloader
+└╴hekate_ipl.ini (b4bf303)
 </pre>
 <hr>
 

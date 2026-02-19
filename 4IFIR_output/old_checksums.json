@@ -169,7 +169,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "7fdbc54cf1b03b9ec635dfade4018244"
+                                "checksum": "6f606a5235b5ca5cdaeb13f12247369c"
                             },
                             {
                                 "type": "directory",
@@ -1798,7 +1798,7 @@
             {
                 "type": "file",
                 "name": "hekate_ipl.ini",
-                "checksum": "9abc90593bdce0456764e5b5062899ca"
+                "checksum": "3b4bf30381c7b5f030c58d63191e4417"
             },
             {
                 "type": "file",
@@ -15898,6 +15898,17 @@
                 "type": "file",
                 "name": "ModCD.nro",
                 "checksum": "afd7d161a8e5068fa223c20b93e577bd"
+            },
+            {
+                "type": "directory",
+                "name": "Moonlight-Switch",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "Moonlight.nro",
+                        "checksum": "74eed31a7ffb510046006a656d720b2f"
+                    }
+                ]
             },
             {
                 "type": "file",
