@@ -1767,7 +1767,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "f6466341dfc2bcf4fe944e0ee4555173"
+                "checksum": "bbf682038390886e6fc5ea10503abd1a"
             },
             {
                 "type": "file",
@@ -1817,7 +1817,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "fdb3522f62fbceca50bf359590e1fc92"
+                        "checksum": "6bf38a2de5f95767b30828d3030957c3"
                     },
                     {
                         "type": "file",
@@ -1935,7 +1935,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "57874d1154755f3d5e7d67fe3689ab79"
+                        "checksum": "0839203cf9de9a4d1fbcb23ede4736b6"
                     },
                     {
                         "type": "file",
@@ -1952,7 +1952,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "f6466341dfc2bcf4fe944e0ee4555173"
+                "checksum": "bbf682038390886e6fc5ea10503abd1a"
             }
         ]
     },
@@ -2132,7 +2132,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "f6466341dfc2bcf4fe944e0ee4555173"
+        "checksum": "bbf682038390886e6fc5ea10503abd1a"
     },
     {
         "type": "directory",
