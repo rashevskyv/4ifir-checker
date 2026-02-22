@@ -5,17 +5,12 @@
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "2404a784e125bb1afa088cac0e18255e"
+            "checksum": "6e2850f2c49fbaa47fca39bd6a22c5a0"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "ba561bc242bc037b1a1446f02bfdaf47"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "01b28ca47dbbb557cdd192b7f5540d92"
+            "checksum": "dc7c5d23c93f2482ed48d8c46f5aa890"
         }
     ]
 }
