@@ -5,17 +5,12 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "bc276bc25c6a97e1227e6c5b8caeafbd"
+            "checksum": "901e0a533c1559cc12ddb5ca9d41dd11"
         },
         {
             "type": "file",
-            "name": "switch/DBI/dbi.config",
-            "checksum": "f0c79ee536db70e87c21723251de671e"
-        },
-        {
-            "type": "file",
-            "name": "switch/DBI/DBI.nro",
-            "checksum": "d243671d352c80ee1439931fa9ccc67f"
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "67ff3b3beebcfcdda60ba39799b7c203"
         }
     ]
 }
