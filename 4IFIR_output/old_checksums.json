@@ -61,7 +61,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "52edf592a2d51b83a7e3bf5460227a5e"
+                                "checksum": "3340071ddc59f77af69fc42e2279a152"
                             },
                             {
                                 "type": "directory",
@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "901e0a533c1559cc12ddb5ca9d41dd11"
+                                "checksum": "86ccc024355c9c77ac3f5ffc148bba6b"
                             },
                             {
                                 "type": "directory",
@@ -251,6 +251,28 @@
                                 "type": "file",
                                 "name": "toolbox.json",
                                 "checksum": "652d1aab99f68b742ee481436c5e46dd"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "directory",
+                        "name": "42000000000000A0",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "exefs.nsp",
+                                "checksum": "b34343c529e5f1995a778ea152703afe"
+                            },
+                            {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -2049,6 +2071,17 @@
             },
             {
                 "type": "directory",
+                "name": "sys-dock",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "config.ini",
+                        "checksum": "3d90946c6b6ba33bcf7951eb1004deaa"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "sys-ftpd",
                 "children": [
                     {
@@ -2142,6 +2175,17 @@
                 "type": "file",
                 "name": "exceptions.txt",
                 "checksum": "ff3ff5de60a8db43197dcd9df6b2ca95"
+            },
+            {
+                "type": "directory",
+                "name": "flags",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "log.flag",
+                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                    }
+                ]
             },
             {
                 "type": "directory",
@@ -15672,27 +15716,27 @@
             {
                 "type": "file",
                 "name": "saltysd_bootstrap.elf",
-                "checksum": "b6c30a465269c3cfa9bcda6daec506b1"
+                "checksum": "aa00b36ef6625901b21fc3e3fff35744"
             },
             {
                 "type": "file",
                 "name": "saltysd_bootstrap32_3k.elf",
-                "checksum": "d409ce93416035973dccc09881c0939c"
+                "checksum": "a55a26761b4ac0cfcc4159d0ec1f9fcb"
             },
             {
                 "type": "file",
                 "name": "saltysd_bootstrap32_5k.elf",
-                "checksum": "4c3be50d81adfb526e3e470964c05e79"
+                "checksum": "18a92a3869b879a8a4ec763259428f42"
             },
             {
                 "type": "file",
                 "name": "saltysd_core.elf",
-                "checksum": "84e1f84dc8e6a87eaada212aecbb3137"
+                "checksum": "f233e45c20b8bb8ae536ee2376736016"
             },
             {
                 "type": "file",
                 "name": "saltysd_core32.elf",
-                "checksum": "0244f2db61c1d7828dc08e40cb38fa20"
+                "checksum": "237a450acc6f0188ff2636120b03ba57"
             }
         ]
     },
@@ -15718,7 +15762,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "67ff3b3beebcfcdda60ba39799b7c203"
+                        "checksum": "10947c8032690996fced39cdd13bae62"
                     },
                     {
                         "type": "file",
