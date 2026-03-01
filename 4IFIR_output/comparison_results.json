@@ -1,91 +1,11 @@
 {
-    "added": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents/42000000000000A0",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "exefs.nsp",
-                    "checksum": "b34343c529e5f1995a778ea152703afe"
-                },
-                {
-                    "type": "directory",
-                    "name": "flags",
-                    "children": [
-                        {
-                            "type": "file",
-                            "name": "boot2.flag",
-                            "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "config/sys-dock",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "config.ini",
-                    "checksum": "3d90946c6b6ba33bcf7951eb1004deaa"
-                }
-            ]
-        },
-        {
-            "type": "directory",
-            "name": "SaltySD/flags",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "log.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                }
-            ]
-        }
-    ],
+    "added": [],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
-            "checksum": "3340071ddc59f77af69fc42e2279a152"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "86ccc024355c9c77ac3f5ffc148bba6b"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_bootstrap.elf",
-            "checksum": "aa00b36ef6625901b21fc3e3fff35744"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_bootstrap32_3k.elf",
-            "checksum": "a55a26761b4ac0cfcc4159d0ec1f9fcb"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_bootstrap32_5k.elf",
-            "checksum": "18a92a3869b879a8a4ec763259428f42"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_core.elf",
-            "checksum": "f233e45c20b8bb8ae536ee2376736016"
-        },
-        {
-            "type": "file",
-            "name": "SaltySD/saltysd_core32.elf",
-            "checksum": "237a450acc6f0188ff2636120b03ba57"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "10947c8032690996fced39cdd13bae62"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "0dacb940895cb0729e8723023e4d9600"
         }
     ]
 }
