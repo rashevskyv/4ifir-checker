@@ -4,8 +4,48 @@
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "a6a953e969604e9f30fc20e176131ad8"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "0dacb940895cb0729e8723023e4d9600"
+            "checksum": "cc261d59988d8f3437e344b54bc4ca42"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "22c6ee68c3c2419b8950819714020ea2"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "e05fec5ac41f0744fa056f49a8e3e78e"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "bf19688c0c84a04e5b922fd1b6b24524"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "b33807521fbaa9195063bde16934f331"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "e05fec5ac41f0744fa056f49a8e3e78e"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "e05fec5ac41f0744fa056f49a8e3e78e"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "2e1b2aa353fcf89c934c18a8d1070e1c"
         }
     ]
 }
