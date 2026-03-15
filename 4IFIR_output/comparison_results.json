@@ -1,11 +1,62 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "config/4IFIR/magnum.ini",
+            "checksum": "d514dcb0420fd23d0ba9de1c2f5a19ab"
+        }
+    ],
     "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "switch/MicroMemTest.nro",
-            "checksum": "457cbb6c681145f9aaf57cdfa20f83b4"
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "e817e6fffebf9cd13ce897752e364437"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "471a5e322ec840ba59293b33027e1706"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "0eca4a61b136910fe765e2bd319fca79"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "203fc3561509cd8b179333449ad9c1c9"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "5b99e2a4f9844524917c3e06b8b96148"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "7986edf86834ed0cd75423d60720352f"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "48c5060d69052f7b3d0f57e3535a2039"
         }
     ]
 }
