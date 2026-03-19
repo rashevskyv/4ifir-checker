@@ -3,13 +3,26 @@ import json
 import os
 
 # Load configuration from a file
-def load_config(file):
+def load_config(file, required=True):
     try:
+        if not os.path.exists(file):
+            if required:
+                print(f'Error: configuration file {file} not found.')
+                sys.exit(1)
+            return None
+            
         with open(file, 'r') as f:
             return json.load(f)
-    except (json.JSONDecodeError, FileNotFoundError) as e:
+    except json.JSONDecodeError as e:
+        print(f'Error parsing config file {file}:', e)
+        if required:
+            sys.exit(1)
+        return None
+    except Exception as e:
         print(f'Error loading config file {file}:', e)
-        sys.exit(1)
+        if required:
+            sys.exit(1)
+        return None
 
 # Updated URLs to use GitHub instead of sintez.io
 aio_zip_url = ["https://github.com/rashevskyv/4ifir-checker/releases/latest/download/AIO.zip"]
@@ -23,36 +36,41 @@ archives_output_dir = "archives"  # Змінена директорія вихо
 # GitHub API URL for getting release info
 github_api_url = "https://api.github.com/repos/rashevskyv/4ifir-checker/releases/latest"
 
-# Load the main configuration from settings.json
-# settings = load_config('settings.json')
-settings = load_config('test_settings.json')
+# Load the main configuration from settings.json (required)
+settings = load_config('settings.json', required=True)
 
-# Load test configuration for Telegram notifications
-test_settings = None
-try:
-    test_settings = load_config('test_settings.json')
+# Load test configuration for Telegram notifications (optional)
+test_settings = load_config('test_settings.json', required=False)
+
+if test_settings:
     print("Test settings loaded successfully for Telegram notifications")
-except Exception as e:
-    print(f"Warning: Could not load test_settings.json: {e}")
-    print("Will use main settings for Telegram notifications")
+    # Merge test_settings into settings if needed, or keep them separate as before
+else:
+    print("No test_settings.json found, using only main settings")
+
+# Helper function to get setting value (priority: env var > config file)
+def get_setting(key, config):
+    val = config.get(key)
+    if val == f"os.environ['{key}']":
+        return os.environ.get(key, "")
+    return val
 
 # Main settings for the application
-TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN'] if settings['TELEGRAM_BOT_TOKEN'] == "os.environ['TELEGRAM_BOT_TOKEN']" else settings['TELEGRAM_BOT_TOKEN']
-YOUR_CHAT_ID = os.environ['YOUR_CHAT_ID'] if settings['YOUR_CHAT_ID'] == "os.environ['YOUR_CHAT_ID']" else settings['YOUR_CHAT_ID']
-TOPIC_ID = os.environ['TOPIC_ID'] if settings['TOPIC_ID'] == "os.environ['TOPIC_ID']" else settings['TOPIC_ID']
-TELEGRAM_API_ID = os.environ['TELEGRAM_API_ID'] if settings['TELEGRAM_API_ID'] == "os.environ['TELEGRAM_API_ID']" else settings['TELEGRAM_API_ID']
-TELEGRAM_API_HASH = os.environ['TELEGRAM_API_HASH'] if settings['TELEGRAM_API_HASH'] == "os.environ['TELEGRAM_API_HASH']" else settings['TELEGRAM_API_HASH']
-TELEGRAM_USERNAME = os.environ['TELEGRAM_USERNAME'] if settings['TELEGRAM_USERNAME'] == "os.environ['TELEGRAM_USERNAME']" else settings['TELEGRAM_USERNAME']
+TELEGRAM_BOT_TOKEN = get_setting('TELEGRAM_BOT_TOKEN', settings)
+YOUR_CHAT_ID = get_setting('YOUR_CHAT_ID', settings)
+TOPIC_ID = get_setting('TOPIC_ID', settings)
+TELEGRAM_API_ID = get_setting('TELEGRAM_API_ID', settings)
+TELEGRAM_API_HASH = get_setting('TELEGRAM_API_HASH', settings)
+TELEGRAM_USERNAME = get_setting('TELEGRAM_USERNAME', settings)
 
 # Test settings for Telegram notifications (if available)
 if test_settings:
-    # Override Telegram settings with test values
-    TEST_TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN'] if test_settings['TELEGRAM_BOT_TOKEN'] == "os.environ['TELEGRAM_BOT_TOKEN']" else test_settings['TELEGRAM_BOT_TOKEN']
-    TEST_YOUR_CHAT_ID = os.environ['YOUR_CHAT_ID'] if test_settings['YOUR_CHAT_ID'] == "os.environ['YOUR_CHAT_ID']" else test_settings['YOUR_CHAT_ID']
-    TEST_TOPIC_ID = os.environ['TOPIC_ID'] if test_settings['TOPIC_ID'] == "os.environ['TOPIC_ID']" else test_settings['TOPIC_ID']
-    TEST_TELEGRAM_API_ID = os.environ['TELEGRAM_API_ID'] if test_settings['TELEGRAM_API_ID'] == "os.environ['TELEGRAM_API_ID']" else test_settings['TELEGRAM_API_ID']
-    TEST_TELEGRAM_API_HASH = os.environ['TELEGRAM_API_HASH'] if test_settings['TELEGRAM_API_HASH'] == "os.environ['TELEGRAM_API_HASH']" else test_settings['TELEGRAM_API_HASH']
-    TEST_TELEGRAM_USERNAME = os.environ['TELEGRAM_USERNAME'] if test_settings['TELEGRAM_USERNAME'] == "os.environ['TELEGRAM_USERNAME']" else test_settings['TELEGRAM_USERNAME']
+    TEST_TELEGRAM_BOT_TOKEN = get_setting('TELEGRAM_BOT_TOKEN', test_settings)
+    TEST_YOUR_CHAT_ID = get_setting('YOUR_CHAT_ID', test_settings)
+    TEST_TOPIC_ID = get_setting('TOPIC_ID', test_settings)
+    TEST_TELEGRAM_API_ID = get_setting('TELEGRAM_API_ID', test_settings)
+    TEST_TELEGRAM_API_HASH = get_setting('TELEGRAM_API_HASH', test_settings)
+    TEST_TELEGRAM_USERNAME = get_setting('TELEGRAM_USERNAME', test_settings)
 else:
     # If no test settings, use main settings
     TEST_TELEGRAM_BOT_TOKEN = TELEGRAM_BOT_TOKEN
