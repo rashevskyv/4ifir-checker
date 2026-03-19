@@ -1,62 +1,58 @@
 {
-    "added": [
+    "added": [],
+    "removed": [
         {
-            "type": "file",
-            "name": "config/4IFIR/magnum.ini",
-            "checksum": "d514dcb0420fd23d0ba9de1c2f5a19ab"
+            "type": "directory",
+            "name": "SaltySD/flags",
+            "children": [
+                {
+                    "type": "file",
+                    "name": "log.flag",
+                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                }
+            ]
         }
     ],
-    "removed": [],
     "modified": [
         {
             "type": "file",
+            "name": "atmosphere/contents/0000000000534C56/exefs.nsp",
+            "checksum": "91819756d19eaf9bd98dea7951121a23"
+        },
+        {
+            "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "e817e6fffebf9cd13ce897752e364437"
+            "checksum": "a5ea838e308487cec7fa438ff9484b5c"
         },
         {
             "type": "file",
             "name": "atmosphere/kips/loader.kip",
-            "checksum": "471a5e322ec840ba59293b33027e1706"
+            "checksum": "d556683b8a73c6f32e456bc38dc93ac1"
         },
         {
             "type": "file",
             "name": "atmosphere/package3",
-            "checksum": "0eca4a61b136910fe765e2bd319fca79"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+            "checksum": "833b1f37e90d2ef673bef1cebedab010"
         },
         {
             "type": "file",
             "name": "atmosphere/stratosphere.romfs",
-            "checksum": "203fc3561509cd8b179333449ad9c1c9"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "5b99e2a4f9844524917c3e06b8b96148"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "7986edf86834ed0cd75423d60720352f"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "fa65591e137f4f37f5359c7e6133d13b"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+            "checksum": "257465255a29e116cb4b45dded6480ad"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "48c5060d69052f7b3d0f57e3535a2039"
+            "checksum": "e2d3e6ab15b809c20f5c74254fc39755"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
+            "checksum": "e09a9c34580c20990d3002df381058c3"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "04bfab86242d2908ffc3a3a4774b27e8"
         }
     ]
 }

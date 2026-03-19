@@ -1,47 +1,30 @@
-<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 06.03.2026 21:21<hr>
+<h2>Archive Comparison Report for <b>4IFIR</b></h2><b>Last archive modification date:</b> 15.03.2026 14:20<hr>
 
-<h3>Added files/folders</h3>
-<pre>config
-└╴4IFIR
-  └╴magnum.ini (514dcb0)
+<h3>Removed files/folders</h3>
+<pre>SaltySD
+└╴flags
+  └╴log.flag (41d8cd9)
 </pre>
 <h3>Modified files</h3>
 <pre>atmosphere
 ├╴contents
+│ ├╴0000000000534C56
+│ │ └╴exefs.nsp (1819756)
 │ └╴00FF0000636C6BFF
-│   └╴exefs.nsp (817e6ff)
+│   └╴exefs.nsp (5ea838e)
 ├╴kips
-│ └╴loader.kip (71a5e32)
-├╴package3 (eca4a61)
-├╴reboot_payload.bin (a65591e)
-└╴stratosphere.romfs (03fc356)
-bootloader
-├╴payloads
-│ └╴fusee.bin (b99e2a4)
-├╴sys
-│ └╴nyx.bin (986edf8)
-└╴update.bin (a65591e)
-payload.bin (a65591e)
+│ └╴loader.kip (556683b)
+├╴package3 (33b1f37)
+└╴stratosphere.romfs (5746525)
 switch
 └╴.overlays
-  └╴4IFIR.ovl (8c5060d)
+  ├╴4IFIR.ovl (2d3e6ab)
+  ├╴ReverseNX-RT-ovl.ovl (09a9c34)
+  └╴Status-Monitor-Overlay.ovl (4bfab86)
 </pre>
 <hr>
 
-<h2>Archive Comparison Report for <b>4ekate</b></h2><b>Last archive modification date:</b> 06.03.2026 21:21<hr>
-
-<h3>Modified files</h3>
-<pre>atmosphere
-└╴reboot_payload.bin (448f4de)
-bootloader
-├╴payloads
-│ └╴fusee.bin (17daa3d)
-├╴sys
-│ └╴nyx.bin (986edf8)
-└╴update.bin (448f4de)
-payload.bin (448f4de)
-</pre>
-<hr>
+<h2>Archive Comparison Report for <b>4ekate</b></h2><hr>
 
 <h2>Archive Comparison Report for <b>Refresh</b></h2><hr>
 
