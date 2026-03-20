@@ -5,12 +5,32 @@
         {
             "type": "file",
             "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "cdec59778b58ecdc82564c7a42473dfd"
+            "checksum": "75eaefbc706fba20a4fec118e68657a1"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "47a64f0228eca21502a577f6003eb3ec"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "67bb09b788c62443dcbdedbe60c11ebf"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "47a64f0228eca21502a577f6003eb3ec"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "47a64f0228eca21502a577f6003eb3ec"
         },
         {
             "type": "file",
             "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "e7d54cf6795d6bec1757e47c109d7e4b"
+            "checksum": "3a15fed94ab5d7fb496446631063fdf1"
         }
     ]
 }

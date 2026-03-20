@@ -88,7 +88,7 @@
                             {
                                 "type": "file",
                                 "name": "exefs.nsp",
-                                "checksum": "cdec59778b58ecdc82564c7a42473dfd"
+                                "checksum": "75eaefbc706fba20a4fec118e68657a1"
                             },
                             {
                                 "type": "directory",
@@ -1789,7 +1789,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+                "checksum": "47a64f0228eca21502a577f6003eb3ec"
             },
             {
                 "type": "file",
@@ -1957,7 +1957,7 @@
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "7986edf86834ed0cd75423d60720352f"
+                        "checksum": "67bb09b788c62443dcbdedbe60c11ebf"
                     },
                     {
                         "type": "file",
@@ -1974,7 +1974,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+                "checksum": "47a64f0228eca21502a577f6003eb3ec"
             }
         ]
     },
@@ -2170,7 +2170,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "fa65591e137f4f37f5359c7e6133d13b"
+        "checksum": "47a64f0228eca21502a577f6003eb3ec"
     },
     {
         "type": "directory",
@@ -15756,7 +15756,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "e7d54cf6795d6bec1757e47c109d7e4b"
+                        "checksum": "3a15fed94ab5d7fb496446631063fdf1"
                     },
                     {
                         "type": "file",
