@@ -4,7 +4,7 @@ import os
 from status_result import process_items
 from datetime import datetime
 import shutil
-from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TELEGRAM_API_HASH, TELEGRAM_API_ID, TELEGRAM_USERNAME
+from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TELEGRAM_API_HASH, TELEGRAM_API_ID, TELEGRAM_USERNAME, ENABLE_FILE_UPLOAD
 from telethon import TelegramClient
 from telethon.tl.functions.messages import SendMediaRequest
 from telethon.tl.types import InputMediaUploadedDocument
@@ -283,6 +283,54 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
 
             for part in blocks:
                 await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+        elif not ENABLE_FILE_UPLOAD:
+            # Режим з вимкненим завантаженням файлів
+            print("File upload is disabled. Sending report as text only.")
+            if len(header) > 900:
+                split_index = header.rfind("</pre>") + len("</pre>")
+                first_part = header[:split_index]
+                second_part = header[split_index:]
+
+                if len(first_part) < 1024:
+                    sent_message = await bot.send_message(
+                        chat_id=chat_id, 
+                        message_thread_id=msg_thread_id, 
+                        text=first_part, 
+                        parse_mode=types.ParseMode.HTML
+                    )
+                    
+                    if len(second_part) > 4000:
+                        parts = []
+                        start = 0
+                        while start < len(second_part):
+                            end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
+                            if end == -1 + len('</pre>'):
+                                end = len(second_part)
+                            parts.append(second_part[start:end])
+                            start = end
+
+                        for part in parts:
+                            await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
+                    else:
+                        await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
+                else:
+                    await bot.send_message(
+                        chat_id=chat_id, 
+                        message_thread_id=msg_thread_id, 
+                        text=small_caption, 
+                        parse_mode=types.ParseMode.HTML
+                    )
+                    await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
+            else:
+                await bot.send_message(
+                    chat_id=chat_id, 
+                    message_thread_id=msg_thread_id, 
+                    text=header, 
+                    parse_mode=types.ParseMode.HTML
+                )
+
+            for part in blocks:
+                await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
         else:
             # Стандартний режим з прикріпленням файлу
             desired_filename = archivename + '.zip'
@@ -392,8 +440,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                 for part in blocks:
                     await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
 
-                # Відправка великого файлу через Telethon
-                if first_message_id is not None:
+                # Відправка великого файлу через Telethon (якщо увімкнено)
+                if first_message_id is not None and ENABLE_FILE_UPLOAD:
                     await send_large_file_with_telethon(desired_filename, first_message_id)
             else:
                 if len(header) > 900:

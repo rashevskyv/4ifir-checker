@@ -62,6 +62,13 @@ TOPIC_ID = get_setting('TOPIC_ID', settings)
 TELEGRAM_API_ID = get_setting('TELEGRAM_API_ID', settings)
 TELEGRAM_API_HASH = get_setting('TELEGRAM_API_HASH', settings)
 TELEGRAM_USERNAME = get_setting('TELEGRAM_USERNAME', settings)
+ENABLE_FILE_UPLOAD_VAL = get_setting('ENABLE_FILE_UPLOAD', settings)
+if ENABLE_FILE_UPLOAD_VAL == "" or ENABLE_FILE_UPLOAD_VAL is None:
+    ENABLE_FILE_UPLOAD = True
+elif isinstance(ENABLE_FILE_UPLOAD_VAL, str):
+    ENABLE_FILE_UPLOAD = ENABLE_FILE_UPLOAD_VAL.lower() == 'true'
+else:
+    ENABLE_FILE_UPLOAD = bool(ENABLE_FILE_UPLOAD_VAL)
 
 # Test settings for Telegram notifications (if available)
 if test_settings:
@@ -71,6 +78,8 @@ if test_settings:
     TEST_TELEGRAM_API_ID = get_setting('TELEGRAM_API_ID', test_settings)
     TEST_TELEGRAM_API_HASH = get_setting('TELEGRAM_API_HASH', test_settings)
     TEST_TELEGRAM_USERNAME = get_setting('TELEGRAM_USERNAME', test_settings)
+    TEST_ENABLE_FILE_UPLOAD = get_setting('ENABLE_FILE_UPLOAD', test_settings).lower() == 'true' if isinstance(get_setting('ENABLE_FILE_UPLOAD', test_settings), str) else get_setting('ENABLE_FILE_UPLOAD', test_settings)
+    if TEST_ENABLE_FILE_UPLOAD is None: TEST_ENABLE_FILE_UPLOAD = ENABLE_FILE_UPLOAD
 else:
     # If no test settings, use main settings
     TEST_TELEGRAM_BOT_TOKEN = TELEGRAM_BOT_TOKEN
@@ -79,5 +88,6 @@ else:
     TEST_TELEGRAM_API_ID = TELEGRAM_API_ID
     TEST_TELEGRAM_API_HASH = TELEGRAM_API_HASH
     TEST_TELEGRAM_USERNAME = TELEGRAM_USERNAME
+    TEST_ENABLE_FILE_UPLOAD = ENABLE_FILE_UPLOAD
 
 report_file = 'README.md'
