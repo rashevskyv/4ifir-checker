@@ -1,5 +1,26 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "fd2b282da90e050a33ddbcbdbd2cd8cd"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "257d5bc50f50e614910e1190d5523066"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "fd2b282da90e050a33ddbcbdbd2cd8cd"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "fd2b282da90e050a33ddbcbdbd2cd8cd"
+        }
+    ]
 }

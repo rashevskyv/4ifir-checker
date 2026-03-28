@@ -1,5 +1,36 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "fea50961cc42bfa62213c6883d0fc525"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "d9dd876ad285f6ea3f66fb7c317200a3"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "532236331c04cad6aab3ab3dac73fc8d"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/payloads/fusee.bin",
+            "checksum": "1ae63b68334a90e406a9fe3ff55d4fbb"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "532236331c04cad6aab3ab3dac73fc8d"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "532236331c04cad6aab3ab3dac73fc8d"
+        }
+    ]
 }

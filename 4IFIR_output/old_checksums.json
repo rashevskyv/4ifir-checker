@@ -1154,7 +1154,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "d556683b8a73c6f32e456bc38dc93ac1"
+                        "checksum": "fea50961cc42bfa62213c6883d0fc525"
                     }
                 ]
             },
@@ -1784,12 +1784,12 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "833b1f37e90d2ef673bef1cebedab010"
+                "checksum": "d9dd876ad285f6ea3f66fb7c317200a3"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "47a64f0228eca21502a577f6003eb3ec"
+                "checksum": "532236331c04cad6aab3ab3dac73fc8d"
             },
             {
                 "type": "file",
@@ -1839,7 +1839,7 @@
                     {
                         "type": "file",
                         "name": "fusee.bin",
-                        "checksum": "5b99e2a4f9844524917c3e06b8b96148"
+                        "checksum": "1ae63b68334a90e406a9fe3ff55d4fbb"
                     },
                     {
                         "type": "file",
@@ -1974,7 +1974,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "47a64f0228eca21502a577f6003eb3ec"
+                "checksum": "532236331c04cad6aab3ab3dac73fc8d"
             }
         ]
     },
@@ -2170,7 +2170,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "47a64f0228eca21502a577f6003eb3ec"
+        "checksum": "532236331c04cad6aab3ab3dac73fc8d"
     },
     {
         "type": "directory",
