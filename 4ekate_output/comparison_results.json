@@ -1,46 +1,5 @@
 {
     "added": [],
     "removed": [],
-    "modified": [
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "aa6467a2306247fdf5e5f12ba403034e"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "e3a499643ac855737ab22c43eaa111eb"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "2e89848454e147465a9a4f436ff54109"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "2ff22c65754c01f98c6313a860e12642"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "f765faac56d6daeeba785dc47255da61"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "f70008ca069c9147501e5cc5bbde5bd3"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "aa6467a2306247fdf5e5f12ba403034e"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "aa6467a2306247fdf5e5f12ba403034e"
-        }
-    ]
+    "modified": []
 }

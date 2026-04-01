@@ -1,114 +1,11 @@
 {
-    "added": [
-        {
-            "type": "file",
-            "name": "warmboot_mariko/wb_17.bin",
-            "checksum": "f33967e1d1a1d68dd009d11ca8b55183"
-        }
-    ],
-    "removed": [
-        {
-            "type": "directory",
-            "name": "atmosphere/contents/010000000000bd00/flags",
-            "children": [
-                {
-                    "type": "file",
-                    "name": "boot2.flag",
-                    "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-                }
-            ]
-        }
-    ],
+    "added": [],
+    "removed": [],
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
-            "checksum": "8e608bda64fef6e59aee5f380b2b1a06"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/kips/loader.kip",
-            "checksum": "09e94bdb65546e2f82250d4e7782b1ac"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "4fcf3f9e4843b3f27f51ea0a76aceecb"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "9bc513fc901d9285ef327029d78ade39"
-        },
-        {
-            "type": "file",
-            "name": "atmosphere/stratosphere.romfs",
-            "checksum": "6291b2885f9da0532397fd41d1c3b563"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/hekate_ipl.ini",
-            "checksum": "ac4a7ed1b93c75aaea366bee459de5c4"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/fusee.bin",
-            "checksum": "64b733615bb1c0fd5926fddff92a5605"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/payloads/Lockpick_RCM.bin",
-            "checksum": "e86f0ec7c675153ba62d7b176ea05509"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/emummc.kipm",
-            "checksum": "88bb3d37b1af11b536a9da13744f23b5"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/l4t/sc7exit_b01.bin",
-            "checksum": "f5c4c345c47b242fea6fa9e61ae80be2"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_lp0.bso",
-            "checksum": "2e89848454e147465a9a4f436ff54109"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/libsys_minerva.bso",
-            "checksum": "2ff22c65754c01f98c6313a860e12642"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/module_sample.bso",
-            "checksum": "f765faac56d6daeeba785dc47255da61"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/nyx.bin",
-            "checksum": "f70008ca069c9147501e5cc5bbde5bd3"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/sys/res.pak",
-            "checksum": "3a231939926031306e360a7c0780c7e5"
-        },
-        {
-            "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "9bc513fc901d9285ef327029d78ade39"
-        },
-        {
-            "type": "file",
-            "name": "payload.bin",
-            "checksum": "9bc513fc901d9285ef327029d78ade39"
-        },
-        {
-            "type": "file",
-            "name": "switch/.overlays/4IFIR.ovl",
-            "checksum": "48611253bd016ceb14cd4d3768c86dea"
+            "name": "atmosphere/contents/420000000000000B/exefs.nsp",
+            "checksum": "53ce266c124121779b976067ca824eef"
         }
     ]
 }
