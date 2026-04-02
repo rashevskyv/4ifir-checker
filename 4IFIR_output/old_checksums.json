@@ -1143,7 +1143,7 @@
                     {
                         "type": "file",
                         "name": "loader.kip",
-                        "checksum": "09e94bdb65546e2f82250d4e7782b1ac"
+                        "checksum": "3084577a146a9b64725e29e95f06caae"
                     }
                 ]
             },
@@ -1773,7 +1773,7 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "4fcf3f9e4843b3f27f51ea0a76aceecb"
+                "checksum": "7142eb368b4f9ae06f44c2132295e25a"
             },
             {
                 "type": "file",
@@ -1783,7 +1783,7 @@
             {
                 "type": "file",
                 "name": "stratosphere.romfs",
-                "checksum": "6291b2885f9da0532397fd41d1c3b563"
+                "checksum": "2e4be7f11b41d4b86631cadb878de155"
             }
         ]
     },

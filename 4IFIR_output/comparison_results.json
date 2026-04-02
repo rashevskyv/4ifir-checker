@@ -1,5 +1,21 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "3084577a146a9b64725e29e95f06caae"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/package3",
+            "checksum": "7142eb368b4f9ae06f44c2132295e25a"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "2e4be7f11b41d4b86631cadb878de155"
+        }
+    ]
 }
