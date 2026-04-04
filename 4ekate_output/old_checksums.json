@@ -6,7 +6,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "aa6467a2306247fdf5e5f12ba403034e"
+                "checksum": "f0605d958ec08b46d0243487e008a6fb"
             }
         ]
     },
@@ -37,30 +37,30 @@
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "2ff22c65754c01f98c6313a860e12642"
+                        "checksum": "0afbe8f00229d64c9e4d0ca65e2724fb"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "f765faac56d6daeeba785dc47255da61"
+                        "checksum": "71b3592422113d0035f1a970fb47a13a"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "f70008ca069c9147501e5cc5bbde5bd3"
+                        "checksum": "fbab8352fd896cbaae5a960b11780cee"
                     }
                 ]
             },
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "aa6467a2306247fdf5e5f12ba403034e"
+                "checksum": "f0605d958ec08b46d0243487e008a6fb"
             }
         ]
     },
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "aa6467a2306247fdf5e5f12ba403034e"
+        "checksum": "f0605d958ec08b46d0243487e008a6fb"
     }
 ]
