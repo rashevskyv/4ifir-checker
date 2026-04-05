@@ -12,13 +12,15 @@ from tqdm import tqdm
 
 bot_token, chat_id, message_thread_id = TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID
 
-def create_html_report(results, last_modified):
+def create_html_report(results, last_modified, archive_name=None):
     report_content = ''
 
     if all(not items for items in results.values()):
         return report_content
     
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
+    if archive_name:
+        report_content += f'<b>{archive_name}</b>\n'
     report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>\n\n'
     
     for change_type, items in results.items():
@@ -198,7 +200,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             message_thread_id=msg_thread_id, 
                             text=first_part, 
                             parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id
+                            reply_to_message_id=reply_to_message_id,
+                            allow_sending_without_reply=True
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -210,7 +213,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 text=first_part, 
                                 parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
@@ -237,7 +241,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             message_thread_id=msg_thread_id, 
                             text=small_caption, 
                             parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id
+                            reply_to_message_id=reply_to_message_id,
+                            allow_sending_without_reply=True
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -249,7 +254,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 text=small_caption, 
                                 parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
@@ -263,7 +269,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                         message_thread_id=msg_thread_id, 
                         text=header, 
                         parse_mode=types.ParseMode.HTML,
-                        reply_to_message_id=reply_to_message_id
+                        reply_to_message_id=reply_to_message_id,
+                        allow_sending_without_reply=True
                     )
                     first_message_id = sent_message.message_id
                 except Exception as e:
@@ -275,7 +282,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             chat_id=chat_id, 
                             text=header, 
                             parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id
+                            reply_to_message_id=reply_to_message_id,
+                            allow_sending_without_reply=True
                         )
                         first_message_id = sent_message.message_id
                         use_thread_id = False

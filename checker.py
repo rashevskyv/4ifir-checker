@@ -145,7 +145,7 @@ async def main():
             last_modified = status["last_archive_modification"]
 
             if is_folder_exist:
-                result = create_html_report(comparison_results, last_modified)
+                result = create_html_report(comparison_results, last_modified, archive["filename"])
             else:
                 result = "<code>New archive was added.</code>"
 
