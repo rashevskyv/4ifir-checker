@@ -1,5 +1,46 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "80155881a5e960d35e269680eb480c80"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/libsys_minerva.bso",
+            "checksum": "0afbe8f00229d64c9e4d0ca65e2724fb"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/module_sample.bso",
+            "checksum": "71b3592422113d0035f1a970fb47a13a"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/sys/nyx.bin",
+            "checksum": "fbab8352fd896cbaae5a960b11780cee"
+        },
+        {
+            "type": "file",
+            "name": "bootloader/update.bin",
+            "checksum": "80155881a5e960d35e269680eb480c80"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "80155881a5e960d35e269680eb480c80"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
+            "checksum": "924738d72be9198ac26531825862d0fa"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/Status-Monitor-Overlay.ovl",
+            "checksum": "5f1df09960c9295560b161bab9f9522e"
+        }
+    ]
 }

@@ -1778,7 +1778,7 @@
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "9bc513fc901d9285ef327029d78ade39"
+                "checksum": "80155881a5e960d35e269680eb480c80"
             },
             {
                 "type": "file",
@@ -1936,17 +1936,17 @@
                     {
                         "type": "file",
                         "name": "libsys_minerva.bso",
-                        "checksum": "2ff22c65754c01f98c6313a860e12642"
+                        "checksum": "0afbe8f00229d64c9e4d0ca65e2724fb"
                     },
                     {
                         "type": "file",
                         "name": "module_sample.bso",
-                        "checksum": "f765faac56d6daeeba785dc47255da61"
+                        "checksum": "71b3592422113d0035f1a970fb47a13a"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "f70008ca069c9147501e5cc5bbde5bd3"
+                        "checksum": "fbab8352fd896cbaae5a960b11780cee"
                     },
                     {
                         "type": "file",
@@ -1963,7 +1963,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "9bc513fc901d9285ef327029d78ade39"
+                "checksum": "80155881a5e960d35e269680eb480c80"
             }
         ]
     },
@@ -2159,7 +2159,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "9bc513fc901d9285ef327029d78ade39"
+        "checksum": "80155881a5e960d35e269680eb480c80"
     },
     {
         "type": "directory",
@@ -15780,12 +15780,12 @@
                     {
                         "type": "file",
                         "name": "ReverseNX-RT-ovl.ovl",
-                        "checksum": "e09a9c34580c20990d3002df381058c3"
+                        "checksum": "924738d72be9198ac26531825862d0fa"
                     },
                     {
                         "type": "file",
                         "name": "Status-Monitor-Overlay.ovl",
-                        "checksum": "04bfab86242d2908ffc3a3a4774b27e8"
+                        "checksum": "5f1df09960c9295560b161bab9f9522e"
                     },
                     {
                         "type": "file",
