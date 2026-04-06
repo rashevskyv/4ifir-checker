@@ -4,13 +4,18 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/package3",
-            "checksum": "a2b96ef21a973a0cf6a85168386ee8fc"
+            "name": "atmosphere/reboot_payload.bin",
+            "checksum": "1b644ee5080266f40feefcb106473318"
         },
         {
             "type": "file",
-            "name": "switch/MicroMemTest.nro",
-            "checksum": "5993156e0696c071741c2cdd8a1832ef"
+            "name": "bootloader/update.bin",
+            "checksum": "1b644ee5080266f40feefcb106473318"
+        },
+        {
+            "type": "file",
+            "name": "payload.bin",
+            "checksum": "1b644ee5080266f40feefcb106473318"
         }
     ]
 }
