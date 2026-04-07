@@ -4,18 +4,18 @@
     "modified": [
         {
             "type": "file",
-            "name": "atmosphere/reboot_payload.bin",
-            "checksum": "1b644ee5080266f40feefcb106473318"
+            "name": "atmosphere/kips/loader.kip",
+            "checksum": "60163e92aa7c98cbfc35624d30410c3c"
         },
         {
             "type": "file",
-            "name": "bootloader/update.bin",
-            "checksum": "1b644ee5080266f40feefcb106473318"
+            "name": "atmosphere/package3",
+            "checksum": "5768479b9d1d23a7a3d857476f6480f1"
         },
         {
             "type": "file",
-            "name": "payload.bin",
-            "checksum": "1b644ee5080266f40feefcb106473318"
+            "name": "atmosphere/stratosphere.romfs",
+            "checksum": "83aa8d226f4181b053c160717148b744"
         }
     ]
 }
