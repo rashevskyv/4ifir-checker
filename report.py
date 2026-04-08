@@ -4,7 +4,7 @@ import os
 from status_result import process_items
 from datetime import datetime
 import shutil
-from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TELEGRAM_API_HASH, TELEGRAM_API_ID, TELEGRAM_USERNAME, ENABLE_FILE_UPLOAD
+from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TELEGRAM_API_HASH, TELEGRAM_API_ID, TELEGRAM_USERNAME
 from telethon import TelegramClient
 from telethon.tl.functions.messages import SendMediaRequest
 from telethon.tl.types import InputMediaUploadedDocument
@@ -184,8 +184,6 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
         
         print(f"Using message thread ID: {msg_thread_id}")
         if reply_mode:
-            # Телеграм автоматично направляє повідомлення у правильний тред, коли є reply_to_message_id
-            msg_thread_id = None
             print(f"Replying to message ID: {reply_to_message_id}")
             # В режимі відповіді не прикріплюємо файл, а просто відповідаємо на повідомлення
             first_message_id = None
@@ -202,8 +200,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             message_thread_id=msg_thread_id, 
                             text=first_part, 
                             parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id,
-                            allow_sending_without_reply=True
+                            reply_to_message_id=reply_to_message_id
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -215,8 +212,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 text=first_part, 
                                 parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id,
-                                allow_sending_without_reply=True
+                                reply_to_message_id=reply_to_message_id
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
@@ -243,8 +239,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             message_thread_id=msg_thread_id, 
                             text=small_caption, 
                             parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id,
-                            allow_sending_without_reply=True
+                            reply_to_message_id=reply_to_message_id
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -256,8 +251,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 text=small_caption, 
                                 parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id,
-                                allow_sending_without_reply=True
+                                reply_to_message_id=reply_to_message_id
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
@@ -271,8 +265,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                         message_thread_id=msg_thread_id, 
                         text=header, 
                         parse_mode=types.ParseMode.HTML,
-                        reply_to_message_id=reply_to_message_id,
-                        allow_sending_without_reply=True
+                        reply_to_message_id=reply_to_message_id
                     )
                     first_message_id = sent_message.message_id
                 except Exception as e:
@@ -284,60 +277,11 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             chat_id=chat_id, 
                             text=header, 
                             parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id,
-                            allow_sending_without_reply=True
+                            reply_to_message_id=reply_to_message_id
                         )
                         first_message_id = sent_message.message_id
                         use_thread_id = False
                         msg_thread_id = None
-
-            for part in blocks:
-                await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-        elif not ENABLE_FILE_UPLOAD:
-            # Режим з вимкненим завантаженням файлів
-            print("File upload is disabled. Sending report as text only.")
-            if len(header) > 900:
-                split_index = header.rfind("</pre>") + len("</pre>")
-                first_part = header[:split_index]
-                second_part = header[split_index:]
-
-                if len(first_part) < 1024:
-                    sent_message = await bot.send_message(
-                        chat_id=chat_id, 
-                        message_thread_id=msg_thread_id, 
-                        text=first_part, 
-                        parse_mode=types.ParseMode.HTML
-                    )
-                    
-                    if len(second_part) > 4000:
-                        parts = []
-                        start = 0
-                        while start < len(second_part):
-                            end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
-                            if end == -1 + len('</pre>'):
-                                end = len(second_part)
-                            parts.append(second_part[start:end])
-                            start = end
-
-                        for part in parts:
-                            await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-                    else:
-                        await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
-                else:
-                    await bot.send_message(
-                        chat_id=chat_id, 
-                        message_thread_id=msg_thread_id, 
-                        text=small_caption, 
-                        parse_mode=types.ParseMode.HTML
-                    )
-                    await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
-            else:
-                await bot.send_message(
-                    chat_id=chat_id, 
-                    message_thread_id=msg_thread_id, 
-                    text=header, 
-                    parse_mode=types.ParseMode.HTML
-                )
 
             for part in blocks:
                 await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
@@ -450,8 +394,8 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                 for part in blocks:
                     await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
 
-                # Відправка великого файлу через Telethon (якщо увімкнено)
-                if first_message_id is not None and ENABLE_FILE_UPLOAD:
+                # Відправка великого файлу через Telethon
+                if first_message_id is not None:
                     await send_large_file_with_telethon(desired_filename, first_message_id)
             else:
                 if len(header) > 900:
@@ -466,9 +410,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 message_thread_id=msg_thread_id, 
                                 document=file_obj, 
                                 caption=first_part, 
-                                parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id,
-                                allow_sending_without_reply=True
+                                parse_mode=types.ParseMode.HTML
                             )
                             first_message_id = sent_message.message_id
                         except Exception as e:
@@ -481,9 +423,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                     chat_id=chat_id, 
                                     document=file_obj, 
                                     caption=first_part, 
-                                    parse_mode=types.ParseMode.HTML,
-                                    reply_to_message_id=reply_to_message_id,
-                                    allow_sending_without_reply=True
+                                    parse_mode=types.ParseMode.HTML
                                 )
                                 first_message_id = sent_message.message_id
                                 use_thread_id = False
@@ -510,9 +450,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 message_thread_id=msg_thread_id, 
                                 document=file_obj, 
                                 caption=small_caption, 
-                                parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id,
-                                allow_sending_without_reply=True
+                                parse_mode=types.ParseMode.HTML
                             )
                             first_message_id = sent_message.message_id
                         except Exception as e:
@@ -525,9 +463,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                     chat_id=chat_id, 
                                     document=file_obj, 
                                     caption=small_caption, 
-                                    parse_mode=types.ParseMode.HTML,
-                                    reply_to_message_id=reply_to_message_id,
-                                    allow_sending_without_reply=True
+                                    parse_mode=types.ParseMode.HTML
                                 )
                                 first_message_id = sent_message.message_id
                                 use_thread_id = False
@@ -541,9 +477,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             message_thread_id=msg_thread_id, 
                             document=file_obj, 
                             caption=header, 
-                            parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id,
-                            allow_sending_without_reply=True
+                            parse_mode=types.ParseMode.HTML
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -556,9 +490,7 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 document=file_obj, 
                                 caption=header, 
-                                parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id,
-                                allow_sending_without_reply=True
+                                parse_mode=types.ParseMode.HTML
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
