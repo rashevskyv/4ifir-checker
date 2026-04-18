@@ -182,112 +182,15 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
         use_thread_id = message_thread_id is not None and message_thread_id != "None" and message_thread_id != ""
         msg_thread_id = message_thread_id if use_thread_id else None
         
-        print(f"Using message thread ID: {msg_thread_id}")
         if reply_mode:
+            # При цитуванні зазвичай краще не вказувати thread_id, Telegram сам знайде тред
+            msg_thread_id = None
             print(f"Replying to message ID: {reply_to_message_id}")
-            # В режимі відповіді не прикріплюємо файл, а просто відповідаємо на повідомлення
-            first_message_id = None
-            
-            if len(header) > 900:
-                split_index = header.rfind("</pre>") + len("</pre>")
-                first_part = header[:split_index]
-                second_part = header[split_index:]
 
-                if len(first_part) < 1024:
-                    try:
-                        sent_message = await bot.send_message(
-                            chat_id=chat_id, 
-                            message_thread_id=msg_thread_id, 
-                            text=first_part, 
-                            parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id
-                        )
-                        first_message_id = sent_message.message_id
-                    except Exception as e:
-                        print(f"Error sending message: {e}")
-                        # Спробуємо без thread_id, якщо помилка пов'язана з thread
-                        if "thread" in str(e).lower():
-                            print("Trying to send without thread ID...")
-                            sent_message = await bot.send_message(
-                                chat_id=chat_id, 
-                                text=first_part, 
-                                parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id
-                            )
-                            first_message_id = sent_message.message_id
-                            use_thread_id = False
-                            msg_thread_id = None
-                        
-                    if len(second_part) > 4000:
-                        parts = []
-                        start = 0
-                        while start < len(second_part):
-                            end = second_part.rfind('</pre>', start, start + 4000) + len('</pre>')
-                            if end == -1 + len('</pre>'):
-                                end = len(second_part)
-                            parts.append(second_part[start:end])
-                            start = end
+        print(f"Using message thread ID: {msg_thread_id}")
 
-                        for part in parts:
-                            await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-                    else:
-                        await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=second_part, parse_mode=types.ParseMode.HTML)
-                else:
-                    try:
-                        sent_message = await bot.send_message(
-                            chat_id=chat_id, 
-                            message_thread_id=msg_thread_id, 
-                            text=small_caption, 
-                            parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id
-                        )
-                        first_message_id = sent_message.message_id
-                    except Exception as e:
-                        print(f"Error sending message: {e}")
-                        # Спробуємо без thread_id
-                        if "thread" in str(e).lower():
-                            print("Trying to send without thread ID...")
-                            sent_message = await bot.send_message(
-                                chat_id=chat_id, 
-                                text=small_caption, 
-                                parse_mode=types.ParseMode.HTML,
-                                reply_to_message_id=reply_to_message_id
-                            )
-                            first_message_id = sent_message.message_id
-                            use_thread_id = False
-                            msg_thread_id = None
-                            
-                    await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=headless_header, parse_mode=types.ParseMode.HTML)
-            else:
-                try:
-                    sent_message = await bot.send_message(
-                        chat_id=chat_id, 
-                        message_thread_id=msg_thread_id, 
-                        text=header, 
-                        parse_mode=types.ParseMode.HTML,
-                        reply_to_message_id=reply_to_message_id
-                    )
-                    first_message_id = sent_message.message_id
-                except Exception as e:
-                    print(f"Error sending message: {e}")
-                    # Спробуємо без thread_id
-                    if "thread" in str(e).lower():
-                        print("Trying to send without thread ID...")
-                        sent_message = await bot.send_message(
-                            chat_id=chat_id, 
-                            text=header, 
-                            parse_mode=types.ParseMode.HTML,
-                            reply_to_message_id=reply_to_message_id
-                        )
-                        first_message_id = sent_message.message_id
-                        use_thread_id = False
-                        msg_thread_id = None
-
-            for part in blocks:
-                await bot.send_message(chat_id=chat_id, message_thread_id=msg_thread_id, text=part, parse_mode=types.ParseMode.HTML)
-        else:
-            # Стандартний режим з прикріпленням файлу
-            desired_filename = archivename + '.zip'
+        # Стандартний режим з прикріпленням файлу
+        desired_filename = archivename + '.zip'
             if file != desired_filename:
                 shutil.copy2(file, desired_filename)
             file_obj = open(desired_filename, 'rb')
@@ -313,7 +216,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 message_thread_id=msg_thread_id, 
                                 text=first_part, 
-                                parse_mode=types.ParseMode.HTML
+                                parse_mode=types.ParseMode.HTML,
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                         except Exception as e:
@@ -324,7 +229,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 sent_message = await bot.send_message(
                                     chat_id=chat_id, 
                                     text=first_part, 
-                                    parse_mode=types.ParseMode.HTML
+                                    parse_mode=types.ParseMode.HTML,
+                                    reply_to_message_id=reply_to_message_id,
+                                    allow_sending_without_reply=True
                                 )
                                 first_message_id = sent_message.message_id
                                 use_thread_id = False
@@ -350,7 +257,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 message_thread_id=msg_thread_id, 
                                 text=small_caption, 
-                                parse_mode=types.ParseMode.HTML
+                                parse_mode=types.ParseMode.HTML,
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                         except Exception as e:
@@ -361,7 +270,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 sent_message = await bot.send_message(
                                     chat_id=chat_id, 
                                     text=small_caption, 
-                                    parse_mode=types.ParseMode.HTML
+                                    parse_mode=types.ParseMode.HTML,
+                                    reply_to_message_id=reply_to_message_id,
+                                    allow_sending_without_reply=True
                                 )
                                 first_message_id = sent_message.message_id
                                 use_thread_id = False
@@ -374,7 +285,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             chat_id=chat_id, 
                             message_thread_id=msg_thread_id, 
                             text=header, 
-                            parse_mode=types.ParseMode.HTML
+                            parse_mode=types.ParseMode.HTML,
+                            reply_to_message_id=reply_to_message_id,
+                            allow_sending_without_reply=True
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -385,7 +298,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             sent_message = await bot.send_message(
                                 chat_id=chat_id, 
                                 text=header, 
-                                parse_mode=types.ParseMode.HTML
+                                parse_mode=types.ParseMode.HTML,
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
@@ -410,7 +325,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 message_thread_id=msg_thread_id, 
                                 document=file_obj, 
                                 caption=first_part, 
-                                parse_mode=types.ParseMode.HTML
+                                parse_mode=types.ParseMode.HTML,
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                         except Exception as e:
@@ -423,7 +340,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                     chat_id=chat_id, 
                                     document=file_obj, 
                                     caption=first_part, 
-                                    parse_mode=types.ParseMode.HTML
+                                    parse_mode=types.ParseMode.HTML,
+                                    reply_to_message_id=reply_to_message_id,
+                                    allow_sending_without_reply=True
                                 )
                                 first_message_id = sent_message.message_id
                                 use_thread_id = False
@@ -450,7 +369,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 message_thread_id=msg_thread_id, 
                                 document=file_obj, 
                                 caption=small_caption, 
-                                parse_mode=types.ParseMode.HTML
+                                parse_mode=types.ParseMode.HTML,
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                         except Exception as e:
@@ -463,7 +384,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                     chat_id=chat_id, 
                                     document=file_obj, 
                                     caption=small_caption, 
-                                    parse_mode=types.ParseMode.HTML
+                                    parse_mode=types.ParseMode.HTML,
+                                    reply_to_message_id=reply_to_message_id,
+                                    allow_sending_without_reply=True
                                 )
                                 first_message_id = sent_message.message_id
                                 use_thread_id = False
@@ -477,7 +400,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                             message_thread_id=msg_thread_id, 
                             document=file_obj, 
                             caption=header, 
-                            parse_mode=types.ParseMode.HTML
+                            parse_mode=types.ParseMode.HTML,
+                            reply_to_message_id=reply_to_message_id,
+                            allow_sending_without_reply=True
                         )
                         first_message_id = sent_message.message_id
                     except Exception as e:
@@ -490,7 +415,9 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
                                 chat_id=chat_id, 
                                 document=file_obj, 
                                 caption=header, 
-                                parse_mode=types.ParseMode.HTML
+                                parse_mode=types.ParseMode.HTML,
+                                reply_to_message_id=reply_to_message_id,
+                                allow_sending_without_reply=True
                             )
                             first_message_id = sent_message.message_id
                             use_thread_id = False
