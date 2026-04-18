@@ -1,5 +1,77 @@
 {
-    "added": [],
+    "added": [
+        {
+            "type": "file",
+            "name": "atmosphere/exefs_patches/bluetooth_patches/6B33C2B7C850A47325F775218C40FCEA2F935A65.ips",
+            "checksum": "aec900e164c0c137bc3d6e7e8e545f94"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/exefs_patches/bluetooth_patches/C91C6FC8AA4C39222D6CCFE0FFF468543105E59B.ips",
+            "checksum": "976e7db32df77a63adb1acd75b621f23"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/exefs_patches/btm_patches/5A2AA468F272E49EBF0FAB8B379CC5B32C1A7409.ips",
+            "checksum": "5158b22a5c216aae49e5e19e2122c14f"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/exefs_patches/hid_patches/765B710D7D40049E06C1326F5B57123B74A2E4AD.ips",
+            "checksum": "c91555c774b831e59b12a5db536f75a5"
+        }
+    ],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/contents/00FF0000636C6BFF/exefs.nsp",
+            "checksum": "862f8fca1159a1767da9596cd3418332"
+        },
+        {
+            "type": "file",
+            "name": "atmosphere/contents/010000000000bd00/exefs.nsp",
+            "checksum": "4b4aa10357e658d310bdf9d5e3bbb55f"
+        },
+        {
+            "type": "file",
+            "name": "config/4IFIR/config.ini",
+            "checksum": "090ee9c1170957c30590d2b13e5c1a67"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/4IFIR.ovl",
+            "checksum": "80d47e098ae6a4397ceb6478fc987edd"
+        },
+        {
+            "type": "file",
+            "name": "switch/.overlays/ReverseNX-RT-ovl.ovl",
+            "checksum": "48c3d759940e92ff408e272af9288bbd"
+        },
+        {
+            "type": "file",
+            "name": "switch/.packages/4IFIR Wizard/files.zip",
+            "checksum": "51a62b03def7f063cdef5c027ec01080"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/dbi.config",
+            "checksum": "52063fa83020f0617c602a8b0dce6680"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/DBI.nro",
+            "checksum": "b0cce0269025405bf8ea87ade4daf1f5"
+        },
+        {
+            "type": "file",
+            "name": "switch/DBI/dbibackend",
+            "checksum": "6943534e603bd9ea2dda5766782df97d"
+        },
+        {
+            "type": "file",
+            "name": "switch/Moonlight-Switch/Moonlight.nro",
+            "checksum": "aae3400273f462cc89006c2247836148"
+        }
+    ]
 }
