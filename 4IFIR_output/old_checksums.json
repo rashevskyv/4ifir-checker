@@ -172,6 +172,17 @@
                                 "checksum": "4b4aa10357e658d310bdf9d5e3bbb55f"
                             },
                             {
+                                "type": "directory",
+                                "name": "flags",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "boot2.flag",
+                                        "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+                                    }
+                                ]
+                            },
+                            {
                                 "type": "file",
                                 "name": "mitm.lst",
                                 "checksum": "3dd56a8d64dccfb001df5d06db1d4a6e"
@@ -1793,12 +1804,12 @@
             {
                 "type": "file",
                 "name": "package3",
-                "checksum": "5768479b9d1d23a7a3d857476f6480f1"
+                "checksum": "acbbc81304bb12d870dfab38029dcb55"
             },
             {
                 "type": "file",
                 "name": "reboot_payload.bin",
-                "checksum": "1b644ee5080266f40feefcb106473318"
+                "checksum": "2746aba97e91db58adebc0d08b2a28c0"
             },
             {
                 "type": "file",
@@ -1960,13 +1971,18 @@
                     },
                     {
                         "type": "file",
+                        "name": "lockpick.bin",
+                        "checksum": "4a53cbd9081e97cbe5ea9fd470b9f58c"
+                    },
+                    {
+                        "type": "file",
                         "name": "module_sample.bso",
                         "checksum": "71b3592422113d0035f1a970fb47a13a"
                     },
                     {
                         "type": "file",
                         "name": "nyx.bin",
-                        "checksum": "fbab8352fd896cbaae5a960b11780cee"
+                        "checksum": "5e4370ec291a83d9f6a8e47253be1bc4"
                     },
                     {
                         "type": "file",
@@ -1983,7 +1999,7 @@
             {
                 "type": "file",
                 "name": "update.bin",
-                "checksum": "1b644ee5080266f40feefcb106473318"
+                "checksum": "2746aba97e91db58adebc0d08b2a28c0"
             }
         ]
     },
@@ -2156,11 +2172,6 @@
         "children": [
             {
                 "type": "file",
-                "name": "HBMenu.nsp",
-                "checksum": "a58643f499a46bc9545d81dea94f4cd2"
-            },
-            {
-                "type": "file",
                 "name": "MicroMemBench.nsp",
                 "checksum": "7357f94cbba0fe2348aeae214665c9de"
             },
@@ -2179,7 +2190,7 @@
     {
         "type": "file",
         "name": "payload.bin",
-        "checksum": "1b644ee5080266f40feefcb106473318"
+        "checksum": "2746aba97e91db58adebc0d08b2a28c0"
     },
     {
         "type": "directory",
@@ -15765,7 +15776,7 @@
                     {
                         "type": "file",
                         "name": "4IFIR.ovl",
-                        "checksum": "80d47e098ae6a4397ceb6478fc987edd"
+                        "checksum": "8ce40c917319806ae9293e7417067447"
                     },
                     {
                         "type": "file",
@@ -15880,7 +15891,7 @@
                     {
                         "type": "file",
                         "name": "daybreak.nro",
-                        "checksum": "a324e39044354233e443608c321acd62"
+                        "checksum": "6bef3dcfedf43da4a14cd6d3edb729a6"
                     }
                 ]
             },
@@ -15891,7 +15902,7 @@
                     {
                         "type": "file",
                         "name": "dbi.config",
-                        "checksum": "52063fa83020f0617c602a8b0dce6680"
+                        "checksum": "5902673e44c9d149e51425814571d805"
                     },
                     {
                         "type": "file",
