@@ -5,5 +5,5 @@
 	"YOUR_CHAT_ID": "os.environ['YOUR_CHAT_ID']",
 	"TELEGRAM_USERNAME": "os.environ['TELEGRAM_USERNAME']",
 	"TOPIC_ID": "os.environ['TOPIC_ID']",
-	"ENABLE_FILE_UPLOAD": "os.environ['ENABLE_FILE_UPLOAD']"
+	"ENABLE_FILE_UPLOAD": false
 }

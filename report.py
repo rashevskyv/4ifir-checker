@@ -4,7 +4,7 @@ import os
 from status_result import process_items
 from datetime import datetime
 import shutil
-from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TELEGRAM_API_HASH, TELEGRAM_API_ID, TELEGRAM_USERNAME
+from settings import TELEGRAM_BOT_TOKEN, YOUR_CHAT_ID, TOPIC_ID, report_file, TELEGRAM_API_HASH, TELEGRAM_API_ID, TELEGRAM_USERNAME, ENABLE_FILE_UPLOAD
 from telethon import TelegramClient
 from telethon.tl.functions.messages import SendMediaRequest
 from telethon.tl.types import InputMediaUploadedDocument
@@ -178,6 +178,10 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
         # Check if we're in reply mode (citing a specific message)
         reply_mode = reply_to_message_id is not None
         
+        # Determine if we should send as text-only (citation style) or attach a file
+        # We send text-only if we are replying to a message OR if file upload is disabled
+        send_as_text_only = reply_mode or not ENABLE_FILE_UPLOAD
+        
         # Check thread_id usage
         use_thread_id = message_thread_id is not None and message_thread_id != "None" and message_thread_id != ""
         msg_thread_id = message_thread_id if use_thread_id else None
@@ -186,9 +190,12 @@ async def send_to_tg(report_content, file, archivename, reply_to_message_id=None
 
         first_message_id = None
 
-        if reply_mode:
-            print(f"Replying to message ID: {reply_to_message_id}")
-            # In reply mode — send text-only replies (citations), no file attachment
+        if send_as_text_only:
+            if reply_mode:
+                print(f"Replying to message ID: {reply_to_message_id}")
+            else:
+                print("File upload disabled, sending report as text only.")
+            # In text-only mode (citations/no files) — send text-only replies, no file attachment
             
             if len(header) > 900:
                 split_index = header.rfind("</pre>") + len("</pre>")
