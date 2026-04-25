@@ -1,12 +1,11 @@
 <h2>Archive Comparison Report for <b>4IFIR</b></h2><b>4IFIR.zip</b>
 
-<b>Last archive modification date:</b> 24.04.2026 01:13<hr>
+<b>Last archive modification date:</b> 24.04.2026 22:01<hr>
 
 <h3>Modified files</h3>
-<pre>atmosphere
-└╴contents
-  └╴00FF0000636C6BFF
-    └╴exefs.nsp (ae86518)
+<pre>switch
+└╴daybreak
+  └╴daybreak.nro (7031b97)
 </pre>
 <hr>
 
