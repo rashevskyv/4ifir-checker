@@ -1,5 +1,11 @@
 {
     "added": [],
     "removed": [],
-    "modified": []
+    "modified": [
+        {
+            "type": "file",
+            "name": "atmosphere/config/system_settings.ini",
+            "checksum": "0c9c333fb67cbe950b25eba46dfda122"
+        }
+    ]
 }
