@@ -25,6 +25,6 @@ diff.txt
 venv/
 cron.log
 run_checker.py
-run_checker.sh
+run.sh
 session_name.session
 archives
