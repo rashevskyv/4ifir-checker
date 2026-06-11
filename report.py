@@ -20,7 +20,15 @@ def create_html_report(results, last_modified, archive_name=None):
     
     formatted_last_modified = datetime.fromisoformat(last_modified).strftime('%d.%m.%Y %H:%M')
     if archive_name:
-        report_content += f'<b>{archive_name}.zip</b>\n\n'
+        import re
+        from settings import github_api_url
+        match = re.search(r"repos/([^/]+)/([^/]+)/releases", github_api_url)
+        if match:
+            owner, repo = match.groups()
+            download_url = f"https://github.com/{owner}/{repo}/releases/latest/download/{archive_name}"
+        else:
+            download_url = f"https://github.com/rashevskyv/4ifir-checker/releases/latest/download/{archive_name}"
+        report_content += f'<a href="{download_url}"><b>{archive_name}</b></a>\n\n'
     report_content += f'<b>Last archive modification date:</b> {formatted_last_modified}<hr>\n\n'
     
     for change_type, items in results.items():

@@ -34,72 +34,89 @@ def get_reply_message_id():
     
     return None
 
-# Перевірка дати останнього релізу на GitHub
-def check_last_github_release():
+# Check latest GitHub release info (tag name and maximum assets update time)
+def check_last_github_release_info():
     try:
-        # Отримати інформацію про останній реліз
         response = requests.get(github_api_url)
         if response.status_code == 200:
             release_data = response.json()
-            # Отримати дату публікації останнього релізу
-            published_at_utc = datetime.strptime(release_data['published_at'], '%Y-%m-%dT%H:%M:%SZ')
-            # Перетворення в UTC часовий пояс
-            published_at_utc = published_at_utc.replace(tzinfo=timezone('UTC'))
-            # Перетворення в GMT+3
-            published_at_gmt3 = published_at_utc.astimezone(timezone('Etc/GMT-3'))
-            return published_at_gmt3.isoformat()
+            tag_name = release_data.get('tag_name')
+            
+            # Find the maximum updated_at among all assets
+            assets = release_data.get('assets', [])
+            updated_dates = [asset.get('updated_at') for asset in assets if asset.get('updated_at')]
+            
+            if updated_dates:
+                max_updated = max(updated_dates)
+            else:
+                max_updated = release_data.get('published_at') or release_data.get('created_at')
+                
+            return {
+                "tag_name": tag_name,
+                "assets_updated_at": max_updated
+            }
         else:
             print('Error getting release info from GitHub API:', response.status_code)
             print('Response:', response.text)
             return None
     except Exception as e:
-        print('Error checking GitHub release date:', e)
+        print('Error checking GitHub release info:', e)
         return None
 
-# Завантаження і збереження дати останньої перевірки
-def load_last_check_date():
+# Load and save the last check information
+def load_last_check_info():
     try:
         if os.path.exists('last_check.json'):
             with open('last_check.json', 'r') as f:
                 data = json.load(f)
-                return data.get('last_check_date')
+                # Backward compatibility check
+                if 'last_check_date' in data and 'tag_name' not in data:
+                    return None
+                return data
         return None
     except Exception as e:
-        print('Error loading last check date:', e)
+        print('Error loading last check info:', e)
         return None
 
-def save_last_check_date(date_str):
+def save_last_check_info(info):
     try:
         with open('last_check.json', 'w') as f:
-            json.dump({'last_check_date': date_str}, f)
+            json.dump(info, f)
     except Exception as e:
-        print('Error saving last check date:', e)
+        print('Error saving last check info:', e)
 
 async def main():
-    # Перевірка на наявність прапорця примусової відправки (--force або -f)
+    # Check for force execution flag (--force or -f)
     force_mode = "--force" in sys.argv or "-f" in sys.argv
     
-    # Отримати ID повідомлення для відповіді
+    # Get message ID for reply
     reply_message_id = get_reply_message_id()
     print(f"Got reply_message_id: {reply_message_id}")
     
-    # Отримати дату останнього релізу
-    last_release_date = check_last_github_release()
-    if not last_release_date:
-        print("Cannot get the latest release date. Exiting.")
+    # Get latest release info
+    last_release_info = check_last_github_release_info()
+    if not last_release_info:
+        print("Cannot get the latest release info. Exiting.")
         return
     
-    # Отримати дату останньої перевірки
-    last_check_date = load_last_check_date()
+    # Get last check info
+    last_check_info = load_last_check_info()
     
-    # Якщо дата останньої перевірки існує і дорівнює даті останнього релізу,
-    # завершити роботу скрипта (якщо не вказано force_mode)
-    if not force_mode and last_check_date and last_check_date == last_release_date:
-        print(f"No new releases since last check (Last release: {last_release_date}). Exiting.")
+    # If last check info exists and matches current release info, exit (unless force)
+    is_changed = True
+    if not force_mode and last_check_info:
+        same_tag = last_check_info.get('tag_name') == last_release_info.get('tag_name')
+        same_assets = last_check_info.get('assets_updated_at') == last_release_info.get('assets_updated_at')
+        if same_tag and same_assets:
+            is_changed = False
+            
+    if not force_mode and not is_changed:
+        print(f"No new releases or asset updates since last check (Tag: {last_release_info.get('tag_name')}, Assets: {last_release_info.get('assets_updated_at')}). Exiting.")
         return
     
-    print(f"New release detected! Last release date: {last_release_date}")
-    print(f"Previous check date: {last_check_date or 'None (first run)'}")
+    print(f"New release or asset changes detected!")
+    print(f"Last release info: {last_release_info}")
+    print(f"Previous check info: {last_check_info or 'None (first run)'}")
     
     # Продовжуємо за старим алгоритмом, якщо є новий реліз
     html_report_content = ''
@@ -173,9 +190,9 @@ async def main():
 
     remove_unlisted_directories(custom_packs_dict, ".")
     
-    # Зберегти поточну дату релізу як дату останньої перевірки
-    save_last_check_date(last_release_date)
-    print(f"Updated last check date to {last_release_date}")
+    # Save current release info as last checked info
+    save_last_check_info(last_release_info)
+    print(f"Updated last check info to {last_release_info}")
 
 if __name__ == "__main__":
     # Використовуємо asyncio.run замість циклу подій вручну
