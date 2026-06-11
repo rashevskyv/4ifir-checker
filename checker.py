@@ -17,11 +17,12 @@ from archive_handler import handle_archive
 # Додати функцію для отримання ID повідомлення з командного рядка або з середовища
 def get_reply_message_id():
     # Спочатку перевіряємо аргументи командного рядка
-    if len(sys.argv) > 1:
-        try:
-            return int(sys.argv[1])
-        except (ValueError, IndexError):
-            pass
+    for arg in sys.argv[1:]:
+        if arg not in ["--force", "-f"]:
+            try:
+                return int(arg)
+            except ValueError:
+                pass
     
     # Якщо немає в аргументах командного рядка, перевіряємо змінні середовища
     reply_id = os.environ.get('REPLY_MESSAGE_ID')
@@ -75,6 +76,9 @@ def save_last_check_date(date_str):
         print('Error saving last check date:', e)
 
 async def main():
+    # Перевірка на наявність прапорця примусової відправки (--force або -f)
+    force_mode = "--force" in sys.argv or "-f" in sys.argv
+    
     # Отримати ID повідомлення для відповіді
     reply_message_id = get_reply_message_id()
     print(f"Got reply_message_id: {reply_message_id}")
@@ -89,8 +93,8 @@ async def main():
     last_check_date = load_last_check_date()
     
     # Якщо дата останньої перевірки існує і дорівнює даті останнього релізу,
-    # завершити роботу скрипта
-    if last_check_date and last_check_date == last_release_date:
+    # завершити роботу скрипта (якщо не вказано force_mode)
+    if not force_mode and last_check_date and last_check_date == last_release_date:
         print(f"No new releases since last check (Last release: {last_release_date}). Exiting.")
         return
     
@@ -132,7 +136,7 @@ async def main():
                            output_folder=archives_output_dir)
         else:
             print(f"{archive['filename']}: No changes detected in the archive since the last execution.")
-            telegram = 0
+            telegram = 1 if force_mode else 0
 
         if os.path.exists(status_file):
             with open(status_file, 'r') as f:
